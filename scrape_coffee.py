@@ -309,7 +309,7 @@ def main():
         json.dump(all_beans, f, ensure_ascii=False, indent=2)
         
     print(f"🎉 抓取结束! 总收录: {len(all_beans)} 款豆子")
-    input("\n✅ 按回车键退出...")
 
 if __name__ == "__main__":
     main()
+
