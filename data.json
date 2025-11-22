@@ -1,0 +1,1918 @@
+[
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Altos",
+    "url": "https://www.lacabra.dk/products/altos",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Altos_La_Cabra_Coffee_Box_250g.png?v=1762937105",
+    "price": "149.00",
+    "currency": "Local",
+    "description": "Our eleventh year working with Mauricio Vindas; this lot has crisp notes of red berries....",
+    "published_at": "2025-11-21T10:51:09+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Kurasu Drip Coffee Bag - Ethiopia Sidamo Decaf [Medium roast]",
+    "url": "https://kurasu.kyoto/products/kurasu-drip-coffee-bag-ethiopia-sidamo-decaf-medium-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Drip-Bag_Ethiopia-Sidamo-Decaf_2025_f69e3cee-e1ca-41aa-8fb2-693cf7cfc260.jpg?v=1762927271",
+    "price": "2.75",
+    "currency": "Local",
+    "description": "Floral, Peach, Black cherry, Citrus, Browned caramel\n\nCountry: Ethiopia Process: Washed (Mountain Water Process)Variety: HeirloomRegion: SidamoFlavor note: Floral, Peach, Black cherry, Citrus, Browned...",
+    "published_at": "2025-11-20T18:16:25+09:00",
+    "tags": [
+      "Drip Bag",
+      "Single origin",
+      "Travel Friendly"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Kurasu Drip Coffee Bag -Costa Rica Los Crestones [Light roast]",
+    "url": "https://kurasu.kyoto/products/kurasu-drip-coffee-bag-costa-rica-los-crestones-light-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Drip-Bag_Costa-Rica-Los-Crestones.jpg?v=1762927084",
+    "price": "3.08",
+    "currency": "Local",
+    "description": "Floral aroma, taste of cherry, peach and black tea, red apple-like sweetness and accompanying aftertaste.\n\nCountry: Costa RicaProcess: Double WashedVariety: MilenioFarm: Los CrestonesRegion: Chirripo,...",
+    "published_at": "2025-11-20T18:16:15+09:00",
+    "tags": [
+      "Drip Bag",
+      "Light Roast",
+      "Single origin"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Kenya Elshadai Coffee Estate Natural",
+    "url": "https://onyxcoffeelab.com/products/kenya-elshadai-coffee-estate-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/kenya_66d0b01d-38dd-4ac0-bd94-4cce8c91a1ed.webp?v=1763653896",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "This natural lot from Elshadai Estate in Kiambu County may mark the farm’s final harvest, as rising land value near Nairobi threatens its future. Discovered by Kenyan coffee professional Judy Murimi, ...",
+    "published_at": "2025-11-20T17:00:14-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Red",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Keramo Anaerobic Natural",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-keramo-anaerobic-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ethiopia_55e9bf4b-1e8c-48c1-b920-18d414a8924f.webp?v=1763653573",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "Keramo has long been an exciting and intriguing village inside of Bensa. Cultivated at soaring elevations, coffees from Keramo yield and deep complexity and acidity that is unrivaled in Bensa. This mi...",
+    "published_at": "2025-11-20T17:00:13-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Green",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Costa Rica Las Lajas Anaerobic Honey",
+    "url": "https://onyxcoffeelab.com/products/costa-rica-las-lajas-anaerobic-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/costa-rica_0b95f074-3339-499e-93eb-9e42ab4a83ff.webp?v=1763652264",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "This deeply sweet microlot comes to us from our friends at Las Lajas. The proprietary \"Yellow Diamond\" honey process involves complex extended fermentation and drying curves, yielding complexity and t...",
+    "published_at": "2025-11-20T17:00:13-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Yellow",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Colombia Juan Jimenez Pink Bourbon",
+    "url": "https://onyxcoffeelab.com/products/colombia-juan-jimenez-pink-bourbon-252",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/collab-black_161d7765-5c64-4234-a3bf-6df1839a9413.webp?v=1763652058",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "Juan is a second-generation farmer who has been cultivating coffee for over 40 years on his 16-hectare farm, El Porvenir, in Palestina, Huila. His expertise and early investment in the Pink Bourbon cu...",
+    "published_at": "2025-11-20T17:00:12-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Black",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Framily",
+    "url": "https://onyxcoffeelab.com/products/framily",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/framily2024-1408x.webp?v=1763653693",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "We’re delighted to share the return of our annual Holiday release — a joyful, crowd-pleasing coffee that captures the spirit of gathering. This year’s offering comes from METAD, our closest relationsh...",
+    "published_at": "2025-11-20T17:00:00-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: White Gold",
+      "Gift Guide: Coffee"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Krampus",
+    "url": "https://onyxcoffeelab.com/products/krampus",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/krampus2024_1342b474-adad-4749-b16e-945b8b8be4cc.png?v=1763649630",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "As sounds of concern rend the air in our roastery each holiday season, we know Krampus has made his annual appearance. Krampus set out to burn our most prized peaberries to scare us into being good, b...",
+    "published_at": "2025-11-20T16:40:00-06:00",
+    "tags": [
+      "Bottomless",
+      "can-subscribe",
+      "coffee"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Gildardo & Yolanda Lopez; El Calamar, New Season - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-gildardo-yolanda-lopez-el-calamar-new-season-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Gildardo_YolandaLopez_ElCalamar_NewSeason-Colombia.png?v=1763617681",
+    "price": "27.00",
+    "currency": "Local",
+    "description": "This is the first harvest of the season from Gildardo and Yolanda Lopez. We have been working with their coffee for many years now, and each year we look forward to tasting through their lots. In the ...",
+    "published_at": "2025-11-20T00:52:47-05:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Gerbota - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-gerbota-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Gerbota-Ethiopia.png?v=1763615737",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "This is our first release from the Gerbota site, high in the hills of Gedeo, Yirgacheffe. It is a very sweet and expressive representation of the profiles this region is known for. In the cup we find ...",
+    "published_at": "2025-11-20T00:52:46-05:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Project III",
+    "url": "https://www.lacabra.dk/products/project-iii",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Project_III_Coffee_Bundle_3_x_80g_Coffee_La_Negrita.webp?v=1762182710",
+    "price": "999.00",
+    "currency": "Local",
+    "description": "We were excited to be asked to join this project, highlighting the work of Mauricio Shattah at La Negrita in Colombia. Each roastery has sourced a different lot from Mauricio, and roasted it to reflec...",
+    "published_at": "2025-11-19T14:20:17+01:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "KIANGOI AA",
+    "url": "https://thebarn.de/products/kiangoi-aa",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_kiangoi_aa.png?v=1763556882",
+    "price": "18.00",
+    "currency": "Local",
+    "description": "Kirinyaga is known for some of the best terroir in Kenya and we cannot get enough of the latest harvest. Producers nurture coffee on small farms, before delivering freshly harvested cherries to the lo...",
+    "published_at": "2025-11-19T14:02:44+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Guatemala El Soccoro Gesha",
+    "url": "https://onyxcoffeelab.com/products/guatemala-el-soccoro-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/guatemala_5ecc48a6-e579-48f3-83ec-17abcf2e48b1.webp?v=1763563514",
+    "price": "30.00",
+    "currency": "Local",
+    "description": "Time and time again, this Gesha variety produced by Juan Diego de la Cerda exceeds our expectations. After three years of collaboration, we have refined our roasting and partnership to the pinnacle of...",
+    "published_at": "2025-11-19T08:46:28-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Tan",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Instant Southern Weather",
+    "url": "https://onyxcoffeelab.com/products/instant-southern-weather",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/sw-instant_acd64278-3dc3-41a8-bf1f-7e080fb40039.webp?v=1740529025",
+    "price": "12.00",
+    "currency": "Local",
+    "description": "Southern Weather Instant Coffee delivers the perfect balance of bright citrus acidity and rich chocolate in a convenient soluble form. This cornerstone blend embodies everything we love about specialt...",
+    "published_at": "2025-11-18T12:28:13-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: Black",
+      "Gift Guide: Instant"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Trifle",
+    "url": "https://onacoffee.com.au/products/trifle-1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sr_d2945275-3dcf-4d3a-9b2b-6f39671081e0.png?v=1763354120",
+    "price": "22.00",
+    "currency": "Local",
+    "description": "Vanilla custard, brandy (0% alcohol) and baked stoned fruits...",
+    "published_at": "2025-11-18T11:17:42+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.Moka Pot",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Buenos Aires, Nicaragua, Anaerobic Washed",
+    "url": "https://onacoffee.com.au/products/espresso-y-rare",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_rare_6f36d0b8-b825-4edc-89d3-05de4241dd2d.png?v=1762910299",
+    "price": "34.75",
+    "currency": "Local",
+    "description": "Lemongrass, yellow plum and brown sugar\n200g...",
+    "published_at": "2025-11-18T10:29:22+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.French press",
+      "Brew Method.Moka Pot"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Girma",
+    "url": "https://www.lacabra.dk/products/girma",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Box_bc5fa9da-ed60-4732-870c-9747a2226769.webp?v=1763372352",
+    "price": "135.00",
+    "currency": "Local",
+    "description": "Girma grows coffee near the village of Kumburta; a rich and ripe natural lot with dark chocolate and brown sugar notes....",
+    "published_at": "2025-11-17T15:48:43+01:00",
+    "tags": [
+      "exclude_from_product_sync"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Tenejapa",
+    "url": "https://www.lacabra.dk/products/tenejapa-1",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Tenejapa_La_Cabra_Coffee_Box_250g.png?v=1762862284",
+    "price": "179.00",
+    "currency": "Local",
+    "description": "The return of our partners from the Cafeólogo project, with a bright and crisp washed lot from the Tenejapa region....",
+    "published_at": "2025-11-17T14:04:11+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "San Pedro Natural",
+    "url": "https://www.lacabra.dk/products/san-pedro-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/San_Pedro_Natural_La_Cabra_Coffee_Box_250g.png?v=1763382966",
+    "price": "189.00",
+    "currency": "Local",
+    "description": "Rich stewed berry character in this lot from Aldama, processed by Inez Vasquez and her team at the San Pedro mill....",
+    "published_at": "2025-11-17T13:56:39+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "San Pedro Honey",
+    "url": "https://www.lacabra.dk/products/san-pedro-honey",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/San_Pedro_Honey_La_Cabra_Coffee_Box_250g.png?v=1762958141",
+    "price": "189.00",
+    "currency": "Local",
+    "description": "A ripe stone fruit character in this lot from Aldama, processed by Inez Vasquez and her team at the San Pedro mill....",
+    "published_at": "2025-11-17T13:33:19+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Dawencho Anaerobic",
+    "url": "https://www.lacabra.dk/products/dawencho-anaerobic",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Dawencho_Anaerobic_250g_Coffee_La_Cabra.webp?v=1763374196",
+    "price": "199.00",
+    "currency": "Local",
+    "description": "Clear florals and ripe fruit in this lot from Mulugeta Muntasha’s award-winning Dawencho station in Bursa, Sidama....",
+    "published_at": "2025-11-17T13:13:24+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Instant It's All Downhill From Here",
+    "url": "https://onyxcoffeelab.com/products/instant-downhill",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/instant-j-skis.webp?v=1763404401",
+    "price": "12.00",
+    "currency": "Local",
+    "description": "J-Skis Instant Coffee Offering...",
+    "published_at": "2025-11-17T12:33:11-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: White",
+      "origin:Colombia"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "It's All Downhill From Here",
+    "url": "https://onyxcoffeelab.com/products/its-all-downhill",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/j-skis-10oz.webp?v=1763404158",
+    "price": "27.00",
+    "currency": "Local",
+    "description": "J-Skis Collaboration 10oz Coffee...",
+    "published_at": "2025-11-17T12:26:26-06:00",
+    "tags": [
+      "coffee",
+      "COLOR: White",
+      "method:Espresso"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "KINTO CHRISTMAS BOX",
+    "url": "https://thebarn.de/products/kinto-christmas",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/E4CC8303-94E9-4A1B-9BD6-E63BFA95200D-1663-0000001DCFDBF839.jpg?v=1763734595",
+    "price": "35.00",
+    "currency": "Local",
+    "description": "Our Kinto Christmas bundle combines Christmas Coffee with a beautiful mug from Japanese manufacturer Kinto.\nWith a supple shape fitting comfortably in the hand, the finely textured Japanese porcelain ...",
+    "published_at": "2025-11-14T19:57:49+01:00",
+    "tags": [
+      "Active",
+      "Espresso",
+      "Filter"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Guji G1, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/milk-x-som1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_som_0c6aa88b-6a8e-4154-b04f-2c7760cba5f3.png?v=1762899213",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Strawberry, milk chocolate and caramel...",
+    "published_at": "2025-11-14T16:00:31+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.French press",
+      "Brew Method.Moka Pot"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "'Umbra' Iris Estate, Panama, Natural",
+    "url": "https://onacoffee.com.au/products/filter-reserve-y-rsof1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sorc_NEW_929a1329-6e98-40cd-bc95-a3dc6fa5a4dd.png?v=1762918970",
+    "price": "90.75",
+    "currency": "Local",
+    "description": "Guava, pink florals and mandarin\n200g...",
+    "published_at": "2025-11-14T16:00:30+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "'Odyssey' Iris Estate, Panama, Nitrogen Anaerobic Natural",
+    "url": "https://onacoffee.com.au/products/filter-reserve-x-rsof1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sorc_NEW_8d5b5abb-7758-4030-8138-6e133e37be90.png?v=1762911208",
+    "price": "87.00",
+    "currency": "Local",
+    "description": "Tropical, orange and peach\n200g...",
+    "published_at": "2025-11-14T16:00:30+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Thageini, Kenya, CM Washed Diamond",
+    "url": "https://onacoffee.com.au/products/espresso-x-rare",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_rare_2ec6a9c8-d16b-48fb-be89-307fdfb5606e.png?v=1762908306",
+    "price": "32.75",
+    "currency": "Local",
+    "description": "Brown sugar, lemonade and yellow plum...",
+    "published_at": "2025-11-14T16:00:29+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.French press",
+      "Brew Method.Moka Pot"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Maguta Waridi, Kenya, Supernatural",
+    "url": "https://onacoffee.com.au/products/filter-w-rare",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_rare_29510013-6330-47ee-92bd-89c05c5910bc.png?v=1762906576",
+    "price": "26.50",
+    "currency": "Local",
+    "description": "Cranberry, red grapes and orange200g...",
+    "published_at": "2025-11-14T16:00:28+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Las Botijas, Honduras, Washed",
+    "url": "https://onacoffee.com.au/products/cofosof-rare-opz",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_rare_1f647ae1-dabe-421f-a8cf-763d5de6eb0f.png?v=1762905913",
+    "price": "29.50",
+    "currency": "Local",
+    "description": "Tangerine, botanical florals and pineapple...",
+    "published_at": "2025-11-14T16:00:27+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Kamunyaka AB, Kenya, Washed",
+    "url": "https://onacoffee.com.au/products/filter-z-sof2",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_4ae1615a-02f2-4d47-bf0c-31a2a457cccb.png?v=1762900615",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Grapefruit, pear and apricot...",
+    "published_at": "2025-11-14T16:00:27+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Hambela Benti Nenka G1, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/espresso-x-soe2",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_02039416-f3b7-493b-be1c-8cde1f489f64.png?v=1762903666",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Berries, orange and caramel...",
+    "published_at": "2025-11-14T16:00:26+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.French press",
+      "Brew Method.Moka Pot"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Mutheka Kiandu AB, Kenya, Washed",
+    "url": "https://onacoffee.com.au/products/espresso-z-soe1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_c6e2b3e2-cf5c-4c47-b6d3-58deb778a5c2.png?v=1762903323",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Pear, green apple and lime...",
+    "published_at": "2025-11-14T16:00:25+11:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.French press",
+      "Brew Method.Moka Pot"
+    ]
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Coffee-Maple Chess Pie",
+    "url": "https://onyxcoffeelab.com/products/coffee-maple-chess-pie",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/chess_810ab988-3671-4533-b898-a38a4ec9fbde.webp?v=1763148391",
+    "price": "30.00",
+    "currency": "Local",
+    "description": "A classic Southern chess pie, but with a little bakery personality. Maple syrup adds a deeper sweetness, the cornmeal gives that old-school texture, and we fold in just enough Onyx coffee to keep it i...",
+    "published_at": "2025-11-14T13:14:13-06:00",
+    "tags": [
+      "doughp pie",
+      "Holiday-Pie",
+      "pie"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "La Esmeralda",
+    "url": "https://onacoffee.com.au/products/la-esmeralda",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sodb-copy-2.png?v=1762217325",
+    "price": "230.00",
+    "currency": "Local",
+    "description": "A limited-edition tasting experience featuring four distinct Geisha micro lots from Panama’s famed Hacienda La Esmeralda. Each box includes four 80g bags, showcasing the diversity of Geisha through di...",
+    "published_at": "2025-11-13T16:01:14+11:00",
+    "tags": [
+      "Brew Method.Pour over",
+      "Coffee Type.Filter",
+      "Origin.Central America"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "ADVENT GIFT BOX",
+    "url": "https://thebarn.de/products/advent-gift-box",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/Ralf_snow_edit_2_9ea5dcfd-f761-4bf2-b8ee-c3b2e07756f1.jpg?v=1763153307",
+    "price": "65.00",
+    "currency": "Local",
+    "description": "The perfect alternative to our Inspiration Advent Calendar 🎁 🎄Enjoy 4 unique exceptional coffees (250g each) and fill the festive period with flavour.\nEach bag gives you more than 15x 250ml brews: enj...",
+    "published_at": "2025-11-13T10:51:14+01:00",
+    "tags": [
+      "Beans",
+      "Filter",
+      "Gifts_Beans_and_Bundles"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Jair Arles Galindez; El Guayabo, New Season - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-jair-arles-galindez-el-guayabo-new-season-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025JairArlesGalindez_ElGuayabo_NewSeason-Colombia.png?v=1763005911",
+    "price": "27.50",
+    "currency": "Local",
+    "description": "It is an honor to continue working with coffee from this incredible and inspiring producer. Arles Galindez consistently delivers clean, articulate representations of each new season. In the cup we fin...",
+    "published_at": "2025-11-12T22:55:29-05:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Dawencho Natural",
+    "url": "https://www.lacabra.dk/products/dawencho-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Dawencho_Natural_La_Cabra_Coffee_Box_250g.png?v=1762854000",
+    "price": "175.00",
+    "currency": "Local",
+    "description": "Soft florals sit atop rich cherry and an intense creamy body in this lot by Mulugeta Muntasha at Dawencho, Sidama....",
+    "published_at": "2025-11-11T11:18:03+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Kii",
+    "url": "https://www.lacabra.dk/products/kii",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Kii_Coffee_Whole_Beans_La_Cabra.webp?v=1762169876",
+    "price": "159.00",
+    "currency": "Local",
+    "description": "A fresh and bright expression, grown by the smallholders of the Rungeto cooperative in northeastern Kirinyaga....",
+    "published_at": "2025-11-10T09:29:54+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Oma",
+    "url": "https://www.lacabra.dk/products/oma-gesha-village",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Oma_Gesha_Village_La_Cabra_100g.webp?v=1762415200",
+    "price": "209.00",
+    "currency": "Local",
+    "description": "A delicately floral Gesha 1931 grown on the Oma plot of Gesha Village; the careful natural process enhances sweet notes of stone fruit....",
+    "published_at": "2025-11-07T14:57:11+01:00",
+    "tags": [
+      "exclude_from_product_sync"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "El Plan Del Hoyo, El Salvador, Washed",
+    "url": "https://onacoffee.com.au/products/filter-y-sof1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_ac311c33-6d53-497a-8b4a-fb27638877cc.png?v=1762475975",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Yellow stone fruit, orange and black tea...",
+    "published_at": "2025-11-07T13:01:20+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Finca Himalaya Supersonic M27, El Salvador, Supernatural",
+    "url": "https://onacoffee.com.au/products/filter-x-sof3",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_59e6a362-0bf8-46c1-8f7a-e73aa8646db7.png?v=1762300208",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Chocolate, raisin and citrus peel...",
+    "published_at": "2025-11-07T12:46:20+11:00",
+    "tags": [
+      "Brew Method.Aeropress",
+      "Brew Method.French press",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Colombia Carlos Soto CWCF #5 [Light roast]",
+    "url": "https://kurasu.kyoto/products/colombia-carlos-soto-cwcf-5-light-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Single_Colombia-Carlos-Soto-CWCF-_5_2025.jpg?v=1762316029",
+    "price": "57.20",
+    "currency": "Local",
+    "description": "Floral aroma, taste of blood orange, pear and black tea, tropical fruit-like sweetness and accompanying aftertaste.\n\nOur first roasting day for this coffee: 2025/Nov/11(Wed)\n*Please kindly note that a...",
+    "published_at": "2025-11-06T15:44:11+09:00",
+    "tags": [
+      "Beans",
+      "Coffee wholesale",
+      "Light"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Maritza Dota, Late - Ecuador",
+    "url": "https://www.seycoffee.com/products/2025-maritza-dota-late-ecuador",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025MaritzaDota_Late-Ecuador.png?v=1762394378",
+    "price": "30.50",
+    "currency": "Local",
+    "description": "This small release comes from Maritza’s garden of Mejorado in southern Loja, Ecuador. The Dota family has been producing exceptional coffees over the past year, and this lot is no exception. In the cu...",
+    "published_at": "2025-11-05T21:02:01-05:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "VOLCAN AZUL H1",
+    "url": "https://thebarn.de/products/volcan-azul-h1",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_volcan_azul_h1.png?v=1762254000",
+    "price": "21.50",
+    "currency": "Local",
+    "description": "At the famous Volcan Azul estate in Costa Rica, producer Alejo has introduced modern fermentation methods to achieve extraordinary flavour. For the first time ever, we are excited to feature the H1 va...",
+    "published_at": "2025-11-04T17:16:25+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Instant Coffee - Maple",
+    "url": "https://onacoffee.com.au/products/instant-coffee-maple",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/INS_coffee_hero.png?v=1761540994",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "Creamy, almond and toffee\n7 x 2.5g sachets - 17.5 NET...",
+    "published_at": "2025-11-04T10:00:07+11:00",
+    "tags": [
+      "Capsule",
+      "Instant Coffee",
+      "Origin.East Africa"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Instant Coffee - Gititu AB, Kenya, Washed",
+    "url": "https://onacoffee.com.au/products/instant-coffee-op2-q1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/INS_coffee_hero_c07391dd-5804-45fa-b1b2-b03628dcc032.png?v=1761542021",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "Currants, toffee and citrus\n7 x 2.5g sachets - 17.5 NET...",
+    "published_at": "2025-11-04T10:00:03+11:00",
+    "tags": [
+      "Capsule",
+      "Instant Coffee",
+      "Origin.East Africa"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Instant Coffee - Hambela Buku G1, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/instant-coffee-op3-q1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/INS_coffee_hero_b17480a8-1a30-46fc-bc33-f988f9ae8f83.png?v=1761629248",
+    "price": "15.00",
+    "currency": "Local",
+    "description": "Floral, orange and pink fruit\n7 x 2.5g sachets - 17.5 NET...",
+    "published_at": "2025-11-04T10:00:02+11:00",
+    "tags": [
+      "Capsule",
+      "Instant Coffee",
+      "Origin.East Africa"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Instant Coffee - Sunset G1, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/instant-coffee-op1-q1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/INS_coffee_hero_6fcdf24d-681c-47e6-a1c1-0e41b84202cc.png?v=1761628816",
+    "price": "18.00",
+    "currency": "Local",
+    "description": "Peach, milk chocolate and floral\n7 x 2.5g sachets - 17.5 NET...",
+    "published_at": "2025-11-04T10:00:01+11:00",
+    "tags": [
+      "Capsule",
+      "Instant Coffee",
+      "Origin.East Africa"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "CHRISTMAS COFFEE",
+    "url": "https://thebarn.de/products/christmas-coffee-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_christmas_coffee_2025.png?v=1761746398",
+    "price": "16.00",
+    "currency": "Local",
+    "description": "Our Christmas Coffee is here: a celebration of incredible single origin flavour. \nSeason after season, working with our friend Mauricio Salaverria gives us the chance to showcase some of the best coff...",
+    "published_at": "2025-10-31T20:37:46+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Ethiopia Nansebo [Medium roast]",
+    "url": "https://kurasu.kyoto/products/ethiopia-nansebo-light-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Single_Ethiopia-Nansebo_2025.jpg?v=1762304833",
+    "price": "38.50",
+    "currency": "Local",
+    "description": "Floral aroma, taste of cassis, black grape and orange, milk chocolate-like sweetness and accompanying aftertaste.\n\nOur first roasting day for this coffee: 2025/Nov/5(Wed)\n*Please kindly note that any ...",
+    "published_at": "2025-10-31T13:51:54+09:00",
+    "tags": [
+      "Beans",
+      "Coffee wholesale",
+      "Single origin"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Potosí Washed",
+    "url": "https://www.lacabra.dk/products/potosi-washed",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Potosi_Washed_La_Cabra_Coffee_Box_250g.png?v=1761031999",
+    "price": "179.00",
+    "currency": "Local",
+    "description": "Café Granja’s exacting processing approach applied to the Pink Bourbon varietal leads to crisp tropical notes....",
+    "published_at": "2025-10-31T10:38:27+01:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Potosí Natural",
+    "url": "https://www.lacabra.dk/products/potosi-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Potosi_Natural_La_Cabra_Coffee_Box_250_g.png?v=1758798144",
+    "price": "179.00",
+    "currency": "Local",
+    "description": "Our eighth year buying this wild lot by Café Granja, with soft fruit and cacao notes shaped by their trademark fermentation....",
+    "published_at": "2025-10-31T10:37:55+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Dot Ceramic Bundle",
+    "url": "https://www.aprilcoffeeroasters.com/products/ceramic-brewer-paper-filter-250g-filter-beans",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/dotceramicbundlecopy.jpg?v=1763379680",
+    "price": "803.00",
+    "currency": "Local",
+    "description": "Content\n1 x Dot Ceramic Brewer\n1 x April Paper filters S\n1 x 250g Filter Beans (chosen by us, there is not an option to choose yourself) \n1x Dot Ceramic Cup \n*Please note that this bundle is an online...",
+    "published_at": "2025-10-31T09:31:19+01:00",
+    "tags": [
+      "Bundle"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Drip Bags - Lost Origin, Panama, Natural",
+    "url": "https://onacoffee.com.au/products/reserve-filter-drip-bag-box-lost-origin-panama-natura",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sodbr_5927f085-b403-4f85-be48-fc789d2aa498.png?v=1761776823",
+    "price": "29.00",
+    "currency": "Local",
+    "description": "Citrus, stone fruit and tropical\n5x10g bags...",
+    "published_at": "2025-10-31T09:30:05+11:00",
+    "tags": [
+      "Capsule",
+      "Coffee Type.Filter",
+      "Drip bags"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Filter Drip Bag Box - Gaaki AB, Kenya, Washed",
+    "url": "https://onacoffee.com.au/products/drip-bag-filter-op2-q1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sodb_5.png?v=1761619829",
+    "price": "16.00",
+    "currency": "Local",
+    "description": "Plum, blood orange and toffee\n5x10g bags and 10x10g bags...",
+    "published_at": "2025-10-31T09:30:05+11:00",
+    "tags": [
+      "Capsule",
+      "Coffee Type.Filter",
+      "Drip bags"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Filter Drip Bag Box - La Tina Lot 273, Honduras, Supernatural",
+    "url": "https://onacoffee.com.au/products/drip-bag-filter-op1-q1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sodb_6eeca06e-dce0-4465-9403-afb14110b539.png?v=1761624134",
+    "price": "16.00",
+    "currency": "Local",
+    "description": "Strawberry, caramel and chocolate\n5x10g bags...",
+    "published_at": "2025-10-31T09:30:04+11:00",
+    "tags": [
+      "Capsule",
+      "Coffee Type.Filter",
+      "Drip bags"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Christmas Calendar",
+    "url": "https://www.lacabra.dk/products/christmas-calendar",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Steeped_Christmas_Calendar-edit.webp?v=1761906009",
+    "price": "599.00",
+    "currency": "Local",
+    "description": "A cup of coffee every morning this Holiday Season - in the days before Christmas, you can enjoy 24 servings of 10 Steeped coffees....",
+    "published_at": "2025-10-30T23:33:22+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Advent Calendar",
+    "url": "https://www.lacabra.dk/products/advent-calendar",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Coffee_Advent_Calendar-3.webp?v=1761904898",
+    "price": "699.00",
+    "currency": "Local",
+    "description": "This year, our calendar contains a specially selected lot for each Sunday of Advent....",
+    "published_at": "2025-10-30T23:08:23+01:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "MOHAMED ALI HONEY",
+    "url": "https://thebarn.de/products/mohamed-ali-honey",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/BAG_Mohamed_Ali_Honey_Espresso.png?v=1728486092",
+    "price": "18.50",
+    "currency": "Local",
+    "description": "Since 2018, Mustafa Mohamed Ali has been one of our closest partners. Together we were able to introduce Honey processed lots at the estate, which is rare to see in Ethiopia. Expect delicious clarity ...",
+    "published_at": "2025-10-30T14:48:28+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "MENGECHE DERSO",
+    "url": "https://thebarn.de/products/mengeche-derso",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/B2C_Bag_3ba181bf-36d2-42cb-8a24-905ad8dc874e.png?v=1760019332",
+    "price": "18.50",
+    "currency": "Local",
+    "description": "The Single Farmer Project from our partners Café Imports has made coffee from small individual Ethiopian farmers available for the first time.\nMr Mengeche Derso is a producer with decades of experienc...",
+    "published_at": "2025-10-30T14:23:58+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Yaye Chericho - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-yaye-chericho-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025YayeChericho-Ethiopia.png?v=1761770107",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "Yaye Chericho is our second release of the season from Arbegona, a region that has consistently produced some of our highest-scoring lots in Ethiopia. This late-harvest selection was one of our last t...",
+    "published_at": "2025-10-30T08:02:14-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Koko; Lot #159, Washed - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-koko-lot-159-washed-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Koko_Lot_159_Washed-Ethiopia.png?v=1761769730",
+    "price": "25.50",
+    "currency": "Local",
+    "description": "This is our first year working with the Koko site in the Bona region of Sidama. All the cherry for this lot was collected from extremely high elevations and carefully curated by our exporting partners...",
+    "published_at": "2025-10-30T08:02:13-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Eduar Moriones Garcia; Finca Brisa - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-eduar-moriones-garcia-finca-brisa-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025EduarMorionesGarcia_FincaBrisa-Colombia.png?v=1761769482",
+    "price": "27.00",
+    "currency": "Local",
+    "description": "This is our first year tasting and purchasing coffee from Eduar Moriones Garcia. It is always exciting to work with a coffee for the first time—especially from Huila. In the cup we find ripe red fruit...",
+    "published_at": "2025-10-30T08:02:13-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Tamiru Tadesse Tesema; Alo Village, White Honey - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-tamiru-tadesse-tesema-alo-village-white-honey-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025TamiruTadesseTesema_AloVillage_WhiteHoney-Ethiopia.png?v=1761768929",
+    "price": "27.50",
+    "currency": "Local",
+    "description": "This is a special honey process that Tamiru produced for us this year. We love honey-processed coffees from Bensa, and it is incredibly exciting to have this selection from Alo. In the cup we find dra...",
+    "published_at": "2025-10-30T08:02:11-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "NINHO DA ÁGUIA",
+    "url": "https://thebarn.de/products/ninho-da-aguia-filter",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_ninho_da_aguia_2025.png?v=1761752501",
+    "price": "17.50",
+    "currency": "Local",
+    "description": "Ninho da Águia is located on the slopes of the third highest peak in Brazil: Pico da Bandeira. Surfer-turned-farmer Clayton Barrossa is passionate about the landscape, choosing to work organically and...",
+    "published_at": "2025-10-29T16:49:33+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Filter"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Buena Vista Heirloom",
+    "url": "https://www.lacabra.dk/products/buena-vista-heirloom",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Buena_Vista_100g_Whole_Bean_Coffee_La_Cabra.webp?v=1758178421",
+    "price": "149.00",
+    "currency": "Local",
+    "description": "This complex natural lot by Freddy Orantes in Fraijanes is composed of Ethiopian heirloom varietals, creating a floral expression....",
+    "published_at": "2025-10-29T11:36:14+01:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "LOS CHORROS",
+    "url": "https://thebarn.de/products/los-chorros",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_los_chorros_2025.png?v=1759393951",
+    "price": "18.00",
+    "currency": "Local",
+    "description": "Back in 2017, a coffee from Roman Flores first showed us the true potential of the Intibuca region in Honduras. Since then, Los Chorros has become a firm favourite in our portfolio. The new season bri...",
+    "published_at": "2025-10-29T10:54:51+01:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Danche Honey",
+    "url": "https://www.lacabra.dk/products/danche-honey",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Box_412d91b5-091d-4f2d-8de2-835481cb5417.webp?v=1761556127",
+    "price": "169.00",
+    "currency": "Local",
+    "description": "Ripe peach and apricot underpin aromatic jasmine top notes in this honey lot by SNAP coffee....",
+    "published_at": "2025-10-27T10:48:29+01:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Kurasu Original Cap “I drink specialty Coffee from Kyoto”",
+    "url": "https://kurasu.kyoto/products/kurasu-original-cap-i-drink-specialty-coffee-from-kyoto-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/1002_kurasucap_2.jpg?v=1761187667",
+    "price": "46.20",
+    "currency": "Local",
+    "description": "The Kurasu original cap is back! Designed by Kurasu, made locally in Kyoto — an original cap that carries the spirit of specialty coffee, community, and craftsmanship.\nSomething to share, to gift, to ...",
+    "published_at": "2025-10-23T12:15:03+09:00",
+    "tags": [
+      "Accessory",
+      "Kurasu Originals"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Tamiru Tadesse Tesema; Alo Village, Washed - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-tamiru-tadesse-tesema-alo-village-washed-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025TamiruTadesseTesema_AloVillage_Washed-Ethiopia.png?v=1761164616",
+    "price": "27.00",
+    "currency": "Local",
+    "description": "This is our first year releasing Tamiru’s Classic Washed profile. Made from 100% 74158 variety, the cherry was selected from trees growing above 2,400 masl. Tamiru is one of the leading producers and ...",
+    "published_at": "2025-10-22T17:07:16-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 La Familia Moreno; La Sierra - Honduras",
+    "url": "https://www.seycoffee.com/products/2025-la-familia-moreno-la-sierra-honduras",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025LaFamiliaMoreno_LaSierra-Honduras.png?v=1761164289",
+    "price": "27.50",
+    "currency": "Local",
+    "description": "This is our first year purchasing the Gesha separation from this farm, where we originally sourced coffee nearly a decade ago. In the cup we find soft florals, Key lime, and wildflower honey....",
+    "published_at": "2025-10-22T17:07:15-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "YEMEN ALCHEMY",
+    "url": "https://thebarn.de/products/yemen-alchemy",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/yemen_alchemy_2025.png?v=1761126783",
+    "price": "40.00",
+    "currency": "Local",
+    "description": "A Taste Of AlchemyAt 2200m, the breathtaking landscape of Hayma Dakhiliya is home to a unique varietal of coffee: Yemenia. Following multi-stage 'Alchemy' processing, Yemenia offers complexity that is...",
+    "published_at": "2025-10-22T09:52:39+02:00",
+    "tags": [
+      "Beans",
+      "Filter"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "La Roca",
+    "url": "https://www.lacabra.dk/products/la-roca",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/La_Roca_250g_Coffee_La_Cabra.webp?v=1760617468",
+    "price": "145.00",
+    "currency": "Local",
+    "description": "The Umaña brothers’ careful processing leads to a deep toffee sweetness and fresh notes of mandarin....",
+    "published_at": "2025-10-20T12:45:02+02:00",
+    "tags": [
+      "4"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "FUNKY TWIN BOX",
+    "url": "https://thebarn.de/products/funky-twin-box-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/funky_box_november.jpg?v=1763022234",
+    "price": "42.50",
+    "currency": "Local",
+    "description": "Shantawene, Ethiopia 🇪🇹 - 250gBuilding on the traditions of flavour and quality, Shantawene uses anaerobic fermentation to push the boundaries of Ethiopian coffee. The terroir of Sidama comes alive wi...",
+    "published_at": "2025-10-19T18:38:37+02:00",
+    "tags": [
+      "Beans",
+      "Filter",
+      "Gifts_Beans_and_Bundles"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Finca Sophia; Lots FS9025 & FS9325 - Panama",
+    "url": "https://www.seycoffee.com/products/2025-finca-sophia-lots-fs9025-fs9325-panama",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025FincaSophia_LotsFS9025_FS9325-Panama_590bc10e-0fb2-45bc-9930-0657b923356b.png?v=1760655349",
+    "price": "80.00",
+    "currency": "Local",
+    "description": "Every year we wait anxiously to receive our lot allocations from Finca Sophia. This farm—and the coffee it produces—is, in a word, exceptional. In the cup we find articulated florality, ripe tropical ...",
+    "published_at": "2025-10-16T18:56:00-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Cold Brew Ethiopia Sidamo Decaf [Medium]",
+    "url": "https://kurasu.kyoto/products/cold-brew-ethiopia-sidamo-decaf-medium-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Ethiopia-Sidamo-Decaf-2025-coldbrew_4e4efec8-91ff-431b-8681-94c266b5a5b4.jpg?v=1760591858",
+    "price": "33.00",
+    "currency": "Local",
+    "description": "Floral aroma, taste of peach, black cherry and citrus, browned caramel-like sweetness and accompanying aftertaste.\nCountry: EthiopiaProcess: Washed (Mountain Water Process)Region: SidamoVariety: Heirl...",
+    "published_at": "2025-10-16T15:44:54+09:00",
+    "tags": [
+      "Blends",
+      "Coffee wholesale",
+      "Cold brew"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "El Estoraque",
+    "url": "https://www.lacabra.dk/products/el-estoraque-1",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/El_Estoraque_La_Cabra_Coffee_Bag_250g.webp?v=1757513038",
+    "price": "155.00",
+    "currency": "Local",
+    "description": "An anaerobic fermentation leads to a juicy and dense profile in this lot by Jeison Liban López in Buesaco, Nariño...",
+    "published_at": "2025-10-16T13:24:13+02:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "BLACK CONDOR",
+    "url": "https://thebarn.de/products/black-condor",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_black_condor.png?v=1759232310",
+    "price": "17.00",
+    "currency": "Local",
+    "description": "In 2019, the Black Condor Project was established to support farmers affected by the violence that had swept Colombia. Across 15 villages, assistance with growing, processing, and quality control has ...",
+    "published_at": "2025-10-09T16:40:05+02:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "El Socorro",
+    "url": "https://www.lacabra.dk/products/el-socorro",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/El_Socorro_La_Cabra_Coffee_Box_100g.webp?v=1759840132",
+    "price": "399.00",
+    "currency": "Local",
+    "description": "A complex and aromatic washed Geisha by Diego de la Cerda in Palencia, from this year's Cup of Excellence auction....",
+    "published_at": "2025-10-09T16:34:49+02:00",
+    "tags": [
+      "out of season",
+      "tag_out of season"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Cascara Coffee Cherry Tea Guatemala Jalapa",
+    "url": "https://kurasu.kyoto/products/guatemala-jalapa-cascara",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/0828_cascara_6.jpg?v=1759977663",
+    "price": "9.35",
+    "currency": "Local",
+    "description": "Experience the fruit of coffee itself — a cup full of bright, plum-like juiciness and mellow sweetness that reveals a whole new side of coffee.\n\nOur staple Cascara Tea is back with a brand-new look!Th...",
+    "published_at": "2025-10-09T13:00:04+09:00",
+    "tags": [
+      "cascara",
+      "Coffee wholesale"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Duwancho - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-duwancho-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Duwancho-Ethiopia.png?v=1759981459",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "Duwancho has produced some of our highest-scoring Ethiopian lots from Arbegona. Long overshadowed by the more recognized region of Bensa, Arbegona has emerged in recent years as a source of some of th...",
+    "published_at": "2025-10-08T23:47:34-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 David Berrio; La Casita, New Season - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-david-berrio-la-casita-new-season-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025DavidBerrio_LaCasita_NewSeason-Colombia.png?v=1759981254",
+    "price": "25.50",
+    "currency": "Local",
+    "description": "This marks the beginning of a new harvest season from Urrao. It is always exciting to receive an exceptionally fresh first-pass harvest from La Casita, the smallest Chiroso garden we work with. In the...",
+    "published_at": "2025-10-08T23:47:34-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Octavio Rueda; El Mirador, 2nd Harvest - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-octavio-rueda-el-mirador-2nd-harvest-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025OctavioRueda_ElMirador_2ndHarvest-Colombia.png?v=1759980986",
+    "price": "26.00",
+    "currency": "Local",
+    "description": "This is the second harvest pass from Octavio Rueda, who has been producing some of the highest-scoring Pink Bourbon in Huila for several years. We hold both this coffee and producer in the highest reg...",
+    "published_at": "2025-10-08T23:47:33-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Sustainable Profile Coffee - Guatemala",
+    "url": "https://www.aprilcoffeeroasters.com/products/sustainable-profile-coffee-guatemala",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/SPGuatemala_e2e75b5c-025b-4aa3-b79c-da757cb3c4ac.jpg?v=1759998034",
+    "price": "154.00",
+    "currency": "Local",
+    "description": "Location: Guatemala, PalenciaFarm: El Socorro\n\n\nProducer: Diego de la Cerda\n\n\n\nVarietal: Washed Yellow BourbonRoast Profile: Medium (creating a rich and sweet character) works for Espresso &amp; Filte...",
+    "published_at": "2025-10-08T12:31:50+02:00",
+    "tags": [
+      "Espresso Beans",
+      "Filter Beans",
+      "Sustainable Profile"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "El Socorro - Guatemala - Washed Gesha",
+    "url": "https://www.aprilcoffeeroasters.com/products/guatemala-el-socorro-washed-gesha-limited",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/elsocorrogesha_619f78ec-8a7b-45f9-99e4-86bfec21044d.jpg?v=1755865018",
+    "price": "426.00",
+    "currency": "Local",
+    "description": "Location: Guatemala, Palencia\n\nFarmer: Diego de la Cerda\n\nProducer: El Socorro\n\n\nVarietal: Washed Processed Gesha\n\nFlavour Notes: Nectarine, Honey &amp; JasmineSweetness: ●●●●○Body: ●●○○○Acidity: ●●●●...",
+    "published_at": "2025-10-08T10:20:33+02:00",
+    "tags": [
+      "Espresso Beans",
+      "Filter Beans",
+      "Limited Coffee beans"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "AUTUMN COFFEE",
+    "url": "https://thebarn.de/products/la-colina",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_la_colina_washed_autumn.png?v=1758886714",
+    "price": "18.00",
+    "currency": "Local",
+    "description": "For the fourth season, we are sharing coffee from Antonio Medina, whose La Colina estate has become a favourite feature of our Guatemalan portfolio.\nPerfect for both espresso and filter, this washed C...",
+    "published_at": "2025-10-02T10:25:33+02:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "El Morito - Guatemala - Washed Yellow Gesha",
+    "url": "https://www.aprilcoffeeroasters.com/products/el-morito-guatemala-washed-gesha-limited",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/elmoritoyellowgesha2.jpg?v=1759998146",
+    "price": "604.00",
+    "currency": "Local",
+    "description": "Location: Jalapa department, Guatemala\n\nFarmer:  Jose Roberto Monterroso Pineda\n\n\nProducer: El Morito\nVarietal: Washed Processed Yellow Gesha\nFlavour Notes: Mirabelle Plum, Citrus, Florals\nSweetness: ...",
+    "published_at": "2025-10-02T08:08:43+02:00",
+    "tags": [
+      "Espresso Beans",
+      "Filter Beans",
+      "Limited Coffee beans"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Volcan Azul - Costa Rica - Natural SL28",
+    "url": "https://www.aprilcoffeeroasters.com/products/volcan-azul-costa-rica-natural-sl28",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/sl28naturalxmas.jpg?v=1763378562",
+    "price": "220.00",
+    "currency": "Local",
+    "description": "Location: Costa Rica, AlajuelaFarm: Volcan Azul Producer: Alejo CastroVarietal: Natural processed SL28\nFlavour Notes: Red Fruits, Brown Spice &amp; Cooked Apple  Sweetness: ●●●●○Body: ●●●○○Acidity: ●●...",
+    "published_at": "2025-10-02T07:49:43+02:00",
+    "tags": [
+      "Filter Beans"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Volcan Azul - Costa Rica - Natural SL28",
+    "url": "https://www.aprilcoffeeroasters.com/products/volcan-azul-costa-rica-natural-sl28-1",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/naturalsl28_fff70eb0-0c29-4263-a2bf-3012c43d4a14.jpg?v=1759998318",
+    "price": "326.00",
+    "currency": "Local",
+    "description": "Location: Costa Rica, AlajuelaFarm: Volcan Azul Producer: Alejo CastroVarietal: Natural processed SL28\nFlavour Notes: Red Fruits, Brown Spice &amp; Cooked Apple  Sweetness: ●●●●○Body: ●●●○○Acidity: ●●...",
+    "published_at": "2025-10-02T07:47:04+02:00",
+    "tags": [
+      "Espresso Beans"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Arturo Paz; El Itacayo - Honduras",
+    "url": "https://www.seycoffee.com/products/2025-arturo-paz-el-itacayo-honduras",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025ArturoPaz_ElItacayo-Honduras.png?v=1759371808",
+    "price": "31.00",
+    "currency": "Local",
+    "description": "This is our first release from Arturo Paz, though we have known him for many years. Arturo is a remarkable coffee producer and also serves as the head of quality control at San Vicente, our longtime e...",
+    "published_at": "2025-10-01T22:26:51-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Ethiopia Sidamo Decaf [Medium roast]",
+    "url": "https://kurasu.kyoto/products/ethiopia-sidamo-decaf-medium-roast-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Single_Ethiopia-Sidamo-Decaf_2025_e53a5636-c9ec-4cb5-8d62-293d26b800fe.jpg?v=1759571566",
+    "price": "33.00",
+    "currency": "Local",
+    "description": "Floral aroma, taste of peach, black cherry and citrus, browned caramel-like sweetness and accompanying aftertaste.\n\nCountry: EthiopiaProcess: Washed (Mountain Water Process)Region: SidamoVariety: Heir...",
+    "published_at": "2025-09-26T13:00:07+09:00",
+    "tags": [
+      "Beans",
+      "Blends",
+      "Coffee wholesale"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Miguel Dota - Ecuador",
+    "url": "https://www.seycoffee.com/products/2025-miguel-dota-ecuador",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025MiguelDota-Ecuador.png?v=1758753550",
+    "price": "30.50",
+    "currency": "Local",
+    "description": "This second release from Miguel Dota continues our new project in the Seraguro region of Ecuador. Grown in a small Sidra garden on a sub-1-hectare (~2.5-acre) farm, it showcases the expressive profile...",
+    "published_at": "2025-09-24T18:39:10-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Panama Bambito Estate [Light roast]",
+    "url": "https://kurasu.kyoto/products/panama-bambito-estate-light-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Single_Panama-Bambito-Estate.jpg?v=1758164822",
+    "price": "40.70",
+    "currency": "Local",
+    "description": "Floral aroma, taste of orange, dried apricot and a nuance of black currant, deep and rich aftertaste like green tea.\n\nOur first roasting day for this coffee: 2025/Sep/24(Wed)\n*Please kindly note that ...",
+    "published_at": "2025-09-18T13:19:30+09:00",
+    "tags": [
+      "Beans",
+      "Coffee wholesale",
+      "Light"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Colombia Yadimir Quiguanas Perez [Light roast]",
+    "url": "https://kurasu.kyoto/products/colombia-yadimir-quiguanas-perez-light-roast",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Single_Colombia-Yadimir-Quiguanas-Perez.jpg?v=1758161452",
+    "price": "50.60",
+    "currency": "Local",
+    "description": "Floral aroma, taste of orange, plum and white wine, hazelnut-like sweetness and accompanying aftertaste.\n\nOur first roasting day for this coffee: 2025/Sep/24(Wed)\n*Please kindly note that any order th...",
+    "published_at": "2025-09-18T13:19:29+09:00",
+    "tags": [
+      "Beans",
+      "Coffee wholesale",
+      "Light"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Elora; Lot #151, Fermented Honey - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-elora-lot-151-fermented-honey-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Elora_Lot_151_FermentedHoney-Ethiopia.png?v=1758145931",
+    "price": "25.50",
+    "currency": "Local",
+    "description": "This is our final release from this season’s new project with the Elora site, and we could not be happier with how it has gone. These coffees have been stunning. In the cup, we find honeydew, papaya, ...",
+    "published_at": "2025-09-17T17:55:53-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Yaye Arbegona - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-yaye-arbegona-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025YayeArbegona-Ethiopia.png?v=1758145571",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "Yaye is one of the highest-elevation washing stations in the world and consistently produces some of our favorite profiles in all of coffee. Each year we look forward to this release. In the cup we fi...",
+    "published_at": "2025-09-17T17:55:52-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Paxtle - Mexico",
+    "url": "https://www.seycoffee.com/products/2025-paxtle-mexico",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Paxtle-Mexico.png?v=1758145333",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "This regional blend from the Sierra Mazateca is composed of the highest-scoring lots that were too small to export individually. It comes from a producing group called Paxtle, based in San Mateo on th...",
+    "published_at": "2025-09-17T17:55:51-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "LA COLINA NATURAL",
+    "url": "https://thebarn.de/products/la-colina-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_la_colina_natural_2025.png?v=1757592149",
+    "price": "20.00",
+    "currency": "Local",
+    "description": "Since 1991, Antonio Medina has worked to follow his dream of growing specialty coffee on the land he inherited from his father. This natural Caturra is an exceptional showcase of Guatemalan terroir: j...",
+    "published_at": "2025-09-12T10:12:06+02:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Elora; Lot #25, Honey - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-elora-lot-25-honey-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Elora_Lot_25_Honey-Ethiopia.png?v=1757573114",
+    "price": "28.25",
+    "currency": "Local",
+    "description": "This lot comes from an exciting new project in one of our favorite coffee-growing regions, Arbegona. This beautiful honey-processed coffee is a striking example of the fruit complexity and florality t...",
+    "published_at": "2025-09-11T02:47:33-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "BANKO GOTITI",
+    "url": "https://thebarn.de/products/banko-gotiti",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_banko_omni.png?v=1760082976",
+    "price": "18.50",
+    "currency": "Local",
+    "description": "One of our biggest hits last season, Banko Gotiti is back.Coffees from Yirgacheffe are a true seasonal highlight and we are excited to share this new lot, roasted for espresso. The fruit-forward profi...",
+    "published_at": "2025-09-10T14:35:12+02:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "PARAGUAI",
+    "url": "https://thebarn.de/products/paraguai",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_paraguai.png?v=1760020947",
+    "price": "16.50",
+    "currency": "Local",
+    "description": "For the first time, we are excited to share coffee from Fazenda Paraguai. Producer Claudio Vinicius Pimentel comes from a long line of coffee growers, following in the footsteps of his father and gran...",
+    "published_at": "2025-09-09T11:59:05+02:00",
+    "tags": [
+      "Active",
+      "Balanced",
+      "Beans"
+    ]
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Raspberry Candy Filter",
+    "url": "https://onacoffee.com.au/products/dog-house-coffee-collection-copy",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sr_f5d66487-660f-47dd-b87d-a5ca558b749f.png?v=1756962632",
+    "price": "24.00",
+    "currency": "Local",
+    "description": "Raspberry candy, chocolate and hibiscus....",
+    "published_at": "2025-09-09T10:01:42+10:00",
+    "tags": [
+      "Brew Method.Espresso",
+      "Brew Method.Moka Pot",
+      "Brew Method.Pour over"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "LA BANDERA TYPICA",
+    "url": "https://thebarn.de/products/la-bandera-typica",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_la_bandera_typica.png?v=1757078856",
+    "price": "25.00",
+    "currency": "Local",
+    "description": "At an altitude of almost 2000m, the beautiful terroir of La Bandera is carefully divided by area and varietal. Producer Diego Hidalgo is dedicated to careful processing and drying, producing an exciti...",
+    "published_at": "2025-09-05T18:28:14+02:00",
+    "tags": [
+      "Beans"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 José Gallardo; Nuguo, Lot #850NWS - Panama",
+    "url": "https://www.seycoffee.com/products/2025-jose-gallardo-nuguo-lot-850nws-panama",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025JoseGallardo_Nuguo_Lot_850NWS-Panama.png?v=1756948889",
+    "price": "250.00",
+    "currency": "Local",
+    "description": "This year we had the privilege of traveling to Finca Nuguo with José Gallardo to select this extremely small 15kg lot—an experience that challenged our ideas of what coffee can be. In the cup we find ...",
+    "published_at": "2025-09-03T21:23:45-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Octavio Rueda; El Mirador, New Season - Colombia",
+    "url": "https://www.seycoffee.com/products/2025-octavio-rueda-el-mirador-new-season-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025OctavioRueda_ElMirador_NewSeason-Colombia.png?v=1756948631",
+    "price": "25.50",
+    "currency": "Local",
+    "description": "Octavio Rueda produces some of our favorite Pink Bourbon in all of Colombia. We have worked with this selection from El Mirador for several years now, and it remains a highlight each season. In the cu...",
+    "published_at": "2025-09-03T21:23:44-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "INSPIRATION ADVENT CALENDAR",
+    "url": "https://thebarn.de/products/speciality-coffee-calendar",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/The_Barn_calendar2025_1.jpg?v=1756485232",
+    "price": "130.00",
+    "currency": "Local",
+    "description": "Our Inspiration Advent Calendar is now Sold Out. If you are looking for an amazing festive countdown, discover our Advent Gift Box here!\nFeaturing 24 different coffees sourced from our closest partner...",
+    "published_at": "2025-08-28T18:15:57+02:00",
+    "tags": [
+      "Active",
+      "Advent",
+      "Beans"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Esayas Beriso; Buku Sayisa - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-esayas-beriso-buku-sayisa-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025EsayasBeriso_BukuSayisa-Ethiopia.png?v=1756373032",
+    "price": "24.50",
+    "currency": "Local",
+    "description": "This vibrant coffee comes from extreme elevations in the Guji Highlands. A lively, single-estate selection, it offers a bright and expressive profile of sweet peach tea, ripe raspberry, and nectarine....",
+    "published_at": "2025-08-28T05:26:44-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Digna Nuñez x Lost Origin - Panama",
+    "url": "https://www.seycoffee.com/products/2025-digna-nunez-x-lost-origin-panama",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025DignaNunezxLostOrigin-Panama.png?v=1756372622",
+    "price": "50.00",
+    "currency": "Local",
+    "description": "We love the opportunity to work with lesser-known producers growing exceptional coffee—especially in Panama, where the landscape is often dominated by large estates and well-known names. Dinga is a sc...",
+    "published_at": "2025-08-28T05:26:43-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Elora; Galana, Lot #157 - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-elora-galana-lot-157-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Elora_Galana_Lot_157-Ethiopia.png?v=1755774750",
+    "price": "24.75",
+    "currency": "Local",
+    "description": "This first release from our new project in Arbegona, Sidama, comes from the Elora site and is everything we hoped for. In the cup we find excellent density and structure, peach rings, lemonade, and te...",
+    "published_at": "2025-08-21T07:15:10-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Hamasho; Songo, Lot #154 - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-hamasho-songo-lot-154-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Hamasho_Songo_Lot_154-Ethiopia.png?v=1755774527",
+    "price": "28.25",
+    "currency": "Local",
+    "description": "Hamasho has long produced some of the highest-scoring coffees in the world. This exploratory honey process lot was made possible through the dedication of the contributing producers and our exporting ...",
+    "published_at": "2025-08-21T07:15:09-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Jose & Pepe Jijón And Francisco Vintimilla; Finca San Pedro, Lot #30 - Ecuador",
+    "url": "https://www.seycoffee.com/products/2025-jose-pepe-jijon-and-francisco-vintimilla-finca-san-pedro-lot-30-ecuador",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025Jose_PepeJijonAndFranciscoVintimilla_FincaSanPedro-Lot_30-Ecuador.png?v=1755774274",
+    "price": "45.00",
+    "currency": "Local",
+    "description": "This is a stunning lot from Pepe and Francisco, produced in one of the most unique microclimates we have seen in coffee cultivation. Their incredible farm sits on a high-elevation bluff in a dry clima...",
+    "published_at": "2025-08-21T07:15:08-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "HALO BERITI",
+    "url": "https://thebarn.de/products/summer-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_halo_beriti.png?v=1759751442",
+    "price": "18.00",
+    "currency": "Local",
+    "description": "Famous for delicate, fruity flavour, it is always exciting to share coffee from the region of Yirgacheffe. With notes of peach and elderflower, Halo Beriti is a pure expression of Ethiopian terroir....",
+    "published_at": "2025-08-19T14:47:52+02:00",
+    "tags": [
+      "Active",
+      "Beans",
+      "Discounted For Subscriber"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "IVAN & ROSE",
+    "url": "https://thebarn.de/products/ivan-dos-santos-filter",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_van_and_rose.png?v=1755679681",
+    "price": "17.50",
+    "currency": "Local",
+    "description": "Our second coffee of the season from our partners Ivan and Rose dos Santos. This Red Catuai is the pick of the harvest, with complex sweetness and silky texture. Together, notes of pear and candied al...",
+    "published_at": "2025-08-19T10:13:12+02:00",
+    "tags": [
+      "Beans"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "FINCA EL FALDON #3",
+    "url": "https://thebarn.de/products/finca-el-faldon-caturra-3",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_finca_el_faldon_3.png?v=1754650984",
+    "price": "22.00",
+    "currency": "Local",
+    "description": "Our third lot from Luis at Finca El Faldon - this may be the best yet! With notes of fresh lemonade and sweet apricot, expect exceptional complexity and refined Colombian character....",
+    "published_at": "2025-08-19T09:12:36+02:00",
+    "tags": [
+      "Beans"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Halo Hartume, Honey - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-halo-hartume-honey-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025HaloHartume_Honey-Ethiopia.png?v=1755144328",
+    "price": "25.50",
+    "currency": "Local",
+    "description": "This year we worked with one of our favorite washing stations in Gedeb, Halo Hartume, to create a special white honey-processed lot for the first time. We could not be happier with the results. In the...",
+    "published_at": "2025-08-14T00:07:52-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Volcan Azul - Washed Caturra & Catuai - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/volcan-azul-washed-caturra-catuai-drip-pack",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksSP_65dbd76c-7d8e-4834-bbe5-5e90fd4a05ef.jpg?v=1755861258",
+    "price": "50.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-13T10:46:55+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Hacienda La Esmeralda - Washed Gesha - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/elida-estate-natural-gesha-drip-pack",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksLIM.jpg?v=1755861695",
+    "price": "70.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-13T10:43:38+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Tadesse - Washed Krume - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/tadesse-washed-krume-drip-pack",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksSELEC_6b819088-0c55-44c6-a075-1102687b9833.jpg?v=1755861209",
+    "price": "60.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-13T10:42:22+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Regassa - Natural Krume - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/regassa-natural-krume-drip-pack",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksSELEC_9bff3830-7ae9-4804-8273-f889f00789a1.jpg?v=1755861300",
+    "price": "60.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-13T10:40:48+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "El Tesoro - Washed Pink Bourbon - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/el-tesoro-washed-pink-bourbon-drip-pack-1",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksSELEC.jpg?v=1755861171",
+    "price": "60.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-13T10:38:44+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "KIUNYU PB",
+    "url": "https://thebarn.de/products/kiunyu-pb",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_kiunyu_pb.png?v=1754922559",
+    "price": "19.00",
+    "currency": "Local",
+    "description": "Our latest release of the new Kenyan season sees the return of the Kiunyu washing station. Peaberry coffees - when one bean forms inside the coffee cherry rather than two - are small, round, and burst...",
+    "published_at": "2025-08-13T09:43:18+02:00",
+    "tags": [
+      "Beans",
+      "Filter"
+    ]
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Anthony Kimani; Kibingo, AA Separation - Kenya",
+    "url": "https://www.seycoffee.com/products/anthony-kimani-kibingo-aa-separation-kenya",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025AnthonyKimani_Kibingo-AASeparation-Kenya.png?v=1754532063",
+    "price": "27.25",
+    "currency": "Local",
+    "description": "This was our highest-scoring Kenyan selection of the year—and it also won Kenya’s Taste of Harvest competition. In the cup we find blackberry, plum, starfruit, and rose....",
+    "published_at": "2025-08-06T22:03:56-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Gerald Njagi; Kambarare - PB Separation - Kenya",
+    "url": "https://www.seycoffee.com/products/2025-gerald-njagi-kambarare-pb-separation-kenya",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025GeraldNjagi_Kambarare-PBSeparation-Kenya.png?v=1754531867",
+    "price": "25.75",
+    "currency": "Local",
+    "description": "This exceptionally small lot of Peaberry SL28 from Gerald’s farm, Kambarare, produced one of the highest-scoring Kenyan coffees in recent memory. Its profile differs slightly from the AA/AB separation...",
+    "published_at": "2025-08-06T22:03:53-04:00",
+    "tags": []
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Fazenda Esperanca - Natural Ruby - Drip Pack",
+    "url": "https://www.aprilcoffeeroasters.com/products/fazenda-esperanca-natural-ruby-drip-pack",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/drippacksSP_b27be888-62a8-4b19-bbbd-f28b978ea5d7.jpg?v=1755862040",
+    "price": "50.00",
+    "currency": "Local",
+    "description": "We are proud to introduce the April Drip Pack Coffee. Created for all of you travellers and jet-setters, those that wish to explore the world yet expect a tasty cup of Filter Coffee wherever you go.\nY...",
+    "published_at": "2025-08-04T12:59:51+02:00",
+    "tags": [
+      "April Coffee",
+      "Drip Pack"
+    ]
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Halo Coffee Dripper Stand",
+    "url": "https://kurasu.kyoto/products/halo-coffee-dripper-stand",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/0515_HALO_stand_2.jpg?v=1752112076",
+    "price": "39.60",
+    "currency": "Local",
+    "description": "A sophisticated design and the spirit of crafting well to cater for people’s lifestylesA coffee dripper stand long and well loved around the world...",
+    "published_at": "2025-07-10T13:20:18+09:00",
+    "tags": [
+      "Halo",
+      "Stand",
+      "¥5001 - ¥8000"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Capsules - El Socorro - Natural Maracaturra",
+    "url": "https://www.aprilcoffeeroasters.com/products/capsules-el-socorro-natural-maracaturra",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/capsulesselection.jpg?v=1755861589",
+    "price": "458.00",
+    "currency": "Local",
+    "description": "1 box contains 30 capsules.\n\n\nFarm &amp; Location: El Socorro, Palencia, Guatemala\n\nProducer: Diego de la Cerda\n\n\n\nVarietal: Natural Processed Maracaturra\nProducer: Diego de la Cerda\n\nFlavour Notes: P...",
+    "published_at": "2025-06-26T13:47:54+02:00",
+    "tags": [
+      "April Coffee Capsule",
+      "Capsule",
+      "Sustainable Profile"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Capsules - El Morito - Washed Gesha",
+    "url": "https://www.aprilcoffeeroasters.com/products/capsules-el-morito-washed-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/capsuleslimited.jpg?v=1755861569",
+    "price": "1066.00",
+    "currency": "Local",
+    "description": "1 box contains 30 capsules.\n\n\n\n\nLocation: Jalapa department, Guatemala\n\nFarmer:  Jose Roberto Monterroso Pineda\n\n\nProducer: El Morito\n\n\nVarietal: Washed Processed Red Gesha\n\n\n\nFlavour Notes: Prune, Bi...",
+    "published_at": "2025-06-26T13:46:52+02:00",
+    "tags": [
+      "April Coffee Capsule",
+      "Capsule",
+      "Sustainable Profile"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Capsules - SP Colombia (Decaf)",
+    "url": "https://www.aprilcoffeeroasters.com/products/capsules-sp-colombia-decaf",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/capsulesSP.jpg?v=1755861565",
+    "price": "418.00",
+    "currency": "Local",
+    "description": "1 box contains 30 capsules.\nLocation: ColombiaFarm: Co-op, Decaf de Caña Varietal: Castillo, Caturra &amp; Colombia (decaf)Growing Altitude: 1200 maslProcessing Method: Washed\nFlavor Notes: Milk Choc...",
+    "published_at": "2025-06-26T13:46:07+02:00",
+    "tags": [
+      "April Coffee Capsule",
+      "Capsule",
+      "Sustainable Profile"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Capsules - SP Costa Rica",
+    "url": "https://www.aprilcoffeeroasters.com/products/capsules-sp-costa-rica",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/capsulesSP_f7ab9da2-70f8-4623-82af-e0f7f014f018.jpg?v=1755861559",
+    "price": "405.00",
+    "currency": "Local",
+    "description": "1 box contains 30 capsules. \nLocation: Costa Rica Farm: Volcan AzulProducer: Alejo Castro Varietal: Caturra &amp; CatuaiGrowing Altitude: 1500-1600 maslProcessing Method: Washed\nFlavor Notes: Milk Cho...",
+    "published_at": "2025-06-26T13:45:24+02:00",
+    "tags": [
+      "April Coffee Capsule",
+      "Capsule",
+      "Sustainable Profile"
+    ]
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Tadesse - Ethiopia - Washed Krume 74158",
+    "url": "https://www.aprilcoffeeroasters.com/products/tadesse-ethiopia-washed-krume-74158",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/tadessexmas.jpg?v=1763378545",
+    "price": "171.00",
+    "currency": "Local",
+    "description": "Location: Bombe, Bensa, SidamaProducer: Tadesse HankaVarietal: Washed processed Krume 74158\nFlavour Notes: Citrus, floral &amp; Stone Fruit\nSweetness: ●●●●○Body: ●●●○○Acidity: ●●●○○\n \nRoasted Coffee B...",
+    "published_at": "2025-06-19T07:23:57+02:00",
+    "tags": [
+      "Filter Beans"
+    ]
+  }
+]

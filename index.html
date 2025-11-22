@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Roast 100 | World's Best Coffee Roasters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'coffee-black': '#0a0a0a',
+                        'coffee-dark': '#1c1c1c',
+                        'coffee-accent': '#c69c6d',
+                        'coffee-text': '#e5e5e5',
+                        'coffee-muted': '#a3a3a3',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Inter"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0a0a0a; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); }
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
+        @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+        /* 图片骨架屏 */
+        .img-skeleton { background-color: #2a2a2a; animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .5; } }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+
+    <nav class="fixed w-full z-50 bg-coffee-black/90 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-mug-hot text-coffee-accent text-2xl"></i>
+                    <span class="font-serif text-2xl font-bold tracking-wider text-white">GR100</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-sm font-medium border-b-2 border-coffee-accent">Latest Drops</a>
+                        <a href="#" class="text-coffee-muted hover:text-white px-3 py-2 rounded-md text-sm font-medium transition">Roasters</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-12 lg:pt-40 lg:pb-20 px-4 text-center">
+        <span class="text-coffee-accent tracking-[0.2em] text-xs uppercase font-semibold mb-3 block fade-in">Real-time Tracker</span>
+        <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-4 fade-in" style="animation-delay: 0.1s;">
+            Global Coffee <span class="italic text-coffee-accent">Drops</span>
+        </h1>
+        <p class="text-coffee-muted max-w-xl mx-auto text-sm md:text-base fade-in" style="animation-delay: 0.2s;">
+            Tracking the latest releases from the world's top 100 roasters.
+        </p>
+    </header>
+
+    <div class="sticky top-20 z-40 bg-coffee-black/95 backdrop-blur py-4 border-b border-white/5 mb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex gap-3 overflow-x-auto scrollbar-hide" id="filter-container">
+            <button onclick="filterBeans('all', this)" class="filter-btn active px-4 py-1.5 rounded-full bg-coffee-accent text-black text-sm font-semibold transition">All</button>
+            </div>
+    </div>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-20">
+        <div id="bean-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div class="col-span-full text-center text-coffee-muted py-20">
+                <i class="fa-solid fa-circle-notch fa-spin text-3xl mb-4 text-coffee-accent"></i>
+                <p>Brewing data...</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let allBeans = [];
+
+        // 货币映射表
+        const CURRENCY_MAP = {
+            "Denmark": "DKK",
+            "Japan": "¥",
+            "USA": "$",
+            "Germany": "€",
+            "Australia": "AUD",
+            "Italy": "€",
+            "Netherlands": "€"
+        };
+
+        // 屏蔽词 (前端二次过滤)
+        const BLACKLIST = ["instant", "capsule", "drip bag", "stand", "cap", "tee", "tote", "gift", "sub"];
+
+        async function init() {
+            try {
+                // 1. 读取本地 data.json
+                const response = await fetch('./data.json');
+                const rawData = await response.json();
+
+                // 2. 清洗数据
+                allBeans = rawData.filter(item => {
+                    const nameLower = item.name.toLowerCase();
+                    // 过滤掉包含屏蔽词的商品
+                    if (BLACKLIST.some(bad => nameLower.includes(bad))) return false;
+                    return true;
+                });
+
+                // 3. 生成筛选按钮
+                generateFilters();
+
+                // 4. 渲染列表
+                renderBeans(allBeans);
+
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById('bean-grid').innerHTML = `
+                    <div class="col-span-full text-center text-red-400 py-10">
+                        <p>无法加载数据。请确保 <code class="bg-white/10 px-1 rounded">data.json</code> 存在且格式正确。</p>
+                        <p class="text-sm mt-2 text-white/50">如果你是直接双击打开 html，浏览器可能会拦截本地文件读取。请尝试使用 VS Code 的 "Live Server" 插件或上传到服务器。</p>
+                    </div>
+                `;
+            }
+        }
+
+        function getCurrencySymbol(country) {
+            return CURRENCY_MAP[country] || "";
+        }
+
+        function timeAgo(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffMs = now - date;
+            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+            if (diffDays === 0) return "Today";
+            if (diffDays === 1) return "Yesterday";
+            if (diffDays < 7) return `${diffDays} days ago`;
+            return date.toLocaleDateString();
+        }
+
+        function generateFilters() {
+            const container = document.getElementById('filter-container');
+            const roasters = [...new Set(allBeans.map(b => b.roaster_name))]; // 获取唯一烘焙师名
+            
+            roasters.forEach(r => {
+                const btn = document.createElement('button');
+                btn.className = "filter-btn px-4 py-1.5 rounded-full bg-white/5 text-coffee-muted text-sm hover:bg-white/10 transition whitespace-nowrap";
+                btn.innerText = r;
+                btn.onclick = (e) => filterBeans(r, e.target);
+                container.appendChild(btn);
+            });
+        }
+
+        function filterBeans(roaster, btnElement) {
+            // 样式切换
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.remove('bg-coffee-accent', 'text-black', 'font-semibold');
+                b.classList.add('bg-white/5', 'text-coffee-muted');
+            });
+            btnElement.classList.remove('bg-white/5', 'text-coffee-muted');
+            btnElement.classList.add('bg-coffee-accent', 'text-black', 'font-semibold');
+
+            if (roaster === 'all') {
+                renderBeans(allBeans);
+            } else {
+                const filtered = allBeans.filter(b => b.roaster_name === roaster);
+                renderBeans(filtered);
+            }
+        }
+
+        function renderBeans(data) {
+            const container = document.getElementById('bean-grid');
+            container.innerHTML = '';
+
+            data.forEach((bean, index) => {
+                const symbol = getCurrencySymbol(bean.roaster_country);
+                const dateLabel = timeAgo(bean.published_at);
+                
+                // 处理图片错误 (有些图片可能过期)
+                const imgUrl = bean.image || 'https://via.placeholder.com/400x400/1c1c1c/333?text=No+Image';
+
+                const html = `
+                    <div class="group bg-coffee-dark rounded-xl overflow-hidden border border-white/5 hover:border-coffee-accent/30 transition duration-300 flex flex-col fade-in" style="animation-delay: ${index * 50}ms">
+                        <div class="relative aspect-square overflow-hidden bg-white/5">
+                            <span class="absolute top-3 left-3 bg-black/60 backdrop-blur text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider z-10">
+                                ${bean.roaster_name}
+                            </span>
+                            <span class="absolute top-3 right-3 bg-coffee-accent text-black text-[10px] font-bold px-2 py-1 rounded z-10">
+                                ${dateLabel}
+                            </span>
+                            <img src="${imgUrl}" alt="${bean.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100" loading="lazy">
+                        </div>
+                        
+                        <div class="p-5 flex flex-col flex-grow">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-lg font-serif font-bold text-white leading-snug line-clamp-2 min-h-[3rem]">
+                                    <a href="${bean.url}" target="_blank" class="hover:text-coffee-accent transition">${bean.name}</a>
+                                </h3>
+                            </div>
+                            
+                            <p class="text-coffee-muted text-xs line-clamp-2 mb-4 h-8">
+                                ${bean.description}
+                            </p>
+
+                            <div class="mt-auto pt-4 border-t border-white/5 flex justify-between items-center">
+                                <div class="text-white font-mono text-sm">
+                                    ${symbol} ${bean.price}
+                                </div>
+                                <a href="${bean.url}" target="_blank" class="bg-white/10 hover:bg-white text-white hover:text-black px-3 py-1.5 rounded text-xs font-bold transition uppercase tracking-wider">
+                                    View
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += html;
+            });
+        }
+
+        // 启动
+        window.addEventListener('DOMContentLoaded', init);
+
+    </script>
+</body>
+</html>
