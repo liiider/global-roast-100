@@ -1,13 +1,156 @@
 [
   {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Coffee Berry Fizz",
+    "url": "https://timwendelboe.no/product/coffee-berry-fizz/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2023/07/TW_fizzz_web-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682970",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Echemo Espresso – Christmas Edition",
+    "url": "https://timwendelboe.no/product/echemo-espresso-certified-organic/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2021/10/2025-Christmas-Edition-Echemo-Espresso-WEBSHOP-scaled.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682789",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Los Pirineos Bourbon Espresso",
+    "url": "https://timwendelboe.no/product/los-pirineos-bourbon-espresso/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2024/03/25-10-01-Los-Pirineos-Bourbon-elite-Espresso-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682608",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Los Pirineos Pacamara",
+    "url": "https://timwendelboe.no/product/los-pirineos-pacamara-washed/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2023/01/25-07-01-Los-Pirineos-Pacamara-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682415",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Los Pirineos Bourbon",
+    "url": "https://timwendelboe.no/product/los-pirineos-bourbon/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2022/01/25-07-01-Los-Pirineos-Bourbon-elite-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682236",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Gachatha – Christmas Edition",
+    "url": "https://timwendelboe.no/product/gachatha/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2022/06/2025-Christmas-Edition-Gachatha-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.682059",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Karogoto Espresso",
+    "url": "https://timwendelboe.no/product/karogoto-kenyan-espresso-coffee/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-06-01-Karogoto-SL28-SL34-Batian-og-Ruiru-11-Espresso-Rod-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.681878",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Echemo – Certified Organic",
+    "url": "https://timwendelboe.no/product/echemo-washed-organic/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2021/10/25-09-01-Echemo-Heirloom-Cultivars-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.681692",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Finca el Puente Catuaí",
+    "url": "https://timwendelboe.no/product/finca-el-puente-catuai-honduras-filter-coffee/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2019/12/25-08-01-Finca-El-Puente-Catuai-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.681483",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Test Roast 1kg",
+    "url": "https://timwendelboe.no/product/test-roast-1kg/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2023/08/Filter.png",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.681195",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Karogoto",
+    "url": "https://timwendelboe.no/product/karogoto-kenyan-filter-coffee/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-06-01-Karogoto-SL28-SL34-Batian-og-Ruiru-11-Filter-Rod-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.681013",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Finca el Puente Geisha",
+    "url": "https://timwendelboe.no/product/finca-el-puente-geisha/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-08-01-Finca-El-Puente-Geisha-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.680821",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Tim Wendelboe",
+    "roaster_country": "Norway",
+    "name": "Nacimiento Pacas – Christmas Edition",
+    "url": "https://timwendelboe.no/product/nacimiento-pacas/",
+    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/2025-Christmas-Edition-Nacimiento-Pacas-Filter-WEBSHOP.webp",
+    "price": "Check Site",
+    "description": "Fresh from Tim Wendelboe",
+    "published_at": "2025-11-23T05:27:28.680508",
+    "source_type": "browser"
+  },
+  {
     "roaster_name": "Canyon Coffee",
     "roaster_country": "USA",
     "name": "Banko Chechele",
     "url": "https://canyoncoffee.co/products/banko-chechele",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/banko_front.jpg?v=1757548214&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.082704",
+    "published_at": "2025-11-23T05:26:41.393838",
     "source_type": "browser"
   },
   {
@@ -15,10 +158,10 @@
     "roaster_country": "USA",
     "name": "San Lorenzo",
     "url": "https://canyoncoffee.co/products/san-lorenzo",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Sanlorenzo.jpg?v=1763592936&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.082504",
+    "published_at": "2025-11-23T05:26:41.393712",
     "source_type": "browser"
   },
   {
@@ -26,10 +169,10 @@
     "roaster_country": "USA",
     "name": "Half Caff.",
     "url": "https://canyoncoffee.co/products/half-caff",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/HalfCaff.jpg?v=1757548887&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.082335",
+    "published_at": "2025-11-23T05:26:41.393537",
     "source_type": "browser"
   },
   {
@@ -37,21 +180,10 @@
     "roaster_country": "USA",
     "name": "Gayo Highlands",
     "url": "https://canyoncoffee.co/products/gayo-highlands",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/SumatraPDP1.jpg?v=1758760932&width=400",
-    "price": ",",
-    "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.082134",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Canyon Coffee",
-    "roaster_country": "USA",
-    "name": "Canyon Cold Brew - Classic",
-    "url": "https://canyoncoffee.co/products/cold-brew-cans",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Can.jpg?v=1757524648&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.081964",
+    "published_at": "2025-11-23T05:26:41.393419",
     "source_type": "browser"
   },
   {
@@ -59,10 +191,10 @@
     "roaster_country": "USA",
     "name": "Danche Chelbesa",
     "url": "https://canyoncoffee.co/products/danche-chelbesa",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Danche_Front.jpg?v=1757549101&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.081704",
+    "published_at": "2025-11-23T05:26:41.393286",
     "source_type": "browser"
   },
   {
@@ -70,10 +202,10 @@
     "roaster_country": "USA",
     "name": "Instant Trio",
     "url": "https://canyoncoffee.co/products/instant-trio",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/trio.jpg?v=1757541116&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.081506",
+    "published_at": "2025-11-23T05:26:41.393169",
     "source_type": "browser"
   },
   {
@@ -81,10 +213,10 @@
     "roaster_country": "USA",
     "name": "Sagebrush Instant Coffee",
     "url": "https://canyoncoffee.co/products/sagebrush-instant-coffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Sage_6_Front.jpg?v=1757526465&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.081305",
+    "published_at": "2025-11-23T05:26:41.393042",
     "source_type": "browser"
   },
   {
@@ -92,10 +224,10 @@
     "roaster_country": "USA",
     "name": "Decaf Instant Coffee",
     "url": "https://canyoncoffee.co/products/decaf-instant-coffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Decaf_6_Front.jpg?v=1757525183&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.081101",
+    "published_at": "2025-11-23T05:26:41.392923",
     "source_type": "browser"
   },
   {
@@ -103,10 +235,10 @@
     "roaster_country": "USA",
     "name": "Canyon Bulk Bag (5lb)",
     "url": "https://canyoncoffee.co/products/bulk-coffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/bulkbag.jpg?v=1757524743&width=400",
-    "price": "5",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080877",
+    "published_at": "2025-11-23T05:26:41.392802",
     "source_type": "browser"
   },
   {
@@ -114,10 +246,10 @@
     "roaster_country": "USA",
     "name": "Canyon Instant Coffee",
     "url": "https://canyoncoffee.co/products/instant-coffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Classic_6_Front.jpg?v=1757527597&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080735",
+    "published_at": "2025-11-23T05:26:41.392681",
     "source_type": "browser"
   },
   {
@@ -125,10 +257,10 @@
     "roaster_country": "USA",
     "name": "Gedeb",
     "url": "https://canyoncoffee.co/products/gedeb",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Gedeb_Front_b6ce03b4-0d42-4751-a391-f2f32ecfe170.jpg?v=1757525811&width=400",
-    "price": ",",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080536",
+    "published_at": "2025-11-23T05:26:41.392534",
     "source_type": "browser"
   },
   {
@@ -136,10 +268,10 @@
     "roaster_country": "USA",
     "name": "Instant Duo",
     "url": "https://canyoncoffee.co/products/instant-duo",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/duo.jpg?v=1757540292&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080378",
+    "published_at": "2025-11-23T05:26:41.392409",
     "source_type": "browser"
   },
   {
@@ -147,10 +279,10 @@
     "roaster_country": "USA",
     "name": "Canyon Instant Bulk Box (48 pack)",
     "url": "https://canyoncoffee.co/products/bulk-instant-coffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Classic_48_Front_469cc8ec-ba3e-47f6-b5bc-587e0ad1fd7c.jpg?v=1757540362&width=400",
-    "price": "48",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080176",
+    "published_at": "2025-11-23T05:26:41.392289",
     "source_type": "browser"
   },
   {
@@ -158,10 +290,10 @@
     "roaster_country": "USA",
     "name": "The Alentejo",
     "url": "https://canyoncoffee.co/products/the-alentejo",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Alentejo_Front_401c9bcf-d114-4fe5-a31a-95e1f0a6cce8.jpg?v=1757527167&width=400",
-    "price": ",",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.080030",
+    "published_at": "2025-11-23T05:26:41.392149",
     "source_type": "browser"
   },
   {
@@ -169,10 +301,10 @@
     "roaster_country": "USA",
     "name": "Afternoon Decaf",
     "url": "https://canyoncoffee.co/products/afternoon-decaf",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Decaf_Frnt.jpg?v=1757525257&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.079833",
+    "published_at": "2025-11-23T05:26:41.391988",
     "source_type": "browser"
   },
   {
@@ -180,10 +312,10 @@
     "roaster_country": "USA",
     "name": "Sagebrush",
     "url": "https://canyoncoffee.co/products/sagebrush",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/SagebrushFront_1885767f-52a8-4edb-990a-00633a56ea9c.jpg?v=1757526525&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.079628",
+    "published_at": "2025-11-23T05:26:41.391813",
     "source_type": "browser"
   },
   {
@@ -191,10 +323,10 @@
     "roaster_country": "USA",
     "name": "Beachwood",
     "url": "https://canyoncoffee.co/products/beachwood",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Beachwood_2617eed4-8096-4361-9174-2a15f4572d34.jpg?v=1759614071&width=400",
-    "price": ",",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.079419",
+    "published_at": "2025-11-23T05:26:41.391683",
     "source_type": "browser"
   },
   {
@@ -202,10 +334,10 @@
     "roaster_country": "USA",
     "name": "JB Blunk x Canyon Coffee",
     "url": "https://canyoncoffee.co/products/jbblunkxcanyoncoffee",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/Blunk_Front.jpg?v=1759899457&width=400",
+    "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.079247",
+    "published_at": "2025-11-23T05:26:41.391538",
     "source_type": "browser"
   },
   {
@@ -213,10 +345,10 @@
     "roaster_country": "USA",
     "name": "Holiday Blend",
     "url": "https://canyoncoffee.co/products/holiday-blend",
-    "image": "https://cdn.shopify.com/s/files/1/1493/1120/files/canyonholidayblend.jpg?v=1762810342&width=400",
-    "price": ",",
+    "image": "",
+    "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.079024",
+    "published_at": "2025-11-23T05:26:41.391399",
     "source_type": "browser"
   },
   {
@@ -227,150 +359,7 @@
     "image": "",
     "price": "Check Site",
     "description": "Fresh from Canyon Coffee",
-    "published_at": "2025-11-23T05:15:36.078700",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Coffee Berry Fizz",
-    "url": "https://timwendelboe.no/product/coffee-berry-fizz/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2023/07/TW_fizzz_web-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.656878",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Echemo Espresso – Christmas Edition",
-    "url": "https://timwendelboe.no/product/echemo-espresso-certified-organic/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2021/10/2025-Christmas-Edition-Echemo-Espresso-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.656534",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Los Pirineos Bourbon Espresso",
-    "url": "https://timwendelboe.no/product/los-pirineos-bourbon-espresso/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2024/03/25-10-01-Los-Pirineos-Bourbon-elite-Espresso-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.656179",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Los Pirineos Pacamara",
-    "url": "https://timwendelboe.no/product/los-pirineos-pacamara-washed/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2023/01/25-07-01-Los-Pirineos-Pacamara-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.655816",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Los Pirineos Bourbon",
-    "url": "https://timwendelboe.no/product/los-pirineos-bourbon/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2022/01/25-07-01-Los-Pirineos-Bourbon-elite-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.655467",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Gachatha – Christmas Edition",
-    "url": "https://timwendelboe.no/product/gachatha/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2022/06/2025-Christmas-Edition-Gachatha-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.655114",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Karogoto Espresso",
-    "url": "https://timwendelboe.no/product/karogoto-kenyan-espresso-coffee/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-06-01-Karogoto-SL28-SL34-Batian-og-Ruiru-11-Espresso-Rod-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.654747",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Echemo – Certified Organic",
-    "url": "https://timwendelboe.no/product/echemo-washed-organic/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2021/10/25-09-01-Echemo-Heirloom-Cultivars-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.654395",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Finca el Puente Catuaí",
-    "url": "https://timwendelboe.no/product/finca-el-puente-catuai-honduras-filter-coffee/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2019/12/25-08-01-Finca-El-Puente-Catuai-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.654036",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Test Roast 1kg",
-    "url": "https://timwendelboe.no/product/test-roast-1kg/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2023/08/Filter-600x795.png",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.653441",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Karogoto",
-    "url": "https://timwendelboe.no/product/karogoto-kenyan-filter-coffee/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-06-01-Karogoto-SL28-SL34-Batian-og-Ruiru-11-Filter-Rod-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.653085",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Finca el Puente Geisha",
-    "url": "https://timwendelboe.no/product/finca-el-puente-geisha/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/25-08-01-Finca-El-Puente-Geisha-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.652716",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Tim Wendelboe",
-    "roaster_country": "Norway",
-    "name": "Nacimiento Pacas – Christmas Edition",
-    "url": "https://timwendelboe.no/product/nacimiento-pacas/",
-    "image": "https://timwendelboe.no/wp-content/uploads/2020/01/2025-Christmas-Edition-Nacimiento-Pacas-Filter-WEBSHOP-600x795.webp",
-    "price": "Check Site",
-    "description": "Fresh from Tim Wendelboe",
-    "published_at": "2025-11-23T05:15:19.652328",
+    "published_at": "2025-11-23T05:26:41.391215",
     "source_type": "browser"
   },
   {
@@ -379,9 +368,9 @@
     "name": "Friedhats Blend",
     "url": "https://friedhats.com/products/friedhats-blend",
     "image": "",
-    "price": "Check Site",
+    "price": "€39.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.768274",
+    "published_at": "2025-11-23T05:26:32.444563",
     "source_type": "browser"
   },
   {
@@ -389,10 +378,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize1000gr€39.00Add to cart",
     "url": "https://friedhats.com/products/friedhats-blend",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png?v=1737032483",
+    "price": "€39.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.766831",
+    "published_at": "2025-11-23T05:26:32.444374",
     "source_type": "browser"
   },
   {
@@ -401,9 +390,9 @@
     "name": "Brazil Daterra Low Caf Omni",
     "url": "https://friedhats.com/products/2025-brazil-daterra-low-caf",
     "image": "",
-    "price": "250",
+    "price": "€13.10",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.764117",
+    "published_at": "2025-11-23T05:26:32.442748",
     "source_type": "browser"
   },
   {
@@ -411,10 +400,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastOmniSize250gr€13.10Add to cart",
     "url": "https://friedhats.com/products/2025-brazil-daterra-low-caf",
-    "image": "",
-    "price": "250",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Low-Caf-label-bottle.png?v=1736433597",
+    "price": "€13.10",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.762601",
+    "published_at": "2025-11-23T05:26:32.442511",
     "source_type": "browser"
   },
   {
@@ -423,9 +412,9 @@
     "name": "Colombia Wilton Benitez Decaf Omni",
     "url": "https://friedhats.com/products/colombia-wilton-benitez-decaf-omni",
     "image": "",
-    "price": "17.30",
+    "price": "€17.30",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.759992",
+    "published_at": "2025-11-23T05:26:32.440881",
     "source_type": "browser"
   },
   {
@@ -433,10 +422,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastOmniSize250gr€17.30Add to cart",
     "url": "https://friedhats.com/products/colombia-wilton-benitez-decaf-omni",
-    "image": "",
-    "price": "250",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Colombia-WiltonB-label-bottle.png?v=1744973598",
+    "price": "€17.30",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.758534",
+    "published_at": "2025-11-23T05:26:32.440700",
     "source_type": "browser"
   },
   {
@@ -445,9 +434,9 @@
     "name": "Colombia Aristobulo Rayo Omni",
     "url": "https://friedhats.com/products/2025-colombia-aristobulo-rayo-omni",
     "image": "",
-    "price": "250",
+    "price": "€25.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.755937",
+    "published_at": "2025-11-23T05:26:32.439109",
     "source_type": "browser"
   },
   {
@@ -455,10 +444,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastOmniSize250gr€25.50Add to cart",
     "url": "https://friedhats.com/products/2025-colombia-aristobulo-rayo-omni",
-    "image": "",
-    "price": "250",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Aristobulo-label-bottle.png?v=1736434365",
+    "price": "€25.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.754552",
+    "published_at": "2025-11-23T05:26:32.438924",
     "source_type": "browser"
   },
   {
@@ -467,9 +456,9 @@
     "name": "Colombia Diego Horta Pink Bourbon",
     "url": "https://friedhats.com/products/colombia-diego-horta-pink-bourbon",
     "image": "",
-    "price": "Check Site",
+    "price": "€14.80",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.751969",
+    "published_at": "2025-11-23T05:26:32.437341",
     "source_type": "browser"
   },
   {
@@ -478,9 +467,9 @@
     "name": "Colombia La Maria Sidra Natural Omni",
     "url": "https://friedhats.com/products/colombia-la-maria-sidra-natural-omni",
     "image": "",
-    "price": "Check Site",
+    "price": "€42.10",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.750483",
+    "published_at": "2025-11-23T05:26:32.437128",
     "source_type": "browser"
   },
   {
@@ -488,10 +477,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsYou are about to add:Colombia La Maria Sidra Natural OmniRoastOmniSize250gr€42.10Add to cart",
     "url": "https://friedhats.com/products/colombia-la-maria-sidra-natural-omni",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria_Sidra-Natural-label-bottle.png?v=1758786925",
+    "price": "€42.10",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.749058",
+    "published_at": "2025-11-23T05:26:32.436943",
     "source_type": "browser"
   },
   {
@@ -500,9 +489,9 @@
     "name": "Guatemala El Relampago",
     "url": "https://friedhats.com/products/guatemala-el-relampago",
     "image": "",
-    "price": "13.70",
+    "price": "€13.70",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.746221",
+    "published_at": "2025-11-23T05:26:32.435315",
     "source_type": "browser"
   },
   {
@@ -511,9 +500,9 @@
     "name": "Colombia La Maria Gesha Natural Omni",
     "url": "https://friedhats.com/products/colombia-la-maria-gesha-natural-omni",
     "image": "",
-    "price": "Check Site",
+    "price": "€47.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.744771",
+    "published_at": "2025-11-23T05:26:32.435090",
     "source_type": "browser"
   },
   {
@@ -521,10 +510,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsYou are about to add:Colombia La Maria Gesha Natural OmniRoastOmniSize250gr€47.50Add to cart",
     "url": "https://friedhats.com/products/colombia-la-maria-gesha-natural-omni",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria_Gesha-Natural-label-bottle.png?v=1757060968",
+    "price": "€47.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.743354",
+    "published_at": "2025-11-23T05:26:32.434916",
     "source_type": "browser"
   },
   {
@@ -533,9 +522,9 @@
     "name": "Colombia Las Margaritas Sudan Rume Omni",
     "url": "https://friedhats.com/products/2025-colombia-las-margaritas-sudan-rume-natural",
     "image": "",
-    "price": "Check Site",
+    "price": "€58.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.740674",
+    "published_at": "2025-11-23T05:26:32.433312",
     "source_type": "browser"
   },
   {
@@ -544,9 +533,9 @@
     "name": "Colombia Sebastian Gomez",
     "url": "https://friedhats.com/products/colombia-sebastian-gomez-filter-2025",
     "image": "",
-    "price": "36.00",
+    "price": "€36.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.739225",
+    "published_at": "2025-11-23T05:26:32.433121",
     "source_type": "browser"
   },
   {
@@ -554,10 +543,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsYou are about to add:Colombia Sebastian GomezRoastOmniSize250gr€36.00Add to cart",
     "url": "https://friedhats.com/products/colombia-sebastian-gomez-filter-2025",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png?v=1747835627",
+    "price": "€36.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.737859",
+    "published_at": "2025-11-23T05:26:32.432944",
     "source_type": "browser"
   },
   {
@@ -566,9 +555,9 @@
     "name": "Rwanda Cyesha",
     "url": "https://friedhats.com/products/rwanda-cyesha",
     "image": "",
-    "price": "13.40",
+    "price": "€13.40",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.735184",
+    "published_at": "2025-11-23T05:26:32.431340",
     "source_type": "browser"
   },
   {
@@ -577,9 +566,9 @@
     "name": "Ethiopia Tibebu Roba",
     "url": "https://friedhats.com/products/ethiopia-tibebu-roba",
     "image": "",
-    "price": "13.80",
+    "price": "€13.80",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.733784",
+    "published_at": "2025-11-23T05:26:32.431145",
     "source_type": "browser"
   },
   {
@@ -588,9 +577,9 @@
     "name": "Colombia La Maria Bundle Set",
     "url": "https://friedhats.com/products/colombia-la-maria-set",
     "image": "",
-    "price": "Check Site",
+    "price": "€72.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.732381",
+    "published_at": "2025-11-23T05:26:32.430947",
     "source_type": "browser"
   },
   {
@@ -598,10 +587,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsYou are about to add:Colombia La Maria Bundle SetTitleDefault Title€72.50Add to cart",
     "url": "https://friedhats.com/products/colombia-la-maria-set",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria-Bundle-V2-bottles.png?v=1763033706",
+    "price": "€72.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.730968",
+    "published_at": "2025-11-23T05:26:32.430776",
     "source_type": "browser"
   },
   {
@@ -610,9 +599,9 @@
     "name": "Guatemala Finca Pampojila",
     "url": "https://friedhats.com/products/guatemala-finca-pampojila",
     "image": "",
-    "price": "13.80",
+    "price": "€13.80",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.728232",
+    "published_at": "2025-11-23T05:26:32.429194",
     "source_type": "browser"
   },
   {
@@ -620,10 +609,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€13.80Add to cart",
     "url": "https://friedhats.com/products/guatemala-finca-pampojila",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Guatemala-label-2b-bottle.png?v=1740060660",
+    "price": "€13.80",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.726849",
+    "published_at": "2025-11-23T05:26:32.429009",
     "source_type": "browser"
   },
   {
@@ -632,9 +621,9 @@
     "name": "Ethiopia Negele Gorbitu",
     "url": "https://friedhats.com/products/ethiopia-negele-gorbitu",
     "image": "",
-    "price": "Check Site",
+    "price": "€16.90",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.724148",
+    "published_at": "2025-11-23T05:26:32.427405",
     "source_type": "browser"
   },
   {
@@ -642,10 +631,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€16.90Add to cart",
     "url": "https://friedhats.com/products/ethiopia-negele-gorbitu",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png?v=1740051447",
+    "price": "€16.90",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.722626",
+    "published_at": "2025-11-23T05:26:32.427222",
     "source_type": "browser"
   },
   {
@@ -654,9 +643,9 @@
     "name": "Colombia Reserva San Francisco",
     "url": "https://friedhats.com/products/colombia-reserva-san-francisco",
     "image": "",
-    "price": "Check Site",
+    "price": "€13.40",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.719951",
+    "published_at": "2025-11-23T05:26:32.425583",
     "source_type": "browser"
   },
   {
@@ -664,10 +653,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€13.40Add to cart",
     "url": "https://friedhats.com/products/colombia-reserva-san-francisco",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-1-bottle.png?v=1736430374",
+    "price": "€13.40",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.718506",
+    "published_at": "2025-11-23T05:26:32.425391",
     "source_type": "browser"
   },
   {
@@ -676,9 +665,9 @@
     "name": "Kenya Handege",
     "url": "https://friedhats.com/products/kenya-handege",
     "image": "",
-    "price": "15.70",
+    "price": "€15.70",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.715776",
+    "published_at": "2025-11-23T05:26:32.423796",
     "source_type": "browser"
   },
   {
@@ -687,9 +676,9 @@
     "name": "Colombia Sebastian Gomez Caturra",
     "url": "https://friedhats.com/products/colombia-sebastian-gomez-caturra",
     "image": "",
-    "price": "Check Site",
+    "price": "€14.60",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.714374",
+    "published_at": "2025-11-23T05:26:32.423592",
     "source_type": "browser"
   },
   {
@@ -697,10 +686,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€14.60Add to cart",
     "url": "https://friedhats.com/products/colombia-sebastian-gomez-caturra",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png?v=1736430441",
+    "price": "€14.60",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.712839",
+    "published_at": "2025-11-23T05:26:32.423393",
     "source_type": "browser"
   },
   {
@@ -709,9 +698,9 @@
     "name": "Ethiopia Bisrat Melaku",
     "url": "https://friedhats.com/products/ethiopia-bisrat-melaku",
     "image": "",
-    "price": "Check Site",
+    "price": "€17.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.710185",
+    "published_at": "2025-11-23T05:26:32.421817",
     "source_type": "browser"
   },
   {
@@ -719,10 +708,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€17.00Add to cart",
     "url": "https://friedhats.com/products/ethiopia-bisrat-melaku",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png?v=1748954449",
+    "price": "€17.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.708756",
+    "published_at": "2025-11-23T05:26:32.421632",
     "source_type": "browser"
   },
   {
@@ -731,9 +720,9 @@
     "name": "Peru Gesha Hugo Pareja Omni",
     "url": "https://friedhats.com/products/peru-gesha-hugo-pareja-omni",
     "image": "",
-    "price": "250",
+    "price": "€21.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.706089",
+    "published_at": "2025-11-23T05:26:32.420038",
     "source_type": "browser"
   },
   {
@@ -741,10 +730,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastOmniSize250gr€21.50Add to cart",
     "url": "https://friedhats.com/products/peru-gesha-hugo-pareja-omni",
-    "image": "",
-    "price": "250",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-green-label-bottle.png?v=1744200742",
+    "price": "€21.50",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.704653",
+    "published_at": "2025-11-23T05:26:32.419857",
     "source_type": "browser"
   },
   {
@@ -753,9 +742,9 @@
     "name": "Kenya John Kinyanjui",
     "url": "https://friedhats.com/products/kenya-john-kinyunjui",
     "image": "",
-    "price": "15.70",
+    "price": "€15.70",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.702019",
+    "published_at": "2025-11-23T05:26:32.418268",
     "source_type": "browser"
   },
   {
@@ -763,10 +752,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€15.70Add to cart",
     "url": "https://friedhats.com/products/kenya-john-kinyunjui",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-1-V2-bottle.png?v=1740060080",
+    "price": "€15.70",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.700641",
+    "published_at": "2025-11-23T05:26:32.418084",
     "source_type": "browser"
   },
   {
@@ -775,9 +764,9 @@
     "name": "Peru Quiquira",
     "url": "https://friedhats.com/products/peru-quiquira",
     "image": "",
-    "price": "Check Site",
+    "price": "€15.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.697901",
+    "published_at": "2025-11-23T05:26:32.416476",
     "source_type": "browser"
   },
   {
@@ -785,10 +774,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€15.00Add to cart",
     "url": "https://friedhats.com/products/peru-quiquira",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-label-bottle.png?v=1742987849",
+    "price": "€15.00",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.696387",
+    "published_at": "2025-11-23T05:26:32.416287",
     "source_type": "browser"
   },
   {
@@ -797,9 +786,9 @@
     "name": "Ethiopia Halo Beriti",
     "url": "https://friedhats.com/products/ethiopia-halo-beriti",
     "image": "",
-    "price": "Check Site",
+    "price": "€14.90",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.693694",
+    "published_at": "2025-11-23T05:26:32.414601",
     "source_type": "browser"
   },
   {
@@ -807,10 +796,10 @@
     "roaster_country": "Netherlands",
     "name": "OptionsRoastEspressoSize250gr€14.90Add to cart",
     "url": "https://friedhats.com/products/ethiopia-halo-beriti",
-    "image": "",
-    "price": "Check Site",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-4-V3-bottle.png?v=1748953932",
+    "price": "€14.90",
     "description": "Fresh from Friedhats",
-    "published_at": "2025-11-23T05:15:03.692192",
+    "published_at": "2025-11-23T05:26:32.414367",
     "source_type": "browser"
   },
   {
@@ -3476,6 +3465,28 @@
     "source_type": "api"
   },
   {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "Filter Coffee Bundle",
+    "url": "https://marketlane.com.au/products/filter-coffee-bundle",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/Hacienda_ElPorvenir2025_New_Filter_BUNDLE.jpg?v=1761518036",
+    "price": "54.00",
+    "description": "This bundle includes:  \n \n 1 x 250g bag of  Hacienda Carmona \n \n 1 x 250g bag of...",
+    "published_at": "2025-10-24T15:43:27+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "Hadeso",
+    "url": "https://marketlane.com.au/products/hadeso-espresso-beans",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/2025-Hadeso_Ethiopia-Espresso-Roast---1080-x-1280_055d98a5-5cde-47b9-9e13-9ef6f1d5c23a.png?v=1761517611",
+    "price": "28.00",
+    "description": "产地: Shakisso, Guji, Ethiopia  Vari",
+    "published_at": "2025-10-24T15:34:26+11:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "MOK Coffee",
     "roaster_country": "Belgium",
     "name": "Costa Rica, Las Lajas, Honey Black Diamond",
@@ -3506,6 +3517,875 @@
     "price": "2.00",
     "description": "In the world of specialty coffee, shared information sparks curiosity and connec...",
     "published_at": "2025-10-24T08:42:53-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Bochesa Anaerobic Washed",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-bochesa-anaerobic-washed",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ethiopia_44ba9b4e-894f-42f5-b8b6-6b4102b27023.webp?v=1761144160",
+    "price": "15.00",
+    "description": "Perched at an altitude of 2,200 meters above sea level, Bochesa an alpine enclav...",
+    "published_at": "2025-10-23T17:00:06-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Hamasho Anaerobic Natural",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-hamasho-anaerobic-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/experimental_40aff915-f840-46c8-9b5a-a210abb9d330.webp?v=1761144054",
+    "price": "15.00",
+    "description": "Situated high within the Bombe mountain range, Hamasho Station is a cornerstone ...",
+    "published_at": "2025-10-23T17:00:04-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Korma Kontoma G1",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-korma-kontoma-g1",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ethiopia_f58ba0cf-6689-42ec-bcce-be8c0f6c5082.webp?v=1761144289",
+    "price": "15.00",
+    "description": "Located in Murago Kebele in the Kontoma area, Korma Kontoma sits at 2,100 to 2,3...",
+    "published_at": "2025-10-23T17:00:04-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Guatemala Finca Libano Gesha",
+    "url": "https://onyxcoffeelab.com/products/guatemala-finca-libano-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/guatemala_b43a7b0a-ff5f-4bb9-b76c-29122f7e0761.webp?v=1761144335",
+    "price": "22.00",
+    "description": "风味: of mineral-forward raw sugar and a peach-like sweetness thro",
+    "published_at": "2025-10-23T15:30:00-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Kurasu Original Cap “I drink specialty Coffee from Kyoto”",
+    "url": "https://kurasu.kyoto/products/kurasu-original-cap-i-drink-specialty-coffee-from-kyoto-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/1002_kurasucap_2.jpg?v=1761187667",
+    "price": "46.20",
+    "description": "The Kurasu original cap is back! Designed by Kurasu, made locally in Kyoto — an ...",
+    "published_at": "2025-10-23T12:15:03+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Tamiru Tadesse Tesema; Alo Village, Washed - Ethiopia",
+    "url": "https://www.seycoffee.com/products/2025-tamiru-tadesse-tesema-alo-village-washed-ethiopia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025TamiruTadesseTesema_AloVillage_Washed-Ethiopia.png?v=1761164616",
+    "price": "27.00",
+    "description": "This is our first year releasing Tamiru’s Classic Washed profile. Made from 100%...",
+    "published_at": "2025-10-22T17:07:16-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 La Familia Moreno; La Sierra - Honduras",
+    "url": "https://www.seycoffee.com/products/2025-la-familia-moreno-la-sierra-honduras",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025LaFamiliaMoreno_LaSierra-Honduras.png?v=1761164289",
+    "price": "27.50",
+    "description": "This is our first year purchasing the Gesha separation from this farm, where we ...",
+    "published_at": "2025-10-22T17:07:15-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Seven Seeds",
+    "roaster_country": "Australia",
+    "name": "Orlando Aguilar, El Salvador",
+    "url": "https://sevenseeds.com.au/products/orlando-aguilar-el-salvador",
+    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/orlando-aguilar-el-salvador-2924858.png?v=1761178881",
+    "price": "31.00",
+    "description": "产地: back into the spotlight | 风味: Textured and Refreshing  WITH NOTES OF  Mango, Lemon Cake, G",
+    "published_at": "2025-10-22T14:51:27+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Right Side Coffee",
+    "roaster_country": "Spain",
+    "name": "URDD Java Natural Espresso",
+    "url": "https://www.rightsidecoffee.com/products/urdd-java-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/urdd_java.png?v=1761115369",
+    "price": "11.25",
+    "description": "Aromas a cacao, frambuesa y nuez. En boca, denso y cremoso con notas a mermelada...",
+    "published_at": "2025-10-22T11:02:29+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "YEMEN ALCHEMY",
+    "url": "https://thebarn.de/products/yemen-alchemy",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/yemen_alchemy_2025.png?v=1761126783",
+    "price": "40.00",
+    "description": "A Taste Of Alchemy      At 2200m, the breathtaking landscape of Hayma  Dakhiliya...",
+    "published_at": "2025-10-22T09:52:39+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "MOK Coffee",
+    "roaster_country": "Belgium",
+    "name": "Espresso A B C - Discovery Set",
+    "url": "https://mokcoffee.be/products/espresso-discovery-set-abc",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2892/files/generated-image.png?v=1761118414",
+    "price": "31.50",
+    "description": "产地: offers a round body with notes | 风味: of dark chocolate and subtle fruit, revealing smooth sweetne",
+    "published_at": "2025-10-22T09:49:15+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Dark Chocolate Covered Espresso Beans",
+    "url": "https://onyxcoffeelab.com/products/dark-chocolate-covered-espresso-beans",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Espresso.png?v=1702500508",
+    "price": "22.00",
+    "description": "产地: coffees are grown | 风味: to the composition, resulting in a highly intentional and ar",
+    "published_at": "2025-10-21T11:09:25-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Five Elephant",
+    "roaster_country": "Germany",
+    "name": "EL SALVADOR Finca Majahual - Red Bourbon Natural  – Espresso",
+    "url": "https://www.fiveelephant.com/products/elsalvador-fincamajahual-espresso",
+    "image": "https://cdn.shopify.com/s/files/1/0181/5693/files/New_Bags_2024_2_1.png?v=1761051290",
+    "price": "13.92",
+    "description": "风味: equally suited to filter and espresso",
+    "published_at": "2025-10-21T10:47:19+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "Ethiopia - Kayon Mountain Shakiso | Natural",
+    "url": "https://www.roguewavecoffee.ca/products/ethiopia-kayon-mountain-shakiso-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaKayonMountainNatural2025340gBAG.jpg?v=1760979550",
+    "price": "25.00",
+    "description": "产地: is located in the Oromia Regio | 风味: that comes from variety, soil, proper harvest, and clean pro",
+    "published_at": "2025-10-21T09:36:56-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Brandywine",
+    "roaster_country": "USA",
+    "name": "Stellar Collisions 9",
+    "url": "https://www.brandywinecoffeeroasters.com/products/stellar-collisions-9",
+    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/SC92025.jpg?v=1760981114",
+    "price": "25.00",
+    "description": "Take off on a thrilling journey with our cosmic co-fermented coffee blend! Uncov...",
+    "published_at": "2025-10-21T06:03:40-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "El Porvenir",
+    "url": "https://marketlane.com.au/products/el-porvenir",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/2025-ElPorvenir_-Colombia-Filter-Roast---1080-x-1280_f0547260-a3ac-4278-856f-c5814bb36f8c.png?v=1761517835",
+    "price": "32.00",
+    "description": "产地: Pitalito, Huila, Colombia Vari",
+    "published_at": "2025-10-20T15:17:06+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Ethiopia Idido",
+    "url": "https://www.vervecoffee.com/products/idido",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Idido-12oz-Silo.png?v=1758731268",
+    "price": "27.50",
+    "description": "Idido greets the palate with juicy Blackberry and a silky Sweet Cream texture, r...",
+    "published_at": "2025-10-20T15:02:37-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "La Roca",
+    "url": "https://www.lacabra.dk/products/la-roca",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/La_Roca_250g_Coffee_La_Cabra.webp?v=1760617468",
+    "price": "145.00",
+    "description": "风味: of mandarin",
+    "published_at": "2025-10-20T12:45:02+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "Trick or Treat Variety Pack - Instant Coffee",
+    "url": "https://www.blackwhiteroasters.com/products/trick-or-treat-variety-pack-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/TrickortreatInstant_4x-100.jpg?v=1760969349",
+    "price": "18.50",
+    "description": "风味: profile for everyone in Trick or Treat!",
+    "published_at": "2025-10-20T12:00:04-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "MOK Coffee",
+    "roaster_country": "Belgium",
+    "name": "Sibarist Orea Filters",
+    "url": "https://mokcoffee.be/products/sibarist-fast-orea",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2892/files/orea.png?v=1720075650",
+    "price": "15.60",
+    "description": "风味: clarity",
+    "published_at": "2025-10-20T11:54:53+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "MOK Coffee",
+    "roaster_country": "Belgium",
+    "name": "Sibarist CONE filters (V60)",
+    "url": "https://mokcoffee.be/products/sibarist-fast-v60-02-filters-25pcs",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2892/products/DSC_7384.1.jpg?v=1595885147",
+    "price": "14.60",
+    "description": "CONE     is a V60 filter crafted with FAST or B3 Specialty Coffee Filter technol...",
+    "published_at": "2025-10-20T10:37:54+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Five Elephant",
+    "roaster_country": "Germany",
+    "name": "ETHIOPIA Sonkolle Kallato  – Espresso",
+    "url": "https://www.fiveelephant.com/products/ethiopia-sonkolle-kallato-espresso",
+    "image": "https://cdn.shopify.com/s/files/1/0181/5693/files/Ethiopia_SonkolleKallato.jpg?v=1760538219",
+    "price": "17.66",
+    "description": "风味: that is both structured and expressive: layered notes of bla",
+    "published_at": "2025-10-20T08:11:13+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "FUNKY TWIN BOX",
+    "url": "https://thebarn.de/products/funky-twin-box-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/funky_box_november.jpg?v=1763022234",
+    "price": "42.50",
+    "description": "风味: and intense sweetness",
+    "published_at": "2025-10-19T18:38:37+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Reuben Hills",
+    "roaster_country": "Australia",
+    "name": "African Season | Duo Bundle",
+    "url": "https://reubenhills.com.au/products/african-season-duo-bundle",
+    "image": "https://cdn.shopify.com/s/files/1/0643/5648/3329/files/Tiles-6.png?v=1761274106",
+    "price": "49.95",
+    "description": "风味: with every sip",
+    "published_at": "2025-10-17T13:10:46+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Reuben Hills",
+    "roaster_country": "Australia",
+    "name": "Ethiopia, Chelbesa",
+    "url": "https://reubenhills.com.au/products/ethiopia-chelbesa-1",
+    "image": "https://cdn.shopify.com/s/files/1/0643/5648/3329/files/Tiles.png?v=1760656055",
+    "price": "28.00",
+    "description": "Chelbesa, located in the Gedeo Zone of the Gedeb District, is one of the top cof...",
+    "published_at": "2025-10-17T10:20:39+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "SUNSHINE Summer Blend 3 Pack - save 15%",
+    "url": "https://flightcoffee.co.nz/products/sunshine-three-pack-limited-edition-summer-blend",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/FLIGHT_OCT25_SUNSHINE_WEB-2.jpg?v=1759955799",
+    "price": "45.90",
+    "description": "Enjoy the Sunshine Blend three pack and save 15%! Back for its 4th season, this ...",
+    "published_at": "2025-10-17T00:30:04+13:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Sunshine Summer Blend",
+    "url": "https://flightcoffee.co.nz/products/sunshine-limited-edition-summer-blend",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/FLIGHT_OCT25_SUNSHINE_WEB-2.jpg?v=1759955799",
+    "price": "18.00",
+    "description": "Sunshine Blend is back for a 4th season. Our beloved limited edition summer blen...",
+    "published_at": "2025-10-17T00:30:03+13:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2025 Finca Sophia; Lots FS9025 & FS9325 - Panama",
+    "url": "https://www.seycoffee.com/products/2025-finca-sophia-lots-fs9025-fs9325-panama",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2025FincaSophia_LotsFS9025_FS9325-Panama_590bc10e-0fb2-45bc-9930-0657b923356b.png?v=1760655349",
+    "price": "80.00",
+    "description": "Every year we wait anxiously to receive our lot allocations from Finca Sophia. T...",
+    "published_at": "2025-10-16T18:56:00-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Colombia Aponte Village Honey",
+    "url": "https://onyxcoffeelab.com/products/colombia-aponte-village-honey-25",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/Collab-Black_6ea48a3d-1e06-40da-bde5-917477fca93e.webp?v=1761943840",
+    "price": "12.00",
+    "description": "A perennial standout from the Inga producers of Aponte, this community lot from ...",
+    "published_at": "2025-10-16T18:00:00-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "El Salvador Santa Rosa",
+    "url": "https://onyxcoffeelab.com/products/el-salvador-santa-rosa-25",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/el-salvador_d39ec2a4-55ac-4c01-9a78-6ad707388d90.webp?v=1759937891",
+    "price": "15.00",
+    "description": "风味: in the cup &amp; starts the journey of this complex flavor p",
+    "published_at": "2025-10-16T18:00:00-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Hambela Alaka Natural",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-hambela-alaka-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ethiopia_331b3546-63a7-46e5-9c64-0c274f761a07.webp?v=1759938227",
+    "price": "12.00",
+    "description": "The Adinew brothers at METAD exemplify harmony in both their coffee production a...",
+    "published_at": "2025-10-16T17:00:10-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Cold Brew Ethiopia Sidamo Decaf [Medium]",
+    "url": "https://kurasu.kyoto/products/cold-brew-ethiopia-sidamo-decaf-medium-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Ethiopia-Sidamo-Decaf-2025-coldbrew_4e4efec8-91ff-431b-8681-94c266b5a5b4.jpg?v=1760591858",
+    "price": "33.00",
+    "description": "产地: Sidamo    Variety: Heirloom   ",
+    "published_at": "2025-10-16T15:44:54+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Passenger Coffee",
+    "roaster_country": "USA",
+    "name": "Necessary Holiday Blend 2025",
+    "url": "https://www.passengercoffee.com/products/necessary-holiday-blend-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0631/3734/9822/files/HolidayCoffee_325g_Front.png?v=1761910094",
+    "price": "10.00",
+    "description": "Featuring a blend of our favorite East African coffees, this rich and comforting...",
+    "published_at": "2025-10-16T14:54:04-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Nahun Fernandez | Parainema | Natural",
+    "url": "https://proudmarycoffee.com/products/honduras-nahun-fernandez-parainema-natural-1",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:47:53-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Ovidio Gomez | Catuai | Natural",
+    "url": "https://proudmarycoffee.com/products/honduras-ovidio-gomez-catuai-natural",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:46:55-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Manuel Vallecillo | Pacas | Washed",
+    "url": "https://proudmarycoffee.com/products/honduras-manuel-vallecillo-pacas-washed",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:46:09-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Nahun Fernandez | Parainema | Honey",
+    "url": "https://proudmarycoffee.com/products/honduras-nahun-fernandez-parainema-honey-6",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:45:11-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Ovidio Gomez - Los Gomitos | Catuai | Honey",
+    "url": "https://proudmarycoffee.com/products/honduras-ovidio-gomez-los-gomitos-catuai-honey",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:44:31-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Nahun Fernandez | Catuai | Honey",
+    "url": "https://proudmarycoffee.com/products/honduras-nahun-fernandez-catuai-honey",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:43:36-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Nahun Fernandez - La Herencia | Catuai | Washed",
+    "url": "https://proudmarycoffee.com/products/honduras-nahun-fernandez-la-herencia-catuai-washed",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:42:57-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Javier Fernandez | Parainema | Washed",
+    "url": "https://proudmarycoffee.com/products/honduras-javier-fernandez-parainema-washed-2",
+    "image": "",
+    "price": "0.00",
+    "description": "...",
+    "published_at": "2025-10-16T13:42:01-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "HONDURAS | Chicos Buenos | Bourbon & Parainema | Washed",
+    "url": "https://proudmarycoffee.com/products/honduras-chicos-buenos-bourbon-parainema-washed",
+    "image": "",
+    "price": "0.00",
+    "description": "",
+    "published_at": "2025-10-16T13:40:54-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "El Estoraque",
+    "url": "https://www.lacabra.dk/products/el-estoraque-1",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/El_Estoraque_La_Cabra_Coffee_Bag_250g.webp?v=1757513038",
+    "price": "155.00",
+    "description": "风味: in this lot by Jeison Liban López in Buesaco, Nariño",
+    "published_at": "2025-10-16T13:24:13+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Passenger Coffee",
+    "roaster_country": "USA",
+    "name": "Holiday Coffee - Washed Process - 2025",
+    "url": "https://www.passengercoffee.com/products/holiday-coffee-washed-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0631/3734/9822/files/HolidayCoffee_250g_Front.png?v=1760627106",
+    "price": "6.00",
+    "description": "风味: profile, we find an abundance of stone fruit and sweet pastr",
+    "published_at": "2025-10-16T11:33:00-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "Cascara Coffee Tea",
+    "url": "https://marketlane.com.au/products/cascara-tea",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/products/Cascara-Flower-Tea-Bottom.jpg?v=1648081636",
+    "price": "12.00",
+    "description": "5-6 minutes brews...",
+    "published_at": "2025-10-16T11:13:19+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Glitch Coffee",
+    "roaster_country": "Japan",
+    "name": "【NEW】Colombia Pitalito Aroma Nativo",
+    "url": "https://shop.glitchcoffee.com/products/new-colombia-pitalito-aroma-nativo-100g-1",
+    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/COLAromaNativoEFM.jpg?v=1746266601",
+    "price": "5200",
+    "description": "风味: Mandarin, Passion Fruit, Earl Gray, Smooth, Sweet Finish",
+    "published_at": "2025-10-15T15:43:45+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Seven Seeds",
+    "roaster_country": "Australia",
+    "name": "Mustefa Abalulessa, Ethiopia",
+    "url": "https://sevenseeds.com.au/products/mustefa-abalulessa-ethiopia-2025",
+    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/mustefa-abalulessa-ethiopia-4217059.png?v=1760515495",
+    "price": "25.00",
+    "description": "产地: in 2018, Seeds began purchasin | 风味: Sweet and Smooth  WITH NOTES OF  Apple Pie, Brown Sugar, Pea",
+    "published_at": "2025-10-15T15:15:40+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "Nicaragua - Finca Un Regalo De Dios Yellow Catuai | Natural",
+    "url": "https://www.roguewavecoffee.ca/products/nicaragua-finca-un-regalo-de-dios-yellow-catuai-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaUnRegaloDeDiosCatuaiNatural340gBAG.jpg?v=1760551131",
+    "price": "24.00",
+    "description": "产地: is 179 acres, with around 130 ",
+    "published_at": "2025-10-15T12:04:23-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Cera Filter 002",
+    "url": "https://kurasu.kyoto/products/cera-filter",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/products/Cera-Filter-002_5_7fd04415-f9e4-4b34-b564-b67f188d635e.jpg?v=1742881369",
+    "price": "56.10",
+    "description": "Perfect for brewing a delicious cup of coffee without the need for disposable fi...",
+    "published_at": "2025-10-15T10:05:15+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Kurasu",
+    "roaster_country": "Japan",
+    "name": "Cera Filter 001",
+    "url": "https://kurasu.kyoto/products/cera-filter-001",
+    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/1016_CeraFilter_46.jpg?v=1763603202",
+    "price": "38.50",
+    "description": "Perfect for brewing a delicious cup of coffee without the need for disposable fi...",
+    "published_at": "2025-10-15T10:05:10+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Glitch Coffee",
+    "roaster_country": "Japan",
+    "name": "【New】Colombia Cauca El Paraiso \"Lychee\"",
+    "url": "https://shop.glitchcoffee.com/products/new-colombia-cauca-el-paraiso-lychee-custom",
+    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/COLParaisoLYCHEE.jpg?v=1737946682",
+    "price": "40000",
+    "description": "产地: shattered records with their D | 风味: category renowned for its unparalleled elegance",
+    "published_at": "2025-10-14T23:12:55+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Glitch Coffee",
+    "roaster_country": "Japan",
+    "name": "【NEW】Bolivia  La Paz Las Alasitas",
+    "url": "https://shop.glitchcoffee.com/products/new-bolivia-la-paz-las-alasitas",
+    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/BOLAlasitas.jpg?v=1725871200",
+    "price": "4200",
+    "description": "产地: managed by Pedro Rodriguez, a  | 风味: Lemon Tea, Honey, Marygold, Clean Cup, Long After",
+    "published_at": "2025-10-14T12:30:51+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Monogram",
+    "roaster_country": "Canada",
+    "name": "Deborah Afterglow",
+    "url": "https://monogramcoffee.com/products/deborah-afterglow-1",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/afterglow-filter.png?v=1760560021",
+    "price": "49.00",
+    "description": "A celebration of variety and processing, this natural gesha is expressive with c...",
+    "published_at": "2025-10-14T11:30:34-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Monogram",
+    "roaster_country": "Canada",
+    "name": "Quitupamba Espresso",
+    "url": "https://monogramcoffee.com/products/quitupamba-espresso-1",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/quitupamba-espresso.png?v=1760560069",
+    "price": "27.50",
+    "description": "风味: and a tea and caramel base",
+    "published_at": "2025-10-14T11:30:33-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Monogram",
+    "roaster_country": "Canada",
+    "name": "Quebraditas",
+    "url": "https://monogramcoffee.com/products/quebraditas",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/quebraditas-filter_310d47b2-d7f0-4d72-a519-eb65cd24aa98.png?v=1760560189",
+    "price": "39.00",
+    "description": "The prized deep juiciness from an SL28 gets supercharged with yeast inoculated f...",
+    "published_at": "2025-10-14T11:30:31-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Koppi",
+    "roaster_country": "Sweden",
+    "name": "Colombia - Finca La Fuente \"Variedad Colombia\" 250g",
+    "url": "https://www.koppi.se/products/colombia-finca-la-fuente-variedad-colombia-250g",
+    "image": "https://cdn.shopify.com/s/files/1/0690/8225/1531/files/colombia-finca-la-fuente-variedad-colombia-250g-194659.jpg?v=1740761689",
+    "price": "24.84",
+    "description": "产地: La Fuente | 风味: Red berries, Fruity, Elegant",
+    "published_at": "2025-10-14T11:21:39+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Koppi",
+    "roaster_country": "Sweden",
+    "name": "Colombia - Finca La Fuente \"Variedad Colombia\" Wholesale",
+    "url": "https://www.koppi.se/products/colombia-finca-la-fuente-variedad-colombia-wholesale",
+    "image": "https://cdn.shopify.com/s/files/1/0690/8225/1531/files/colombia-finca-la-fuente-variedad-colombia-wholesale-516982.jpg?v=1740761686",
+    "price": "14.22",
+    "description": "产地: La Fuente | 风味: Red berries, fruity, elegant",
+    "published_at": "2025-10-14T11:20:50+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Nomad Coffee",
+    "roaster_country": "Spain",
+    "name": "GEISHA - LAVADO",
+    "url": "https://nomadcoffee.es/products/finca-hartmann",
+    "image": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/20250901_NOMAD_2012_4744a1c3-c4ce-458a-80ab-5c2b988cd8ea.png?v=1758617560",
+    "price": "54.00",
+    "description": "Este Geisha lavado es un ejercicio de claridad. Aromas de jazmín y rosa dan paso...",
+    "published_at": "2025-10-14T11:04:07+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "B&W Dancing Bean Sticker",
+    "url": "https://www.blackwhiteroasters.com/products/b-w-dancing-bean-sticker",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/DancingCoffeeBean_BandWSticker.jpg?v=1735588547",
+    "price": "3.00",
+    "description": "DESCRIPTION |  This sticker features a fun design from illustrator and artist  S...",
+    "published_at": "2025-10-14T09:54:59-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "MEXICO | Santa Cruz | Bourbon & Typica | Natural",
+    "url": "https://proudmarycoffee.com/products/mexico-santa-cruz-bourbon-typica-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEXSantaCruz_2025_Bourbon_TypicaNatural.png?v=1760386351",
+    "price": "29.00",
+    "description": "风味: to this coffee",
+    "published_at": "2025-10-13T11:54:59-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "MEXICO | Santa Cruz | Bourbon & Typica | Honey",
+    "url": "https://proudmarycoffee.com/products/mexico-santa-cruz-bourbon-typica-honey",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEXSantaCruz_2025_Bourbon_TypicaHoney.png?v=1760386245",
+    "price": "27.00",
+    "description": "Nestled in Chiapas’ El Triunfo Biosphere Reserve, Finca Santa Cruz is a story of...",
+    "published_at": "2025-10-13T11:54:24-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "MEXICO | Santa Cruz | Bourbon & Typica | Washed",
+    "url": "https://proudmarycoffee.com/products/mexico-santa-cruz-bourbon-typica-washed",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEXSantaCruz_2025_Bourbon_TypicaWashed.png?v=1760386458",
+    "price": "25.00",
+    "description": "产地: and highlights the coffee’s vi",
+    "published_at": "2025-10-13T11:53:39-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "LIMITED | MEXICO | Santa Cruz | Moka Cuatro | Natural",
+    "url": "https://proudmarycoffee.com/products/limited-mexico-santa-cruz-moka-cuatro-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEX_Santa_Cruz_2025_Moka_Natural.png?v=1760386173",
+    "price": "40.00",
+    "description": "Nestled in Chiapas’ El Triunfo Biosphere Reserve, Finca Santa Cruz is a story of...",
+    "published_at": "2025-10-13T11:52:35-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "LIMITED | MEXICO | Santa Cruz | Geisha | Honey",
+    "url": "https://proudmarycoffee.com/products/limited-mexico-santa-cruz-geisha-honey",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEX_Santa_Cruz_2025_Geisha_Honey.png?v=1760385931",
+    "price": "40.00",
+    "description": "Nestled in Chiapas’ El Triunfo Biosphere Reserve, Finca Santa Cruz is a story of...",
+    "published_at": "2025-10-13T11:51:51-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Proud Mary USA",
+    "roaster_country": "USA",
+    "name": "LIMITED | MEXICO | Santa Cruz | Geisha | Washed",
+    "url": "https://proudmarycoffee.com/products/limited-mexico-santa-cruz-geisha-washed",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/MEXSantaCruz_2025_GeishaWashed.png?v=1760385980",
+    "price": "40.00",
+    "description": "Nestled in Chiapas’ El Triunfo Biosphere Reserve, Finca Santa Cruz is a story of...",
+    "published_at": "2025-10-13T11:50:47-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onibus Coffee",
+    "roaster_country": "Japan",
+    "name": "エルサルバドル / ラ・ホヤ",
+    "url": "https://onibuscoffee.com/products/elsalvador-la-joya",
+    "image": "https://cdn.shopify.com/s/files/1/0099/0075/2932/files/elsalvador_63b81520-4733-443c-a41d-1f5dfdb25e12.png?v=1730437312",
+    "price": "1593",
+    "description": "生産地：Chalatenango, La Palma（チャラテナンゴ、ラ・パルマ）                農園：      La Joya（ラ・ホヤ） ...",
+    "published_at": "2025-10-10T15:32:19+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Right Side Coffee",
+    "roaster_country": "Spain",
+    "name": "Filtros Sibarist Flat Fast OREA Special Edition",
+    "url": "https://www.rightsidecoffee.com/products/filtros-sibarist-flat-fast-orea-special-edition",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/orea.png?v=1760092484",
+    "price": "34.65",
+    "description": "Precisión y rendimiento. Los Filtros de Edición Especial SIBARIST, para cafetera...",
+    "published_at": "2025-10-10T12:41:24+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Reuben Hills",
+    "roaster_country": "Australia",
+    "name": "Guatemala | Finca Bella Vista",
+    "url": "https://reubenhills.com.au/products/guatemala-bella-vista",
+    "image": "https://cdn.shopify.com/s/files/1/0643/5648/3329/files/6.png?v=1760055247",
+    "price": "32.00",
+    "description": "风味: of orange, toffee and crisp green apple shine through, with ",
+    "published_at": "2025-10-10T11:21:02+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Nomad Coffee",
+    "roaster_country": "Spain",
+    "name": "Jarra Cyclone Wave Coffee Server",
+    "url": "https://nomadcoffee.es/products/jarra-cyclone-wave-coffee-server",
+    "image": "https://cdn.shopify.com/s/files/1/0772/5485/2893/files/jarra2.png?v=1760020186",
+    "price": "29.50",
+    "description": "La cafetera de goteo Fellow Aiden es una cafetera inteligente diseñada para quie...",
+    "published_at": "2025-10-09T16:55:51+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Right Side Coffee",
+    "roaster_country": "Spain",
+    "name": "Filtros Sibarist Flat B3",
+    "url": "https://www.rightsidecoffee.com/products/filtros-sibarist-flat-b3",
+    "image": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/sibarist_b3.png?v=1760091842",
+    "price": "32.92",
+    "description": "FLAT es un filtro plano de alto rendimiento diseñado con la tecnología de filtro...",
+    "published_at": "2025-10-09T16:49:14+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "BLACK CONDOR",
+    "url": "https://thebarn.de/products/black-condor",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_black_condor.png?v=1759232310",
+    "price": "17.00",
+    "description": "In 2019, the Black Condor Project was established to support farmers affected by...",
+    "published_at": "2025-10-09T16:40:05+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "El Socorro",
+    "url": "https://www.lacabra.dk/products/el-socorro",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/El_Socorro_La_Cabra_Coffee_Box_100g.webp?v=1759840132",
+    "price": "399.00",
+    "description": "A complex and aromatic washed Geisha by Diego de la Cerda in Palencia, from this...",
+    "published_at": "2025-10-09T16:34:49+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Aster Multiserve Craft Instant Coffee",
+    "url": "https://www.vervecoffee.com/products/aster-multiserve-craft-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Aster-Instant-Multiserve-70g-Silo.png?v=1760983321",
+    "price": "25.00",
+    "description": "风味: Nectarine, Key Lime, Brown Sugar",
+    "published_at": "2025-10-09T16:04:10-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Buena Vista Multiserve Craft Instant Coffee",
+    "url": "https://www.vervecoffee.com/products/buena-vista-multiserve-craft-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Buena-Vista-Instant-Multiserve-70g-Silo.png?v=1760983341",
+    "price": "25.00",
+    "description": "风味: and caramelized sweetness",
+    "published_at": "2025-10-09T16:04:10-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Sermon Multiserve Craft Instant Coffee",
+    "url": "https://www.vervecoffee.com/products/sermon-multiserve-craft-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Sermon-Instant-Multiserve-70g-Silo.png?v=1760983353",
+    "price": "25.00",
+    "description": "风味: Blueberry Pie, Cocoa, Candied Pecan",
+    "published_at": "2025-10-09T16:04:09-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Streetlevel Multiserve Craft Instant Coffee",
+    "url": "https://www.vervecoffee.com/products/streetlevel-multiserve-craft-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Streetlevel-Instant-Multiserve-70g-Silo.png?v=1760983363",
+    "price": "25.00",
+    "description": "风味: Clementine, Red Apple, Honeycomb",
+    "published_at": "2025-10-09T16:04:09-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Vancouver Decaf Multiserve Craft Instant Coffee",
+    "url": "https://www.vervecoffee.com/products/vancouver-decaf-multiserve-craft-instant-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Vancouver-Instant-Multiserve-70g-Silo.png?v=1760983374",
+    "price": "25.00",
+    "description": "风味: with none of the caffeine",
+    "published_at": "2025-10-09T16:04:09-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Gatta Honey",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-gatta-honey",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ethiopia_ab5dd395-a834-4544-a056-f0045a870007.webp?v=1759434785",
+    "price": "15.00",
+    "description": "风味: of apricot and sweet tea throughout",
+    "published_at": "2025-10-09T16:00:00-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "Panama - Carmen Estate Geisha Lot 8 | Washed - 100g - Archived",
+    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-lot-8-washed-100g",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Carmen_Washed_Geisha_Lot_8_100g_BAG_a4d1ae10-ea5a-47a5-a889-eec45bac7b07.jpg?v=1759963050",
+    "price": "45.00",
+    "description": "产地: while maintaining ecological a",
+    "published_at": "2025-10-09T11:44:59-06:00",
     "source_type": "api"
   }
 ]
