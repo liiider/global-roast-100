@@ -9,27 +9,27 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
-print("✅ V14.0 全自动浏览器模拟版已启动...")
+print("✅ V15.0 全自动浏览器模拟版 (JSON-LD 增强版) 已启动...")
 print("📂 正在初始化混合动力引擎 (API + Playwright)...")
 
 # 禁用 SSL 警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ==========================================
-# 1. 目标名单
+# 1. 目标名单配置
 # ==========================================
 
-# A组：API 模式 (速度快，优先使用)
+# A组：API 模式
+# 这些网站的 /products.json 是公开的，速度极快，优先使用
 SHOPIFY_ROASTERS = [
     # 日本/亚洲
     {"name": "Glitch Coffee", "country": "Japan", "url": "https://shop.glitchcoffee.com"}, 
     {"name": "Kurasu", "country": "Japan", "url": "https://kurasu.kyoto"},
     {"name": "Onibus Coffee", "country": "Japan", "url": "https://onibuscoffee.com"},
-    {"name": "Switch Coffee Tokyo", "country": "Japan", "url": "https://switchcoffeetokyo.com"},
     {"name": "Mel Coffee Roasters", "country": "Japan", "url": "https://melcoffee.jp"},
     {"name": "The Cupping Room", "country": "Hong Kong", "url": "https://cuppingroom.hk"},
     
-    # 北欧
+    # 北欧/欧洲
     {"name": "La Cabra", "country": "Denmark", "url": "https://www.lacabra.dk"},
     {"name": "April Coffee", "country": "Denmark", "url": "https://www.aprilcoffeeroasters.com"},
     {"name": "Coffee Collective", "country": "Denmark", "url": "https://coffeecollective.dk"},
@@ -38,12 +38,12 @@ SHOPIFY_ROASTERS = [
     {"name": "Morgon Coffee Roasters", "country": "Sweden", "url": "https://www.morgoncoffeeroasters.com"},
     {"name": "Five Elephant", "country": "Germany", "url": "https://www.fiveelephant.com"},
     {"name": "The Barn", "country": "Germany", "url": "https://thebarn.de"},
-    
-    # 欧美其他
     {"name": "DAK Coffee", "country": "Netherlands", "url": "https://dakcoffeeroasters.com"},
     {"name": "Nomad Coffee", "country": "Spain", "url": "https://nomadcoffee.es"},
     {"name": "Right Side Coffee", "country": "Spain", "url": "https://www.rightsidecoffee.com"},
     {"name": "MOK Coffee", "country": "Belgium", "url": "https://mokcoffee.be"},
+    
+    # 北美
     {"name": "Onyx Coffee Lab", "country": "USA", "url": "https://onyxcoffeelab.com"},
     {"name": "Sey Coffee", "country": "USA", "url": "https://www.seycoffee.com"},
     {"name": "George Howell", "country": "USA", "url": "https://georgehowellcoffee.com"},
@@ -65,20 +65,21 @@ SHOPIFY_ROASTERS = [
     {"name": "Flight Coffee", "country": "New Zealand", "url": "https://flightcoffee.co.nz"},
 ]
 
-# B组：浏览器模拟模式 (针对之前抓不到的硬骨头)
+# B组：浏览器增强模式
+# 针对屏蔽了 API 或非 Shopify 的网站 (Friedhats, Canyon 等在此)
 PLAYWRIGHT_ROASTERS = [
-    # 之前死活抓不到的
-    {"name": "Manhattan", "country": "Netherlands", "url": "https://manhattan.coffee/catalog/coffee", "selector": "a[href*='/catalog/coffee/']"},
-    {"name": "Friedhats", "country": "Netherlands", "url": "https://friedhats.com/collections/coffees", "selector": "a[href*='/products/']"},
-    {"name": "Leaves Coffee", "country": "Japan", "url": "https://leavescoffee.jp/collections/coffee-beans", "selector": "a[href*='/products/']"},
-    {"name": "Gardelli", "country": "Italy", "url": "https://shop.gardellicoffee.com/collections/coffees", "selector": "div.product-item"},
-    {"name": "Fjord Coffee", "country": "Germany", "url": "https://fjord-coffee-roasters.com/collections/coffee-beans", "selector": "a[href*='/products/']"},
+    # 屏蔽了 .json 接口的 Shopify 网站
+    {"name": "Friedhats", "country": "Netherlands", "url": "https://friedhats.com/collections/coffees"},
+    {"name": "Canyon Coffee", "country": "USA", "url": "https://canyoncoffee.co/collections/coffee"},
+    {"name": "Leaves Coffee", "country": "Japan", "url": "https://leavescoffee.jp/collections/coffee-beans"},
+    {"name": "Three Marks Coffee", "country": "Spain", "url": "https://www.threemarkscoffee.com/collections/coffee"},
+    {"name": "Fjord Coffee", "country": "Germany", "url": "https://fjord-coffee-roasters.com/collections/coffee-beans"},
     
-    # WooCommerce 网站
-    {"name": "Tim Wendelboe", "country": "Norway", "url": "https://timwendelboe.no/product-category/coffee/", "selector": "li.product"},
-    {"name": "A Matter of Concrete", "country": "Netherlands", "url": "https://amatterofconcrete.com/product-category/coffee/", "selector": "li.product"},
-    {"name": "Three Marks Coffee", "country": "Spain", "url": "https://www.threemarkscoffee.com/collections/coffee", "selector": "a[href*='/products/']"},
-    {"name": "Canyon Coffee", "country": "USA", "url": "https://canyoncoffee.co/collections/coffee", "selector": "a[href*='/products/']"},
+    # 非 Shopify / 高度定制网站
+    {"name": "Manhattan", "country": "Netherlands", "url": "https://manhattan.coffee/catalog/coffee"},
+    {"name": "Gardelli", "country": "Italy", "url": "https://shop.gardellicoffee.com/collections/coffees"},
+    {"name": "Tim Wendelboe", "country": "Norway", "url": "https://timwendelboe.no/product-category/coffee/"},
+    {"name": "A Matter of Concrete", "country": "Netherlands", "url": "https://amatterofconcrete.com/product-category/coffee/"},
 ]
 
 # ==========================================
@@ -110,7 +111,7 @@ def is_fresh_drop(date_str):
     if not date_str: return False
     try:
         pub_date = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-        thirty_days_ago = datetime.now(pub_date.tzinfo) - timedelta(days=30)
+        thirty_days_ago = datetime.now(pub_date.tzinfo) - timedelta(days=45) # 放宽到45天
         return pub_date >= thirty_days_ago
     except:
         return True
@@ -138,7 +139,7 @@ def fetch_shopify_api(roaster):
             p_type = item.get('product_type', '').lower()
             pub_at = item.get('published_at')
             
-            if any(k in title.lower() for k in ['subscription', 'gift', 'merch', 'tee', 'sample', 'course', 'equipment', 'dripper']): continue
+            if any(k in title.lower() for k in ['subscription', 'gift', 'merch', 'tee', 'sample', 'course', 'equipment', 'dripper', 'capsule']): continue
             
             is_coffee = False
             coffee_keywords = ['coffee', 'bean', 'roast', 'filter', 'espresso', 'geisha', 'blend', 'single origin', 'decaf']
@@ -170,96 +171,157 @@ def fetch_shopify_api(roaster):
     return products
 
 # ==========================================
-# 引擎 2: Playwright (浏览器模拟)
+# 引擎 2: Playwright (增强版: JSON-LD + 强力滚动)
 # ==========================================
 async def fetch_with_browser(roaster):
     print(f"🕵️ [Browser] 正在渲染: {roaster['name']} ...", end="", flush=True)
     products = []
     
     async with async_playwright() as p:
-        # 启动无头浏览器
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={'width': 1280, 'height': 800}
+        )
+        page = await context.new_page()
         
         try:
-            # 设置超时 40秒
-            await page.goto(roaster['url'], timeout=40000, wait_until="domcontentloaded")
+            await page.goto(roaster['url'], timeout=60000, wait_until="domcontentloaded")
             
-            # 等待页面稍微加载一下
-            await asyncio.sleep(3)
+            # --- 强力滚动：确保懒加载图片被触发 ---
+            for _ in range(5):
+                await page.mouse.wheel(0, 1500)
+                await asyncio.sleep(1)
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await asyncio.sleep(2)
             
-            # 获取页面内容
             content = await page.content()
             soup = BeautifulSoup(content, 'html.parser')
             
-            # --- 通用 HTML 解析逻辑 (复用之前的强力解析) ---
-            # 寻找所有链接
+            # --- 核心技术：解析 JSON-LD (专门解决 Friedhats/Canyon 缺图问题) ---
+            json_ld_images = {}
+            scripts = soup.find_all('script', type='application/ld+json')
+            for script in scripts:
+                try:
+                    data = json.loads(script.string)
+                    # 处理 List 类型的 Schema
+                    items = data if isinstance(data, list) else [data]
+                    for item in items:
+                        # 查找 Product 或 ListItem
+                        url = item.get('url') or item.get('item', {}).get('url')
+                        img = item.get('image')
+                        
+                        # 尝试获取 Shopify 特有的 offers 里的 URL
+                        if not url and 'offers' in item:
+                            offers = item['offers']
+                            if isinstance(offers, list) and len(offers) > 0:
+                                url = offers[0].get('url')
+                            elif isinstance(offers, dict):
+                                url = offers.get('url')
+
+                        if url and img:
+                            # 统一 URL 格式 (去掉域名部分，只留路径用于匹配)
+                            if 'http' in url: 
+                                url_path = url.split('com')[-1].split('co')[-1].split('jp')[-1].split('?')[0]
+                            else:
+                                url_path = url.split('?')[0]
+                            
+                            if isinstance(img, list): img = img[0]
+                            json_ld_images[url_path] = img
+                except:
+                    continue
+
+            # --- 常规 HTML 解析 ---
             links = soup.find_all('a', href=True)
             seen = set()
             
             for link in links:
                 href = link['href']
                 
-                # 判定是否为产品链接
+                # 判定规则
                 is_product = False
-                if '/products/' in href: is_product = True # Shopify
-                if '/product/' in href: is_product = True # WooCommerce
-                if '/catalog/coffee/' in href: is_product = True # Manhattan
+                if '/products/' in href: is_product = True
+                if '/product/' in href: is_product = True
+                if '/catalog/coffee/' in href: is_product = True
                 
-                if is_product and not any(x in href for x in ['sub', 'gift', 'merch', 'login', 'account']):
+                if is_product and not any(x in href for x in ['sub', 'gift', 'merch', 'login', 'account', 'page', 'cart']):
                     
                     # 提取标题
                     title = link.get_text(strip=True)
-                    if len(title) < 5: # 标题太短，尝试找子元素
-                        t_el = link.find(['h2', 'h3', 'h4', 'div'])
+                    if not title or len(title) < 5:
+                        t_el = link.find(['h2', 'h3', 'h4', 'div', 'span'], class_=lambda x: x and ('title' in x or 'name' in x))
                         if t_el: title = t_el.get_text(strip=True)
-                    
-                    # 如果还是没标题，向上找父容器
-                    container = link
-                    if not title:
-                        for _ in range(3):
-                            if not container: break
-                            container = container.parent
-                            t_el = container.find(['h2', 'h3', 'h4', 'a'], class_=lambda x: x and ('title' in x or 'name' in x))
-                            if t_el: 
-                                title = t_el.get_text(strip=True)
-                                break
-                    
-                    # 验证标题有效性
+                    if not title: # 再次尝试找父级
+                         parent = link.parent
+                         if parent:
+                             t_el = parent.find(['h2', 'h3', 'h4'], text=True)
+                             if t_el: title = t_el.get_text(strip=True)
+
                     if title and title not in seen and len(title) > 3 and len(title) < 100:
-                        if any(k in title.lower() for k in ['subscription', 'gift', 'course']): continue
+                        if any(k in title.lower() for k in ['subscription', 'gift', 'course', 'workshop', 'brew']): continue
                         
-                        # 提取图片
+                        # --- 图片提取逻辑 ---
                         img_url = ""
-                        container = link
-                        for _ in range(4):
-                            if not container: break
-                            img = container.find('img')
-                            if img:
-                                img_url = img.get('src') or img.get('data-src') or img.get('srcset') or ""
-                                if img_url.startswith('//'): img_url = "https:" + img_url
-                                if 'base64' in img_url: img_url = "" # 忽略 base64 占位图
+                        clean_href_path = href.split('?')[0]
+
+                        # 策略 A: 匹配 JSON-LD (最高优先级，高清)
+                        for j_path, j_img in json_ld_images.items():
+                            if j_path in clean_href_path or clean_href_path in j_path:
+                                img_url = j_img
                                 break
-                            container = container.parent
                         
+                        # 策略 B: HTML 寻找 img 标签
+                        if not img_url:
+                            search_area = link
+                            for _ in range(3):
+                                if not search_area: break
+                                img = search_area.find('img')
+                                if img:
+                                    # 优先拿 srcset
+                                    srcset = img.get('srcset')
+                                    if srcset:
+                                        img_url = srcset.split(',')[-1].strip().split(' ')[0]
+                                    # 其次拿 data-src
+                                    if not img_url: img_url = img.get('data-src')
+                                    # 最后拿 src
+                                    if not img_url: img_url = img.get('src')
+                                    
+                                    if img_url and 'base64' not in img_url and 'svg' not in img_url: break
+                                search_area = search_area.parent
+
+                        # 策略 C: 寻找 background-image
+                        if not img_url:
+                            search_area = link
+                            for _ in range(2):
+                                if not search_area: break
+                                divs = search_area.find_all('div', style=True)
+                                for div in divs:
+                                    if 'background-image' in div['style']:
+                                        match = re.search(r'url\([\'"]?(.*?)[\'"]?\)', div['style'])
+                                        if match:
+                                            img_url = match.group(1)
+                                            break
+                                search_area = search_area.parent
+
+                        # 清洗图片链接 (去除 Shopify 尺寸后缀，如 _300x.jpg)
+                        if img_url:
+                            if img_url.startswith('//'): img_url = "https:" + img_url
+                            img_url = re.sub(r'_\d+x(\d+)?\.', '.', img_url) # 强力去除尺寸限制
+
                         # 提取价格
                         price = "Check Site"
-                        container = link
-                        for _ in range(4):
-                            if not container: break
-                            p_el = container.find(string=re.compile(r'[\$€¥kr]'))
-                            if p_el:
-                                p_match = re.search(r'[\d\.,]+', p_el)
-                                if p_match: 
-                                    price = p_match.group(0)
-                                    break
-                            container = container.parent
+                        p_container = link.parent
+                        if p_container:
+                            p_text = p_container.get_text()
+                            p_match = re.search(r'([€$£¥]\s?\d+([.,]\d{2})?)', p_text)
+                            if p_match: price = p_match.group(0)
 
                         # 修正 URL
                         full_url = href
                         if not href.startswith('http'):
-                            base = "/".join(roaster['url'].split('/')[:3])
-                            full_url = base + href
+                            domain = "/".join(roaster['url'].split('/')[:3])
+                            if not href.startswith('/'): href = '/' + href
+                            full_url = domain + href
 
                         products.append({
                             "roaster_name": roaster['name'],
@@ -269,7 +331,7 @@ async def fetch_with_browser(roaster):
                             "image": img_url,
                             "price": price,
                             "description": f"Fresh from {roaster['name']}",
-                            "published_at": datetime.now().isoformat(), # 实时抓取默认最新
+                            "published_at": datetime.now().isoformat(),
                             "source_type": "browser"
                         })
                         seen.add(title)
@@ -279,6 +341,7 @@ async def fetch_with_browser(roaster):
         except Exception as e:
             print(f" [错误] {str(e)[:50]}...")
         finally:
+            await context.close()
             await browser.close()
     
     return products
