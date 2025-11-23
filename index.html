@@ -2,233 +2,257 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Global Roast 100 | 全球咖啡新豆榜</title>
     <style>
+        /* --- 核心设计系统 --- */
         :root {
-            --bg: #050505;
-            --surface: #121212;
-            --primary: #d4af37; /* 香槟金 */
-            --text: #e0e0e0;
-            --text-sub: #757575;
-            --border: #222;
+            --bg: #000000;
+            --card-bg: #151517;
+            --nav-bg: rgba(18, 18, 18, 0.85);
+            --border: rgba(255, 255, 255, 0.08);
+            --primary: #D4AF37; /* 香槟金，用于强调 */
+            --text-main: #F5F5F7; /* iOS Off-white */
+            --text-sec: #86868B;  /* iOS Grey */
+            --safe-area: max(20px, env(safe-area-inset-left));
+        }
+
+        * { 
+            box-sizing: border-box; 
+            -webkit-tap-highlight-color: transparent; 
+            outline: none;
         }
 
         body {
             background-color: var(--bg);
-            color: var(--text);
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: var(--text-main);
+            /* 核心：黄金字体栈 - 优先 iOS/Mac 原生字体，兼顾 Windows */
+            font-family: "SF Pro Display", "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            -webkit-font-smoothing: antialiased;
+            -webkit-font-smoothing: antialiased; /* 让字体更细更清晰 */
+            -moz-osx-font-smoothing: grayscale;
         }
 
-        /* Header */
+        /* --- Header --- */
         header {
-            padding: 60px 20px 40px;
+            padding: 70px 20px 30px;
             text-align: center;
-            background: linear-gradient(to bottom, #000, var(--bg));
+            background: radial-gradient(circle at top, #1a1a1a 0%, #000000 100%);
+        }
+
+        .brand-tag {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            color: var(--primary);
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            opacity: 0.9;
         }
 
         h1 {
-            font-size: 2.2rem;
-            font-weight: 300;
-            margin: 0 0 10px;
-            letter-spacing: 2px;
+            font-size: 32px;
+            font-weight: 600; /* 中文字体不宜太粗，600正好 */
+            margin: 0;
+            line-height: 1.2;
+            letter-spacing: 1px;
             color: #fff;
         }
 
-        h1 span {
-            font-family: "Times New Roman", serif;
+        /* 英文标题用衬线体，增加优雅感 */
+        h1 .en {
+            display: block;
+            font-family: "Didot", "Bodoni MT", "Times New Roman", serif;
+            font-size: 20px;
             font-style: italic;
-            color: var(--primary);
-            font-weight: 700;
+            font-weight: 400;
+            color: var(--text-sec);
+            margin-top: 5px;
+            letter-spacing: 0.5px;
         }
 
-        .subtitle {
-            font-size: 0.8rem;
-            color: var(--text-sub);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-        }
-
-        /* 筛选区 */
-        .filter-container {
+        /* --- Sticky Filter Bar --- */
+        .filter-sticky {
             position: sticky;
             top: 0;
-            z-index: 999;
-            background: rgba(5, 5, 5, 0.95);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border);
-            padding: 15px 0;
+            z-index: 1000;
+            background-color: var(--nav-bg);
+            backdrop-filter: saturate(180%) blur(20px); /* iOS 毛玻璃 */
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 0.5px solid var(--border);
+            padding-top: 12px;
+            padding-bottom: 12px;
         }
 
-        /* 地区筛选 (一级) */
-        .region-tabs {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            padding: 0 20px;
-        }
-
-        .tab-btn {
-            background: none;
-            border: none;
-            color: var(--text-sub);
-            font-size: 0.95rem;
-            cursor: pointer;
-            padding: 5px 0;
-            position: relative;
-            transition: color 0.3s;
-        }
-
-        .tab-btn:hover { color: #fff; }
-        
-        .tab-btn.active { 
-            color: #fff; 
-            font-weight: 500; 
-        }
-
-        .tab-btn.active::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: var(--primary);
-        }
-
-        /* 烘焙商筛选 (二级 - 滚动条) */
-        .roaster-scroll {
+        /* 隐藏滚动条容器 */
+        .scroll-row {
             display: flex;
             overflow-x: auto;
-            gap: 10px;
-            padding: 0 20px 10px; /* 底部留白防滚动条 */
-            scrollbar-width: none; /* Firefox */
-            -ms-overflow-style: none;  /* IE */
-            justify-content: flex-start; /* 默认左对齐 */
+            gap: 20px;
+            padding: 0 var(--safe-area);
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            scroll-behavior: smooth;
+            mask-image: linear-gradient(to right, transparent 0%, black 20px, black calc(100% - 20px), transparent 100%);
+            -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20px, black calc(100% - 20px), transparent 100%);
         }
-        
-        /* PC端如果标签少，居中显示 */
-        @media(min-width: 768px) {
-            .roaster-scroll { justify-content: center; }
+        .scroll-row::-webkit-scrollbar { display: none; }
+
+        /* 1. 地区文字 Tab */
+        .region-row {
+            margin-bottom: 12px;
+            justify-content: center; /* PC端居中 */
+        }
+        @media (max-width: 768px) {
+            .region-row { justify-content: flex-start; } /* 手机端左对齐 */
         }
 
-        .roaster-scroll::-webkit-scrollbar { display: none; }
+        .tab-item {
+            flex-shrink: 0;
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--text-sec);
+            background: transparent;
+            border: none;
+            padding: 4px 0;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .tab-item.active {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        .tab-item.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            box-shadow: 0 0 8px var(--primary);
+        }
+
+        /* 2. 烘焙商 Tags */
+        .roaster-row {
+            padding-bottom: 4px;
+            gap: 10px;
+        }
 
         .tag {
             flex-shrink: 0;
-            padding: 6px 16px;
-            border-radius: 100px;
-            background: var(--surface);
-            color: var(--text-sub);
-            font-size: 0.8rem;
-            border: 1px solid #333;
+            height: 30px;
+            padding: 0 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.08);
+            color: var(--text-main);
+            font-size: 12px;
+            font-weight: 400;
+            transition: all 0.2s;
             cursor: pointer;
-            transition: all 0.3s;
+            border: 0.5px solid transparent;
         }
 
-        .tag:hover {
-            border-color: #666;
-            color: #fff;
-        }
+        .tag:active { transform: scale(0.96); opacity: 0.8; }
 
         .tag.active {
-            background: var(--text);
-            color: var(--bg);
-            border-color: var(--text);
+            background-color: var(--text-main);
+            color: #000;
             font-weight: 600;
         }
 
-        /* 统计 */
-        .stats {
-            max-width: 1400px;
-            margin: 20px auto 0;
-            padding: 0 30px;
+        /* --- Grid & Card --- */
+        .stats-info {
             text-align: right;
-            font-size: 0.8rem;
-            color: var(--text-sub);
+            padding: 15px var(--safe-area);
+            font-size: 12px;
+            color: var(--text-sec);
+            letter-spacing: 0.5px;
         }
 
-        /* 瀑布流网格 */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px; /* 间距大一点，更有呼吸感 */
-            padding: 20px 30px 80px;
-            max-width: 1600px;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 24px;
+            padding: 0 var(--safe-area) 80px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
-        /* 卡片 */
+        /* 极简卡片 */
         .card {
-            display: block; /* 整个卡片是链接 */
+            display: flex;
+            flex-direction: column;
             text-decoration: none;
             background: transparent;
-            transition: transform 0.3s ease, opacity 0.5s ease;
+            /* 初始隐藏，JS控制显示 */
             opacity: 0;
-            animation: fadeInUp 0.6s forwards;
+            transform: translateY(15px);
+            animation: fadeUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
         }
 
-        .card:hover {
-            transform: translateY(-6px);
-        }
+        @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
 
-        .card-img-wrap {
+        .card:hover .cover-img { transform: scale(1.06); }
+
+        .img-box {
             position: relative;
             width: 100%;
-            padding-top: 100%; /* 正方形 */
-            background-color: #151515;
-            border-radius: 2px;
+            padding-top: 100%; /* 1:1 */
+            background-color: var(--card-bg);
+            border-radius: 8px;
             overflow: hidden;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
         }
 
-        .card-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: opacity 0.3s ease, transform 0.5s ease;
-            opacity: 0; /* 默认透明，加载完显示 */
-        }
-        
-        .card-img.loaded { opacity: 1; }
-        .card:hover .card-img { transform: scale(1.04); }
-
-        /* 默认图片占位 (SVG) */
-        .placeholder-img {
+        .cover-img {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            display: flex; flex-direction: column;
-            align-items: center; justify-content: center;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.4s ease, transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        .cover-img.loaded { opacity: 1; }
+
+        /* 默认 SVG 占位 */
+        .placeholder {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: #333;
-            background: #111;
         }
 
-        .card-info { padding: 0 5px; }
+        .info { padding: 0 2px; }
 
         .roaster {
-            font-size: 0.7rem;
-            color: var(--primary);
-            letter-spacing: 1px;
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-sec);
             text-transform: uppercase;
+            letter-spacing: 1px;
             margin-bottom: 6px;
-            font-weight: 600;
         }
 
-        .title {
-            font-size: 1rem;
+        .bean-title {
+            font-size: 14px;
             color: #fff;
             line-height: 1.4;
+            font-weight: 400; /* 细字体更显高级 */
             margin-bottom: 8px;
-            font-weight: 400;
-            /* 限制两行 */
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
@@ -236,66 +260,68 @@
         }
 
         .price {
-            font-family: "Courier New", monospace;
-            font-size: 0.9rem;
-            color: #888;
+            font-family: "SF Mono", "Menlo", "Courier New", monospace; /* 等宽数字 */
+            font-size: 13px;
+            color: var(--text-main);
+            opacity: 0.8;
         }
 
-        /* 底部 Loading */
-        .loading-indicator {
+        /* --- Loading --- */
+        .loading-state {
+            padding: 40px 0;
             text-align: center;
-            padding: 40px;
-            color: var(--text-sub);
-            font-size: 0.8rem;
+            color: var(--text-sec);
+            font-size: 12px;
             letter-spacing: 2px;
+            text-transform: uppercase;
         }
 
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* 移动端微调 */
+        /* --- 移动端优化 --- */
         @media (max-width: 768px) {
             .grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 15px;
-                padding: 15px;
+                grid-template-columns: repeat(2, 1fr); /* 双列 */
+                gap: 12px;
+                padding: 0 16px 60px;
             }
-            .tab-btn { font-size: 0.85rem; }
-            h1 { font-size: 1.8rem; }
-            .title { font-size: 0.9rem; }
+            h1 { font-size: 26px; }
+            h1 .en { font-size: 16px; }
+            .tag { font-size: 12px; height: 28px; }
+            .bean-title { font-size: 13px; }
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="subtitle">TOP 100 ROASTERS</div>
-        <h1>全球 <span>咖啡新豆榜</span></h1>
-        <div class="subtitle">30天内新鲜出品 · 实时更新</div>
+        <div class="brand-tag">GR100</div>
+        <h1>
+            全球咖啡新豆榜
+            <span class="en">Global Roast Selection</span>
+        </h1>
     </header>
 
-    <div class="filter-container">
-        <div class="region-tabs" id="region-tabs">
-            <button class="tab-btn active" data-region="all">全部</button>
-            <button class="tab-btn" data-region="nordic">北欧</button>
-            <button class="tab-btn" data-region="europe">欧洲</button>
-            <button class="tab-btn" data-region="japan">日本</button>
-            <button class="tab-btn" data-region="australia">澳洲</button>
-            <button class="tab-btn" data-region="usa">北美</button>
+    <div class="filter-sticky">
+        <div class="scroll-row region-row" id="region-tabs">
+            <button class="tab-item active" data-region="all">全部</button>
+            <button class="tab-item" data-region="nordic">北欧</button>
+            <button class="tab-item" data-region="japan">日本</button>
+            <button class="tab-item" data-region="europe">欧洲</button>
+            <button class="tab-item" data-region="usa">北美</button>
+            <button class="tab-item" data-region="australia">澳洲</button>
         </div>
-        <div class="roaster-scroll" id="roaster-tags">
+        
+        <div class="scroll-row roaster-row" id="roaster-tags">
             </div>
     </div>
 
-    <div class="stats">
-        已收录 <span id="total-count" style="color:#fff">0</span> 款
+    <div class="stats-info">
+        收录 <span id="total-count" style="color:#fff; font-weight:600">0</span> 款
     </div>
 
-    <div class="grid" id="grid"></div>
-    
-    <div class="loading-indicator" id="sentinel">LOADING...</div>
+    <div class="grid" id="grid">
+        </div>
+
+    <div class="loading-state" id="sentinel">LOADING</div>
 
     <script>
         let allData = [];
@@ -307,45 +333,61 @@
         let currentRoaster = 'all';
 
         const regionMap = {
-            'nordic': ['Denmark', 'Sweden', 'Norway'],
-            'japan': ['Japan', 'Hong Kong'],
-            'europe': ['Germany', 'Netherlands', 'Spain', 'Belgium', 'Italy', 'United Kingdom', 'France'],
+            'nordic': ['Denmark', 'Sweden', 'Norway', 'Finland'],
+            'japan': ['Japan', 'Hong Kong', 'China', 'Korea', 'Taiwan'],
+            'europe': ['Germany', 'Netherlands', 'Spain', 'Belgium', 'Italy', 'United Kingdom', 'France', 'Ireland'],
             'usa': ['USA', 'Canada'],
             'australia': ['Australia', 'New Zealand']
         };
 
+        // 优雅的占位图 SVG
+        const placeholderSVG = `
+            <div class="placeholder">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.5">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                    <line x1="6" y1="1" x2="6" y2="4"></line>
+                    <line x1="10" y1="1" x2="10" y2="4"></line>
+                    <line x1="14" y1="1" x2="14" y2="4"></line>
+                </svg>
+            </div>`;
+
         async function init() {
             try {
-                const res = await fetch('data.json');
+                // 增加时间戳参数，避免缓存
+                const res = await fetch('data.json?t=' + Date.now());
+                if (!res.ok) throw new Error("Data not found");
                 allData = await res.json();
                 
-                // 初始渲染
                 renderRoasterTags();
                 applyFilter();
                 
-                // 启动无限滚动
+                // 无限滚动
                 const observer = new IntersectionObserver(entries => {
                     if (entries[0].isIntersecting) loadMore();
-                }, { rootMargin: '400px' });
+                }, { rootMargin: '300px' }); // 提前加载，体验更流畅
                 observer.observe(document.getElementById('sentinel'));
 
-                // 绑定地区点击
-                document.querySelectorAll('.tab-btn').forEach(btn => {
+                // 地区点击
+                document.querySelectorAll('.tab-item').forEach(btn => {
                     btn.addEventListener('click', (e) => {
-                        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                        document.querySelectorAll('.tab-item').forEach(b => b.classList.remove('active'));
                         e.target.classList.add('active');
                         
                         currentRegion = e.target.dataset.region;
-                        currentRoaster = 'all'; // 重置烘焙商
+                        currentRoaster = 'all';
                         
                         renderRoasterTags();
                         applyFilter();
+                        
+                        // 切换地区时，标签栏归位
+                        document.getElementById('roaster-tags').scrollTo({left: 0, behavior: 'smooth'});
                     });
                 });
 
             } catch (e) {
                 console.error(e);
-                document.getElementById('sentinel').textContent = "数据加载失败";
+                document.getElementById('sentinel').innerText = "暂无数据";
             }
         }
 
@@ -353,7 +395,6 @@
             const container = document.getElementById('roaster-tags');
             container.innerHTML = '';
 
-            // 筛选当前地区的品牌
             let roasters = [];
             if (currentRegion === 'all') {
                 roasters = [...new Set(allData.map(d => d.roaster_name))];
@@ -363,108 +404,98 @@
             }
             roasters.sort();
 
-            // 添加"全部"标签
-            const allTag = document.createElement('div');
-            allTag.className = `tag ${currentRoaster === 'all' ? 'active' : ''}`;
-            allTag.textContent = '全部品牌';
-            allTag.onclick = () => { setRoaster('all'); };
+            // "全部" 胶囊
+            const allTag = createTag('全部品牌', 'all');
             container.appendChild(allTag);
 
             roasters.forEach(name => {
-                const tag = document.createElement('div');
-                tag.className = `tag ${currentRoaster === name ? 'active' : ''}`;
-                tag.textContent = name;
-                tag.onclick = () => { setRoaster(name); };
-                container.appendChild(tag);
+                container.appendChild(createTag(name, name));
             });
         }
 
-        function setRoaster(name) {
-            currentRoaster = (currentRoaster === name) ? 'all' : name;
-            
-            // 更新UI状态
-            document.querySelectorAll('.tag').forEach(t => {
-                if (t.textContent === (currentRoaster === 'all' ? '全部品牌' : currentRoaster)) {
-                    t.classList.add('active');
+        function createTag(text, value) {
+            const div = document.createElement('div');
+            div.className = `tag ${currentRoaster === value ? 'active' : ''}`;
+            div.innerText = text;
+            div.onclick = () => {
+                if (currentRoaster === value && value !== 'all') {
+                    setRoaster('all'); // 反选
                 } else {
-                    t.classList.remove('active');
+                    setRoaster(value);
                 }
-            });
-            
+            };
+            return div;
+        }
+
+        function setRoaster(name) {
+            currentRoaster = name;
+            const tags = document.getElementById('roaster-tags').children;
+            for (let tag of tags) {
+                const isActive = tag.innerText === (name === 'all' ? '全部品牌' : name);
+                tag.classList.toggle('active', isActive);
+                if (isActive) {
+                    tag.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center'});
+                }
+            }
             applyFilter();
         }
 
         function applyFilter() {
             filteredData = allData.filter(d => {
-                // 地区匹配
-                let regionMatch = true;
-                if (currentRegion !== 'all') {
-                    const countries = regionMap[currentRegion] || [];
-                    regionMatch = countries.includes(d.roaster_country);
-                }
-                // 品牌匹配
-                let roasterMatch = true;
-                if (currentRoaster !== 'all') {
-                    roasterMatch = d.roaster_name === currentRoaster;
-                }
+                let regionMatch = (currentRegion === 'all') ? true : (regionMap[currentRegion] || []).includes(d.roaster_country);
+                let roasterMatch = (currentRoaster === 'all') ? true : (d.roaster_name === currentRoaster);
                 return regionMatch && roasterMatch;
             });
 
-            document.getElementById('total-count').textContent = filteredData.length;
+            document.getElementById('total-count').innerText = filteredData.length;
             document.getElementById('grid').innerHTML = '';
             loadedCount = 0;
+            window.scrollTo(0, 0);
             loadMore();
         }
 
         function loadMore() {
+            const sentinel = document.getElementById('sentinel');
             if (loadedCount >= filteredData.length) {
-                document.getElementById('sentinel').textContent = filteredData.length ? "—— THE END ——" : "暂无新豆";
+                sentinel.innerText = filteredData.length === 0 ? "暂无收录" : "· END ·";
+                sentinel.style.opacity = 0.5;
                 return;
             }
 
+            sentinel.innerText = "LOADING...";
+            sentinel.style.opacity = 1;
+            
             const batch = filteredData.slice(loadedCount, loadedCount + BATCH_SIZE);
             const grid = document.getElementById('grid');
 
             batch.forEach(item => {
-                const card = document.createElement('a');
-                card.className = 'card';
-                card.href = item.url;
-                card.target = "_blank";
+                const a = document.createElement('a');
+                a.className = 'card';
+                a.href = item.url;
+                a.target = "_blank";
 
-                // 默认占位图 (SVG)
-                const fallbackHtml = `
-                    <div class="placeholder-img">
-                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#444" stroke-width="1">
-                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
-                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
-                            <line x1="6" y1="1" x2="6" y2="4"></line>
-                            <line x1="10" y1="1" x2="10" y2="4"></line>
-                            <line x1="14" y1="1" x2="14" y2="4"></line>
-                        </svg>
-                    </div>`;
-
-                let imgHtml = fallbackHtml;
-                if (item.image && item.image.length > 5) {
-                    // onerror事件处理图片挂了的情况
+                let imgHtml = placeholderSVG;
+                // 简单判断图片有效性
+                if (item.image && item.image.length > 10 && !item.image.includes('no-image')) {
                     imgHtml = `
-                        ${fallbackHtml}
-                        <img class="card-img" src="${item.image}" loading="lazy" 
+                        ${placeholderSVG}
+                        <img class="cover-img" src="${item.image}" loading="lazy" 
                              onload="this.classList.add('loaded')" 
                              onerror="this.style.display='none'">
                     `;
                 }
 
-                card.innerHTML = `
-                    <div class="card-img-wrap">
+                a.innerHTML = `
+                    <div class="img-box">
                         ${imgHtml}
                     </div>
-                    <div class="card-info">
+                    <div class="info">
                         <div class="roaster">${item.roaster_name}</div>
-                        <div class="title">${item.name}</div>
+                        <div class="bean-title">${item.name}</div>
                         <div class="price">${item.price}</div>
                     </div>
                 `;
-                grid.appendChild(card);
+                grid.appendChild(a);
             });
 
             loadedCount += batch.length;
