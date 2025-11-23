@@ -3,219 +3,353 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Roast 100 | World's Best Coffee Roasters</title>
+    <title>Global Roast 100 | 全球百大咖啡新豆榜</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- 引入 Noto Serif SC (思源宋体) 和 Inter (英文字体) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'coffee-black': '#0a0a0a',
-                        'coffee-dark': '#1c1c1c',
-                        'coffee-accent': '#c69c6d',
-                        'coffee-text': '#e5e5e5',
-                        'coffee-muted': '#a3a3a3',
+                        'bg-main': '#080808', 
+                        'bg-card': '#121212',
+                        'gold-accent': '#C8AA6E', 
+                        'text-main': '#F5F5F5',
+                        'text-sub': '#999999',
+                        'text-dim': '#666666',
                     },
                     fontFamily: {
-                        serif: ['"Playfair Display"', 'serif'],
-                        sans: ['"Inter"', 'sans-serif'],
+                        serif: ['"Playfair Display"', '"Noto Serif SC"', 'serif'],
+                        sans: ['"Inter"', '"Noto Serif SC"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 10px 30px -10px rgba(0, 0, 0, 0.5)',
+                        'glow': '0 0 15px rgba(200, 170, 110, 0.1)',
                     }
                 }
             }
         }
     </script>
     <style>
-        body { background-color: #0a0a0a; color: #e5e5e5; font-family: 'Inter', sans-serif; }
-        .font-serif { font-family: 'Playfair Display', serif; }
-        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); }
+        body { 
+            background-color: #080808; 
+            color: #F5F5F5; 
+            font-family: 'Inter', 'Noto Serif SC', sans-serif; 
+            -webkit-font-smoothing: antialiased; 
+            line-height: 1.6;
+        }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
-        .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
-        @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
-        /* 图片骨架屏 */
-        .img-skeleton { background-color: #2a2a2a; animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .5; } }
+        
+        .fade-in-up { animation: fadeInUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; opacity: 0; transform: translateY(20px); }
+        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
+        .cn-font { font-family: 'Noto Serif SC', serif; letter-spacing: 0.02em; }
+        .num-font { font-family: 'Inter', sans-serif; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; font-weight: 500; }
+
+        .flavor-tag {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.03);
+            padding: 3px 8px;
+            border-radius: 2px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            font-size: 11px;
+            color: #aaa; /* 更柔和的灰色 */
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.3s ease;
+        }
+        .group:hover .flavor-tag {
+            border-color: rgba(200, 170, 110, 0.2);
+            color: #ccc;
+        }
+
+        .img-zoom { transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        .group:hover .img-zoom { transform: scale(1.05); }
     </style>
 </head>
 <body class="antialiased min-h-screen flex flex-col">
 
-    <nav class="fixed w-full z-50 bg-coffee-black/90 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <div class="flex items-center gap-3">
-                    <i class="fa-solid fa-mug-hot text-coffee-accent text-2xl"></i>
-                    <span class="font-serif text-2xl font-bold tracking-wider text-white">GR100</span>
+    <!-- 顶部导航 (极简风格) -->
+    <nav class="fixed w-full z-50 bg-bg-main/90 backdrop-blur-xl border-b border-white/5 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- 左侧：LOGO -->
+                <div class="flex items-center gap-3 cursor-pointer group" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                    <i class="fa-solid fa-mug-hot text-gold-accent/80 text-lg group-hover:text-gold-accent transition-colors"></i>
+                    <span class="font-serif text-lg font-bold tracking-widest text-white/90 group-hover:text-white transition-colors">GR100</span>
                 </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#" class="text-white px-3 py-2 rounded-md text-sm font-medium border-b-2 border-coffee-accent">Latest Drops</a>
-                        <a href="#" class="text-coffee-muted hover:text-white px-3 py-2 rounded-md text-sm font-medium transition">Roasters</a>
-                    </div>
+                
+                <!-- 右侧：状态显示 (移除了呼吸灯，改为静态文字) -->
+                <div class="text-[10px] font-medium text-text-dim tracking-widest uppercase font-sans flex items-center gap-2">
+                    <span id="update-status">UPDATED TODAY</span>
                 </div>
             </div>
         </div>
     </nav>
 
-    <header class="pt-32 pb-12 lg:pt-40 lg:pb-20 px-4 text-center">
-        <span class="text-coffee-accent tracking-[0.2em] text-xs uppercase font-semibold mb-3 block fade-in">Real-time Tracker</span>
-        <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-4 fade-in" style="animation-delay: 0.1s;">
-            Global Coffee <span class="italic text-coffee-accent">Drops</span>
+    <!-- 头部 Header -->
+    <header class="pt-36 pb-12 px-6 text-center relative">
+        <!-- 背景光效 -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gold-accent/5 blur-[120px] rounded-full pointer-events-none"></div>
+        
+        <span class="block text-gold-accent/80 text-xs font-bold tracking-[0.25em] uppercase mb-5 fade-in-up font-sans">Curated Selection</span>
+        <h1 class="text-4xl md:text-6xl font-serif font-medium text-white mb-6 fade-in-up leading-tight cn-font" style="animation-delay: 0.1s;">
+            全球百大<span class="italic font-serif text-gold-accent px-2">咖啡新豆</span>榜
         </h1>
-        <p class="text-coffee-muted max-w-xl mx-auto text-sm md:text-base fade-in" style="animation-delay: 0.2s;">
-            Tracking the latest releases from the world's top 100 roasters.
+        <p class="text-text-sub text-sm md:text-base font-light max-w-xl mx-auto fade-in-up leading-relaxed cn-font" style="animation-delay: 0.2s;">
+            每日追踪 100+ 顶级烘焙品牌 · 甄选 30 天内新鲜出品
         </p>
     </header>
 
-    <div class="sticky top-20 z-40 bg-coffee-black/95 backdrop-blur py-4 border-b border-white/5 mb-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex gap-3 overflow-x-auto scrollbar-hide" id="filter-container">
-            <button onclick="filterBeans('all', this)" class="filter-btn active px-4 py-1.5 rounded-full bg-coffee-accent text-black text-sm font-semibold transition">All</button>
+    <!-- 悬浮筛选栏 -->
+    <div class="sticky top-16 z-40 py-2 transition-all duration-300" id="filter-bar">
+        <div class="absolute inset-0 bg-bg-main/95 backdrop-blur-md border-b border-white/5 shadow-2xl"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3 py-2">
+                
+                <!-- 地区筛选 -->
+                <div class="flex gap-2 overflow-x-auto scrollbar-hide w-full md:w-auto pb-1 md:pb-0" id="region-tabs">
+                    <button onclick="filterRegion('all', this)" class="region-btn active px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 bg-white text-black shadow-glow cn-font">全部</button>
+                    <button onclick="filterRegion('Nordic', this)" class="region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/10 cn-font">北欧</button>
+                    <button onclick="filterRegion('Japan', this)" class="region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/10 cn-font">日本</button>
+                    <button onclick="filterRegion('Australia', this)" class="region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/10 cn-font">澳洲</button>
+                    <button onclick="filterRegion('NorthAmerica', this)" class="region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/10 cn-font">北美</button>
+                    <button onclick="filterRegion('Europe', this)" class="region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/10 cn-font">欧洲</button>
+                </div>
+
+                <!-- 排序与统计 -->
+                <div class="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end border-t md:border-t-0 border-white/5 pt-2 md:pt-0">
+                    <span class="text-[10px] text-text-dim font-medium tracking-wider font-sans">
+                        Total: <span id="total-count" class="text-white num-font text-sm mx-1">0</span>
+                    </span>
+                    <div class="relative group">
+                        <select onchange="sortBeans(this.value)" class="appearance-none bg-transparent text-xs text-text-sub hover:text-white font-medium py-1 pr-6 cursor-pointer outline-none transition cn-font text-right">
+                            <option value="newest" class="bg-bg-card">最新发布</option>
+                            <option value="rank" class="bg-bg-card">榜单排名</option>
+                        </select>
+                        <i class="fa-solid fa-caret-down absolute right-0 top-1/2 -translate-y-1/2 text-[10px] text-text-dim pointer-events-none"></i>
+                    </div>
+                </div>
             </div>
+        </div>
     </div>
 
-    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-20">
-        <div id="bean-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            <div class="col-span-full text-center text-coffee-muted py-20">
-                <i class="fa-solid fa-circle-notch fa-spin text-3xl mb-4 text-coffee-accent"></i>
-                <p>Brewing data...</p>
+    <!-- 列表区域 -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+        <div id="bean-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10">
+            <!-- Loading -->
+            <div class="col-span-full flex flex-col items-center justify-center py-32 opacity-60">
+                <div class="w-10 h-10 border-2 border-t-transparent border-gold-accent/50 rounded-full animate-spin mb-4"></div>
+                <p class="text-[10px] font-mono tracking-widest text-text-dim uppercase">Loading Data</p>
             </div>
         </div>
     </main>
 
+    <!-- 底部 -->
+    <footer class="border-t border-white/5 py-16 text-center bg-bg-main">
+        <p class="font-serif text-xl text-white/20 mb-3 tracking-wider">GR100</p>
+        <p class="text-[10px] text-text-dim uppercase tracking-widest font-medium">
+            Curated by AI · Powered by GitHub
+        </p>
+    </footer>
+
     <script>
         let allBeans = [];
+        let currentRegion = 'all';
 
-        // 货币映射表
-        const CURRENCY_MAP = {
-            "Denmark": "DKK",
-            "Japan": "¥",
-            "USA": "$",
-            "Germany": "€",
-            "Australia": "AUD",
-            "Italy": "€",
-            "Netherlands": "€"
+        const ROASTER_RANK_LIST = [
+            "Tim Wendelboe", "La Cabra", "Sey Coffee", "Onyx Coffee Lab", "Gardelli", "Coffee Collective", "April Coffee", "Manhattan",
+            "The Barn", "Five Elephant", "Koppi", "Drop Coffee", "Morgon Coffee Roasters", "DAK Coffee", "Friedhats", "A Matter of Concrete",
+            "Kurasu", "Leaves Coffee", "Glitch Coffee", "Onibus Coffee", "Switch Coffee Tokyo", "Mel Coffee Roasters", "The Cupping Room", 
+            "ONA Coffee", "Market Lane", "Seven Seeds", "Code Black", "Reuben Hills",
+            "George Howell", "Cat & Cloud", "Passenger Coffee", "Monogram", "Rogue Wave", "Proud Mary USA", "Black & White"
+        ];
+
+        const REGION_MAP = {
+            'China': 'Asia', 'Japan': 'Japan', 'Hong Kong': 'Asia', 'South Korea': 'Asia', 
+            'Australia': 'Australia', 'New Zealand': 'Australia',
+            'Denmark': 'Nordic', 'Sweden': 'Nordic', 'Norway': 'Nordic',
+            'Germany': 'Europe', 'Netherlands': 'Europe', 'Spain': 'Europe', 'Italy': 'Europe', 'Belgium': 'Europe', 'United Kingdom': 'Europe',
+            'USA': 'NorthAmerica', 'Canada': 'NorthAmerica'
         };
 
-        // 屏蔽词 (前端二次过滤)
-        const BLACKLIST = ["instant", "capsule", "drip bag", "stand", "cap", "tee", "tote", "gift", "sub"];
+        const EXCHANGE_RATES = {
+            'USA': 7.24, 'Canada': 5.15, 'Japan': 0.047, 'Hong Kong': 0.93, 'South Korea': 0.0052,
+            'Australia': 4.68, 'New Zealand': 4.23, 'Denmark': 1.02, 'Norway': 0.65, 'Sweden': 0.66,
+            'Germany': 7.60, 'Netherlands': 7.60, 'Spain': 7.60, 'Italy': 7.60, 'Belgium': 7.60, 'United Kingdom': 9.10
+        };
+
+        const BLACKLIST = ["gift", "sub", "course", "workshop", "tee", "tote", "paper", "dripper", "capsule", "instant", "pod"];
 
         async function init() {
             try {
-                // 1. 读取本地 data.json
-                const response = await fetch('./data.json');
+                const response = await fetch('./data.json?v=' + new Date().getTime());
                 const rawData = await response.json();
 
-                // 2. 清洗数据
-                allBeans = rawData.filter(item => {
-                    const nameLower = item.name.toLowerCase();
-                    // 过滤掉包含屏蔽词的商品
-                    if (BLACKLIST.some(bad => nameLower.includes(bad))) return false;
-                    return true;
-                });
+                allBeans = rawData
+                    .filter(item => {
+                        if(!item.name) return false;
+                        const nameLower = item.name.toLowerCase();
+                        if (BLACKLIST.some(bad => nameLower.includes(bad))) return false;
+                        return true;
+                    })
+                    .map(item => {
+                        let cnyPrice = 0;
+                        let priceStr = String(item.price);
+                        let rawPrice = parseFloat(priceStr.replace(/[^0-9.]/g, ''));
+                        
+                        if (!isNaN(rawPrice) && rawPrice > 0) {
+                            let rate = EXCHANGE_RATES[item.roaster_country] || 7.2;
+                            cnyPrice = Math.round(rawPrice * rate);
+                        }
 
-                // 3. 生成筛选按钮
-                generateFilters();
+                        let rankIndex = ROASTER_RANK_LIST.indexOf(item.roaster_name);
+                        if (rankIndex === -1) rankIndex = 999;
 
-                // 4. 渲染列表
-                renderBeans(allBeans);
+                        return {
+                            ...item,
+                            region: REGION_MAP[item.roaster_country] || 'Europe',
+                            cnyPrice: cnyPrice,
+                            timeAgo: formatTime(item.published_at),
+                            rankIndex: rankIndex
+                        };
+                    });
+
+                document.getElementById('total-count').innerText = allBeans.length;
+                
+                // 更新状态栏文字
+                const today = new Date().toLocaleDateString('en-US', {month: 'short', day: 'numeric'});
+                document.getElementById('update-status').innerText = `UPDATED ${today.toUpperCase()}`;
+
+                sortBeans('newest'); 
 
             } catch (error) {
-                console.error("Error:", error);
-                document.getElementById('bean-grid').innerHTML = `
-                    <div class="col-span-full text-center text-red-400 py-10">
-                        <p>无法加载数据。请确保 <code class="bg-white/10 px-1 rounded">data.json</code> 存在且格式正确。</p>
-                        <p class="text-sm mt-2 text-white/50">如果你是直接双击打开 html，浏览器可能会拦截本地文件读取。请尝试使用 VS Code 的 "Live Server" 插件或上传到服务器。</p>
-                    </div>
-                `;
+                console.error(error);
+                document.getElementById('bean-grid').innerHTML = `<div class="col-span-full text-center text-red-400 py-10 font-mono text-xs">DATA LOAD FAILED</div>`;
             }
         }
 
-        function getCurrencySymbol(country) {
-            return CURRENCY_MAP[country] || "";
-        }
-
-        function timeAgo(dateString) {
-            const date = new Date(dateString);
+        function formatTime(dateStr) {
+            if (!dateStr) return "";
+            const date = new Date(dateStr);
             const now = new Date();
-            const diffMs = now - date;
-            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-
-            if (diffDays === 0) return "Today";
-            if (diffDays === 1) return "Yesterday";
-            if (diffDays < 7) return `${diffDays} days ago`;
-            return date.toLocaleDateString();
+            const diffHours = (now - date) / (1000 * 60 * 60);
+            if (diffHours < 24) return "NEW";
+            if (diffHours < 48) return "1d";
+            return Math.ceil(diffHours / 24) + "d";
         }
 
-        function generateFilters() {
-            const container = document.getElementById('filter-container');
-            const roasters = [...new Set(allBeans.map(b => b.roaster_name))]; // 获取唯一烘焙师名
+        window.filterRegion = function(region, btn) {
+            currentRegion = region;
+            document.querySelectorAll('.region-btn').forEach(b => {
+                b.className = "region-btn px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 text-text-sub hover:text-white hover:bg-white/5 cn-font";
+            });
+            btn.className = "region-btn active px-4 py-1.5 rounded text-xs font-medium transition-all duration-300 bg-white text-black shadow-glow cn-font transform scale-105";
             
-            roasters.forEach(r => {
-                const btn = document.createElement('button');
-                btn.className = "filter-btn px-4 py-1.5 rounded-full bg-white/5 text-coffee-muted text-sm hover:bg-white/10 transition whitespace-nowrap";
-                btn.innerText = r;
-                btn.onclick = (e) => filterBeans(r, e.target);
-                container.appendChild(btn);
-            });
+            const currentSort = document.querySelector('select').value;
+            sortBeans(currentSort);
         }
 
-        function filterBeans(roaster, btnElement) {
-            // 样式切换
-            document.querySelectorAll('.filter-btn').forEach(b => {
-                b.classList.remove('bg-coffee-accent', 'text-black', 'font-semibold');
-                b.classList.add('bg-white/5', 'text-coffee-muted');
-            });
-            btnElement.classList.remove('bg-white/5', 'text-coffee-muted');
-            btnElement.classList.add('bg-coffee-accent', 'text-black', 'font-semibold');
-
-            if (roaster === 'all') {
-                renderBeans(allBeans);
-            } else {
-                const filtered = allBeans.filter(b => b.roaster_name === roaster);
-                renderBeans(filtered);
+        window.sortBeans = function(sortType) {
+            let sorted = [...getFilteredBeans()];
+            if (sortType === 'newest') {
+                sorted.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+            } else if (sortType === 'rank') {
+                sorted.sort((a, b) => {
+                    if (a.rankIndex === b.rankIndex) return new Date(b.published_at) - new Date(a.published_at);
+                    return a.rankIndex - b.rankIndex;
+                });
             }
+            renderBeans(sorted);
+        }
+
+        function getFilteredBeans() {
+            if (currentRegion === 'all') return allBeans;
+            return allBeans.filter(b => b.region === currentRegion);
         }
 
         function renderBeans(data) {
             const container = document.getElementById('bean-grid');
             container.innerHTML = '';
+            const FALLBACK_IMG = "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=600&q=80";
 
             data.forEach((bean, index) => {
-                const symbol = getCurrencySymbol(bean.roaster_country);
-                const dateLabel = timeAgo(bean.published_at);
-                
-                // 处理图片错误 (有些图片可能过期)
-                const imgUrl = bean.image || 'https://via.placeholder.com/400x400/1c1c1c/333?text=No+Image';
+                let priceDisplay = `<span class="text-[10px] text-text-dim tracking-wide font-sans">VIEW</span>`;
+                if (bean.cnyPrice > 0) {
+                    priceDisplay = `<span class="text-white text-sm num-font">¥ ${bean.cnyPrice}</span>`;
+                }
+
+                const cnCountry = {
+                    'Japan': '日本', 'China': '中国', 'USA': '美国', 'Denmark': '丹麦', 'Norway': '挪威',
+                    'Germany': '德国', 'Australia': '澳洲', 'Netherlands': '荷兰', 'Italy': '意大利',
+                    'Sweden': '瑞典', 'Spain': '西班牙', 'Canada': '加拿大', 'United Kingdom': '英国',
+                    'Belgium': '比利时', 'Hong Kong': '香港', 'New Zealand': '新西兰'
+                }[bean.roaster_country] || bean.roaster_country;
+
+                // 智能描述排版
+                let descHtml = '';
+                if (bean.description) {
+                    let cleanDesc = bean.description.replace(/<[^>]*>?/gm, '');
+                    let parts = cleanDesc.split('|');
+                    parts.forEach(part => {
+                        let content = part.replace(/^(产地|风味|Region|Notes)[:\s]*/i, '').trim();
+                        if(content && content.length < 40) {
+                            descHtml += `<span class="flavor-tag cn-font">${content}</span>`;
+                        }
+                    });
+                }
+                if (!descHtml) descHtml = `<span class="text-[10px] text-text-dim italic pl-1 font-sans">Details inside</span>`;
 
                 const html = `
-                    <div class="group bg-coffee-dark rounded-xl overflow-hidden border border-white/5 hover:border-coffee-accent/30 transition duration-300 flex flex-col fade-in" style="animation-delay: ${index * 50}ms">
-                        <div class="relative aspect-square overflow-hidden bg-white/5">
-                            <span class="absolute top-3 left-3 bg-black/60 backdrop-blur text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider z-10">
-                                ${bean.roaster_name}
-                            </span>
-                            <span class="absolute top-3 right-3 bg-coffee-accent text-black text-[10px] font-bold px-2 py-1 rounded z-10">
-                                ${dateLabel}
-                            </span>
-                            <img src="${imgUrl}" alt="${bean.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100" loading="lazy">
-                        </div>
-                        
-                        <div class="p-5 flex flex-col flex-grow">
-                            <div class="flex justify-between items-start mb-2">
-                                <h3 class="text-lg font-serif font-bold text-white leading-snug line-clamp-2 min-h-[3rem]">
-                                    <a href="${bean.url}" target="_blank" class="hover:text-coffee-accent transition">${bean.name}</a>
-                                </h3>
+                    <div class="group flex flex-col gap-3 fade-in-up" style="animation-delay: ${Math.min(index * 0.05, 1)}s">
+                        <!-- 图片 -->
+                        <a href="${bean.url}" target="_blank" class="block overflow-hidden rounded-[1px] relative aspect-[4/5] bg-bg-card shadow-card ring-1 ring-white/5 group-hover:ring-gold-accent/30 transition-all duration-500">
+                            <div class="absolute top-3 right-3 z-10">
+                                <span class="bg-black/80 backdrop-blur text-white text-[9px] font-medium px-1.5 py-0.5 rounded-[1px] uppercase tracking-wider shadow-lg num-font border border-white/10">
+                                    ${bean.timeAgo}
+                                </span>
                             </div>
-                            
-                            <p class="text-coffee-muted text-xs line-clamp-2 mb-4 h-8">
-                                ${bean.description}
-                            </p>
+                            <img 
+                                src="${bean.image || FALLBACK_IMG}" 
+                                alt="${bean.name}"
+                                loading="lazy"
+                                onerror="this.onerror=null; this.src='${FALLBACK_IMG}';"
+                                class="img-zoom w-full h-full object-cover opacity-90 group-hover:opacity-100"
+                            >
+                        </a>
 
-                            <div class="mt-auto pt-4 border-t border-white/5 flex justify-between items-center">
-                                <div class="text-white font-mono text-sm">
-                                    ${symbol} ${bean.price}
-                                </div>
-                                <a href="${bean.url}" target="_blank" class="bg-white/10 hover:bg-white text-white hover:text-black px-3 py-1.5 rounded text-xs font-bold transition uppercase tracking-wider">
-                                    View
+                        <!-- 信息 -->
+                        <div class="flex flex-col flex-grow px-1">
+                            <div class="flex justify-between items-baseline mb-2 opacity-70">
+                                <span class="text-[10px] uppercase tracking-widest font-medium text-gold-accent/90 font-sans truncate max-w-[60%]">
+                                    ${bean.roaster_name}
+                                </span>
+                                <span class="text-[10px] text-text-dim cn-font">
+                                    ${cnCountry}
+                                </span>
+                            </div>
+
+                            <h3 class="text-[15px] font-medium text-white leading-snug mb-3 group-hover:text-gold-accent transition duration-300 cn-font min-h-[42px]">
+                                <a href="${bean.url}" target="_blank" class="line-clamp-2">
+                                    ${bean.name}
+                                </a>
+                            </h3>
+                            
+                            <div class="mb-4 leading-relaxed flex flex-wrap content-start min-h-[24px]">
+                                ${descHtml}
+                            </div>
+
+                            <div class="mt-auto pt-3 border-t border-white/5 flex justify-between items-center">
+                                ${priceDisplay}
+                                <a href="${bean.url}" target="_blank" class="text-[10px] uppercase tracking-widest text-text-sub hover:text-white transition group-hover:translate-x-1 duration-300 flex items-center gap-1 font-sans">
+                                    Shop <i class="fa-solid fa-arrow-right text-[8px] opacity-50 group-hover:opacity-100"></i>
                                 </a>
                             </div>
                         </div>
@@ -225,9 +359,16 @@
             });
         }
 
-        // 启动
-        window.addEventListener('DOMContentLoaded', init);
-
+        init();
+        
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg', 'bg-bg-main/95');
+            } else {
+                nav.classList.remove('shadow-lg', 'bg-bg-main/90');
+            }
+        });
     </script>
 </body>
 </html>
