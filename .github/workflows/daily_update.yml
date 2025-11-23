@@ -36,8 +36,10 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'CoffeeBot'
-          git config --global user.email 'bot@noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data.json
-          # 只有当数据有变化时才提交
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update coffee data" && git push)
+          # 关键修改：先拉取远程最新代码，采用 rebase 模式避免冲突
+          git pull --rebase origin main
+          git commit -m "Auto-update coffee data $(date +'%Y-%m-%d')" || exit 0
+          git push origin main
