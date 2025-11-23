@@ -6,91 +6,101 @@
     <meta name="theme-color" content="#050505">
     <title>Global Roast 100 | 全球咖啡新豆榜</title>
     <style>
-        /* --- iOS 设计语言 --- */
+        /* --- 核心变量 --- */
         :root {
             --bg: #050505;
             --surface: #121212;
-            --surface-blur: rgba(18, 18, 18, 0.85);
-            --primary: #D4AF37; /* 奢华金 */
+            --surface-blur: rgba(10, 10, 10, 0.9);
+            --primary: #D4AF37; /* 香槟金 */
             --text-main: #F5F5F7;
             --text-sec: #86868B;
             --border: rgba(255, 255, 255, 0.08);
-            --max-width: 1280px; /* 核心：严格限制最大宽度 */
-            --gap: 24px;
+            --max-width: 1400px;
+            --safe-area: max(20px, env(safe-area-inset-left));
         }
 
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; outline: none; }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; outline: none; user-select: none; }
 
         body {
             background-color: var(--bg);
             color: var(--text-main);
-            /* 黄金字体栈 */
             font-family: "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             margin: 0;
             padding: 0;
             -webkit-font-smoothing: antialiased;
         }
 
-        /* --- 1. 沉浸式 Header --- */
+        /* --- 1. Header 重构 (V8 极简奢华版) --- */
         header {
-            padding: 90px 20px 50px;
+            /* 顶部大量留白，营造呼吸感 */
+            padding: 130px 20px 70px;
             text-align: center;
-            background: linear-gradient(180deg, #000 0%, var(--bg) 100%);
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        .brand-mark {
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 3px;
-            color: var(--primary);
-            text-transform: uppercase;
+        /* 层级1：主标题锁定 (Hero Lockup) */
+        .title-lockup {
+            display: flex;
+            align-items: baseline; /* 基线对齐，让不同字体看起来和谐 */
+            justify-content: center;
+            gap: 16px; /* GR100 和中文之间的间距 */
             margin-bottom: 16px;
-            opacity: 0.9;
+            flex-wrap: wrap;
         }
 
-        h1 {
+        .title-lockup .brand {
+            font-family: "Didot", "Bodoni MT", "Times New Roman", serif; /* 古典衬线体 */
             font-size: 42px;
-            font-weight: 600;
-            margin: 0 0 20px 0;
-            line-height: 1.1;
+            font-weight: 700;
+            font-style: italic;
+            color: var(--primary);
+            letter-spacing: -1px;
+        }
+
+        .title-lockup .cn-text {
+            font-size: 32px;
+            font-weight: 300; /* 细体，显得优雅 */
             color: #fff;
+            letter-spacing: 2px;
+        }
+
+        /* 层级2：英文副标 (Subtitle) */
+        .subtitle-en {
+            display: block;
+            font-family: "SF Pro Text", sans-serif;
+            font-size: 12px;
+            color: var(--text-sec);
+            text-transform: uppercase;
+            letter-spacing: 6px; /* 极宽字间距，形成线条感 */
+            margin-bottom: 36px; /* 与下一层级的间距 */
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        /* 层级3：说明标语 (Slogan - 印章风格) */
+        .slogan-container {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        /* 两侧的装饰细线 */
+        .slogan-line {
+            width: 40px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .slogan-text {
+            font-size: 13px;
+            color: var(--text-sec);
             letter-spacing: 1px;
         }
 
-        h1 .en {
-            display: block;
-            font-family: "Didot", "Times New Roman", serif;
-            font-size: 24px;
-            font-style: italic;
-            font-weight: 400;
-            color: var(--text-sec);
-            margin-top: 8px;
-            letter-spacing: 0.5px;
-        }
-
-        /* Slogan 装饰线 */
-        .slogan-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .slogan-line {
-            width: 30px;
-            height: 1px;
-            background: var(--border);
-        }
-
-        .slogan {
-            font-size: 13px;
-            color: var(--text-sec);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-        }
-
-        /* --- 2. 悬浮筛选栏 (对齐修正版) --- */
+        /* --- 2. 悬浮筛选栏 --- */
         .sticky-header {
             position: sticky;
             top: 0;
@@ -99,74 +109,81 @@
             backdrop-filter: saturate(180%) blur(20px);
             -webkit-backdrop-filter: saturate(180%) blur(20px);
             border-bottom: 1px solid var(--border);
-            width: 100%;
+            transition: transform 0.3s;
         }
 
-        /* 内部容器：严格限制宽度，与下方 Grid 对齐 */
         .filter-content {
             max-width: var(--max-width);
             margin: 0 auto;
-            padding: 12px 30px;
+            padding: 10px var(--safe-area);
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 8px;
         }
 
         /* 地区 Tabs */
         .region-tabs {
             display: flex;
-            gap: 25px;
+            gap: 30px;
             overflow-x: auto;
-            scrollbar-width: none;
             padding-bottom: 5px;
-            border-bottom: 1px solid rgba(255,255,255,0.03);
+            scrollbar-width: none;
+            justify-content: flex-start; 
         }
+        @media(min-width: 768px) { .region-tabs { justify-content: center; } }
         .region-tabs::-webkit-scrollbar { display: none; }
 
         .tab-btn {
             background: none;
             border: none;
             color: var(--text-sec);
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 500;
             cursor: pointer;
-            padding: 8px 0;
+            padding: 6px 0;
             position: relative;
             white-space: nowrap;
             transition: color 0.3s;
         }
 
-        .tab-btn.active { color: #fff; }
+        .tab-btn:hover { color: #fff; }
+        .tab-btn.active { color: #fff; font-weight: 600; }
         .tab-btn.active::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: var(--primary);
-            box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+            content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+            width: 4px; height: 4px; background: var(--primary); border-radius: 50%;
+            box-shadow: 0 0 8px rgba(212,175,55,0.6);
         }
 
         /* 品牌 Tags */
+        .tags-mask {
+            position: relative;
+            overflow: hidden;
+        }
+        .tags-mask::before, .tags-mask::after {
+            content: ''; position: absolute; top: 0; bottom: 0; width: 20px; z-index: 2; pointer-events: none;
+        }
+        .tags-mask::before { left: 0; background: linear-gradient(to right, var(--surface-blur), transparent); }
+        .tags-mask::after { right: 0; background: linear-gradient(to left, var(--surface-blur), transparent); }
+
         .roaster-scroll {
             display: flex;
             gap: 10px;
             overflow-x: auto;
             padding: 8px 0;
             scrollbar-width: none;
-            -webkit-overflow-scrolling: touch;
+            cursor: grab;
         }
         .roaster-scroll::-webkit-scrollbar { display: none; }
+        @media(min-width: 768px) { .roaster-scroll { justify-content: center; } }
 
         .tag {
             flex-shrink: 0;
-            height: 30px;
-            padding: 0 16px;
-            border-radius: 15px;
+            height: 28px;
+            padding: 0 14px;
+            border-radius: 14px;
             background: rgba(255,255,255,0.06);
             color: var(--text-main);
-            font-size: 13px;
+            font-size: 12px;
             display: flex;
             align-items: center;
             cursor: pointer;
@@ -174,65 +191,66 @@
             border: 1px solid transparent;
         }
 
-        .tag:hover { border-color: #555; background: rgba(255,255,255,0.1); }
-        
+        .tag:hover { background: rgba(255,255,255,0.12); }
         .tag.active {
             background: var(--text-main);
             color: #000;
             font-weight: 600;
         }
 
-        /* --- 3. 工具栏 (统计 + 排序) --- */
+        /* --- 3. Toolbar --- */
         .toolbar {
             max-width: var(--max-width);
             margin: 0 auto;
-            padding: 25px 30px 5px;
+            padding: 30px var(--safe-area) 5px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 13px;
+            font-size: 12px;
             color: var(--text-sec);
         }
 
-        .sort-select {
-            background: transparent;
-            border: none;
-            color: var(--text-main);
-            font-size: 13px;
-            font-weight: 500;
-            cursor: pointer;
-            text-align: right;
-            padding-right: 20px;
-            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M6%209l6%206%206-6%22%2F%3E%3C%2Fsvg%3E");
-            background-repeat: no-repeat;
-            background-position: right center;
-            background-size: 12px;
-            opacity: 0.8;
-            transition: opacity 0.2s;
-        }
-        .sort-select:hover { opacity: 1; }
+        .custom-dropdown { position: relative; cursor: pointer; color: var(--text-main); }
+        .dropdown-trigger { display: flex; align-items: center; gap: 6px; font-weight: 500; }
+        .dropdown-trigger svg { width: 12px; opacity: 0.6; transition: transform 0.3s; }
+        .custom-dropdown.open .dropdown-trigger svg { transform: rotate(180deg); }
 
-        /* --- 4. 网格系统 --- */
+        .dropdown-menu {
+            position: absolute; top: 100%; right: 0; margin-top: 8px; width: 170px;
+            background: rgba(30,30,30,0.98); border: 1px solid var(--border);
+            border-radius: 12px; padding: 6px; opacity: 0; visibility: hidden;
+            transform: translateY(-8px); transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6); z-index: 200;
+        }
+        .custom-dropdown.open .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+
+        .dropdown-item {
+            padding: 10px 12px; border-radius: 8px; display: flex; justify-content: space-between;
+            align-items: center; transition: background 0.2s; cursor: pointer;
+        }
+        .dropdown-item:hover { background: rgba(255,255,255,0.1); }
+        .dropdown-item.selected { color: var(--primary); }
+        .dropdown-item .check { opacity: 0; width: 14px; }
+        .dropdown-item.selected .check { opacity: 1; }
+
+        /* --- 4. Grid & Card --- */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
             gap: 40px 30px;
-            padding: 20px 30px 100px;
+            padding: 20px var(--safe-area) 120px;
             max-width: var(--max-width);
             margin: 0 auto;
         }
 
-        /* 卡片 */
         .card {
-            display: block;
             text-decoration: none;
-            background: transparent;
+            display: block;
             opacity: 0;
             transform: translateY(20px);
-            animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
-
-        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
 
         .card:hover .img-box img { transform: scale(1.05); }
         .card:hover .bean-title { color: #fff; }
@@ -241,51 +259,42 @@
             width: 100%;
             padding-top: 100%;
             position: relative;
-            background: #1a1a1a;
-            border-radius: 4px; /* iOS 相册风格，直角微圆 */
+            background: #151515;
+            border-radius: 3px;
             overflow: hidden;
             margin-bottom: 16px;
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
         }
 
         .img-box img {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            object-fit: cover;
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover; opacity: 0;
             transition: opacity 0.3s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-            opacity: 0;
         }
         .img-box img.loaded { opacity: 1; }
 
-        /* SVG 占位 */
         .placeholder {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #333;
-            background: #111;
+            position: absolute; inset: 0; display: flex; justify-content: center; align-items: center;
+            color: #333; background: #111;
         }
 
-        .info { display: flex; flex-direction: column; }
+        .info { padding: 0 4px; }
 
         .roaster {
-            font-size: 11px;
-            font-weight: 600;
+            font-size: 10px;
+            font-weight: 700;
             color: var(--primary);
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 8px;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
         }
 
         .bean-title {
-            font-size: 15px;
-            color: #ddd;
+            font-size: 14px;
+            color: #ccc;
             line-height: 1.5;
             font-weight: 400;
             margin-bottom: 8px;
-            height: 44px;
+            height: 42px;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
@@ -293,37 +302,20 @@
             transition: color 0.2s;
         }
 
-        .price {
-            font-family: "SF Mono", monospace;
-            font-size: 12px;
-            color: var(--text-sec);
-        }
+        .price { font-family: "SF Mono", monospace; font-size: 12px; color: #666; }
 
-        /* Loading */
-        .loading {
-            text-align: center;
-            padding: 60px;
-            font-size: 11px;
-            color: #444;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
+        .loading { text-align: center; padding: 60px; font-size: 11px; color: #444; letter-spacing: 2px; text-transform: uppercase; }
 
-        /* --- 移动端适配 --- */
+        /* 移动端适配 */
         @media (max-width: 768px) {
-            h1 { font-size: 32px; }
-            h1 .en { font-size: 18px; }
+            header { padding: 100px 20px 50px; }
+            .title-lockup .brand { font-size: 36px; }
+            .title-lockup .cn-text { font-size: 28px; }
+            .subtitle-en { font-size: 11px; letter-spacing: 4px; margin-bottom: 30px; }
+            .slogan-text { font-size: 12px; }
+            .slogan-line { width: 30px; }
             
-            .filter-content, .toolbar, .grid {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 20px 15px;
-            }
-            
+            .grid { grid-template-columns: repeat(2, 1fr); gap: 24px 12px; }
             .bean-title { font-size: 13px; height: 39px; }
         }
     </style>
@@ -331,14 +323,16 @@
 <body>
 
     <header>
-        <div class="brand-mark">GR100</div>
-        <h1>
-            全球咖啡新豆榜
-            <span class="en">Global Roast Selection</span>
-        </h1>
+        <div class="title-lockup">
+            <span class="brand">GR100</span>
+            <span class="cn-text">全球咖啡新豆榜</span>
+        </div>
+        
+        <span class="subtitle-en">Global Roast Selection</span>
+        
         <div class="slogan-container">
             <div class="slogan-line"></div>
-            <div class="slogan">每日追踪 100+ 顶级烘焙品牌 · 甄选 30 天内新鲜出品</div>
+            <span class="slogan-text">每日追踪 100+ 顶级品牌 · 甄选 30 天内新鲜出品</span>
             <div class="slogan-line"></div>
         </div>
     </header>
@@ -354,18 +348,31 @@
                 <button class="tab-btn" data-region="australia">澳洲</button>
             </div>
             
-            <div class="roaster-scroll" id="roaster-tags">
-                </div>
+            <div class="tags-mask">
+                <div class="roaster-scroll" id="roaster-tags">
+                    </div>
+            </div>
         </div>
     </div>
 
     <div class="toolbar">
         <div class="count">已收录 <span id="total-count" style="color:#fff; font-weight:600">0</span> 款</div>
-        <div class="sort">
-            <select id="sort-select" class="sort-select">
-                <option value="rank-asc">👑 榜单排名 (Top 100)</option>
-                <option value="newest">📅 最新发布</option>
-            </select>
+        
+        <div class="custom-dropdown" id="sort-dropdown">
+            <div class="dropdown-trigger">
+                <span id="current-sort-label">👑 榜单排名</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+            <div class="dropdown-menu">
+                <div class="dropdown-item selected" data-value="rank-asc">
+                    <span>👑 榜单排名</span>
+                    <svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div class="dropdown-item" data-value="newest">
+                    <span>📅 最新发布</span>
+                    <svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -373,25 +380,11 @@
     <div class="loading" id="sentinel">LOADING</div>
 
     <script>
-        let allData = [];
-        let filteredData = [];
-        let loadedCount = 0;
+        let allData = [], filteredData = [], loadedCount = 0, currentRegion = 'all', currentRoaster = 'all', currentSort = 'rank-asc';
         const BATCH_SIZE = 24;
-        
-        let currentRegion = 'all';
-        let currentRoaster = 'all';
-        let currentSort = 'rank-asc'; // 默认改为榜单排序
 
-        // Roastful 2024 Top Roasters (权威榜单)
-        // 名字必须模糊匹配 data.json 里的 roaster_name
         const TOP_ROASTERS = [
-            "Tim Wendelboe", "Coffee Collective", "April", "Sey", "La Cabra", "Koppi", 
-            "Nomad", "Onyx Coffee Lab", "ONA", "Manhattan", "Friedhats", "Kawa", 
-            "DAK", "Momos", "Archers", "Heart", "Morgon", "Leaves", "Prodigal", 
-            "Market Lane", "Colonna", "Code Black", "Gardelli", "Process", "Luna", 
-            "Fjord", "Glitch", "Kurasu", "Onibus", "Mel", "Five Elephant", "The Barn",
-            "Monogram", "Hatch", "Black & White", "Subtext", "Rogue Wave", "Passenger",
-            "George Howell", "Cat & Cloud", "Brandywine", "Verve", "Proud Mary", "Seven Seeds"
+            "Tim Wendelboe", "Coffee Collective", "April", "Sey", "La Cabra", "Koppi", "Nomad", "Onyx Coffee Lab", "ONA", "Manhattan", "Friedhats", "Kawa", "DAK", "Momos", "Archers", "Heart", "Morgon", "Leaves", "Prodigal", "Market Lane", "Colonna", "Code Black", "Gardelli", "Process", "Luna", "Fjord", "Glitch", "Kurasu", "Onibus", "Mel", "Five Elephant", "The Barn", "Monogram", "Hatch", "Black & White", "Subtext", "Rogue Wave", "Passenger", "George Howell", "Cat & Cloud", "Brandywine", "Verve", "Proud Mary", "Seven Seeds"
         ];
 
         const regionMap = {
@@ -402,177 +395,121 @@
             'australia': ['Australia', 'New Zealand']
         };
 
-        const placeholderSVG = `
-            <div class="placeholder">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#444" stroke-width="1">
-                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
-                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
-                    <line x1="6" y1="1" x2="6" y2="4"></line>
-                    <line x1="10" y1="1" x2="10" y2="4"></line>
-                    <line x1="14" y1="1" x2="14" y2="4"></line>
-                </svg>
-            </div>`;
+        const placeholderSVG = `<div class="placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg></div>`;
 
         async function init() {
             try {
                 const res = await fetch('data.json?t=' + Date.now());
-                if (!res.ok) throw new Error("Failed to load data");
+                if(!res.ok) throw new Error("No Data");
                 allData = await res.json();
-                
-                renderTags();
-                applyFilterAndSort();
-                
-                const observer = new IntersectionObserver(entries => {
-                    if (entries[0].isIntersecting) loadMore();
-                }, { rootMargin: '300px' });
-                observer.observe(document.getElementById('sentinel'));
-
-                document.querySelectorAll('.tab-btn').forEach(btn => {
-                    btn.addEventListener('click', (e) => {
-                        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                        e.target.classList.add('active');
-                        
-                        currentRegion = e.target.dataset.region;
-                        currentRoaster = 'all';
-                        
-                        renderTags();
-                        applyFilterAndSort();
-                        document.getElementById('roaster-tags').scrollLeft = 0;
-                    });
-                });
-
-                document.getElementById('sort-select').addEventListener('change', (e) => {
-                    currentSort = e.target.value;
-                    applyFilterAndSort();
-                });
-
-            } catch (e) {
-                console.error(e);
-            }
+                renderTags(); applyFilterAndSort(); setupEvents();
+                new IntersectionObserver(e => e[0].isIntersecting && loadMore(), { rootMargin: '400px' }).observe(document.getElementById('sentinel'));
+            } catch(e) { console.error(e); }
         }
 
-        function getRoasterRank(name) {
-            // 模糊匹配逻辑：只要包含榜单里的关键词，就算命中
-            // 例如 data.json 是 "DAK Coffee", 榜单是 "DAK", 应该匹配
-            const lowerName = name.toLowerCase();
-            const index = TOP_ROASTERS.findIndex(rankName => lowerName.includes(rankName.toLowerCase()));
-            return index === -1 ? 999 : index; // 没上榜的排最后
+        function setupEvents() {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentRegion = e.target.dataset.region;
+                    currentRoaster = 'all';
+                    renderTags(); applyFilterAndSort();
+                    document.getElementById('roaster-tags').scrollTo({left:0, behavior:'smooth'});
+                });
+            });
+
+            const dd = document.getElementById('sort-dropdown');
+            const label = document.getElementById('current-sort-label');
+            dd.querySelector('.dropdown-trigger').onclick = (e) => { e.stopPropagation(); dd.classList.toggle('open'); };
+            document.onclick = () => dd.classList.remove('open');
+            dd.querySelectorAll('.dropdown-item').forEach(item => {
+                item.onclick = () => {
+                    dd.querySelectorAll('.dropdown-item').forEach(i => i.classList.remove('selected'));
+                    item.classList.add('selected');
+                    currentSort = item.dataset.value;
+                    label.innerText = item.querySelector('span').innerText;
+                    applyFilterAndSort();
+                }
+            });
+
+            // PC Drag
+            const slider = document.getElementById('roaster-tags');
+            let isDown=false, startX, scrollLeft;
+            slider.onmousedown=e=>{isDown=true;startX=e.pageX-slider.offsetLeft;scrollLeft=slider.scrollLeft;};
+            slider.onmouseleave=()=>{isDown=false}; slider.onmouseup=()=>{isDown=false};
+            slider.onmousemove=e=>{if(!isDown)return;e.preventDefault();slider.scrollLeft=scrollLeft-(e.pageX-slider.offsetLeft-startX)*2;};
+        }
+
+        function getRank(name) {
+            const idx = TOP_ROASTERS.findIndex(r => name.toLowerCase().includes(r.toLowerCase()));
+            return idx === -1 ? 999 : idx;
         }
 
         function renderTags() {
-            const container = document.getElementById('roaster-tags');
-            container.innerHTML = '';
-
+            const con = document.getElementById('roaster-tags'); con.innerHTML = '';
             let roasters = [];
-            if (currentRegion === 'all') {
-                roasters = [...new Set(allData.map(d => d.roaster_name))];
-            } else {
+            if (currentRegion === 'all') roasters = [...new Set(allData.map(d => d.roaster_name))];
+            else {
                 const countries = regionMap[currentRegion] || [];
                 roasters = [...new Set(allData.filter(d => countries.includes(d.roaster_country)).map(d => d.roaster_name))];
             }
-            
-            // 标签也按照榜单排序！
-            roasters.sort((a, b) => getRoasterRank(a) - getRoasterRank(b));
+            roasters.sort((a,b) => getRank(a) - getRank(b));
 
-            const allTag = document.createElement('div');
-            allTag.className = `tag ${currentRoaster === 'all' ? 'active' : ''}`;
-            allTag.innerText = '全部品牌';
-            allTag.onclick = () => {
-                currentRoaster = 'all';
-                updateTagActive();
-                applyFilterAndSort();
+            const addTag = (text, val) => {
+                const div = document.createElement('div');
+                div.className = `tag ${currentRoaster === val ? 'active' : ''}`;
+                div.innerText = text;
+                div.onclick = () => { currentRoaster = (currentRoaster === val && val !== 'all') ? 'all' : val; renderTags(); applyFilterAndSort(); };
+                con.appendChild(div);
             };
-            container.appendChild(allTag);
-
-            roasters.forEach(name => {
-                const tag = document.createElement('div');
-                tag.className = `tag ${currentRoaster === name ? 'active' : ''}`;
-                tag.innerText = name;
-                tag.onclick = () => {
-                    currentRoaster = (currentRoaster === name) ? 'all' : name;
-                    updateTagActive();
-                    applyFilterAndSort();
-                };
-                container.appendChild(tag);
-            });
-        }
-
-        function updateTagActive() {
-            const tags = document.getElementById('roaster-tags').children;
-            for (let tag of tags) {
-                const isActive = tag.innerText === (currentRoaster === 'all' ? '全部品牌' : currentRoaster);
-                tag.classList.toggle('active', isActive);
-            }
+            addTag('全部品牌', 'all');
+            roasters.forEach(r => addTag(r, r));
         }
 
         function applyFilterAndSort() {
             filteredData = allData.filter(d => {
-                let regionMatch = (currentRegion === 'all') ? true : (regionMap[currentRegion] || []).includes(d.roaster_country);
-                let roasterMatch = (currentRoaster === 'all') ? true : (d.roaster_name === currentRoaster);
-                return regionMatch && roasterMatch;
+                let rMatch = currentRegion === 'all' ? true : (regionMap[currentRegion]||[]).includes(d.roaster_country);
+                let bMatch = currentRoaster === 'all' ? true : d.roaster_name === currentRoaster;
+                return rMatch && bMatch;
             });
-
-            // 排序逻辑
+            
             filteredData.sort((a, b) => {
                 if (currentSort === 'rank-asc') {
-                    const rankA = getRoasterRank(a.roaster_name);
-                    const rankB = getRoasterRank(b.roaster_name);
-                    if (rankA !== rankB) return rankA - rankB;
-                    // 排名相同（如同品牌），按时间新到旧
-                    return new Date(b.published_at) - new Date(a.published_at);
-                } else if (currentSort === 'newest') {
-                    return new Date(b.published_at) - new Date(a.published_at);
+                    const ra = getRank(a.roaster_name), rb = getRank(b.roaster_name);
+                    return ra !== rb ? ra - rb : new Date(b.published_at) - new Date(a.published_at);
                 }
+                return new Date(b.published_at) - new Date(a.published_at);
             });
 
             document.getElementById('total-count').innerText = filteredData.length;
             document.getElementById('grid').innerHTML = '';
             loadedCount = 0;
-            window.scrollTo(0, 0);
+            window.scrollTo(0,0);
             loadMore();
         }
 
         function loadMore() {
             const sentinel = document.getElementById('sentinel');
             if (loadedCount >= filteredData.length) {
-                sentinel.innerText = filteredData.length === 0 ? "暂无数据" : "· THE END ·";
-                sentinel.style.opacity = 0.5;
-                return;
+                sentinel.innerText = filteredData.length ? "· THE END ·" : "暂无数据";
+                sentinel.style.opacity = 0.5; return;
             }
-
-            sentinel.innerText = "LOADING";
-            sentinel.style.opacity = 1;
-
+            sentinel.innerText = "LOADING"; sentinel.style.opacity = 1;
+            
             const batch = filteredData.slice(loadedCount, loadedCount + BATCH_SIZE);
             const grid = document.getElementById('grid');
-
+            
             batch.forEach(item => {
                 const a = document.createElement('a');
-                a.className = 'card';
-                a.href = item.url;
-                a.target = "_blank";
-
+                a.className = 'card'; a.href = item.url; a.target = "_blank";
                 let imgHtml = placeholderSVG;
                 if (item.image && item.image.length > 10 && !item.image.includes('no-image')) {
-                    imgHtml = `
-                        ${placeholderSVG}
-                        <img src="${item.image}" onload="this.classList.add('loaded')" onerror="this.style.display='none'">
-                    `;
+                    imgHtml = `${placeholderSVG}<img src="${item.image}" onload="this.classList.add('loaded')" onerror="this.style.display='none'">`;
                 }
-
-                a.innerHTML = `
-                    <div class="img-box">
-                        ${imgHtml}
-                    </div>
-                    <div class="info">
-                        <div class="roaster">${item.roaster_name}</div>
-                        <div class="bean-title">${item.name}</div>
-                        <div class="price">${item.price || ''}</div>
-                    </div>
-                `;
+                a.innerHTML = `<div class="img-box">${imgHtml}</div><div class="info"><div class="roaster">${item.roaster_name}</div><div class="bean-title">${item.name}</div><div class="price">${item.price||''}</div></div>`;
                 grid.appendChild(a);
             });
-
             loadedCount += batch.length;
         }
 
