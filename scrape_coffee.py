@@ -9,17 +9,67 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
-print("🚀 Global Roast 100 - V1.0 正式发布版")
-print("📝 策略: 仅保留 100% 稳定的 API 源 + 已验证的 Browser 源")
+print("🚀 Global Roast 100 - V2.0 CN (汇率换算 + 稳定源)...")
 
 # 禁用 SSL 警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ==========================================
-# 1. 目标名单
+# 1. 汇率配置 (估算值)
+# ==========================================
+RATES = {
+    'EUR': 7.7,  # 欧元
+    'USD': 7.25, # 美元
+    'JPY': 0.047, # 日元
+    'DKK': 1.05, # 丹麦克朗
+    'SEK': 0.68, # 瑞典克朗
+    'AUD': 4.7,  # 澳元
+    'HKD': 0.92, # 港币
+    'GBP': 9.2,  # 英镑
+    'CAD': 5.1   # 加币
+}
+
+def convert_price_to_cny(price_str, country):
+    if not price_str or price_str == "Check Site": return "查看官网"
+    
+    # 1. 提取数字
+    try:
+        # 移除千位符，替换逗号为点(欧洲习惯)
+        clean_num = re.sub(r'[^\d.,]', '', price_str)
+        if ',' in clean_num and '.' in clean_num: clean_num = clean_num.replace(',', '') # 1,200.00 -> 1200.00
+        elif ',' in clean_num: clean_num = clean_num.replace(',', '.') # 14,00 -> 14.00
+        
+        amount = float(clean_num)
+    except:
+        return price_str
+
+    # 2. 判定货币
+    rate = 7.2 # 默认美元
+    
+    # 根据符号判断
+    if '€' in price_str: rate = RATES['EUR']
+    elif 'kr' in price_str: 
+        rate = RATES['DKK'] if country in ['Denmark', 'Norway'] else RATES['SEK']
+    elif '¥' in price_str or 'JPY' in price_str: rate = RATES['JPY']
+    elif '£' in price_str: rate = RATES['GBP']
+    elif 'HK$' in price_str: rate = RATES['HKD']
+    elif 'A$' in price_str: rate = RATES['AUD']
+    elif 'C$' in price_str: rate = RATES['CAD']
+    # 根据国家判断兜底
+    elif country == 'Japan': rate = RATES['JPY']
+    elif country in ['Germany', 'Netherlands', 'Spain', 'Belgium', 'Italy']: rate = RATES['EUR']
+    elif country == 'Australia': rate = RATES['AUD']
+    elif country == 'Hong Kong': rate = RATES['HKD']
+    elif country == 'United Kingdom': rate = RATES['GBP']
+    
+    cny_price = int(amount * rate)
+    return f"¥{cny_price}"
+
+# ==========================================
+# 2. 目标名单
 # ==========================================
 
-# A组：API 模式 (速度快，数据最准，包含高清图)
+# A组：API 模式
 SHOPIFY_ROASTERS = [
     {"name": "Fjord Coffee", "country": "Germany", "url": "https://fjord-coffee.de"},
     {"name": "Glitch Coffee", "country": "Japan", "url": "https://shop.glitchcoffee.com"}, 
@@ -54,18 +104,11 @@ SHOPIFY_ROASTERS = [
     {"name": "Flight Coffee", "country": "New Zealand", "url": "https://flightcoffee.co.nz"},
 ]
 
-# B组：Browser 模式 (仅保留已验证成功的)
+# B组：Browser 模式 (保留验证过的稳定源)
 PLAYWRIGHT_ROASTERS = [
-    # 之前验证成功的
     {"name": "Friedhats", "country": "Netherlands", "url": "https://friedhats.com/collections/coffees"},
     {"name": "MOK Coffee", "country": "Belgium", "url": "https://mokcoffee.be/collections/coffee"},
     {"name": "Three Marks Coffee", "country": "Spain", "url": "https://threemarkscoffee.com/shop/"},
-    
-    # 暂时移除的不稳定源:
-    # Canyon Coffee (图片问题)
-    # DAK Coffee (React 结构问题)
-    # Cupping Room (标题抓取问题)
-    # Mel Coffee (深度嵌套问题)
 ]
 
 # ==========================================
@@ -97,7 +140,6 @@ def is_fresh_drop(date_str):
 
 def clean_title(text):
     if not text: return ""
-    # 强力过滤：价格、购物车、已售罄
     split_chars = ['€', '$', '£', '¥', 'Regular', 'Sold', 'Out of', 'from', 'From', 'Add to', 'Quick', 'TASTING']
     for char in split_chars:
         if char in text:
@@ -107,11 +149,10 @@ def clean_title(text):
     return text.strip()
 
 # ==========================================
-# 引擎 1: API (Shopify JSON)
+# 引擎 1: API
 # ==========================================
 def fetch_shopify_api(roaster):
     print(f"👉 [API] 正在连接: {roaster['name']} ...", end="", flush=True)
-    # 智能提取 base_url
     base_url = "/".join(roaster['url'].split('/')[:3]) 
     url = f"{base_url}/products.json?limit=250"
     
@@ -130,28 +171,31 @@ def fetch_shopify_api(roaster):
             p_type = item.get('product_type', '').lower()
             pub_at = item.get('published_at')
             
-            # 过滤周边产品
             if any(k in title.lower() for k in ['subscription', 'gift', 'merch', 'tee', 'sample', 'course', 'equipment', 'dripper', 'capsule', 'box', 'set']): continue
             
             is_coffee = False
             coffee_keywords = ['coffee', 'bean', 'roast', 'filter', 'espresso', 'geisha', 'blend', 'single origin', 'decaf']
             if any(k in p_type for k in coffee_keywords): is_coffee = True
             if any(k in title.lower() for k in coffee_keywords): is_coffee = True
-            # 白名单
-            if roaster['name'] in ["Right Side Coffee", "MOK Coffee", "Onibus Coffee", "Glitch Coffee", "Mel Coffee Roasters"]: is_coffee = True
+            if roaster['name'] in ["Right Side Coffee", "MOK Coffee", "Onibus Coffee", "Glitch Coffee"]: is_coffee = True
             
             if not is_coffee: continue
             if not is_fresh_drop(pub_at): continue
 
             variant = item['variants'][0] if item['variants'] else {}
             img_src = item['images'][0]['src'] if item['images'] else ""
+            
+            # 价格换算
+            original_price = variant.get('price', '0')
+            cny_price = convert_price_to_cny(original_price, roaster['country'])
+
             products.append({
                 "roaster_name": roaster['name'],
                 "roaster_country": roaster['country'],
                 "name": title,
                 "url": f"{base_url}/products/{item['handle']}",
                 "image": img_src,
-                "price": variant.get('price', '0'),
+                "price": cny_price, # 直接存人民币
                 "description": extract_flavor_info(item.get('body_html', '')),
                 "published_at": pub_at,
                 "source_type": "api"
@@ -162,7 +206,7 @@ def fetch_shopify_api(roaster):
     return products
 
 # ==========================================
-# 引擎 2: Playwright (Browser)
+# 引擎 2: Browser
 # ==========================================
 async def fetch_with_browser(roaster):
     print(f"🕵️ [Browser] 正在渲染: {roaster['name']} ...", end="", flush=True)
@@ -170,17 +214,12 @@ async def fetch_with_browser(roaster):
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            viewport={'width': 1366, 'height': 768},
-            locale='en-US'
-        )
+        context = await browser.new_context(viewport={'width': 1366, 'height': 768}, locale='en-US')
         page = await context.new_page()
         
         try:
             await page.goto(roaster['url'], timeout=60000, wait_until="networkidle")
             
-            # 强力滚动 (Friedhats/MOK 必须)
             for _ in range(6):
                 await page.mouse.wheel(0, 3000)
                 await asyncio.sleep(1)
@@ -190,7 +229,6 @@ async def fetch_with_browser(roaster):
             content = await page.content()
             soup = BeautifulSoup(content, 'html.parser')
             
-            # 1. JSON-LD 优先匹配 (Friedhats 神器)
             json_ld_images = {}
             scripts = soup.find_all('script', type='application/ld+json')
             for script in scripts:
@@ -210,28 +248,22 @@ async def fetch_with_browser(roaster):
                             json_ld_images[url_path] = img
                 except: continue
 
-            # 2. 遍历链接
             links = soup.find_all('a', href=True)
             seen_titles = set()
             
             for link in links:
                 href = link['href']
-                
-                # 判定是否为产品
                 is_product = False
                 if '/products/' in href: is_product = True
-                if '/product/' in href: is_product = True # Three Marks
+                if '/product/' in href: is_product = True
                 if '/collections/coffees/products/' in href: is_product = True
                 
-                if is_product and not any(x in href for x in ['sub', 'gift', 'merch', 'login', 'cart', 'equipment', 'brew', 'pages', 'account', 'wholesale']):
+                if is_product and not any(x in href for x in ['sub', 'gift', 'merch', 'login', 'cart', 'equipment', 'brew', 'pages', 'wholesale']):
                     
-                    # 提取标题
                     title = ""
                     t_el = link.find(['h2', 'h3', 'h4', 'div', 'span'], class_=lambda x: x and ('title' in x or 'name' in x))
                     if t_el: title = t_el.get_text(strip=True, separator=' ')
                     if not title: title = link.get_text(strip=True, separator=' ')
-                    
-                    # 清洗标题
                     title = clean_title(title)
 
                     if title and title not in seen_titles and len(title) > 2 and len(title) < 100:
@@ -244,7 +276,6 @@ async def fetch_with_browser(roaster):
                             if not href.startswith('/'): href = '/' + href
                             full_url = base_url + href
                         
-                        # --- 图片匹配 ---
                         img_url = ""
                         clean_url_key = full_url.split('?')[0].replace('https://', '').replace('http://', '').rstrip('/')
                         for k, v in json_ld_images.items():
@@ -252,7 +283,6 @@ async def fetch_with_browser(roaster):
                                 img_url = v
                                 break
                         
-                        # 常规 img 标签
                         if not img_url:
                             search_area = link
                             for _ in range(3):
@@ -260,14 +290,13 @@ async def fetch_with_browser(roaster):
                                 imgs = search_area.find_all('img')
                                 for img in imgs:
                                     if int(img.get('width', 100)) < 50: continue
-                                    srcset = img.get('srcset')
-                                    if srcset: img_url = srcset.split(',')[-1].strip().split(' ')[0]
-                                    if not img_url: img_url = img.get('data-src') or img.get('src')
-                                    if img_url and 'base64' not in img_url: break
+                                    src = img.get('data-bgset') or img.get('srcset') or img.get('data-src') or img.get('src')
+                                    if src:
+                                        img_url = src.split(',')[0].split(' ')[0]
+                                        break
                                 if img_url: break
                                 search_area = search_area.parent
 
-                        # 背景图
                         if not img_url:
                             search_area = link
                             for _ in range(3):
@@ -282,19 +311,20 @@ async def fetch_with_browser(roaster):
                                 if img_url: break
                                 search_area = search_area.parent
 
-                        # 图片 URL 清洗
                         if img_url:
                             if img_url.startswith('//'): img_url = "https:" + img_url
                             img_url = re.sub(r'_\d+x(\d+)?\.', '.', img_url)
                             img_url = re.sub(r'\?.*', '', img_url)
 
-                        # 价格
                         price = "Check Site"
                         p_container = link.parent
                         if p_container:
                             p_text = p_container.get_text()
                             p_match = re.search(r'([€$£¥]\s?\d+([.,]\d{2})?)', p_text)
                             if p_match: price = p_match.group(0)
+                        
+                        # 价格换算
+                        cny_price = convert_price_to_cny(price, roaster['country'])
 
                         products.append({
                             "roaster_name": roaster['name'],
@@ -302,7 +332,7 @@ async def fetch_with_browser(roaster):
                             "name": title,
                             "url": full_url,
                             "image": img_url,
-                            "price": price,
+                            "price": cny_price, # 存人民币
                             "description": f"Fresh from {roaster['name']}",
                             "published_at": datetime.now().isoformat(),
                             "source_type": "browser"
@@ -321,22 +351,18 @@ async def fetch_with_browser(roaster):
 
 async def main_async():
     all_beans = []
-    print(f"\n🚀 开始抓取任务...\n")
+    print(f"\n🚀 开始抓取任务 (人民币版)...\n")
     
-    # 1. API 组
     for roaster in SHOPIFY_ROASTERS:
         beans = fetch_shopify_api(roaster)
         all_beans.extend(beans)
 
-    # 2. Browser 组
     for roaster in PLAYWRIGHT_ROASTERS:
         beans = await fetch_with_browser(roaster)
         all_beans.extend(beans)
 
-    # 排序
     all_beans.sort(key=lambda x: x['published_at'], reverse=True)
 
-    # 保存 (使用绝对路径或相对路径)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, 'data.json')
 
