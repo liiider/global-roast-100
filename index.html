@@ -30,9 +30,8 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* --- 1. Header 重构 (V8 极简奢华版) --- */
+        /* --- Header --- */
         header {
-            /* 顶部大量留白，营造呼吸感 */
             padding: 130px 20px 70px;
             text-align: center;
             position: relative;
@@ -40,18 +39,17 @@
             margin: 0 auto;
         }
 
-        /* 层级1：主标题锁定 (Hero Lockup) */
         .title-lockup {
             display: flex;
-            align-items: baseline; /* 基线对齐，让不同字体看起来和谐 */
+            align-items: baseline;
             justify-content: center;
-            gap: 16px; /* GR100 和中文之间的间距 */
+            gap: 16px;
             margin-bottom: 16px;
             flex-wrap: wrap;
         }
 
         .title-lockup .brand {
-            font-family: "Didot", "Bodoni MT", "Times New Roman", serif; /* 古典衬线体 */
+            font-family: "Didot", "Bodoni MT", "Times New Roman", serif;
             font-size: 42px;
             font-weight: 700;
             font-style: italic;
@@ -61,25 +59,23 @@
 
         .title-lockup .cn-text {
             font-size: 32px;
-            font-weight: 300; /* 细体，显得优雅 */
+            font-weight: 300;
             color: #fff;
             letter-spacing: 2px;
         }
 
-        /* 层级2：英文副标 (Subtitle) */
         .subtitle-en {
             display: block;
             font-family: "SF Pro Text", sans-serif;
             font-size: 12px;
             color: var(--text-sec);
             text-transform: uppercase;
-            letter-spacing: 6px; /* 极宽字间距，形成线条感 */
-            margin-bottom: 36px; /* 与下一层级的间距 */
+            letter-spacing: 6px;
+            margin-bottom: 36px;
             font-weight: 500;
             opacity: 0.8;
         }
 
-        /* 层级3：说明标语 (Slogan - 印章风格) */
         .slogan-container {
             display: inline-flex;
             align-items: center;
@@ -87,7 +83,6 @@
             gap: 20px;
         }
         
-        /* 两侧的装饰细线 */
         .slogan-line {
             width: 40px;
             height: 1px;
@@ -100,7 +95,7 @@
             letter-spacing: 1px;
         }
 
-        /* --- 2. 悬浮筛选栏 --- */
+        /* --- Sticky Filter --- */
         .sticky-header {
             position: sticky;
             top: 0;
@@ -121,7 +116,6 @@
             gap: 8px;
         }
 
-        /* 地区 Tabs */
         .region-tabs {
             display: flex;
             gap: 30px;
@@ -154,7 +148,6 @@
             box-shadow: 0 0 8px rgba(212,175,55,0.6);
         }
 
-        /* 品牌 Tags */
         .tags-mask {
             position: relative;
             overflow: hidden;
@@ -198,7 +191,7 @@
             font-weight: 600;
         }
 
-        /* --- 3. Toolbar --- */
+        /* --- Toolbar --- */
         .toolbar {
             max-width: var(--max-width);
             margin: 0 auto;
@@ -233,7 +226,7 @@
         .dropdown-item .check { opacity: 0; width: 14px; }
         .dropdown-item.selected .check { opacity: 1; }
 
-        /* --- 4. Grid & Card --- */
+        /* --- Grid & Card --- */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -306,7 +299,6 @@
 
         .loading { text-align: center; padding: 60px; font-size: 11px; color: #444; letter-spacing: 2px; text-transform: uppercase; }
 
-        /* 移动端适配 */
         @media (max-width: 768px) {
             header { padding: 100px 20px 50px; }
             .title-lockup .brand { font-size: 36px; }
@@ -314,7 +306,6 @@
             .subtitle-en { font-size: 11px; letter-spacing: 4px; margin-bottom: 30px; }
             .slogan-text { font-size: 12px; }
             .slogan-line { width: 30px; }
-            
             .grid { grid-template-columns: repeat(2, 1fr); gap: 24px 12px; }
             .bean-title { font-size: 13px; height: 39px; }
         }
@@ -327,9 +318,7 @@
             <span class="brand">GR100</span>
             <span class="cn-text">全球咖啡新豆榜</span>
         </div>
-        
         <span class="subtitle-en">Global Roast Selection</span>
-        
         <div class="slogan-container">
             <div class="slogan-line"></div>
             <span class="slogan-text">每日追踪 100+ 顶级品牌 · 甄选 30 天内新鲜出品</span>
@@ -347,7 +336,6 @@
                 <button class="tab-btn" data-region="usa">北美</button>
                 <button class="tab-btn" data-region="australia">澳洲</button>
             </div>
-            
             <div class="tags-mask">
                 <div class="roaster-scroll" id="roaster-tags">
                     </div>
@@ -360,16 +348,16 @@
         
         <div class="custom-dropdown" id="sort-dropdown">
             <div class="dropdown-trigger">
-                <span id="current-sort-label">👑 榜单排名</span>
+                <span id="current-sort-label">📅 最新发布</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
             <div class="dropdown-menu">
-                <div class="dropdown-item selected" data-value="rank-asc">
-                    <span>👑 榜单排名</span>
+                <div class="dropdown-item selected" data-value="newest">
+                    <span>📅 最新发布</span>
                     <svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
                 </div>
-                <div class="dropdown-item" data-value="newest">
-                    <span>📅 最新发布</span>
+                <div class="dropdown-item" data-value="rank-asc">
+                    <span>👑 榜单排名</span>
                     <svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
                 </div>
             </div>
@@ -380,7 +368,9 @@
     <div class="loading" id="sentinel">LOADING</div>
 
     <script>
-        let allData = [], filteredData = [], loadedCount = 0, currentRegion = 'all', currentRoaster = 'all', currentSort = 'rank-asc';
+        let allData = [], filteredData = [], loadedCount = 0, currentRegion = 'all', currentRoaster = 'all';
+        // 默认排序修改为 newest
+        let currentSort = 'newest';
         const BATCH_SIZE = 24;
 
         const TOP_ROASTERS = [
@@ -433,7 +423,6 @@
                 }
             });
 
-            // PC Drag
             const slider = document.getElementById('roaster-tags');
             let isDown=false, startX, scrollLeft;
             slider.onmousedown=e=>{isDown=true;startX=e.pageX-slider.offsetLeft;scrollLeft=slider.scrollLeft;};
@@ -479,6 +468,7 @@
                     const ra = getRank(a.roaster_name), rb = getRank(b.roaster_name);
                     return ra !== rb ? ra - rb : new Date(b.published_at) - new Date(a.published_at);
                 }
+                // 默认最新发布
                 return new Date(b.published_at) - new Date(a.published_at);
             });
 
