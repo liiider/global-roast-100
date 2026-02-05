@@ -1,25 +1,36 @@
 [
   {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Panama Franceschi Gesha Natural Omni",
-    "url": "https://friedhats.com/products/panama-franceschi-gesha-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-3-bottle-V2.png",
-    "price": "¥177",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.614425",
-    "source_type": "browser"
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Single Origin Taster Pack - save 15%",
+    "url": "https://flightcoffee.co.nz/products/single-origin-taster-pack-save-15",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/SingleOriginTasterPack_fbab9857-c601-41fc-bf98-0a367a40c566.png?v=1710981233",
+    "price": "¥477",
+    "description": "3 x 250g of our latest Single Origins - save 15%. \n The current selection includ...",
+    "published_at": "2026-02-05T14:15:36+13:00",
+    "source_type": "api"
   },
   {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Panama Finca Hartmann Natural Omni",
-    "url": "https://friedhats.com/products/panama-finca-hartmann-natural-omni",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-Generic-label-bottle.png",
-    "price": "¥308",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.613792",
-    "source_type": "browser"
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Ethiopia - Shantawene - Natural",
+    "url": "https://flightcoffee.co.nz/products/ethiopia-shantawene-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/Shantawene.jpg?v=1769991907",
+    "price": "¥187",
+    "description": "",
+    "published_at": "2026-02-05T07:00:10+13:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Ethiopia - Tadese Teko - Washed",
+    "url": "https://flightcoffee.co.nz/products/ethiopia-tadese-teko-washed",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/EthiopiaTadeseTeko.jpg?v=1769645038",
+    "price": "¥187",
+    "description": "",
+    "published_at": "2026-02-05T07:00:09+13:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "Friedhats",
@@ -29,7 +40,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥338",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.613067",
+    "published_at": "2026-02-05T01:25:52.862222",
     "source_type": "browser"
   },
   {
@@ -40,7 +51,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥338",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.612801",
+    "published_at": "2026-02-05T01:25:52.861936",
     "source_type": "browser"
   },
   {
@@ -51,7 +62,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Low-Caf-label-bottle.png",
     "price": "¥115",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.611765",
+    "published_at": "2026-02-05T01:25:52.861053",
     "source_type": "browser"
   },
   {
@@ -62,7 +73,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Colombia-WiltonB-label-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.611219",
+    "published_at": "2026-02-05T01:25:52.860547",
     "source_type": "browser"
   },
   {
@@ -73,7 +84,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-label-3-bottle.png",
     "price": "¥115",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.610735",
+    "published_at": "2026-02-05T01:25:52.860029",
     "source_type": "browser"
   },
   {
@@ -84,7 +95,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.610259",
+    "published_at": "2026-02-05T01:25:52.859520",
     "source_type": "browser"
   },
   {
@@ -95,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.609999",
+    "published_at": "2026-02-05T01:25:52.859223",
     "source_type": "browser"
   },
   {
@@ -106,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥500",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.609167",
+    "published_at": "2026-02-05T01:25:52.858307",
     "source_type": "browser"
   },
   {
@@ -117,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥500",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.608906",
+    "published_at": "2026-02-05T01:25:52.858017",
     "source_type": "browser"
   },
   {
@@ -128,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.608070",
+    "published_at": "2026-02-05T01:25:52.857064",
     "source_type": "browser"
   },
   {
@@ -139,29 +150,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-label-1-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.607603",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Super Special Sampler CGLE Box",
-    "url": "https://friedhats.com/products/super-special-sampler-cgle-box",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Super-Special-Sampler-CGLE-Box-Closed_1200x1200_b2c08ea1-e2f7-4260-8b72-c2997a5a0c46.png",
-    "price": "¥592",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.607120",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options You are about to add: Super Special Sampler CGLE Box Size 3x 100gr",
-    "url": "https://friedhats.com/products/super-special-sampler-cgle-box",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Super-Special-Sampler-CGLE-Box-Closed_1200x1200_b2c08ea1-e2f7-4260-8b72-c2997a5a0c46.png",
-    "price": "¥592",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.606790",
+    "published_at": "2026-02-05T01:25:52.856555",
     "source_type": "browser"
   },
   {
@@ -172,18 +161,18 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-1-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.605740",
+    "published_at": "2026-02-05T01:25:52.856009",
     "source_type": "browser"
   },
   {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
-    "name": "Kenya Gakundu",
-    "url": "https://friedhats.com/products/kenya-gakundu",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
-    "price": "¥123",
+    "name": "Colombia La Muralla",
+    "url": "https://friedhats.com/products/2025-colombia-la-muralla",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-2-bottle.png",
+    "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.605267",
+    "published_at": "2026-02-05T01:25:52.855493",
     "source_type": "browser"
   },
   {
@@ -194,7 +183,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.604803",
+    "published_at": "2026-02-05T01:25:52.854951",
     "source_type": "browser"
   },
   {
@@ -205,150 +194,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-DH-Infused-Label-Bottle.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.604330",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Colombia Robinson Ortiz Washed Gesha Omni",
-    "url": "https://friedhats.com/products/colombia-robinson-ortiz-washed-gesha-omni",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
-    "price": "¥269",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.603862",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options You are about to add: Colombia Robinson Ortiz Washed Gesha Omni Roast Omni Size 250gr",
-    "url": "https://friedhats.com/products/colombia-robinson-ortiz-washed-gesha-omni",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
-    "price": "¥269",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.603594",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Colombia Sebastian Gomez EF2 (Competition Lot)",
-    "url": "https://friedhats.com/products/colombia-sebastian-gomez-ef2",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
-    "price": "¥385",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.602761",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options You are about to add: Colombia Sebastian Gomez EF2 (Competition Lot) Roast Omni Size 250gr",
-    "url": "https://friedhats.com/products/colombia-sebastian-gomez-ef2",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
-    "price": "¥385",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.602486",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Rwanda Gasharu Rugori",
-    "url": "https://friedhats.com/products/rwanda-gasharu-rugori",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-Purple-Label-Bottle.png",
-    "price": "¥123",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.601666",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Indonesia Ateng Super #2",
-    "url": "https://friedhats.com/products/indonesia-ateng-super-1",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Indonesia-special-label-bottle.png",
-    "price": "¥154",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.601193",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options Roast Filter Size 250gr",
-    "url": "https://friedhats.com/products/indonesia-ateng-super-1",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Indonesia-special-label-bottle.png",
-    "price": "¥154",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.600931",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Colombia Gesha Clouds",
-    "url": "https://friedhats.com/products/2025-colombia-gesha-clouds-omni",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-Clouds-label-100gr.png",
-    "price": "¥207",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.600116",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Colombia Bellavista Semi-Washed Gesha",
-    "url": "https://friedhats.com/products/colombia-bellavista-semi-washed-gesha",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
-    "price": "¥300",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.599645",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options Roast Omni Size 250gr",
-    "url": "https://friedhats.com/products/colombia-bellavista-semi-washed-gesha",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
-    "price": "¥300",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.599366",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Panama Altieri Gesha Natural Omni",
-    "url": "https://friedhats.com/products/panama-finca-hartmann-gesha-natural-omni",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-1-bottle.png",
-    "price": "¥323",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.598556",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Panama Finca Auromar Gesha Washed Omni",
-    "url": "https://friedhats.com/products/panama-finca-auromar-gesha",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
-    "price": "¥238",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.598057",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options Roast Omni Size 100gr",
-    "url": "https://friedhats.com/products/panama-finca-auromar-gesha",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
-    "price": "¥238",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.597721",
+    "published_at": "2026-02-05T01:25:52.854421",
     "source_type": "browser"
   },
   {
@@ -359,19 +205,360 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-1-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.596859",
+    "published_at": "2026-02-05T01:25:52.853579",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Panama Franceschi Gesha Natural Omni",
+    "url": "https://friedhats.com/products/panama-franceschi-gesha-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-3-bottle-V2.png",
+    "price": "¥177",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.853048",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Colombia Sebastian Gomez EF2 (Competition Lot)",
+    "url": "https://friedhats.com/products/colombia-sebastian-gomez-ef2",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
+    "price": "¥385",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.852356",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Options You are about to add: Colombia Sebastian Gomez EF2 (Competition Lot) Roast Omni Size 250gr",
+    "url": "https://friedhats.com/products/colombia-sebastian-gomez-ef2",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
+    "price": "¥385",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.852045",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Colombia Robinson Ortiz Washed Gesha Omni",
+    "url": "https://friedhats.com/products/colombia-robinson-ortiz-washed-gesha-omni",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
+    "price": "¥269",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.851125",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Options You are about to add: Colombia Robinson Ortiz Washed Gesha Omni Roast Omni Size 250gr",
+    "url": "https://friedhats.com/products/colombia-robinson-ortiz-washed-gesha-omni",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
+    "price": "¥269",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.850842",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Kenya Gakundu",
+    "url": "https://friedhats.com/products/kenya-gakundu",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
+    "price": "¥123",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.849931",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Rwanda Gasharu Rugori",
+    "url": "https://friedhats.com/products/rwanda-gasharu-rugori",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-Purple-Label-Bottle.png",
+    "price": "¥123",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.849426",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Indonesia Ateng Super #2",
+    "url": "https://friedhats.com/products/indonesia-ateng-super-1",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Indonesia-special-label-bottle.png",
+    "price": "¥154",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.848904",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Options Roast Filter Size 250gr",
+    "url": "https://friedhats.com/products/indonesia-ateng-super-1",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Indonesia-special-label-bottle.png",
+    "price": "¥154",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.848619",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Panama Altieri Gesha Natural Omni",
+    "url": "https://friedhats.com/products/panama-finca-hartmann-gesha-natural-omni",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-1-bottle.png",
+    "price": "¥315",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.847725",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Colombia Gesha Clouds",
+    "url": "https://friedhats.com/products/2025-colombia-gesha-clouds-omni",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-Clouds-label-100gr.png",
+    "price": "¥207",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.847200",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Ethiopia Danche Honey",
+    "url": "https://friedhats.com/products/ethiopia-danche-honey",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-4-V3-bottle.png",
+    "price": "¥161",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.846674",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Colombia Bellavista Semi-Washed Gesha",
+    "url": "https://friedhats.com/products/colombia-bellavista-semi-washed-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
+    "price": "¥300",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.846133",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Options Roast Omni Size 250gr",
+    "url": "https://friedhats.com/products/colombia-bellavista-semi-washed-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
+    "price": "¥300",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.845840",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Panama Finca Auromar Gesha Washed Omni",
+    "url": "https://friedhats.com/products/panama-finca-auromar-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
+    "price": "¥238",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.844933",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Options Roast Omni Size 100gr",
+    "url": "https://friedhats.com/products/panama-finca-auromar-gesha",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
+    "price": "¥238",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.844573",
+    "source_type": "browser"
+  },
+  {
+    "roaster_name": "Friedhats",
+    "roaster_country": "Netherlands",
+    "name": "Colombia Juan David Chinchilla",
+    "url": "https://friedhats.com/products/colombia-juan-david-chinchilla",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
+    "price": "¥146",
+    "description": "Fresh from Friedhats",
+    "published_at": "2026-02-05T01:25:52.843655",
     "source_type": "browser"
   },
   {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
     "name": "Options Roast Espresso Size 250gr",
-    "url": "https://friedhats.com/products/colombia-yacuanquer-pickers-project",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-1-bottle.png",
-    "price": "¥123",
+    "url": "https://friedhats.com/products/colombia-juan-david-chinchilla",
+    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
+    "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-04T01:25:53.596544",
+    "published_at": "2026-02-05T01:25:52.843305",
     "source_type": "browser"
+  },
+  {
+    "roaster_name": "Seven Seeds",
+    "roaster_country": "Australia",
+    "name": "Mushonyi, Rwanda",
+    "url": "https://sevenseeds.com.au/products/mushonyi-rwanda-2026",
+    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/mushonyi-rwanda-1790395.png?v=1770221168",
+    "price": "¥122",
+    "description": "风味: Rich and Rustic  WITH NOTES OF  Stewed Apple, Apricot, Caram",
+    "published_at": "2026-02-04T15:14:21+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Panama Janson Los Alpes Gesha Lot 903 Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/panama-janson-los-alpes-gesha-lot-903-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Panama-janson-903-gesha-los-alpes-filter-coffee-single-origin.png?v=1769750210",
+    "price": "¥827",
+    "description": "Panama Janson Los Alpes Gesha Lot #903 Filter - Single Origin. \n Janson Family F...",
+    "published_at": "2026-02-04T14:52:59+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Panama Janson Los Alpes Gesha Lot 1041 Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/panama-janson-los-alpes-gesha-lot-1041-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Panama-janson-1041-gesha-los-alpes-filter-coffee-single-origin.png?v=1769750058",
+    "price": "¥827",
+    "description": "Panama Janson Los Alpes Gesha Lot #1041 Filter - Single Origin. \n Janson Family ...",
+    "published_at": "2026-02-04T14:52:58+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Peru Faustino Flores Gesha Espresso - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/peru-faustino-flores-gesha-espresso-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Peru-faustino-flores-gesha-cajamarca-washed-espresso-coffee-single-origin.png?v=1769748307",
+    "price": "¥267",
+    "description": "Peru Faustino Flores Gesha Espresso - Single Origin. \n The Flores family has gro...",
+    "published_at": "2026-02-04T14:52:58+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Peru Faustino Flores Gesha Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/peru-faustino-flores-gesha-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Peru-faustino-flores-gesha-cajamarca-washed-filter-coffee-single-origin.png?v=1769748137",
+    "price": "¥267",
+    "description": "Peru Faustino Flores Gesha Filter - Single Origin. \n The Flores family has grown...",
+    "published_at": "2026-02-04T14:52:57+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Costa Rica Ivan Solis Finca Voo Natural Espresso - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/costa-rica-ivan-solis-finca-voo-natural-espresso-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Costa-rica-ivan-solis-finca-voo-natural-catuai-espresso-coffee-single-origin.png?v=1769747761",
+    "price": "¥136",
+    "description": "Costa Rica Ivan Solis Finca Voo Natural Espresso - Single Origin. \n Finca Voo is...",
+    "published_at": "2026-02-04T14:52:56+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Costa Rica Ivan Solis Finca Voo Natural Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/costa-rica-ivan-solis-finca-voo-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Costa-rica-ivan-solis-finca-voo-natural-catuai-filter-coffee-single-origin.png?v=1769747157",
+    "price": "¥136",
+    "description": "Costa Rica Ivan Solis Finca Voo Natural Filter - Single Origin. \n Finca Voo is a...",
+    "published_at": "2026-02-04T14:52:56+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Peru Miguel Estella Washed Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/peru-miguel-estella-washed-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Peru-miguel-estella-cajamarca-marshell-washed-filter-coffee-single-origin.png?v=1769744307",
+    "price": "¥136",
+    "description": "Peru Miguel Estella Washed Filter - Single Origin. \n Miguel Estela is a second‑g...",
+    "published_at": "2026-02-04T14:52:55+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Peru Miguel Estella Washed Espresso - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/peru-miguel-estella-washed-espresso-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Peru-miguel-estella-cajamarca-marshell-washed-espresso-coffee-single-origin.png?v=1769744058",
+    "price": "¥136",
+    "description": "Peru Miguel Estella Washed Espresso - Single Origin. \n Miguel Estela is a second...",
+    "published_at": "2026-02-04T14:52:54+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Colombia Edi Fabian Gomez Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/colombia-edi-fabian-gomez-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Colombia-edi-fabian-gomez-honey-caturra-filter-coffee-single-origin_aae52d50-61d7-403e-9e6b-b936e23b2e40.png?v=1769743727",
+    "price": "¥164",
+    "description": "Colombia Edi Fabian Gomez Filter - Single Origin. \n \n Edi Fabián Gómez Arcos is ...",
+    "published_at": "2026-02-04T14:52:53+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "April - Fast Paper Filters",
+    "url": "https://www.roguewavecoffee.ca/products/april-fast-paper-filters",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/AprilFastPaperfilter.webp?v=1770241383",
+    "price": "¥273",
+    "description": "The Paper Filter you use when brewing coffee makes a difference and we are alway...",
+    "published_at": "2026-02-04T14:45:40-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "April - Hybrid Glass Brewer",
+    "url": "https://www.roguewavecoffee.ca/products/april-hybrid-glass-brewer",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/AprilHybridbrwer-1.webp?v=1770241114",
+    "price": "¥1008",
+    "description": "We have taken the April Glass Brewer and added an Immersion function, which we c...",
+    "published_at": "2026-02-04T14:40:46-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "Panama - Carmen Estate Caturra Lot 4 | Natural",
+    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-caturra-lot-4-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaCarmenEstateLot4natural2026340gBAG.jpg?v=1770234507",
+    "price": "¥180",
+    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
+    "published_at": "2026-02-04T13:16:13-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Brandywine",
+    "roaster_country": "USA",
+    "name": "Stellar Collisions 10!",
+    "url": "https://www.brandywinecoffeeroasters.com/products/stellar-collisions-10",
+    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/stellarcollisions102025.jpg?v=1766422763",
+    "price": "¥180",
+    "description": "风味: with Stellar Collisions 10, our intergalactic co-fermented c",
+    "published_at": "2026-02-03T23:02:01-05:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "Right Side Coffee",
@@ -2015,7 +2202,7 @@
   {
     "roaster_name": "Rogue Wave",
     "roaster_country": "Canada",
-    "name": "Ethiopia - Melese Wolde Shantawane | Anaerobic Natural",
+    "name": "Ethiopia - Melese Wolde Shantawane | Anaerobic Natural - Archived",
     "url": "https://www.roguewavecoffee.ca/products/ethiopia-melese-wolde-shantawane-anaerobic-natural",
     "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaMeleseWoldeAnaerobicNatural250gBAG.jpg?v=1768079704",
     "price": "¥194",
@@ -2543,7 +2730,7 @@
   {
     "roaster_name": "Rogue Wave",
     "roaster_country": "Canada",
-    "name": "Panama - Bambito Estate Red Bourbon | Natural",
+    "name": "Panama - Bambito Estate Red Bourbon | Natural - Archived",
     "url": "https://www.roguewavecoffee.ca/products/panama-bambito-estate-red-bourbon-natural",
     "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Bambito_Esgtate_Red_Bourbon_Natural_200g_BAG.jpg?v=1767396847",
     "price": "¥201",
@@ -2719,7 +2906,7 @@
   {
     "roaster_name": "Verve Coffee",
     "roaster_country": "USA",
-    "name": "Honduras La Leona",
+    "name": "Archive: Honduras La Leona",
     "url": "https://www.vervecoffee.com/products/la-leona",
     "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/La-Leona-12oz-Silo.png?v=1765830203",
     "price": "¥190",
@@ -3412,17 +3599,6 @@
   {
     "roaster_name": "Seven Seeds",
     "roaster_country": "Australia",
-    "name": "Mustefa Abalulessa, Ethiopia",
-    "url": "https://sevenseeds.com.au/products/mustefa-abalulessa-ethiopia-filter",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/mustefa-abalulessa-ethiopia-1950443.png?v=1765995247",
-    "price": "¥117",
-    "description": "风味: Radiant and Floral-Forward  WITH NOTES OF  Golden Peach, Hom",
-    "published_at": "2025-12-17T14:31:20+11:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
     "name": "Bekele Belaycho, Ethiopia",
     "url": "https://sevenseeds.com.au/products/bekele-belaycho-ethiopia-2025",
     "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/bekele-belaycho-ethiopia-3369168.png?v=1765995247",
@@ -3535,7 +3711,7 @@
     "roaster_country": "USA",
     "name": "Silhouette",
     "url": "https://onyxcoffeelab.com/products/silhouette",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/silhouette.png?v=1765573451",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/silhouette-next.webp?v=1770239610",
     "price": "¥43",
     "description": "风味: profile that we intentionally designed to work well with mil",
     "published_at": "2025-12-12T08:00:00-06:00",
@@ -3935,28 +4111,6 @@
     "price": "¥770",
     "description": "",
     "published_at": "2025-12-07T19:09:03+01:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Brandywine",
-    "roaster_country": "USA",
-    "name": "Costa Rica - Las Lajas - Perla - Natural",
-    "url": "https://www.brandywinecoffeeroasters.com/products/costa-rica-las-lajas-peral-negra-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/perlaupdate2025.jpg?v=1765286569",
-    "price": "¥208",
-    "description": "风味: below and snag your bag before they're gone!",
-    "published_at": "2025-12-06T06:14:41-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Brandywine",
-    "roaster_country": "USA",
-    "name": "Coferment Bear Crewnecks!",
-    "url": "https://www.brandywinecoffeeroasters.com/products/cola-bear-crewnecks",
-    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/colabearcrewneck2025.jpg?v=1764786883",
-    "price": "¥352",
-    "description": "Meet your new favorite seasonal essential! Our Coferment-Bear crewneck brings fe...",
-    "published_at": "2025-12-06T06:14:14-05:00",
     "source_type": "api"
   }
 ]
