@@ -1,5 +1,16 @@
 [
   {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Breville Barista Express Impress Machine + 3 Months of Coffee",
+    "url": "https://flightcoffee.co.nz/products/breville-barista-express-impress-machine-3-months-of-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/Barista_Express_BSS.jpg?v=1771387435",
+    "price": "¥7538",
+    "description": "Get a complimentary 3 month coffee subscription worth $192  when you grab our Ba...",
+    "published_at": "2026-02-19T14:14:04+13:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
     "name": "Random Tasting Box",
@@ -7,7 +18,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Random-Tasting-Box-Label.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.267569",
+    "published_at": "2026-02-19T01:43:46.257592",
     "source_type": "browser"
   },
   {
@@ -18,29 +29,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Random-Tasting-Box-Label.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.267245",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Friedhats Blend",
-    "url": "https://friedhats.com/products/friedhats-blend",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
-    "price": "¥338",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.266542",
-    "source_type": "browser"
-  },
-  {
-    "roaster_name": "Friedhats",
-    "roaster_country": "Netherlands",
-    "name": "Options Roast Espresso Size 1000gr",
-    "url": "https://friedhats.com/products/friedhats-blend",
-    "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
-    "price": "¥338",
-    "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.266247",
+    "published_at": "2026-02-19T01:43:46.257217",
     "source_type": "browser"
   },
   {
@@ -51,7 +40,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Colombia-WiltonB-label-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.265598",
+    "published_at": "2026-02-19T01:43:46.256287",
     "source_type": "browser"
   },
   {
@@ -60,9 +49,9 @@
     "name": "Colombia Las Margaritas Sudan Rume Washed Omni",
     "url": "https://friedhats.com/products/colombia-las-margaritas-sudan-rume-washed-omni",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
-    "price": "¥500",
+    "price": "¥492",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.264816",
+    "published_at": "2026-02-19T01:43:46.255445",
     "source_type": "browser"
   },
   {
@@ -71,9 +60,9 @@
     "name": "Options You are about to add: Colombia Las Margaritas Sudan Rume Washed Omni Roast Omni Size 250gr",
     "url": "https://friedhats.com/products/colombia-las-margaritas-sudan-rume-washed-omni",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
-    "price": "¥500",
+    "price": "¥492",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.264522",
+    "published_at": "2026-02-19T01:43:46.255142",
     "source_type": "browser"
   },
   {
@@ -84,7 +73,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.263848",
+    "published_at": "2026-02-19T01:43:46.254449",
     "source_type": "browser"
   },
   {
@@ -95,7 +84,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.263555",
+    "published_at": "2026-02-19T01:43:46.254150",
     "source_type": "browser"
   },
   {
@@ -106,7 +95,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥385",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.262884",
+    "published_at": "2026-02-19T01:43:46.253460",
     "source_type": "browser"
   },
   {
@@ -117,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥385",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.262571",
+    "published_at": "2026-02-19T01:43:46.253157",
     "source_type": "browser"
   },
   {
@@ -128,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
     "price": "¥238",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.261906",
+    "published_at": "2026-02-19T01:43:46.252458",
     "source_type": "browser"
   },
   {
@@ -139,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.261105",
+    "published_at": "2026-02-19T01:43:46.251603",
     "source_type": "browser"
   },
   {
@@ -150,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.260782",
+    "published_at": "2026-02-19T01:43:46.251297",
     "source_type": "browser"
   },
   {
@@ -159,9 +148,9 @@
     "name": "Panama Altieri Gesha Natural Omni",
     "url": "https://friedhats.com/products/panama-finca-hartmann-gesha-natural-omni",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-1-bottle.png",
-    "price": "¥323",
+    "price": "¥315",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.260122",
+    "published_at": "2026-02-19T01:43:46.250620",
     "source_type": "browser"
   },
   {
@@ -172,7 +161,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-Clouds-label-100gr.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.259562",
+    "published_at": "2026-02-19T01:43:46.250047",
     "source_type": "browser"
   },
   {
@@ -183,7 +172,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-3-bottle-V2.png",
     "price": "¥284",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.259018",
+    "published_at": "2026-02-19T01:43:46.249460",
     "source_type": "browser"
   },
   {
@@ -194,8 +183,96 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-3-bottle-V2.png",
     "price": "¥284",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-02-18T01:44:17.258658",
+    "published_at": "2026-02-19T01:43:46.249120",
     "source_type": "browser"
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "GENESIS",
+    "url": "https://thebarn.de/products/genesis-coffee",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_genesis.png?v=1771412695",
+    "price": "¥107",
+    "description": "NEW  \n We have created a conceptual counterpart to our very popular Elemental co...",
+    "published_at": "2026-02-18T18:42:01+01:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Glitch Coffee",
+    "roaster_country": "Japan",
+    "name": "【NEW】Ethiopia Sidama Bensa Alo Village",
+    "url": "https://shop.glitchcoffee.com/products/new-ethiopia-sidama-bensa-alo-village",
+    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/ETHALOVILLAGE.jpg?v=1766401276",
+    "price": "¥220",
+    "description": "风味: profiles",
+    "published_at": "2026-02-18T17:02:25+09:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Colombia Tres Dragones Espresso - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-espresso-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Colombia-tres-dragones-cafe-granja-natural-coffee-espresso-coffee-single-origin.png?v=1757670138",
+    "price": "¥145",
+    "description": "Colombia Tres Dragones Espresso - Single Origin. \n  Café Granja La Esperanza, le...",
+    "published_at": "2026-02-18T15:08:59+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Colombia Tres Dragones Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-filter-single-origin-1",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Colombia-tres-dragones-cafe-granja-natural-coffee-filter-coffee-single-origin.png?v=1757670161",
+    "price": "¥145",
+    "description": "Colombia Tres Dragones Filter - Single Origin. \n  Café Granja La Esperanza, led ...",
+    "published_at": "2026-02-18T15:07:49+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "El Morito - Guatemala - Washed Yellow Geisha",
+    "url": "https://www.aprilcoffeeroasters.com/products/el-morito-guatemala-washed-gesha-limited",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/elmoritoyellowgesha2.jpg?v=1759998146",
+    "price": "¥3060",
+    "description": "风味: Mirabelle Plum, Citrus, Florals",
+    "published_at": "2026-02-18T14:31:36+01:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Seven Seeds",
+    "roaster_country": "Australia",
+    "name": "Ukuku, Peru",
+    "url": "https://sevenseeds.com.au/products/ukuku-peru-2026",
+    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/ukuku-peru-2503159.png?v=1771464128",
+    "price": "¥103",
+    "description": "风味: Clean and Comforting  WITH NOTES OF  Apple, Almond, Brown Su",
+    "published_at": "2026-02-18T13:53:07+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Seven Seeds",
+    "roaster_country": "Australia",
+    "name": "Santa Lucia Yellow Pacamara, Honduras",
+    "url": "https://sevenseeds.com.au/products/santa-lucia-yellow-pacamara-honduras-2026",
+    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/santa-lucia-yellow-pacamara-honduras-1444436.png?v=1771464128",
+    "price": "¥183",
+    "description": "风味: Textured and Sweet  WITH NOTES OF  Amaro, Pink Grapefruit, B",
+    "published_at": "2026-02-18T13:53:06+11:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "The Barn",
+    "roaster_country": "Germany",
+    "name": "ASMAN GAYO",
+    "url": "https://thebarn.de/products/asman-gayo",
+    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/bag_asman_gayo.png?v=1771406723",
+    "price": "¥154",
+    "description": "风味: remind us of a piña colada!",
+    "published_at": "2026-02-18T10:43:20+01:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "The Barn",
@@ -973,7 +1050,7 @@
     "name": "BRAZIL Sítio Joaninha Arara – Filter",
     "url": "https://www.fiveelephant.com/products/brazil-sitio-joaninha-arara-filter",
     "image": "https://cdn.shopify.com/s/files/1/0181/5693/files/Joaninha.png?v=1744110266",
-    "price": "¥128",
+    "price": "¥133",
     "description": "This Arara microlot comes from Sítio Joaninha, located in the Boa Vista communit...",
     "published_at": "2026-02-09T11:11:25+01:00",
     "source_type": "api"
@@ -2519,28 +2596,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Fjord Coffee",
-    "roaster_country": "Germany",
-    "name": "Peru, Puente Solaya - Espresso",
-    "url": "https://fjord-coffee.de/products/peru-puente-solaya-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0504/8654/2523/files/Puente.png?v=1738658123",
-    "price": "¥114",
-    "description": "风味: Bakers Chocolate, Cherry, Plum  Roast Profiel:  Espresso  Al",
-    "published_at": "2026-01-21T11:32:39+01:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Fjord Coffee",
-    "roaster_country": "Germany",
-    "name": "Peru, Puente Solaya - Filter",
-    "url": "https://fjord-coffee.de/products/peru-puente-solaya-filter",
-    "image": "https://cdn.shopify.com/s/files/1/0504/8654/2523/files/Puente.png?v=1738658123",
-    "price": "¥114",
-    "description": "风味: Bakers Chocolate, Cherry, Plum  Roast Profiel:  Filter  Alti",
-    "published_at": "2026-01-21T11:31:22+01:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Right Side Coffee",
     "roaster_country": "Spain",
     "name": "Filtros Kalita Wave 185",
@@ -3929,17 +3984,6 @@
   {
     "roaster_name": "Glitch Coffee",
     "roaster_country": "Japan",
-    "name": "【New】Colombia Huila Buenos Aires",
-    "url": "https://shop.glitchcoffee.com/products/new-colombia-huila-buenos-aires",
-    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/COLBUENOSAIRES.jpg?v=1766664999",
-    "price": "¥1880",
-    "description": "风味: of blueberry and raspberry, layered with rich fruit depth an",
-    "published_at": "2025-12-25T21:16:50+09:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Glitch Coffee",
-    "roaster_country": "Japan",
     "name": "【NEW】Colombia Huila El Porvenir",
     "url": "https://shop.glitchcoffee.com/products/colombia-narino-el-porvenir",
     "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/COLPORVENIRCOMP.jpg?v=1766664920",
@@ -4078,17 +4122,6 @@
     "price": "¥180",
     "description": "Udesa Fora Station is located in the Sukke Chiga Kebele of Kercha, in Ethiopia’s...",
     "published_at": "2025-12-23T12:02:08-07:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Glitch Coffee",
-    "roaster_country": "Japan",
-    "name": "【NEW】Ethiopia Sidama Bensa Alo Village",
-    "url": "https://shop.glitchcoffee.com/products/new-ethiopia-sidama-bensa-alo-village",
-    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/ETHALOVILLAGE.jpg?v=1766401276",
-    "price": "¥220",
-    "description": "风味: profiles",
-    "published_at": "2025-12-22T20:01:37+09:00",
     "source_type": "api"
   },
   {
