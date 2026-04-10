@@ -1,5 +1,104 @@
 [
   {
+    "roaster_name": "Reuben Hills",
+    "roaster_country": "Australia",
+    "name": "Kenya, Gathaithi PB",
+    "url": "https://reubenhills.com.au/products/kenya-gathaithi-pb",
+    "image": "https://cdn.shopify.com/s/files/1/0643/5648/3329/files/Gathaithia_PB.png?v=1775017817",
+    "price": "¥112",
+    "description": "Gathaithi Farmers’ Co-operative brings together 1,542 active members in Nyeri Co...",
+    "published_at": "2026-04-10T11:55:04+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "Filter Coffee Bundle",
+    "url": "https://marketlane.com.au/products/filter-coffee-bundle",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/Laurence_M_La_Linda_2026_New_Filter_BUNDLE_copy_8f14f5c8-4072-45ae-809a-2277fa8c943a.jpg?v=1775780719",
+    "price": "¥225",
+    "description": "This bundle includes:  \n \n 1 x 250g bag of  \n Laurence Mukakabera  \n \n 1 x 250g ...",
+    "published_at": "2026-04-10T11:31:12+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Gargari 1725, Ethiopia, CM Natural Jasper",
+    "url": "https://onacoffee.com.au/products/milk-y-som1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_som_98c5b99d-9c9e-4987-ac9c-401faa34be50.png?v=1775703193",
+    "price": "¥124",
+    "description": "Milk chocolate, berries and tropical fruit...",
+    "published_at": "2026-04-10T11:09:51+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Irmãs Pereira Lot 153, Brazil, Natural",
+    "url": "https://onacoffee.com.au/products/filter-x-sof4",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_e418d023-921a-4af1-b367-b5dba435aa68.png?v=1775716324",
+    "price": "¥94",
+    "description": "Red apple, caramel and plum...",
+    "published_at": "2026-04-10T10:59:20+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Yirgacheffe, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/filter-x-sof3",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_4cb700ee-b660-4205-b8d7-20fde3a2df78.png?v=1775712342",
+    "price": "¥94",
+    "description": "Grapes, blood orange and plum...",
+    "published_at": "2026-04-10T10:10:03+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "La Huerta, Honduras, Washed",
+    "url": "https://onacoffee.com.au/products/filter-x-sof2",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_99d2728c-4d7b-4785-b40d-f1d43fd8c649.png?v=1775778599",
+    "price": "¥94",
+    "description": "Apricot, caramel and herbal...",
+    "published_at": "2026-04-10T10:03:27+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Guji Uraga Siko G1, Ethiopia, Washed",
+    "url": "https://onacoffee.com.au/products/filter-y-sof1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_42871f2d-2193-42b7-9fc4-c0c343733005.png?v=1775704024",
+    "price": "¥94",
+    "description": "Tangerine, stonefruit and floral...",
+    "published_at": "2026-04-10T10:00:05+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Guji Yabitu Koba G1, Ethiopia, Natural",
+    "url": "https://onacoffee.com.au/products/espresso-w-soe2",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_fd7523a1-5c03-4496-8786-41e0777048f7.png?v=1775701397",
+    "price": "¥94",
+    "description": "Orange, plum and raisin...",
+    "published_at": "2026-04-10T10:00:03+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Heritage Varieties of Bambito Estate",
+    "url": "https://onacoffee.com.au/products/heritage-varieties-of-bambito-estate",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sodb-copy-2_4815f6b8-3e5e-4013-8089-bde215599906.png?v=1773891696",
+    "price": "¥282",
+    "description": "This Reserve Coffee box contains 3x80g, filter coffee....",
+    "published_at": "2026-04-10T08:24:17+10:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
     "name": "Panama Mil Cumbres",
@@ -7,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-Generic-label-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.426907",
+    "published_at": "2026-04-10T01:57:27.897468",
     "source_type": "browser"
   },
   {
@@ -18,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-1-bottle.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.426296",
+    "published_at": "2026-04-10T01:57:27.896975",
     "source_type": "browser"
   },
   {
@@ -29,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-4-V3-bottle.png",
     "price": "¥161",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.425488",
+    "published_at": "2026-04-10T01:57:27.896225",
     "source_type": "browser"
   },
   {
@@ -40,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.424665",
+    "published_at": "2026-04-10T01:57:27.895489",
     "source_type": "browser"
   },
   {
@@ -51,7 +150,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.424353",
+    "published_at": "2026-04-10T01:57:27.895236",
     "source_type": "browser"
   },
   {
@@ -62,7 +161,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥385",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.423349",
+    "published_at": "2026-04-10T01:57:27.894384",
     "source_type": "browser"
   },
   {
@@ -73,7 +172,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥385",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.423056",
+    "published_at": "2026-04-10T01:57:27.894110",
     "source_type": "browser"
   },
   {
@@ -84,7 +183,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-label-1-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.422020",
+    "published_at": "2026-04-10T01:57:27.893232",
     "source_type": "browser"
   },
   {
@@ -95,7 +194,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.421465",
+    "published_at": "2026-04-10T01:57:27.892748",
     "source_type": "browser"
   },
   {
@@ -106,7 +205,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.420941",
+    "published_at": "2026-04-10T01:57:27.892271",
     "source_type": "browser"
   },
   {
@@ -117,7 +216,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-1-bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.420155",
+    "published_at": "2026-04-10T01:57:27.891541",
     "source_type": "browser"
   },
   {
@@ -128,7 +227,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-green-label-bottle.png",
     "price": "¥192",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.419545",
+    "published_at": "2026-04-10T01:57:27.891025",
     "source_type": "browser"
   },
   {
@@ -139,18 +238,18 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-label-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.419009",
+    "published_at": "2026-04-10T01:57:27.890549",
     "source_type": "browser"
   },
   {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
-    "name": "Colombia Siete Soles Decaf No-Caf",
+    "name": "Colombia Siete Soles Decaf",
     "url": "https://friedhats.com/products/colombia-siete-soles-no-caf",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/No-Caf-label-2-bottle-v2.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.418370",
+    "published_at": "2026-04-10T01:57:27.890065",
     "source_type": "browser"
   },
   {
@@ -159,9 +258,9 @@
     "name": "Colombia Diego Horta Infused Gesha Omni",
     "url": "https://friedhats.com/products/colombia-diego-horta-infused-gesha-omni",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-DH-Infused-Label-Bottle.png",
-    "price": "¥284",
+    "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.417668",
+    "published_at": "2026-04-10T01:57:27.889601",
     "source_type": "browser"
   },
   {
@@ -172,7 +271,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.417151",
+    "published_at": "2026-04-10T01:57:27.889146",
     "source_type": "browser"
   },
   {
@@ -183,7 +282,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Rwanda-label-exp-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.416614",
+    "published_at": "2026-04-10T01:57:27.888672",
     "source_type": "browser"
   },
   {
@@ -194,7 +293,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-2-bottle.png",
     "price": "¥192",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.416059",
+    "published_at": "2026-04-10T01:57:27.888197",
     "source_type": "browser"
   },
   {
@@ -205,7 +304,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-2-bottle.png",
     "price": "¥192",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.415758",
+    "published_at": "2026-04-10T01:57:27.887922",
     "source_type": "browser"
   },
   {
@@ -216,7 +315,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.414748",
+    "published_at": "2026-04-10T01:57:27.887073",
     "source_type": "browser"
   },
   {
@@ -227,7 +326,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥431",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.414431",
+    "published_at": "2026-04-10T01:57:27.886811",
     "source_type": "browser"
   },
   {
@@ -238,7 +337,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-Delgado-label-v2-bottle_86ef8e2d-a22d-490c-9075-255dec160e19.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.413389",
+    "published_at": "2026-04-10T01:57:27.885930",
     "source_type": "browser"
   },
   {
@@ -249,7 +348,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-Delgado-label-v2-bottle_86ef8e2d-a22d-490c-9075-255dec160e19.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.413090",
+    "published_at": "2026-04-10T01:57:27.885671",
     "source_type": "browser"
   },
   {
@@ -260,7 +359,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Burundi-Label-1-Washed-Bottle.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.412050",
+    "published_at": "2026-04-10T01:57:27.884798",
     "source_type": "browser"
   },
   {
@@ -271,7 +370,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ecuador-Washed-Bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.411492",
+    "published_at": "2026-04-10T01:57:27.884311",
     "source_type": "browser"
   },
   {
@@ -282,7 +381,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ecuador-Washed-Bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.411192",
+    "published_at": "2026-04-10T01:57:27.884024",
     "source_type": "browser"
   },
   {
@@ -293,7 +392,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-2-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.410185",
+    "published_at": "2026-04-10T01:57:27.883176",
     "source_type": "browser"
   },
   {
@@ -304,7 +403,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-1-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.409651",
+    "published_at": "2026-04-10T01:57:27.882679",
     "source_type": "browser"
   },
   {
@@ -315,7 +414,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.409096",
+    "published_at": "2026-04-10T01:57:27.882166",
     "source_type": "browser"
   },
   {
@@ -326,7 +425,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.408787",
+    "published_at": "2026-04-10T01:57:27.881901",
     "source_type": "browser"
   },
   {
@@ -337,7 +436,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
     "price": "¥200",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.407759",
+    "published_at": "2026-04-10T01:57:27.881030",
     "source_type": "browser"
   },
   {
@@ -348,7 +447,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
     "price": "¥200",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.407429",
+    "published_at": "2026-04-10T01:57:27.880744",
     "source_type": "browser"
   },
   {
@@ -359,7 +458,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.406367",
+    "published_at": "2026-04-10T01:57:27.879820",
     "source_type": "browser"
   },
   {
@@ -370,8 +469,96 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-04-09T01:45:47.406020",
+    "published_at": "2026-04-10T01:57:27.879491",
     "source_type": "browser"
+  },
+  {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "Rwanda - Kilimbi - Natural",
+    "url": "https://flightcoffee.co.nz/products/rwanda-kilimbi-natural",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/Screenshot2026-03-31at2.49.36PM.png?v=1774929039",
+    "price": "¥187",
+    "description": "",
+    "published_at": "2026-04-09T16:45:06+12:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Rogue Wave",
+    "roaster_country": "Canada",
+    "name": "Colombia - Las Marias Salpicon Geisha | 96 hour Anaerobic Natural - 100g 2026",
+    "url": "https://www.roguewavecoffee.ca/products/colombia-las-marias-salpicon-geisha-96-hour-anaerobic-natural-100g-2026",
+    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaSalpiconGeishaNatural2026100g-firstimage.png?v=1775753985",
+    "price": "¥180",
+    "description": "Las Marias Estate is the newest farm of the Giraldo family, Jose was intentional...",
+    "published_at": "2026-04-09T11:10:41-06:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Dwell Performance Filter Pack",
+    "url": "https://www.vervecoffee.com/products/dwell-performance-filter",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Dwell-Performance-Filter-2-Silo.png?v=1775761366",
+    "price": "¥108",
+    "description": "Designed for high-clarity brews and more expressive flavor, the Dwell Performanc...",
+    "published_at": "2026-04-09T08:26:31-07:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2026 William Ortiz; La Cabaña, Chiroso - Colombia",
+    "url": "https://www.seycoffee.com/products/2026-william-ortiz-la-cabana-chiroso-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026WilliamOrtiz_LaCabana_Chiroso-Colombia.png?v=1775722740",
+    "price": "¥194",
+    "description": "风味: of peach, lemon zest, and wildflower honey",
+    "published_at": "2026-04-09T04:20:52-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2026 Lisbeth Quispe; Yanacocha - Peru",
+    "url": "https://www.seycoffee.com/products/2026-lisbeth-quispe-yanacocha-peru",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026LisbethQuispe_Yanacocha-Peru.png?v=1775722063",
+    "price": "¥216",
+    "description": "We have long been interested in coffees from the Sandia Valley in southern Peru,...",
+    "published_at": "2026-04-09T04:20:52-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2026 Octavio Rueda; El Mirador, End Of Season - Colombia",
+    "url": "https://www.seycoffee.com/products/2026-octavio-rueda-el-mirador-end-of-season-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/OctavioRueda_ElMirador_EndOfSeason-Colombia.png?v=1775721676",
+    "price": "¥183",
+    "description": "This is the last harvest pass of the season from the prolific and talented Octav...",
+    "published_at": "2026-04-09T04:20:51-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2026 Ninga; Bumba Hill, May 15th Harvest - Burundi",
+    "url": "https://www.seycoffee.com/products/2026-ninga-bumba-hill-may-15th-harvest-burundi",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026Ninga_BumbaHill_May15thHarvest-Burundi.png?v=1775721544",
+    "price": "¥180",
+    "description": "This is our last release from Burundi this year. Burundi remains one of the most...",
+    "published_at": "2026-04-09T04:20:50-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Sey Coffee",
+    "roaster_country": "USA",
+    "name": "2026 Guchienda Estate; AA Separation - Kenya",
+    "url": "https://www.seycoffee.com/products/2026-guchienda-estate-aa-separation-kenya",
+    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026GuchiendaEstate_AASeparation-Kenya.png?v=1775721370",
+    "price": "¥187",
+    "description": "We have been working with Guchienda Estate for several years and are proud to co...",
+    "published_at": "2026-04-09T04:20:49-04:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "Onyx Coffee Lab",
@@ -741,7 +928,7 @@
     "roaster_country": "Canada",
     "name": "Finca Inmaculada Espresso",
     "url": "https://monogramcoffee.com/products/finca-inmaculada-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/2-35_57d720c6-ed31-4dbd-b777-45e2d0afe558.png?v=1775159775",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-finca-inmaculada-colombia-pink-bourbon-honey-espresso.png?v=1775752294",
     "price": "¥280",
     "description": "A honey-processed Pink Bourbon from a world-renowned farm, superfruity and perfe...",
     "published_at": "2026-04-02T14:23:49-06:00",
@@ -752,7 +939,7 @@
     "roaster_country": "Canada",
     "name": "Finca Inmaculada",
     "url": "https://monogramcoffee.com/products/finca-inmaculada",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/1-38_ea60c696-eef1-43d7-b110-3ccb56353757.png?v=1775159775",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-finca-inmaculada-colombia-pink-bourbon-honey-filter.png?v=1775752149",
     "price": "¥280",
     "description": "A honey-processed Pink Bourbon from a world-renowned farm, superfruity and perfe...",
     "published_at": "2026-04-02T14:23:48-06:00",
@@ -1027,7 +1214,7 @@
     "roaster_country": "Canada",
     "name": "Carmen Estate Espresso",
     "url": "https://monogramcoffee.com/products/carmen-estate-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-carmen-estate-espresso-fruity-classics-panama.png?v=1775674729",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-carmen-estate-panama-washed-caturra-espresso.png?v=1775752638",
     "price": "¥169",
     "description": "A clean and expressive washed Caturra, highlighting clarity, balance, and the be...",
     "published_at": "2026-03-31T10:46:37-06:00",
@@ -1038,7 +1225,7 @@
     "roaster_country": "Canada",
     "name": "Carmen Estate",
     "url": "https://monogramcoffee.com/products/carmen-estate",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-carmen-estate-filter-fruity-classics-panama.png?v=1775674694",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-carmen-estate-panama-washed-caturra-filter.png?v=1775752566",
     "price": "¥169",
     "description": "A clean and expressive washed Caturra, highlighting clarity, balance, and the be...",
     "published_at": "2026-03-31T10:46:36-06:00",
@@ -1731,7 +1918,7 @@
     "roaster_country": "Canada",
     "name": "Jairo Arcila Honey Espresso",
     "url": "https://monogramcoffee.com/products/jairo-arcila-honey-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/2-33_fa4442b2-064d-48ef-aae8-201391ad893d.png?v=1774050372",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-jairo-arcila-colombia-honey-castillo-espresso.png?v=1775752831",
     "price": "¥190",
     "description": "A beautifully balanced honey process coffee, bringing together vibrant fruit and...",
     "published_at": "2026-03-20T18:07:16-06:00",
@@ -1742,7 +1929,7 @@
     "roaster_country": "Canada",
     "name": "Jairo Arcila Honey",
     "url": "https://monogramcoffee.com/products/jairo-arcila-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/1-36_c17bc565-4a93-45d8-a30c-d23459bedc61.png?v=1774050372",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-jairo-arcila-colombia-honey-castillo-filter.png?v=1775752766",
     "price": "¥190",
     "description": "A beautifully balanced honey process coffee, bringing together vibrant fruit and...",
     "published_at": "2026-03-20T18:07:15-06:00",
@@ -1812,17 +1999,6 @@
     "price": "¥131",
     "description": "Origin: Caranavi, Bolivia Varieties: Caturra Processing Method: Washed Producer:...",
     "published_at": "2026-03-20T14:37:34+11:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "ONA Coffee",
-    "roaster_country": "Australia",
-    "name": "La Esmeralda 'La Cumbre', Costa Rica, Honey",
-    "url": "https://onacoffee.com.au/products/la-esmeralda-la-cumbre-costa-rica-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_626a601a-009b-499b-9e41-6e10329fc635.png?v=1773958114",
-    "price": "¥94",
-    "description": "Herbal, stonefruit and hazelnut...",
-    "published_at": "2026-03-20T11:00:07+11:00",
     "source_type": "api"
   },
   {
@@ -1931,7 +2107,7 @@
     "url": "https://flightcoffee.co.nz/products/single-origin-taster-pack-save-15",
     "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/SingleOriginTasterPack_fbab9857-c601-41fc-bf98-0a367a40c566.png?v=1710981233",
     "price": "¥477",
-    "description": "3 x 250g of our latest Single Origins - save 15%. \n The current selection includ...",
+    "description": "3 x 250g of our latest Single Origins - save 15%. \n The current selection is a u...",
     "published_at": "2026-03-19T12:03:22+13:00",
     "source_type": "api"
   },
@@ -4259,7 +4435,7 @@
   {
     "roaster_name": "Rogue Wave",
     "roaster_country": "Canada",
-    "name": "Nicaragua - Campo Amor Maracaturra | Natural",
+    "name": "Nicaragua - Campo Amor Maracaturra | Natural - Archived",
     "url": "https://www.roguewavecoffee.ca/products/nicaragua-campo-amor-maracaturra-natural",
     "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaCampoAmorMaracaturraNatural340gBAG.jpg?v=1773530170",
     "price": "¥194",
@@ -4743,17 +4919,6 @@
   {
     "roaster_name": "Verve Coffee",
     "roaster_country": "USA",
-    "name": "Archive: Colombia Mujeres De Cafe",
-    "url": "https://www.vervecoffee.com/products/mujeres-de-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Mujeres-De-Cafe-12oz-Silo.png?v=1772645698",
-    "price": "¥192",
-    "description": "In March, a portion of women-produced coffees benefit the International Women’s ...",
-    "published_at": "2026-03-06T07:11:19-08:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Verve Coffee",
-    "roaster_country": "USA",
     "name": "Honduras El Portillo Natural Parainema",
     "url": "https://www.vervecoffee.com/products/el-portillo-natural-parainema",
     "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/El-Portillo-Natural-Parainema-12oz-Silo.png?v=1772145529",
@@ -4866,7 +5031,7 @@
     "roaster_country": "Canada",
     "name": "El Huabal",
     "url": "https://monogramcoffee.com/products/el-huabal",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/1-35.png?v=1772730190",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-el-huabal-peru-washed-bourbon-caturra-filter.png?v=1775753001",
     "price": "¥190",
     "description": "A washed Bourbon + Caturra from Peru’s iconic El Huabal region, offering cozy ch...",
     "published_at": "2026-03-05T10:11:32-07:00",
@@ -5034,17 +5199,6 @@
     "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Indonesia-Frinsa-Manis_Single-Origin_Filter.png?v=1771992400",
     "price": "¥164",
     "description": "Indonesia Frinsa Manis Natural Filter - Single Origin. \n Wildan Mustofa and his ...",
-    "published_at": "2026-03-02T09:20:57+11:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Code Black",
-    "roaster_country": "Australia",
-    "name": "Peru Jose Rivera 'Brisa' Typica Washed Filter - Single Origin",
-    "url": "https://codeblackcoffee.com.au/products/peru-jose-rivera-brisa-typica-washed-filter-single-origin",
-    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Jose-Rivera-Brisa-Typica_Peru_Filter.png?v=1771992024",
-    "price": "¥178",
-    "description": "Peru Jose Rivera 'Brisa' Typica Washed Filter - Single Origin. \n Jose Rivera or ...",
     "published_at": "2026-03-02T09:20:57+11:00",
     "source_type": "api"
   },
@@ -5306,7 +5460,7 @@
     "roaster_country": "Canada",
     "name": "Delmar Salas Espresso",
     "url": "https://monogramcoffee.com/products/delmar-salas-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/delmar-pdp.png?v=1771967336",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-delmar-salas-costa-rica-anaerobic-natural-caturra-red-catuai-espresso.png?v=1775753523",
     "price": "¥252",
     "description": "A playful anaerobic natural from Delmar Salas that brings cinnamon warmth, apple...",
     "published_at": "2026-02-24T14:16:21-07:00",
@@ -5541,17 +5695,6 @@
     "price": "¥7538",
     "description": "Get a complimentary 3 month coffee subscription worth $192  when you grab our Ba...",
     "published_at": "2026-02-19T14:14:04+13:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Right Side Coffee",
-    "roaster_country": "Spain",
-    "name": "Kasahun Jabo Natural Espresso",
-    "url": "https://www.rightsidecoffee.com/products/kasahun-jabo-natural-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0858/2801/0328/files/kasahun_e_2026.png?v=1771502692",
-    "price": "¥103",
-    "description": "¡Bomba va! Este proceso natural de Kasahun con variedades tradicionales etíopes ...",
-    "published_at": "2026-02-19T13:15:13+01:00",
     "source_type": "api"
   },
   {
@@ -5977,7 +6120,7 @@
     "roaster_country": "Canada",
     "name": "C.I. Racafe Swiss Water Decaf Espresso",
     "url": "https://monogramcoffee.com/products/c-i-racafe-swiss-water-decaf-espresso",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/2-31.png?v=1770933964",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-ci-racafe-colombia-swiss-water-decaf-washed-caturra-castillo-espresso.png?v=1775753777",
     "price": "¥183",
     "description": "A washed Colombian decaf processed using the Swiss Water method: full flavour, n...",
     "published_at": "2026-02-12T15:16:46-07:00",
@@ -5988,7 +6131,7 @@
     "roaster_country": "Canada",
     "name": "C.I. Racafe Swiss Water Decaf",
     "url": "https://monogramcoffee.com/products/c-i-racafe-swiss-water-decaf",
-    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/1-33.png?v=1770933557",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0489/files/monogram-coffee-ci-racafe-colombia-swiss-water-decaf-washed-caturra-castillo-filter.png?v=1775753690",
     "price": "¥183",
     "description": "A washed Colombian decaf processed using the Swiss Water method: full flavour, n...",
     "published_at": "2026-02-12T15:16:46-07:00",
