@@ -1,5 +1,38 @@
 [
   {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "ONA Coffee Elevated Beanie",
+    "url": "https://onacoffee.com.au/products/ona-coffee-elevated-beanie",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/42.png?v=1779084483",
+    "price": "¥178",
+    "description": "Built for crisp mornings and long days behind the bar.  \n The ONA Coffee Elevate...",
+    "published_at": "2026-05-19T10:00:04+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "Iris Estate Symmetry, CM Natural",
+    "url": "https://onacoffee.com.au/products/filter-reserve-x-rsof1",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sorc_NEW_cc011bc0-8f0b-4552-868d-843509f94548.png?v=1778725422",
+    "price": "¥399",
+    "description": "Cherry, tropical and strawberry \n 200g...",
+    "published_at": "2026-05-19T09:00:09+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "ONA Coffee",
+    "roaster_country": "Australia",
+    "name": "La Huerta, Honduras, Washed",
+    "url": "https://onacoffee.com.au/products/espresso-z-rare",
+    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_soe_rare_a9c8c65c-e53b-480e-9c60-0b53547013b7.png?v=1778725076",
+    "price": "¥204",
+    "description": "Lychee, white peach and jasmine...",
+    "published_at": "2026-05-19T09:00:07+10:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
     "name": "Peru Quiquira Washed",
@@ -7,7 +40,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-label-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.493123",
+    "published_at": "2026-05-19T02:41:17.477918",
     "source_type": "browser"
   },
   {
@@ -18,7 +51,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.492650",
+    "published_at": "2026-05-19T02:41:17.477467",
     "source_type": "browser"
   },
   {
@@ -29,7 +62,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥331",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.492392",
+    "published_at": "2026-05-19T02:41:17.477224",
     "source_type": "browser"
   },
   {
@@ -40,7 +73,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.491607",
+    "published_at": "2026-05-19T02:41:17.476437",
     "source_type": "browser"
   },
   {
@@ -51,7 +84,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-DH-Infused-Label-Bottle.png",
     "price": "¥284",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.491137",
+    "published_at": "2026-05-19T02:41:17.475970",
     "source_type": "browser"
   },
   {
@@ -62,7 +95,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-3-bottle-V2.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.490653",
+    "published_at": "2026-05-19T02:41:17.475503",
     "source_type": "browser"
   },
   {
@@ -73,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-2-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.489924",
+    "published_at": "2026-05-19T02:41:17.474794",
     "source_type": "browser"
   },
   {
@@ -84,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/No-Caf-label-2-bottle-v2.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.489214",
+    "published_at": "2026-05-19T02:41:17.474085",
     "source_type": "browser"
   },
   {
@@ -95,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-label-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.488717",
+    "published_at": "2026-05-19T02:41:17.473618",
     "source_type": "browser"
   },
   {
@@ -106,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-label-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.488369",
+    "published_at": "2026-05-19T02:41:17.473282",
     "source_type": "browser"
   },
   {
@@ -117,7 +150,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-1-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.487289",
+    "published_at": "2026-05-19T02:41:17.472246",
     "source_type": "browser"
   },
   {
@@ -128,7 +161,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Brazil-Daterra-Bafafa-Bottle.png",
     "price": "¥415",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.486781",
+    "published_at": "2026-05-19T02:41:17.471766",
     "source_type": "browser"
   },
   {
@@ -139,7 +172,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Brazil-Daterra-Bafafa-Bottle.png",
     "price": "¥415",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.486524",
+    "published_at": "2026-05-19T02:41:17.471518",
     "source_type": "browser"
   },
   {
@@ -148,9 +181,9 @@
     "name": "Colombia Sigilo Anaerobic Natural",
     "url": "https://friedhats.com/products/colombia-sigilo-anaerobic-natural",
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
-    "price": "¥161",
+    "price": "¥169",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.485694",
+    "published_at": "2026-05-19T02:41:17.470709",
     "source_type": "browser"
   },
   {
@@ -161,7 +194,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-label-V2_bottle.png",
     "price": "¥161",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.485236",
+    "published_at": "2026-05-19T02:41:17.470273",
     "source_type": "browser"
   },
   {
@@ -172,7 +205,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.484726",
+    "published_at": "2026-05-19T02:41:17.469791",
     "source_type": "browser"
   },
   {
@@ -183,7 +216,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.484455",
+    "published_at": "2026-05-19T02:41:17.469536",
     "source_type": "browser"
   },
   {
@@ -194,7 +227,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-Generic-label-bottle.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.483561",
+    "published_at": "2026-05-19T02:41:17.468725",
     "source_type": "browser"
   },
   {
@@ -205,7 +238,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.482933",
+    "published_at": "2026-05-19T02:41:17.468280",
     "source_type": "browser"
   },
   {
@@ -216,7 +249,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.482574",
+    "published_at": "2026-05-19T02:41:17.467929",
     "source_type": "browser"
   },
   {
@@ -227,7 +260,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥308",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.481434",
+    "published_at": "2026-05-19T02:41:17.466875",
     "source_type": "browser"
   },
   {
@@ -238,7 +271,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥308",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.481176",
+    "published_at": "2026-05-19T02:41:17.466614",
     "source_type": "browser"
   },
   {
@@ -249,7 +282,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.480362",
+    "published_at": "2026-05-19T02:41:17.465777",
     "source_type": "browser"
   },
   {
@@ -260,7 +293,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.480080",
+    "published_at": "2026-05-19T02:41:17.465517",
     "source_type": "browser"
   },
   {
@@ -271,7 +304,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥469",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.479297",
+    "published_at": "2026-05-19T02:41:17.464710",
     "source_type": "browser"
   },
   {
@@ -282,7 +315,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥469",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.479017",
+    "published_at": "2026-05-19T02:41:17.464447",
     "source_type": "browser"
   },
   {
@@ -293,7 +326,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-green-label-bottle.png",
     "price": "¥223",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.478162",
+    "published_at": "2026-05-19T02:41:17.463587",
     "source_type": "browser"
   },
   {
@@ -304,7 +337,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-2-bottle.png",
     "price": "¥184",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.477610",
+    "published_at": "2026-05-19T02:41:17.463027",
     "source_type": "browser"
   },
   {
@@ -315,8 +348,173 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-2-bottle.png",
     "price": "¥184",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-05-18T02:43:38.477286",
+    "published_at": "2026-05-19T02:41:17.462708",
     "source_type": "browser"
+  },
+  {
+    "roaster_name": "Code Black",
+    "roaster_country": "Australia",
+    "name": "Colombia Albeirson Prada Devia Gesha Washed Filter - Single Origin",
+    "url": "https://codeblackcoffee.com.au/products/colombia-albeirson-prada-devia-gesha-filter-single-origin",
+    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Colombia_Albeirson-Prada-Devia_Single-Origin_Filter.png?v=1778801362",
+    "price": "¥171",
+    "description": "Colombia Albeirson Prada Devia Gesha Washed Filter - Single Origin. \n \n At Finca...",
+    "published_at": "2026-05-18T23:27:40+10:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "Rainier | Tisane Blend",
+    "url": "https://www.blackwhiteroasters.com/products/w-rainier-tisane-blend",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/Ceremony_Allied_Hugo_Rainier.png?v=1776711464",
+    "price": "¥259",
+    "description": "风味: —  menthol",
+    "published_at": "2026-05-18T15:00:36-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "Gold | Tisane Blend",
+    "url": "https://www.blackwhiteroasters.com/products/w-gold-tisane-blend",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/turmericdrycrop.jpg?v=1776716356",
+    "price": "¥259",
+    "description": "风味: —  piquant",
+    "published_at": "2026-05-18T15:00:36-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "Bouquet | Tisane Blend",
+    "url": "https://www.blackwhiteroasters.com/products/w-bouquet-tisane-blend",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/Ceremony_Allied_Hugo_Bouquet.png?v=1776711831",
+    "price": "¥259",
+    "description": "风味: —  pollen",
+    "published_at": "2026-05-18T15:00:35-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Black & White",
+    "roaster_country": "USA",
+    "name": "Hugo Grey | Black Blend",
+    "url": "https://www.blackwhiteroasters.com/products/w-hugo-grey-black-blend",
+    "image": "https://cdn.shopify.com/s/files/1/2988/2574/files/Ceremony_Allied_Hugo_Grey.png?v=1776711738",
+    "price": "¥302",
+    "description": "风味: —  grapefruit pith",
+    "published_at": "2026-05-18T15:00:35-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Brandywine",
+    "roaster_country": "USA",
+    "name": "Colombia - Rodrigo Sanchez - Mango Co-ferment - 8oz",
+    "url": "https://www.brandywinecoffeeroasters.com/products/colombia-rodrigo-sanchez-mango-co-ferment-1",
+    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/mangocoferment2026.jpg?v=1774888884",
+    "price": "¥208",
+    "description": "风味: transfer",
+    "published_at": "2026-05-18T14:45:30-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Brandywine",
+    "roaster_country": "USA",
+    "name": "Colombia - Sebastian Ramirez - Several Natural",
+    "url": "https://www.brandywinecoffeeroasters.com/products/colombia-several-natural-by-sebastian-ramirez",
+    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/colombiaseveralnatural2026.jpg?v=1774455516",
+    "price": "¥201",
+    "description": "风味: fun and sophisticated depth, whether you're a coffee connois",
+    "published_at": "2026-05-18T14:45:15-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "George Howell",
+    "roaster_country": "USA",
+    "name": "Daterra Calabria, Brazil",
+    "url": "https://georgehowellcoffee.com/products/daterra-mantiqueira-brazil",
+    "image": "https://cdn.shopify.com/s/files/1/0550/4119/6267/files/GHC_DaterraCalabria.png?v=1779128756",
+    "price": "¥165",
+    "description": "风味: drench the lush cup",
+    "published_at": "2026-05-18T14:34:23-04:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Koppi",
+    "roaster_country": "Sweden",
+    "name": "Costa Rica - Monte Copey \"El Alto\" Yellow Honey Catuai 250g",
+    "url": "https://www.koppi.se/products/costa-rica-monte-copey-el-alto-yellow-honey-caturra-250g",
+    "image": "https://cdn.shopify.com/s/files/1/0690/8225/1531/files/MonteCopeyElAlto-Bag.png?v=1779105934",
+    "price": "¥170",
+    "description": "风味: Dried fruit &amp; Berries, floral, elegant",
+    "published_at": "2026-05-18T14:04:56+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "La Cabra",
+    "roaster_country": "Denmark",
+    "name": "Rutas del Inca",
+    "url": "https://www.lacabra.dk/products/rutas-del-inca",
+    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Rutas_del_Inca_La_Cabra_Coffee_box_250g.webp?v=1779091989",
+    "price": "¥1072",
+    "description": "Bright, delicate and deeply sweet; grown on high altitude farms along Cajamarca’...",
+    "published_at": "2026-05-18T13:53:21+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "April Coffee",
+    "roaster_country": "Denmark",
+    "name": "Sustainable Profile Coffee - Colombia",
+    "url": "https://www.aprilcoffeeroasters.com/products/sustainable-profile-coffee-colombia",
+    "image": "https://cdn.shopify.com/s/files/1/1510/0358/files/SPColombia.jpg?v=1773836977",
+    "price": "¥972",
+    "description": "风味: Medium (creating a rich and sweet character) works for Espre",
+    "published_at": "2026-05-18T13:29:29+02:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Delta Spirit Espresso Blend",
+    "url": "https://onyxcoffeelab.com/products/delta-spirit-espresso-blend",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/doyenne8oz-orange.webp?v=1775235630",
+    "price": "¥115",
+    "description": "风味: profile that we intentionally designed to work well with mil",
+    "published_at": "2026-05-18T11:22:26-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Ethiopia Shakiso Wessi Station Natural",
+    "url": "https://onyxcoffeelab.com/products/ethiopia-shakiso-wessi-station-natural",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/doyenne8oz.webp?v=1775235432",
+    "price": "¥115",
+    "description": "风味: with prominent fruit notes",
+    "published_at": "2026-05-18T11:22:07-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Onyx Coffee Lab",
+    "roaster_country": "USA",
+    "name": "Colombia El Tambo-AMACA",
+    "url": "https://onyxcoffeelab.com/products/colombia-el-tambo-amaca",
+    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/doyenne8oz-blue.webp?v=1775235783",
+    "price": "¥115",
+    "description": "Located far west in the Western Cordillera Andes mountains of Colombia, there is...",
+    "published_at": "2026-05-18T11:21:46-05:00",
+    "source_type": "api"
+  },
+  {
+    "roaster_name": "Verve Coffee",
+    "roaster_country": "USA",
+    "name": "Archive: Morning Brew Blend",
+    "url": "https://www.vervecoffee.com/products/morning-brew-blend",
+    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Grateful-Dead-Morning-Brew-12oz-Silo.png?v=1773376334",
+    "price": "¥172",
+    "description": "Balanced and bright, the   Grateful Dead   blend is easy-drinking with layered c...",
+    "published_at": "2026-05-18T07:51:20-07:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "Monogram",
@@ -481,17 +679,6 @@
     "price": "¥183",
     "description": "风味: to the current lineup",
     "published_at": "2026-05-15T13:40:32-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
-    "name": "Roger Quispe, Peru",
-    "url": "https://sevenseeds.com.au/products/roger-quispe-peru-2026",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/roger-quispe-peru-1986485.png?v=1774447216",
-    "price": "¥155",
-    "description": "风味: Bright and Elegant  WITH NOTES OF  Blood Orange, Nectarine, ",
-    "published_at": "2026-05-15T13:26:36+10:00",
     "source_type": "api"
   },
   {
@@ -814,17 +1001,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Koppi",
-    "roaster_country": "Sweden",
-    "name": "Costa Rica - Monte Copey \"El Alto\"  Yellow Honey Catuai Wholesale",
-    "url": "https://www.koppi.se/products/costa-rica-monte-copey-la-mesa-cherry-rested-tipica-wholesale",
-    "image": "https://cdn.shopify.com/s/files/1/0690/8225/1531/files/Monte_Copey_El_Alto_-_Bag.png?v=1778498505",
-    "price": "¥102",
-    "description": "Flavour: Cherries, Dark Berries, Marzipan   \n  Cultivar: Catuai   \n  Producer: E...",
-    "published_at": "2026-05-11T13:24:32+02:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Market Lane",
     "roaster_country": "Australia",
     "name": "Seasonal Blend",
@@ -1097,28 +1273,6 @@
     "price": "¥1288",
     "description": "Jasmine, peach, oolong; The Burbanos are members of the Monkaaba project in San ...",
     "published_at": "2026-05-08T08:48:40+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
-    "name": "Takesi Geisha, Bolivia",
-    "url": "https://sevenseeds.com.au/products/takesi-geisha-bolivia-2026",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/takesi-geisha-bolivia-6573287.png?v=1778258550",
-    "price": "¥75",
-    "description": "风味: Elegant and Aromatic  WITH NOTES OF  Mango Nectar, Passionfr",
-    "published_at": "2026-05-08T07:19:45+10:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
-    "name": "Takesi Java, Bolivia",
-    "url": "https://sevenseeds.com.au/products/takesi-java-bolivia-2026",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/takesi-java-bolivia-4818265.png?v=1778258550",
-    "price": "¥47",
-    "description": "风味: Soft and Fragrant  WITH NOTES OF  Nashi Pear, Bergamot Orang",
-    "published_at": "2026-05-08T07:19:43+10:00",
     "source_type": "api"
   },
   {
@@ -2127,7 +2281,7 @@
     "roaster_country": "USA",
     "name": "LIMITED | SUMMER SOLSTICE | Limited Blend",
     "url": "https://proudmarycoffee.com/products/limited-summer-solstice-limited-blend",
-    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/USA_SeasonalBlend_2026_SummerSolstice.png?v=1778005234",
+    "image": "https://cdn.shopify.com/s/files/1/1939/4095/files/USA_Seasonal_Blend_2026_Summer_Solstice.png?v=1779121347",
     "price": "¥158",
     "description": "The solstice hits differently depending on where you stand – in the north,     i...",
     "published_at": "2026-04-28T11:11:52-07:00",
@@ -3181,17 +3335,6 @@
   {
     "roaster_name": "La Cabra",
     "roaster_country": "Denmark",
-    "name": "Querocoto",
-    "url": "https://www.lacabra.dk/products/querecoto",
-    "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Querocoto_La_Cabra_Seasonal_Coffee_Box_250g.webp?v=1774860780",
-    "price": "¥1072",
-    "description": "A bright and deeply sweet lot; grown in high altitude agroforestry systems in Ca...",
-    "published_at": "2026-04-10T11:48:28+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "La Cabra",
-    "roaster_country": "Denmark",
     "name": "Monkaaba",
     "url": "https://www.lacabra.dk/products/monkaaba",
     "image": "https://cdn.shopify.com/s/files/1/1094/5212/files/Monkaaba_La_Cabra_Seasonal_Coffee_Box_250g.webp?v=1774860884",
@@ -3322,17 +3465,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
-    "name": "Arbaey Ortega, Colombia",
-    "url": "https://sevenseeds.com.au/products/arbaey-ortega-colombia",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/arbaey-ortega-colombia-5727280.png?v=1775689931",
-    "price": "¥141",
-    "description": "风味: Elegant and Elevated  WITH NOTES OF  Dates, Apricot, Lemon G",
-    "published_at": "2026-04-08T15:23:29+10:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Reuben Hills",
     "roaster_country": "Australia",
     "name": "MOCCAMASTER™ 100x No. 4 Filters",
@@ -3374,17 +3506,6 @@
     "price": "¥0",
     "description": "风味: of blackcurrant, blackberry and rhubarb",
     "published_at": "2026-04-07T13:36:26+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Coffee Collective",
-    "roaster_country": "Denmark",
-    "name": "Triunfo Verde Espresso, 4 kg tin",
-    "url": "https://coffeecollective.dk/products/triunfo-verde-espresso-tins-4kg",
-    "image": "https://cdn.shopify.com/s/files/1/0744/9031/5020/files/4005_4KgTin.png?v=1743682207",
-    "price": "¥6940",
-    "description": "Organic  Creamy and balanced. Aroma of cacao and roasted nuts....",
-    "published_at": "2026-04-07T13:36:25+02:00",
     "source_type": "api"
   },
   {
@@ -3462,28 +3583,6 @@
     "price": "¥3182",
     "description": "风味: of fresh raspberry and dried apple",
     "published_at": "2026-04-06T17:22:12+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Coffee Collective",
-    "roaster_country": "Denmark",
-    "name": "Triunfo Verde Espresso, 250g",
-    "url": "https://coffeecollective.dk/products/triunfo-verde-espresso-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0744/9031/5020/files/TriunfoVerdeEsp250gfront.png?v=1759927231",
-    "price": "¥505",
-    "description": "Organic  Creamy and balanced. Aroma of cacao and roasted nuts....",
-    "published_at": "2026-04-06T17:20:04+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Coffee Collective",
-    "roaster_country": "Denmark",
-    "name": "Triunfo Verde Espresso, 1 kg",
-    "url": "https://coffeecollective.dk/products/triunfo-verde-espresso-1kg",
-    "image": "https://cdn.shopify.com/s/files/1/0744/9031/5020/files/TriunfoVerdeEsp1kgfront.png?v=1759922334",
-    "price": "¥1785",
-    "description": "Organic  Creamy and balanced. Aroma of cacao and roasted nuts....",
-    "published_at": "2026-04-06T17:20:02+02:00",
     "source_type": "api"
   },
   {
@@ -3605,17 +3704,6 @@
     "price": "¥103",
     "description": "Este Caturra lavado de Ausberto Oblitas destaca por su perfil vivo y expresivo, ...",
     "published_at": "2026-04-02T15:17:47+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "The Barn",
-    "roaster_country": "Germany",
-    "name": "CACAO NIB CHOCOLATE",
-    "url": "https://thebarn.de/products/cacao-nib-chocolate",
-    "image": "https://cdn.shopify.com/s/files/1/0831/4141/files/chocolate_cacao_nibs.png?v=1775133594",
-    "price": "¥107",
-    "description": "Single Origin Chocolate From Venezuela  A decadent chocolate bar from our new pa...",
-    "published_at": "2026-04-02T14:37:25+02:00",
     "source_type": "api"
   },
   {
@@ -4070,28 +4158,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Coffee Collective",
-    "roaster_country": "Denmark",
-    "name": "Peña de Leon Espresso, 250 g",
-    "url": "https://coffeecollective.dk/products/pena-de-leon-espresso-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0744/9031/5020/files/PenadeLeonEsp250gfront.png?v=1773134982",
-    "price": "¥1087",
-    "description": "风味: of caramel, dark chocolate and orange peel",
-    "published_at": "2026-03-26T11:23:07+01:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Coffee Collective",
-    "roaster_country": "Denmark",
-    "name": "Peña de Leon Espresso, 1 kg",
-    "url": "https://coffeecollective.dk/products/pena-de-leon-espresso-1kg",
-    "image": "https://cdn.shopify.com/s/files/1/0744/9031/5020/files/PenadeLeonEsp1kgfront.png?v=1773136176",
-    "price": "¥3398",
-    "description": "风味: of caramel, dark chocolate and orange peel",
-    "published_at": "2026-03-26T11:22:56+01:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Cat & Cloud",
     "roaster_country": "USA",
     "name": "Honduras Wilson Morales",
@@ -4257,17 +4323,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Brandywine",
-    "roaster_country": "USA",
-    "name": "Colombia - Black Honey Mossto Enigma Hops - Bundle",
-    "url": "https://www.brandywinecoffeeroasters.com/products/colombia-black-honey-mossto-enigma-hops",
-    "image": "https://cdn.shopify.com/s/files/1/0946/2742/files/hopsheadies2026.jpg?v=1774272755",
-    "price": "¥302",
-    "description": "Kick off spring with our first Heady drop of 2026!  The Heady collection represe...",
-    "published_at": "2026-03-24T06:25:51-04:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Onyx Coffee Lab",
     "roaster_country": "USA",
     "name": "Flamingo Reserve",
@@ -4287,17 +4342,6 @@
     "price": "¥1504",
     "description": "风味: Juicy and silky with notes of forest berries and cacao nibs",
     "published_at": "2026-03-23T15:04:50+01:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Morgon Coffee Roasters",
-    "roaster_country": "Sweden",
-    "name": "Karimikui - Kenya, Kirinyaga",
-    "url": "https://www.morgoncoffeeroasters.com/products/karimikui-kenya-kirinyaga",
-    "image": "https://cdn.shopify.com/s/files/1/0007/5277/9379/products/MCR_Allabilder_13.jpg?v=1620750457",
-    "price": "¥1576",
-    "description": "风味: Floral and complex with notes of rhubarb and wild strawberri",
-    "published_at": "2026-03-23T14:59:03+01:00",
     "source_type": "api"
   },
   {
@@ -4408,2316 +4452,6 @@
     "price": "¥57",
     "description": "Cafiza Home Espresso Tablet Packets \n \n The Urnex Cafiza E31 cleaning tablets ar...",
     "published_at": "2026-03-20T09:47:03-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Ecuador La Papaya Typica Natural",
-    "url": "https://onyxcoffeelab.com/products/ecuador-la-papaya-typica-natural",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/ecuador_a7f01a44-fb60-4ceb-a07b-73fe68410ad6.webp?v=1773855878",
-    "price": "¥64",
-    "description": "Juan Peña’s Hacienda La Papaya has become one of the most recognized farms in Ec...",
-    "published_at": "2026-03-19T17:00:00-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Colombia La Riviera SL28",
-    "url": "https://onyxcoffeelab.com/products/colombia-la-riviera-sl28-26",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/colombia_0d52fd47-0792-4c13-b77f-0c557e824cd0.webp?v=1773855662",
-    "price": "¥89",
-    "description": "La Riviera's coffees, cultivated at 1,750 meters in Santa Rosa de Cabal, Risaral...",
-    "published_at": "2026-03-19T17:00:00-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Kurasu",
-    "roaster_country": "Japan",
-    "name": "Kurasu Drip Coffee Bag - FAF Dark [Dark roast]",
-    "url": "https://kurasu.kyoto/products/kurasu-drip-coffee-bag-faf-dark-dark-roast",
-    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Drip-Bag_FAF-Dark.jpg?v=1773128256",
-    "price": "¥0",
-    "description": "风味: note:Orange, Sweet nuts, Plum candy, Caramel  *12gr of groun",
-    "published_at": "2026-03-19T12:04:04+09:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Kurasu",
-    "roaster_country": "Japan",
-    "name": "Kurasu Drip Coffee Bag - FAF Medium [Medium roast]",
-    "url": "https://kurasu.kyoto/products/kurasu-drip-coffee-bag-faf-medium-medium-roast",
-    "image": "https://cdn.shopify.com/s/files/1/0801/9439/files/image_Beans_Drip-Bag_FAF-Medium.jpg?v=1773127583",
-    "price": "¥0",
-    "description": "风味: note:Orange, Sweet nuts, Plum candy, Caramel  *12gr of groun",
-    "published_at": "2026-03-19T12:04:03+09:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Vergel Decaf - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-vergel-decaf",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaElVergelDecaf2023BAG.jpg?v=1762440377",
-    "price": "¥151",
-    "description": "风味: of green apple, milk chocolate, almond, honey, and orange",
-    "published_at": "2026-03-19T10:10:26-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Cascara Dried Coffee Cherry - Nicaragua - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/cascara-dried-coffee-cherry-nicaragua",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/products/NicaraguaCascara100gBAG.jpg?v=1762439789",
-    "price": "¥43",
-    "description": "﻿These dried coffee cherries brew an unexpectedly pleasant, bright tea with lots...",
-    "published_at": "2026-03-19T10:10:26-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Brazil  - Daterra Low Caf Reserve | Pulped Natural  - 250g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/brazil-daterra-low-caf-reserve-pulped-natural-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BrasilDaterraLowCafReserve250gBAG.jpg?v=1762440875",
-    "price": "¥165",
-    "description": "风味: of strawberry, white grape, milk chocolate, and plum",
-    "published_at": "2026-03-19T10:10:25-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Teshome Gemechu  Lot 2 | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/copy-of-ethiopia-teshome-gemechu-lot-2-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaTeshomeGemechuBAG_b66dc237-6797-412a-9e53-46b88e72c37e.jpg?v=1762440815",
-    "price": "¥158",
-    "description": "风味: of peach, blueberry, floral, and pear",
-    "published_at": "2026-03-19T10:10:25-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Sidra Double Anaerobic  - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-sidra-double-anaerobic-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ParaisoSidraAnaerobicWashed100gBAG.jpg?v=1762440379",
-    "price": "¥180",
-    "description": "风味: of rose, mandarin, grapefruit, nectarine, and sweet cream",
-    "published_at": "2026-03-19T10:10:25-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Nicaragua  - El Limoncillo Fincas Mierisch | Yellow Pacamara Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ecuador-juan-pena-hacienda-la-papaya-anaerobic-natural-150g-copy",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaLimoncilloYellowPacNat150gBAG.jpg?v=1762440881",
-    "price": "¥158",
-    "description": "风味: of peach, pineapple, red grape, caramel, orange, and floral",
-    "published_at": "2026-03-19T10:10:24-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Farms of Sierra de las Minas | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-farms-of-sierra-de-las-minas-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GuatemalaSierradelasMinas340gBAG.jpg?v=1762440880",
-    "price": "¥144",
-    "description": "风味: of apricot, caramel, milk chocolate, and pear",
-    "published_at": "2026-03-19T10:10:24-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Brazil - Daterra Full Bloom | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/brazil-daterra-full-bloom-natural-1",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Brasil_Daterra_Full_Bloom_BAG.jpg?v=1762440976",
-    "price": "¥151",
-    "description": "风味: of peach, lemon, hazelnut, strawberry, and caramel",
-    "published_at": "2026-03-19T10:10:23-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Ta Ngo Village Lot #84 | Catuai - Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-ta-ngo-village-lot-84-catuai-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/MyanmarTaNgoVillage340gBAG.jpg?v=1762440919",
-    "price": "¥136",
-    "description": "风味: of blackberry, pear, almond, and kiwi",
-    "published_at": "2026-03-19T10:10:23-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Vergel Decaf Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-vergel-decaf-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Vergel_Natural_Decaf_BAG_fdfd8ad6-fb6e-48f8-a057-9789e902730c.jpg?v=1762440983",
-    "price": "¥172",
-    "description": "LAST ROAST AUG 02 \n This Coffee is DECAF. It undergoes natural drying process be...",
-    "published_at": "2026-03-19T10:10:22-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Tebe Melge | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-tebe-melge-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaTebeMelge340gBAG.jpg?v=1762440982",
-    "price": "¥158",
-    "description": "Found only in the ultra-high reaches of Guji’s vast Uraga forest region this Teb...",
-    "published_at": "2026-03-19T10:10:22-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Axola Cooperative Manos de Mujer | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-axola-cooperative-manos-de-mujer-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GuatemalaAxolaCooperative340gBAG.jpg?v=1762440993",
-    "price": "¥144",
-    "description": "August 4 2024 -  Sept 12 2024  \n The Axola Cooperative was founded in 1989 with ...",
-    "published_at": "2026-03-19T10:10:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Honduras - Gerardo Moreno | Parainema Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/honduras-gerardo-moreno-parainema-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Honduras_Gerardo_Moreno_El_Filo_Parainema_Natural_340g_BAG.jpg?v=1762440990",
-    "price": "¥165",
-    "description": "Gerardo Moreno is a third generation coffee producer and son of coffee Patriarch...",
-    "published_at": "2026-03-19T10:10:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Finca La Macarena Wilton Benitez | Washed Castillo - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-finca-macarena-wilton-benitez-washed-castillo",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaWiltonFincaMacarenaCastillo340gBAG.jpg?v=1762440990",
-    "price": "¥151",
-    "description": "This lot is a classic washed grown on Wilton's farm Finca La Macarena and proces...",
-    "published_at": "2026-03-19T10:10:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Costa Rica - Hacienda Sonora | Bourbon Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/costa-rica-hacienda-sonora-bourbon-natural-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/CostaRicaSonoraBourbonNatural150gBAG.jpg?v=1762440994",
-    "price": "¥158",
-    "description": "We have a special place on our hearts and our shelf for Hacienda Sonora. We were...",
-    "published_at": "2026-03-19T10:10:20-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Chelbesa One  | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-chelbesa-one-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaChelbesaOneWashed340gBAG.jpg?v=1762440998",
-    "price": "¥165",
-    "description": "This washed lot is produced at the Chelbesa One Washing Station in the Gedeb Zon...",
-    "published_at": "2026-03-19T10:10:19-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Gutiti | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-gutiti-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaGutitiNatural340gBAG.jpg?v=1762440998",
-    "price": "¥165",
-    "description": "This lot is produced at the Gutiti Washing Station station in Yirgacheffe, Ethio...",
-    "published_at": "2026-03-19T10:10:19-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Esperanza | Ombligon Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-esperanza-ombligon-natural-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/colombia_4e9ed6c8-a63a-4d4a-8e6e-952417a82c29.jpg?v=1762441007",
-    "price": "¥172",
-    "description": "More about this coffee:   \n Ombligon means belly button in Spanish and this vari...",
-    "published_at": "2026-03-19T10:10:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Sudan Rume Anaerobic Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-sudan-rume-anaerobic-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Sudanrume.jpg?v=1762441007",
-    "price": "¥180",
-    "description": "Sudan Rume is a variety of coffee discovered in the South Sudan mountains of Mar...",
-    "published_at": "2026-03-19T10:10:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Boquete | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-boquete-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_372d388d-060b-4773-80c0-2e76da6657cb.jpg?v=1762441001",
-    "price": "¥151",
-    "description": "This is the ultimate everyday coffee, sweet, clean and smooth.   Creativa Coffee...",
-    "published_at": "2026-03-19T10:10:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Blend - Batch #10000 Celebration Blend - 250g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/blend-batch-10000-clelbration-blend-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/batch10000.jpg?v=1762441009",
-    "price": "¥108",
-    "description": "UPDATE: Thank you everyone. We have donated $1000 to the Edmonton Food Bank.  \n ...",
-    "published_at": "2026-03-19T10:10:17-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Ana Nolasco Pascual | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-ana-nolasco-pascual-washed-copy",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemalawashed.jpg?v=1762441008",
-    "price": "¥144",
-    "description": "Rogue Wave Note - This is our house espresso.  \n Ana lives with her husband and ...",
-    "published_at": "2026-03-19T10:10:17-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Pa-O Lot #110 | Catuai - Pulped Natural Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-pao-lot-110-catuai-pulped-natural-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Myanmar_Pa0_Lot_110_BAG.jpg?v=1762441028",
-    "price": "¥151",
-    "description": "More about the PA-O Village and Behind the Leaf  \n  Behind the Leaf is a fantast...",
-    "published_at": "2026-03-19T10:10:16-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Thailand - Karen Farm | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/thailand-karen-farm-natural-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ThailandKaren.jpg?v=1762441027",
-    "price": "¥158",
-    "description": "Karen farm is owned by Somphong and Wandee Saeyang of the Karen tribe. They util...",
-    "published_at": "2026-03-19T10:10:16-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Altieri Alessa Gesha | Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-altieri-alessa-gesha-washed-100",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Altieri_Alessa_Washed_Geisha_100g_BAG.jpg?v=1762439767",
-    "price": "¥316",
-    "description": "ALESSA is a plot located in the MIMA ESTATE farm in Alto Quiel at the foothills ...",
-    "published_at": "2026-03-19T10:10:15-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Finca Jurutungo Gesha  | Lot 415  Honey - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-finca-jurutungo-gesha-lot-415-j-hf-honey-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Finca_Jurutungo_Honey_415-J-HF_100g_BAG.jpg?v=1762441030",
-    "price": "¥230",
-    "description": "This Geisha lot comes from the Gallardo family's first farm Finca Jurutungo loca...",
-    "published_at": "2026-03-19T10:10:15-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Behind The Leaf | Syrina - Anaerobic Koji Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-behind-the-leaf-lot-293-syrina-anaerobic-koji-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Myanmar_BTL_Syrina_Koji_Natural_340g_BAG.jpg?v=1762441030",
-    "price": "¥172",
-    "description": "LAST CALL - LAST ROAST - SEPT 27  More about this coffee: \n Several years ago, t...",
-    "published_at": "2026-03-19T10:10:15-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Finca La Serranía | Kimono Natural - 200g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-finca-la-serrania-kimono-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_Serrania_Kimono_Natural_200g_BAG.jpg?v=1762441035",
-    "price": "¥194",
-    "description": "Kimono  is a natural mutation that took place on Finca La Serranía, between the ...",
-    "published_at": "2026-03-19T10:10:14-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Maganjo | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-maganjo-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/kenya.png?v=1762441060",
-    "price": "¥28",
-    "description": "This small estate is located in Kiambu and has a wet mill within the estate. The...",
-    "published_at": "2026-03-19T10:10:13-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Praderita | Pink Bourbon Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-praderita-pink-bourbon-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaPraderitaPinkBourbonWashed340gBAG.jpg?v=1762441056",
-    "price": "¥165",
-    "description": "Jose Ignacio Cubillos is a passionate coffee grower from Santa Maria, Huila, who...",
-    "published_at": "2026-03-19T10:10:13-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Behind The Leaf | Wa Lee Village - Anaerobic Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-behind-the-leaf-wa-lee-village-anaerobic-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Myanmar_Wa_Lee_Village_Anaerobic_Honey_340g_BAG.jpg?v=1762441061",
-    "price": "¥165",
-    "description": "More about Behind the Leaf  \n  Behind the Leaf is indeed an incredible coffee pr...",
-    "published_at": "2026-03-19T10:10:12-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Behind The Leaf | Wa Ran Village - Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-behind-the-leaf-wa-ran-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Myanmar_Wa_Ran_Village_Washed_340g_BAG.jpg?v=1762441061",
-    "price": "¥151",
-    "description": "More about the PA-O Village and Behind the Leaf  \n  Behind the Leaf is a fantast...",
-    "published_at": "2026-03-19T10:10:12-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Thailand - Sirinya Farm |  Slow-dried Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/thailand-sirinya-farm-slow-dried-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ThailandChiangRai.png?v=1762441060",
-    "price": "¥158",
-    "description": "Nestled in the mountains of Chiang Rai province, Sirinya Coffee is more than jus...",
-    "published_at": "2026-03-19T10:10:12-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Behind The Leaf | Wa Lee Village - Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-behind-the-leaf-wa-lee-village-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Myanmar_Wa_Lee_Village_Natural_340g_BAG.jpg?v=1762441069",
-    "price": "¥165",
-    "description": "More about Behind the Leaf  \n  Behind the Leaf is indeed an incredible coffee pr...",
-    "published_at": "2026-03-19T10:10:11-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Janson Geisha Lot 385 | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-janson-geisha-lot-385-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panamajason.png?v=1762441071",
-    "price": "¥273",
-    "description": "The Janson Farms story started in 1926 when Carl Axel Janson, at only age twenty...",
-    "published_at": "2026-03-19T10:10:11-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Villa Pastora | Pink Bourbon Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-villa-pastora-pink-bourbon-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaVillaPastoraPinkBourbonNaturalBAG.jpg?v=1762441073",
-    "price": "¥180",
-    "description": "Villa Pastora farm, located in the municipality of Palestina, Huila, was acquire...",
-    "published_at": "2026-03-19T10:10:10-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Ella Todos Santos | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-ella-todos-santos-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_ELLA_Todos_Santos_340g_BAG.jpg?v=1762441069",
-    "price": "¥144",
-    "description": "In the highlands of the San Martin Cuchumatanes, a sisterhood of 276 courageous ...",
-    "published_at": "2026-03-19T10:10:10-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Thailand - Mae Suai | Natural - 250g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/thailand-mae-sui-natural-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ThailandMaeSuaiNatural250gBAG_2d5cf800-63d7-4cbf-8db7-7df83f639c6d.jpg?v=1762441080",
-    "price": "¥158",
-    "description": "Nawin Yaesorkoo is one of the most innovative farmers and coffee processors in T...",
-    "published_at": "2026-03-19T10:10:09-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Nguisse Nare Bombe | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-nguisse-nare-bombe-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaNguisseNareBombeNaturalBAG.jpg?v=1762441075",
-    "price": "¥165",
-    "description": "Sitting atop a ridge at 2250 MASL in Bombe, Nguisse Nare’s 10 hectare farm “Seta...",
-    "published_at": "2026-03-19T10:10:09-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Margaritas  Geisha | Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-margaritas-geisha-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/CGLELasMargaritasGeishaWashed100gBAG_ed86cc66-9c27-4ca2-89ad-c7cef164c3da.jpg?v=1762441083",
-    "price": "¥216",
-    "description": "Las Margaritas is owned by siblings, Rigoberto and Luis Eduardo Herrera, third-g...",
-    "published_at": "2026-03-19T10:10:08-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Gesha GN-1620 | Submerged Anaerobic Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-gesha-gn-1620-submerged-anaerobic-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABUGeshaGN-1620100gBAG.jpg?v=1762441083",
-    "price": "¥345",
-    "description": "The cherries for this lot were hand picked at the optimum maturation point, then...",
-    "published_at": "2026-03-19T10:10:08-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Nicaragua -  Nueva Segovia |  Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/nicaragua-nueva-segovia-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaNuevaSegoviaCommunityLotBAG_23656b6f-b684-40ff-abc9-0e19e7175503.jpg?v=1762441082",
-    "price": "¥151",
-    "description": "Nestled within the pristine Natural Reserve of Serranías Dipilto – Jalapa, three...",
-    "published_at": "2026-03-19T10:10:08-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Thailand - Hua Chang - Nawin Yaesorkoo | Yeast Natural - 250g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/thailand-hua-chang-nawin-yaesorkoo-yeast-natural-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Thailand_Hua_Chang_250g_BAG_PHOTO.png?v=1762441090",
-    "price": "¥158",
-    "description": "Rogue Wave Note: This coffee will be the last of our current Thailand series.  \n...",
-    "published_at": "2026-03-19T10:10:07-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Flores | Chiroso Thermal Shock Yeast Anaerobic Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-flores-chiroso-thermal-shock-yeast-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Las_Flores_Chiroso_Yeast_Washed_200g_BAG.jpg?v=1762441085",
-    "price": "¥216",
-    "description": "LAST ROAST - NOV 12 \n For this lot carefully selected ripe cherries were put thr...",
-    "published_at": "2026-03-19T10:10:07-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Natural EA DECAF Red Bourbon - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-natural-ea-decaf-red-bourbon",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaGranjaParaisoRedBourbonNaturalDecaf250gBAG.jpg?v=1762441097",
-    "price": "¥151",
-    "description": "This  Decaf  lot from Wilton goes through whole cherry fermentation for 48 hours...",
-    "published_at": "2026-03-19T10:10:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Altieri Luci Geisha | Dry Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-altieri-luci-geisha-dry-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Altieri_Luci_2024_100g_BAG.jpg?v=1762441093",
-    "price": "¥331",
-    "description": "Lot LUCI 211223 Natural Geisha Dry Fermentation Cold   \n   LUCI is a plot locate...",
-    "published_at": "2026-03-19T10:10:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Nicaragua -  El Limoncillo |  Javanica Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/nicaragua-el-limoncillo-javanica-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaElLimoncilloJavanica340gBAG.jpg?v=1762441091",
-    "price": "¥187",
-    "description": "Last roast - Nov 28 \n   \n Named after the Limoncillo, a small type of lemon grow...",
-    "published_at": "2026-03-19T10:10:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Flores | Sidra Thermal Shock Yeast Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-flores-sidra-thermal-shock-yeast-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Las_Flores_Sidra_Yeast_Natural_200g_BAG.jpg?v=1762441098",
-    "price": "¥216",
-    "description": "风味: characteristics of the coffee beans",
-    "published_at": "2026-03-19T10:10:05-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Pink Bourbon Thermal Shock Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-pink-bourbon-thermal-shock-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaGranjaParaisoPinkBourbonWashed200gBAG.jpg?v=1762441098",
-    "price": "¥57",
-    "description": "Wilton Benitez has been producing top quality coffee for more than 26 years. 16+...",
-    "published_at": "2026-03-19T10:10:05-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Cafe Don Benjie Geisha | CM Natural Lot 7 - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-cafe-don-benjie-geisha-cm-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaCafeDonBenjieCM-7Geisha100gBAG.jpg?v=1762441138",
-    "price": "¥273",
-    "description": "Café Don Benjie Estate, which encompasses 33 hectares in the Highlands of Boquet...",
-    "published_at": "2026-03-19T10:10:04-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Finca La Serranía | Geisha Natural - 200g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-finca-la-serrania-geisha-natural-200g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GuatemalaSerraniaGeishaNatural200gBAG.jpg?v=1762441104",
-    "price": "¥201",
-    "description": "Last roast Nov 29  \n   \n  Having been born among coffee plantations, and followi...",
-    "published_at": "2026-03-19T10:10:04-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Alo coffee Tamiru Tadesse | Mosto Natural - 200g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-alo-coffee-mosto-natural-200g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaAloMostoAnaerobicNatural200gBAG.jpg?v=1762441141",
-    "price": "¥230",
-    "description": "When Tamiru Tadesse founded Alo Coffee in 2020, he chose Alo Kebelle for his was...",
-    "published_at": "2026-03-19T10:10:03-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Bekele Yutute | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-bekele-yutute-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaBekeleYututeNatural340gBAG.jpg?v=1762441140",
-    "price": "¥28",
-    "description": "Bekele Utute’s brother-in-law manages his farm in Kokose, which was the 5th plac...",
-    "published_at": "2026-03-19T10:10:03-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Rincon Diego Horta | Geisha Washed - 200g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-rincon-diego-horta-geisha-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaElRinconWashedGeisha200gBAG.jpg?v=1762441142",
-    "price": "¥208",
-    "description": "风味: profile of the coffee",
-    "published_at": "2026-03-19T10:10:02-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Gaviotas Piedmonte Farm | Wush Wush Hydro Honey - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-gaviotas-wush-wush-hydro-honey-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaGaviotasPiedmonteWushWushHydroHoney150gBAG.jpg?v=1762441141",
-    "price": "¥216",
-    "description": "Las Gaviotas coffee collective embraces 7 unique and collectively owned farm plo...",
-    "published_at": "2026-03-19T10:10:02-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "El Salvador - El Carmen | Elite Bourbon Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/el-salvador-el-carmen-elite-bourbon-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/El_Salvador_El_Carmen_Elite_Bourbon_Washed_340g_BAG.jpg?v=1762441146",
-    "price": "¥28",
-    "description": "El Carmen lies in the heart of El Salvador’s main ‘protected highway’ of forest,...",
-    "published_at": "2026-03-19T10:10:01-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Orange Bourbon Fermented Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-orange-bourbon-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadOrangeBourbonWashed250gBAG.jpg?v=1762441143",
-    "price": "¥194",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:10:01-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Bona Zuria Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-bona-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaBonaWashed340gBAG.jpg?v=1762441149",
-    "price": "¥165",
-    "description": "风味: profile that can hold its own against the famed locations in",
-    "published_at": "2026-03-19T10:10:00-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GN-1710 | Natural Double Phase Submerged Anaerobic - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gn-1710-natural-double-phase-submerged-anaerobic-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Geisha_GN-1710_natural_100g_2024_BAG.jpg?v=1762441147",
-    "price": "¥345",
-    "description": "The cherries were hand picked at the optimum maturation point, then hand-selecte...",
-    "published_at": "2026-03-19T10:10:00-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GW-1720 | Mosto Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gw-1720-mosto-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Geisha_GW-1720_washed_100g_2024_BAG.jpg?v=1762441147",
-    "price": "¥316",
-    "description": "The cherries were hand picked at the optimum maturation point and then hand-sele...",
-    "published_at": "2026-03-19T10:10:00-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Cascadas | Regional Lot Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-cascadas-regional-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaCascadasRegionalLot340gBAG.jpg?v=1762441158",
-    "price": "¥158",
-    "description": "The cherries are picked at the precise ripeness to guarantee an optimal level of...",
-    "published_at": "2026-03-19T10:09:59-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Alo coffee Tamiru Tadesse | Anaerobic Honey - 200g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-alo-coffee-tamiru-tadesse-anaerobic-honey-200g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Alo_Anaerobic_Honey_200g_BAG.jpg?v=1762441149",
-    "price": "¥201",
-    "description": "Last roast - Dec 18 - 3 bags left / updated Dec 29th.  \n   \n When Tamiru Tadesse...",
-    "published_at": "2026-03-19T10:09:59-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Costa Rica - Ivan Solis - Copey | Yellow Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-copey-yellow-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Costa_Rica_Ivan_Solis_Hacienda_Copey_Yellow_Honey_340g_BAG.jpg?v=1762441161",
-    "price": "¥165",
-    "description": "Iván Gerardo Solís Rivera has been dedicated to everything coffee for over 20 ye...",
-    "published_at": "2026-03-19T10:09:58-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Gaviotas Piedmonte Farm | Sudan Rume Eco Cold Washed 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-gaviotas-piedmonte-farm-sudan-rume-eco-cold-washed-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaGaviotasPiedmonteSudanRumeEcoWashed150gBAG.jpg?v=1762441158",
-    "price": "¥216",
-    "description": "风味: notes of citrus, herbs and spices common to Sudan Rume genet",
-    "published_at": "2026-03-19T10:09:58-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "El Salvador - El Carmen | Elite Bourbon Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/el-salvador-el-carmen-elite-bourbon-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/El_Salvador_El_Carmen_Elite_Bourbon_Anaerobic_Natural_340g_BAG.jpg?v=1762441164",
-    "price": "¥172",
-    "description": "El Carmen lies in the heart of El Salvador’s main ‘protected highway’ of forest,...",
-    "published_at": "2026-03-19T10:09:57-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Project Origin Koke Indigo lot 1124 | CM Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-project-origin-koke-indigo-lot-1124-cm-natural-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaKokeIndigoBAG.jpg?v=1762441162",
-    "price": "¥230",
-    "description": "风味: intense flavour, powerful qualities, and unique elements",
-    "published_at": "2026-03-19T10:09:57-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Finca Potosi | Tres Dragones Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-finca-potosi-tres-dragones-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Potosi_Tres_Dragones_Natural_250g_BAG.jpg?v=1762441161",
-    "price": "¥180",
-    "description": "Owned by siblings, Rigoberto and Luis Eduardo Herrera, who come from a long stan...",
-    "published_at": "2026-03-19T10:09:57-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Placer | Pink Bourbon IPA Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-placer-pink-bourbon-ipa-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_El_Placer_IPA_Honey_Pink_Bourbon_200g_BAG.jpg?v=1762441166",
-    "price": "¥230",
-    "description": "The process for this lot starts at Sebastian Ramirez's farms, where the Pink Bou...",
-    "published_at": "2026-03-19T10:09:56-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Mate Matiwos Lot 1 | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-mate-matiwos-lot-1-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Mate_Matiwos_Lot_1_Natural_340g_BAG.jpg?v=1762441165",
-    "price": "¥172",
-    "description": "Mate Matiwos was born in Keramo to a family in the coffee business. Before coffe...",
-    "published_at": "2026-03-19T10:09:56-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Esperanza | Geisha Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-esperanza-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-LasEsperanzaGeishaNaturalBAG.jpg?v=1762441183",
-    "price": "¥201",
-    "description": "La Esperanza is owned by siblings, Rigoberto and Luis Eduardo Herrera, third-gen...",
-    "published_at": "2026-03-19T10:09:55-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Mokka Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-mokka-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Mokka_Natural_200g_BAG.jpg?v=1762441170",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:55-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Project Origin Gargari Amber Lot 2308 | CM Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-project-origin-gargari-amber-lot-2308-cm-natural-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaGargariAmberBagPhoto.jpg?v=1762441188",
-    "price": "¥230",
-    "description": "风味: and sweetness, with a flavour profile of orange and yellow f",
-    "published_at": "2026-03-19T10:09:54-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Geisha Lot 6 | Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-gesha-lot-6-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Carmen_Geisha_Lot_7_Washed_BAG.jpg?v=1762441187",
-    "price": "¥324",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:09:54-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Project Origin Guji Masina Jasper Lot 0824 | CM Natural - 150g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-project-origin-guji-masina-jasper-lot-0824-cm-natural-150g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiiopiaGujiMasinaJasper0824BAG.jpg?v=1762441184",
-    "price": "¥230",
-    "description": "风味: reminiscent of red, orange, and yellow fruits",
-    "published_at": "2026-03-19T10:09:54-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Altieri Chombi Geisha | Dry Fermentation Cold Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-altieri-chombi-geisha-dry-fermentation-cold-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Altieri_ASD_Chombi_100g_BAG.jpg?v=1762441225",
-    "price": "¥316",
-    "description": "CHOMBI is a plot located in the MIMA ESTATE farm in Alto Quiel at the foothills ...",
-    "published_at": "2026-03-19T10:09:53-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Dinkalem Ademe | Wush Wush Red Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-dinkalem-ademe-wush-wush-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaDinkalemAdemeWushWushHoney340gBAG.jpg?v=1762441224",
-    "price": "¥165",
-    "description": "Dinkalem Ademe has built a reputation for quality at his two wet mills in Keffa ...",
-    "published_at": "2026-03-19T10:09:53-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Catuai Lot TN-630 | ASD Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-catuai-lot-tn-630-asd-natural-250g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_ABU_ASD_Natural_Catuai_TN-630_250_BAG.jpg?v=1762441230",
-    "price": "¥201",
-    "description": "These coffee cherries were hand picked at their optimum maturation point before ...",
-    "published_at": "2026-03-19T10:09:52-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Project Origin Maguta Estate Amber Lot 196| CM Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-project-origin-maguta-estate-amber-lot-196-cm-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/KenyaMagutaAmberCMLot196100gBAG.jpg?v=1762441227",
-    "price": "¥208",
-    "description": "风味: and sweetness, with a flavour profile of orange and yellow f",
-    "published_at": "2026-03-19T10:09:52-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Rwanda - Kanzu Lot 46  | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/rwanda-kanzu-lot-46-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/RwandaKanzuWashed340gBAG.jpg?v=1762441232",
-    "price": "¥158",
-    "description": "风味: development of these coffees",
-    "published_at": "2026-03-19T10:09:51-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Finca Bernardina Geisha Lot 21/12/23  | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-finca-bernadina-geisha-lot-21-12-23-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Finca_Bernadina_Geisha_Natural_211223_-_2024_BAG.jpg?v=1762441230",
-    "price": "¥252",
-    "description": "More about Finca Bernardina:  \n   Finca Bernardina is located in the area of the...",
-    "published_at": "2026-03-19T10:09:51-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Costa Rica - Ivan Solis - Vara Blanca | Raisin Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-vara-blanca-raisin-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Costa_Rica_Ivan_Solis_Vara_Blanca_Raisin_Honey_340g_BAG.jpg?v=1762441235",
-    "price": "¥158",
-    "description": "Iván Gerardo Solís Rivera has been dedicated to everything coffee for over 20 ye...",
-    "published_at": "2026-03-19T10:09:50-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "El Salvador - Santa Matilde | Bourbon Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/el-salvador-santa-matilde-bourbon-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/El_Salvador_Santa_Matilde_Natural_340g_BAG.jpg?v=1762441234",
-    "price": "¥180",
-    "description": "Finca Santa Matilde is located in Concepción de Ataco in the department of Ahuac...",
-    "published_at": "2026-03-19T10:09:50-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Mount Totumas Milky Way | Catuai Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-mount-totumas-milky-way-catuai-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Mount_Totumas_Milky_Way_Catuai_200g_BAG.jpg?v=1762441234",
-    "price": "¥201",
-    "description": "From Mount Totumas: \n The Mount Totumas Cloud Forest Coffee story begins in 2008...",
-    "published_at": "2026-03-19T10:09:50-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - A Lel Chaung Village | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmay-a-lel-chaung-village-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/MyanmarALelChaungNatural340gBAG.jpg?v=1762441237",
-    "price": "¥158",
-    "description": "A Lel Chaung Village is new to the specialty coffee project, but they went all i...",
-    "published_at": "2026-03-19T10:09:49-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Monteblanco Geisha | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-monteblanco-geisha-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-MonteblancoGeishaWashed200gBAG.jpg?v=1762441270",
-    "price": "¥230",
-    "description": "Geisha was introduced to Monteblanco farm in 2015, and despite its initial chall...",
-    "published_at": "2026-03-19T10:09:48-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Inmaculada Geisha Fellows | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-inmaculada-geisha-fellows-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaInmaculadaGeishaFellows200gBAG.jpg?v=1762441238",
-    "price": "¥230",
-    "description": "The journey of this coffee begins with harvesting ripe cherries, followed by a t...",
-    "published_at": "2026-03-19T10:09:48-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Palomar Estate Geisha Lot 9 | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-palomar-9-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Carmen_Natural_Geisha_Palomar_lot_9_100g_2024_BAG.jpg?v=1762441237",
-    "price": "¥302",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:09:48-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Agaro Abdulrherman Ababulgu | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-agaro-abdulrherman-ababulgu-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaAgaroWashed340gBAG.jpg?v=1762441271",
-    "price": "¥165",
-    "description": "Abduraman Ababulgu returned to Boto to serve as the treasurer of the Duromina co...",
-    "published_at": "2026-03-19T10:09:47-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Kotowa Duncan Estate | Geisha Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-kotowa-duncan-estate-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaKotowaGeishaNATURAL_2004100gBAG.jpg?v=1762441271",
-    "price": "¥252",
-    "description": "Kotowa comes from the indigenous Gnobe language which means “mountains”. A “ Cof...",
-    "published_at": "2026-03-19T10:09:47-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Rwanda - Kanzu Lot 4  | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/rwanda-kanzu-lot-4-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Rwanda_Kanzu_Natural_Lot_4_340g_BAG.jpg?v=1762441283",
-    "price": "¥158",
-    "description": "风味: development of these coffees",
-    "published_at": "2026-03-19T10:09:46-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Myanmar - Mya Paw Saw Pa'O Village | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/myanmar-mya-paw-saw-pao-village-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/MyanmarMyaPawSawNatural340gBAG.jpg?v=1762441283",
-    "price": "¥158",
-    "description": "Mya Paw Saw is a Pa’O village which is named after the stunning Emerald Pagoda w...",
-    "published_at": "2026-03-19T10:09:46-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Huehuetenango Primavera Family Lot | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-huehuetenango-primavera-family-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_Primavera_Family_Lot_340g_BAG.jpg?v=1762441283",
-    "price": "¥144",
-    "description": "This lot brings together 15 producers from the Huehuetenango region in Guatemala...",
-    "published_at": "2026-03-19T10:09:46-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Mukunga Kiambu |  Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-mukunga-kiambu-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/KenyaMukunga340gBAG.jpg?v=1762441286",
-    "price": "¥172",
-    "description": "This charming little coffee farm is run by Haner Wanjiku Mukunga and is nestled ...",
-    "published_at": "2026-03-19T10:09:45-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Buesaco | Regional Lot Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-buesaco-regional-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaBuesacoRegionalLot340gBAG.jpg?v=1762441285",
-    "price": "¥158",
-    "description": "This lot comes from Buesaco, located at 1950 m.a.s.l in the department of Nariño...",
-    "published_at": "2026-03-19T10:09:45-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Vergel Condor Decaf - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-condor-decaf-1",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaElVergelCondorDecaf340gBAG.jpg?v=1762441322",
-    "price": "¥158",
-    "description": "Back in 1995, the Bayter Family rolled up their sleeves and dove headfirst into ...",
-    "published_at": "2026-03-19T10:09:44-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Geisha Lot 2 | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-lot-2-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Carmen_Geisha_Lot_2_Natural_BAG.jpg?v=1762441288",
-    "price": "¥324",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:09:44-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Marias Salpicon Geisha | 96 hour Anaerobic Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-marias-salpicon-geisha-96-hour-anaerobic-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaSalpiconGeishaNatural2024100gBAG.jpg?v=1762441334",
-    "price": "¥180",
-    "description": "Las Marias Estate is the newest farm of the Giraldo family, Jose was intentional...",
-    "published_at": "2026-03-19T10:09:43-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Elkin Guzman El Mirador Catiope | Strawberry Co-ferment - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-elkin-guzman-el-mirador-catiope-strawberry-co-ferment",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_-_El_Mirador_Guzman_Strawberry_Natural_200g_BAG.jpg?v=1762441334",
-    "price": "¥194",
-    "description": "Located in the village of El Portal in Huila, Colombia, El Mirador is a 31-hecta...",
-    "published_at": "2026-03-19T10:09:43-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Honduras - Moreno Family Piedras Amarillas | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/honduras-moreno-family-piedras-amarillas-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/HondurasMorenoFamilyPiedrasPacasWashed340gBAG.jpg?v=1762441330",
-    "price": "¥172",
-    "description": "This farm is cooperatively managed by Mario Moreno and his brothers, Danny and M...",
-    "published_at": "2026-03-19T10:09:43-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - El Pergamino Geisha | Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-el-pergamino-geisha-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaElPergaminoGeishaWashed100gBAG.jpg?v=1762441339",
-    "price": "¥288",
-    "description": "Finca El Pergamino is located in the district of Tierras Altas, in the province ...",
-    "published_at": "2026-03-19T10:09:42-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Shantawene | Natural Lot 447 - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-shantawene-natural-lot-447",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Shantawene_Lot_447_Natural_340g_BAG.jpg?v=1762441340",
-    "price": "¥180",
-    "description": "风味: profile of its coffee",
-    "published_at": "2026-03-19T10:09:42-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Monteblanco Rodrigo Sanchez | Nectar Citrullus Co-ferment - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-monteblanco-rodrigo-sanchez-nectar-citrullus-citrullus-co-ferment",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-MonteblancoNectarCitrullus200gBAG.jpg?v=1762441353",
-    "price": "¥194",
-    "description": "风味: (notes of watermelon candy, melon juice, red raspberry, citr",
-    "published_at": "2026-03-19T10:09:41-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Kotowa Las Brujas Lot 2002-T3 | Geisha Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-kotowa-las-brujas-lot-2002-t3-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Kotowa_Las_Brujas_Geisha_NATURAL_100g_BAG.jpg?v=1762441342",
-    "price": "¥345",
-    "description": "Kotowa Coffee is established in 1918 by Canadian immigrant Alexander Duncan. The...",
-    "published_at": "2026-03-19T10:09:41-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Bolivia - Finca Rosita | Catuai Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-catuai-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BoliviaFincaRositaCATUAIAnaerobicnatural340gBAG.jpg?v=1762441359",
-    "price": "¥180",
-    "description": "Finca Rosita is located in the Illimani community in the gorgeous region of Cara...",
-    "published_at": "2026-03-19T10:09:40-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Brazil - Rio Brilhante | Tropicana Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-tropicana-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BrazilRioBrilhanteTropicana340gBAG.jpg?v=1762441356",
-    "price": "¥158",
-    "description": "Fazenda Rio Brilhante sits within a micro-region called Pântano which is located...",
-    "published_at": "2026-03-19T10:09:40-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Elkin Guzman El Mirador Catiope Bourbon | CM Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-elkin-guzman-el-mirador-catiope-bourbon-cm-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-ElMiradorGuzmanCatiopeCMWashed250gBAG.jpg?v=1762441354",
-    "price": "¥180",
-    "description": "Located in the village of El Portal in Huila, Colombia, El Mirador is a 31-hecta...",
-    "published_at": "2026-03-19T10:09:40-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Dur Feres Sidama | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-def-feres-sidama-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaDurFeresNatural340gBAG_c574288f-45c9-4e7b-96f7-832f2081b7a1.jpg?v=1762441360",
-    "price": "¥180",
-    "description": "风味: profile of its coffee",
-    "published_at": "2026-03-19T10:09:39-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Natural EA DECAF Red Bourbon - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-natural-ea-decaf-red-bourbon-1",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Granja_Paraiso_Red_Bourbon_Natural_Decaf_250g_BAG.jpg?v=1762441360",
-    "price": "¥180",
-    "description": "This  Decaf  lot from Wilton goes through whole cherry fermentation for 48 hours...",
-    "published_at": "2026-03-19T10:09:39-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Bolivia - Taypiplaya Community lot | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/bolivia-taypiplaya-community-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Bolivia_Taypiplaya_Washed_340g_BAG.jpg?v=1762441363",
-    "price": "¥165",
-    "description": "Taypiplaya is one of the biggest communities in the province of Caranavi, the la...",
-    "published_at": "2026-03-19T10:09:38-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Eden Rodrigo Sanchez | Sangria Washed Co-ferment - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-eden-rodrigo-sanchez-sangria-washed-co-ferment",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-ElEdenSangria200gBAG_a9c21e7c-d398-4add-8bcd-e78ddbfc1121.jpg?v=1762441361",
-    "price": "¥194",
-    "description": "风味: without altering the coffee's base flavor",
-    "published_at": "2026-03-19T10:09:38-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Geisha Lot 7 | Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-lot-7-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Carmen_Geisha_Lot_7_Washed_BAG.jpg?v=1762441187",
-    "price": "¥324",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:09:37-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Yellow Geisha - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-yellow-geisha",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Yellow_Geisha_Honey_200g_BAG.jpg?v=1762441366",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:37-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Lamastus El Burro Estate | Geisha Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-lamastus-el-burro-estate-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaLamastusElBurroNatural100gBAG.jpg?v=1762441364",
-    "price": "¥338",
-    "description": "The Lamastus Family has being producing coffee in Elida Estate for four generati...",
-    "published_at": "2026-03-19T10:09:37-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Orange Bourbon Fermented Washed 2025 - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-orange-bourbon-fermented-washed-2025",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Orange_Bourbon_Washed_250g_BAG.jpg?v=1762441365",
-    "price": "¥201",
-    "description": "This product was archived on July 1 2025  \n  The owner of La Soledad, Mario Fern...",
-    "published_at": "2026-03-19T10:09:36-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - La Florida | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-la-florida-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_La_Florida_340g_BAG.jpg?v=1762441365",
-    "price": "¥144",
-    "description": "This product was archived on July 1st 2025 \n In 2006, Doña Romelia Sánchez Gómez...",
-    "published_at": "2026-03-19T10:09:36-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Bolivia - Finca Rosita | Caturra Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-caturra-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BoliviaFincaRositaCATURRAAnaerobicnatural340gBAG.jpg?v=1762441367",
-    "price": "¥180",
-    "description": "Finca Rosita is located in the Illimani community in the gorgeous region of Cara...",
-    "published_at": "2026-03-19T10:09:35-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad 2024 | Ombligon Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-2024-ombligon-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadOmbligonNatural200gBAG.jpg?v=1762441367",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:35-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Honduras - Moreno Family El Filo | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/honduras-moreno-family-el-filo-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/HondurasMorenoFamilyElFiloWashed340gBAG.jpg?v=1762441385",
-    "price": "¥165",
-    "description": "El Filo is one of the oldest farms owned by the Moreno family boasting trees tha...",
-    "published_at": "2026-03-19T10:09:34-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GW-2690 | Double Phase Washed - 100g - May 30th Roast - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gw-2690-double-phase-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Gesha_GW-2690_100g_BAG.jpg?v=1762441383",
-    "price": "¥331",
-    "description": "The cherries for this lot were hand collected at the optimum maturation point an...",
-    "published_at": "2026-03-19T10:09:34-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Loma Rodrigo Sanchez | XO Rum Barrel Washed Co-ferment - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-loma-rodrigo-sanchez-xo-rum-barrel-washed-co-ferment",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-LaLomaXORumBarrel200gBAG.jpg?v=1762441384",
-    "price": "¥180",
-    "description": "This lot from the Sanchez family starts by using Caturrra Bourbon XO, a blend of...",
-    "published_at": "2026-03-19T10:09:34-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Marias Rio Dulce Geisha | Washed 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-marias-rio-dulce-geisha-2025-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaRioDulceGeishaWashed100gBAG_511b8343-ff0c-478b-afe4-9b1f670bf12c.jpg?v=1762441386",
-    "price": "¥172",
-    "description": "Las Marias Estate is the newest farm of the Giraldo family. Jose was intentional...",
-    "published_at": "2026-03-19T10:09:33-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Silver Caturra Anaerobic Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-silver-caturra-anaerobic-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaParaisoSilverCaturra340gBAG_99c964f6-2952-4108-9724-1420f8eb09a7.jpg?v=1762441386",
-    "price": "¥194",
-    "description": "This  \n More about Wilton Benitez   \n  Wilton Benitez has been producing top qua...",
-    "published_at": "2026-03-19T10:09:33-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Project Origin Maguta Estate Indigo Lot 163 | CM Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-project-origin-maguta-estate-indigo-lot-163-cm-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Kenya_Maguto_Indigo_CM_Lot_163_100g_BAG.jpg?v=1762441392",
-    "price": "¥208",
-    "description": "The Maguta Coffee Estate, run by  David Ngibuini, who works across Nyeri and Emb...",
-    "published_at": "2026-03-19T10:09:32-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Mate Matiwos Lot 2 Keramo | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-mate-matiwos-lot-2-keramo-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Mate_Matiwos_lot_2_Natural_340g_BAG.jpg?v=1762441388",
-    "price": "¥180",
-    "description": "Mate Matiwos was born in Keramo to a family in the coffee business. Before coffe...",
-    "published_at": "2026-03-19T10:09:32-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Burundi - Kayanza Incuti Group | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/burundi-kayanza-incuti-group-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BurundiKayanzaIncutiWashed340gBAG.jpg?v=1762441398",
-    "price": "¥187",
-    "description": "风味: is juicy and lime-like, a great expression of high-elevation",
-    "published_at": "2026-03-19T10:09:31-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Huila Community l Decaf - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-huila-regional-lot-decaf",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Huila_Decaf_2025_340g_BAG.jpg?v=1762441394",
-    "price": "¥180",
-    "description": "Huila has become the most important department for the coffee industry in Colomb...",
-    "published_at": "2026-03-19T10:09:31-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Monteverde | Wush Wush Yeast Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-monteverde-wush-wush-yeast-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaMonteverdeWushWushYeastNatural200gBAG.jpg?v=1762441394",
-    "price": "¥244",
-    "description": "风味: possible",
-    "published_at": "2026-03-19T10:09:31-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Indonesia - Sulawesi Sulotco Jaya Abadi Rantekarua Estate | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/indonesia-sulawesi-sulotco-jaya-abadi-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/IndonesiaRantekaruaEstateNatural250gBAG.jpg?v=1762441399",
-    "price": "¥180",
-    "description": "When the Dutch first brought coffee to Indonesia it was cultivated on large esta...",
-    "published_at": "2026-03-19T10:09:30-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GN-1730 | Double Phased Anaerobic Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gn-1730-double-phased-anaerobic-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Geisha_GW-1730_Anaerobic_Natural_100g_BAG.jpg?v=1762441399",
-    "price": "¥360",
-    "description": "One Roast Only - Roast date June 10 \n The cherries for this lot were hand collec...",
-    "published_at": "2026-03-19T10:09:30-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Metu Illubabor  | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-metu-illubabor-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaMetuIllubaborWashed340gBAG.jpg?v=1762441403",
-    "price": "¥165",
-    "description": "Ethiopia’s Illubabor Zone is one of the country’s most fertile and least exploit...",
-    "published_at": "2026-03-19T10:09:29-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Margaritas Sudan Rume | Washed 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-margaritas-sudan-rume-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/CGLELasMargaritasSudanRumeWashed2025100gBAG.jpg?v=1762441400",
-    "price": "¥216",
-    "description": "Las Margaritas is owned by siblings, Rigoberto and Luis Eduardo Herrera, third-g...",
-    "published_at": "2026-03-19T10:09:29-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Caturra Strawberry Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-caturra-strawberry-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Caturra_Strawberry_Washed_250g_BAG.jpg?v=1762441407",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:28-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Cafe Don Benjie Geisha | CM Natural Lot 4 - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-cafe-don-benjie-geisha-cm-natural-lot-4-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Cafe_Don_Benjie_CM-4_Geisha_100g_BAG.jpg?v=1762441406",
-    "price": "¥324",
-    "description": "Café Don Benjie Estate, which encompasses 33 hectares in the Highlands of Boquet...",
-    "published_at": "2026-03-19T10:09:28-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | SL-28 Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-sl-28-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadSL-28Natural200gBAG.jpg?v=1762441415",
-    "price": "¥230",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:27-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Los Volcanes Antigua | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-los-volcanes-antigua-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GuatemalaLosVolcanesAntigua340gBAG.jpg?v=1762441412",
-    "price": "¥158",
-    "description": "This lot from Los Volcanes is a blend of cherry from throughout the Antigua vall...",
-    "published_at": "2026-03-19T10:09:27-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Tagel Alemayehu Hambela Site | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-tagel-alemayehu-hambela-site-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaTagelAlemayehuHambellaNatural340gBAG.jpg?v=1762441408",
-    "price": "¥180",
-    "description": "Tagel Alemayehu, the owner of Olkai coffee—a former race circuit driver, whose e...",
-    "published_at": "2026-03-19T10:09:27-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Huila Rio Negro & Iquira | Regional Lot Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-huila-rio-negro-regional-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaHuilaRioNegro340gBAG_a528d8f7-7113-4285-a69b-1916e3eb6ede.jpg?v=1762441416",
-    "price": "¥165",
-    "description": "The 60-70 producers that have contributed to this lot of coffee live in the char...",
-    "published_at": "2026-03-19T10:09:26-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - Tinamit Coop | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-tinamit-coop-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GuatemalaTinamitNatural250gBAG.jpg?v=1762441415",
-    "price": "¥180",
-    "description": "The Tinamit Tolimán agricultural cooperative, known as Tinamit, is a new coopera...",
-    "published_at": "2026-03-19T10:09:26-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Chiroso Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-chiroso-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadChirosoNatural200gBAG.jpg?v=1762441418",
-    "price": "¥230",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:25-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Lamastus Elida Estate Plano | Geisha Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-lamastus-elida-estate-plano-geisha-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaLamastusElidaPlanoWashed100gBAG.jpg?v=1762441418",
-    "price": "¥345",
-    "description": "The Lamastus Family has being producing coffee in Elida Estate for four generati...",
-    "published_at": "2026-03-19T10:09:25-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Indonesia - Sumatra Kampung Kenawat | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/indonesia-sumatra-kampung-kenawat-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/IndonesiaSumatraKampungKenawetWashed250gBAG.jpg?v=1762441420",
-    "price": "¥180",
-    "description": "This is a washed coffee with extended fermentation, from the Aceh region of the ...",
-    "published_at": "2026-03-19T10:09:24-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Layo Teraga Guji | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-layo-teraga-guji-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaLayoTeragaWashed2025340gBAG.jpg?v=1762441419",
-    "price": "¥172",
-    "description": "Founded in 1976, the Layo Teraga cooperative provides market access for its smal...",
-    "published_at": "2026-03-19T10:09:24-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - La Hermosa | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-la-hermosa-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_La_Hermosa_Acatenango_340g_BAG.jpg?v=1762441423",
-    "price": "¥158",
-    "description": "Max Perez has become, in the past few years, a well-known and regarded name in S...",
-    "published_at": "2026-03-19T10:09:23-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Flying Pumas Jaguarundi | Geisha Anaerobic Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-flying-pumas-jaguarundi-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama-FlyingPumaGeishanaturalJaguarundi100gBAG.jpg?v=1762441422",
-    "price": "¥388",
-    "description": "Flying Pumas estate, once scarred by logging, now thrives as a sanctuary for cof...",
-    "published_at": "2026-03-19T10:09:23-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Esperanza Geisha | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-esperanza-geisha-natural-200g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-LaEsperanzaGeishaNatural2025200gBAG.jpg?v=1753828222",
-    "price": "¥230",
-    "description": "La Esperanza is owned by siblings, Rigoberto and Luis Eduardo Herrera, third-gen...",
-    "published_at": "2026-03-19T10:09:22-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 Tabi | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-tabi-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_Granja_Paraiso_Yellow_Tabi_Natural_250g_BAG.jpg?v=1762441423",
-    "price": "¥187",
-    "description": "More about Wilton Benitez    \n  Wilton Benitez has been producing top quality co...",
-    "published_at": "2026-03-19T10:09:22-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "El Salvador - Cerro Las Ranas | Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/el-salvador-cerro-las-ranas-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ElSalvadorCerroLasRanasHoney250gBAG.jpg?v=1755106173",
-    "price": "¥180",
-    "description": "Archived - Dec 2025  \n   Cerro Las Ranas (the Hill of Frogs) is named after the ...",
-    "published_at": "2026-03-19T10:09:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Indonesia - Sumatra Bener Meriah | Lychee Coferment Wet Hull - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/indonesia-sumatra-bener-meriah-lychee-coferment-wet-hull",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/IndonesiaSumatraBenerMeriahLychee200gBAG.jpg?v=1755114639",
-    "price": "¥208",
-    "description": "This is an estate-grown coffee from Aceh Province, Sumatra’s most famous and pro...",
-    "published_at": "2026-03-19T10:09:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Mount Totumas Typica Bosque | Ply Natural 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-mount-totumas-typica-bosque-ply-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaMountTotumasTyplicaBosquePlyNat100gBAG.jpg?v=1754516711",
-    "price": "¥165",
-    "description": "From Mount Totumas: \n The Mount Totumas Cloud Forest Coffee story begins in 2008...",
-    "published_at": "2026-03-19T10:09:21-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Gichuka Factory | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-gichuka-factory-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/KenyaGichukaFactory2025340gBAG.jpg?v=1755195769",
-    "price": "¥194",
-    "description": "The factory that produced this lot lies in Githunguri, Kiambu county which is at...",
-    "published_at": "2026-03-19T10:09:20-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - El Vergel Condor Decaf 2025 - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-el-vergel-condor-decaf-2025",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaElVergelCondorDecaf2025340gBAG.jpg?v=1755104171",
-    "price": "¥180",
-    "description": "Back in 1995, the Bayter Family rolled up their sleeves and dove headfirst into ...",
-    "published_at": "2026-03-19T10:09:20-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Bolivia - Carmelita Carmela Aduviri | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/bolivia-carmelita-carmela-aduviri-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BoliviaCarmelitanatural250gBAG.jpg?v=1755626449",
-    "price": "¥194",
-    "description": "This coffee was produced by Carmela Aduviri in Copacabana, a small, remote settl...",
-    "published_at": "2026-03-19T10:09:19-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Burundi - Bukeye Muramvya Province | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/burundi-bukeye-muramvya-province-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/BurundiBukeyeNatural250gBAG.jpg?v=1755607583",
-    "price": "¥201",
-    "description": "Bukeye Coffee Washing Station is the first processing site built by Long Miles C...",
-    "published_at": "2026-03-19T10:09:19-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Finca Las Flores | EA DECAF Pink Bourbon - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-finca-las-flores-ea-decaf-pink-bourbon",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLasFloresPinkBourbonEADecaf250GBAGPHOTO.jpg?v=1757003586",
-    "price": "¥194",
-    "description": "This  DECAF  lot comes to us from Jhoan Vergara at Finca Las Flores. \n Finca Las...",
-    "published_at": "2026-03-19T10:09:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Gutiti Yirgacheffe | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-gutiti-yirgacheffe-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaGutitiNatural2025340gBAG.jpg?v=1756148738",
-    "price": "¥187",
-    "description": "This lot is produced at the Gutiti Washing Station station in Yirgacheffe, Ethio...",
-    "published_at": "2026-03-19T10:09:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Janson Geisha Lot 938 | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-janson-geisha-lot-983-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Janson_Geisha_Lot_938_Natural_100g_BAG.jpg?v=1755989497",
-    "price": "¥273",
-    "description": "The Janson Farms story started in 1926 when Carl Axel Janson, at only age twenty...",
-    "published_at": "2026-03-19T10:09:18-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Idido Cascara Infused | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-cascara-infused-idido-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaIdidoCascafraInfused250gBAG.jpg?v=1757541429",
-    "price": "¥187",
-    "description": "风味: of the fermenting coffee beans, allowing them to interact fo",
-    "published_at": "2026-03-19T10:09:17-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GN-3235 | Double Phased Anaerobic Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gn-3235-double-phased-anaerobic-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Geisha_GN-3235_Anaerobic_Natural_100g_2025_BAG.jpg?v=1757006054",
-    "price": "¥345",
-    "description": "The cherries for this lot were hand picked at the optimum maturation point, then...",
-    "published_at": "2026-03-19T10:09:17-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - La Serrania Geisha | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-la-serrania-geisha-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_Serrania_Geisha_Natural_200g_BAG.jpg?v=1758048443",
-    "price": "¥208",
-    "description": "Having been born among coffee plantations, and following his ancestor’s legacy o...",
-    "published_at": "2026-03-19T10:09:16-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Laderas del Tapias | Estate Lot Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-estate-lot-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-LaderasEstateWashed340GBAG_b48ae141-71df-4ed8-9453-4f27a0806ab3.jpg?v=1757521822",
-    "price": "¥172",
-    "description": "Rodrigo Alberto Pelaez has been growing coffee at Finca Laderas del Tapias since...",
-    "published_at": "2026-03-19T10:09:16-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Milan Estate Maypop |  Lychee Culturing Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-milan-estate-maypop-lychee-culturing-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaFincaMilanMaypop200gBAG.jpg?v=1758141997",
-    "price": "¥230",
-    "description": "风味: with lychee and tropical nuances",
-    "published_at": "2026-03-19T10:09:15-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Peru - Garmas Maximiliano Garcia | Geisha Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/peru-garmas-maximiliano-garcia-geisha-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PeruGarmasGeisha200gBAG.jpg?v=1758050582",
-    "price": "¥230",
-    "description": "风味: profiles of its coffees but also for the  unwavering attenti",
-    "published_at": "2026-03-19T10:09:15-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Kanguya Cherry Ale | Black Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-kanguya-cherry-ale-black-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/KenyaKanguyaCherryAleHoney250gBAG.jpg?v=1758830686",
-    "price": "¥180",
-    "description": "This coffee comes from Murang’a County in Kenya, a renowned coffee-growing  regi...",
-    "published_at": "2026-03-19T10:09:14-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "El Salvador - La Esperanza Belismelis-Alvarez family | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/el-salvador-la-esperanza-belismelis-alvarez-family-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ElSalvadorLaEsperanzaNatural340gBAG.jpg?v=1758646140",
-    "price": "¥172",
-    "description": "The extended Belismelis-Alvarez family manages 15 separate estates in El Salvado...",
-    "published_at": "2026-03-19T10:09:14-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Laderas del Tapias | Catiope Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-catiope-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaderasCatiopeNatural340gBAG.jpg?v=1759603146",
-    "price": "¥187",
-    "description": "Rodrigo Alberto Pelaez has been growing coffee at Finca Laderas del Tapias since...",
-    "published_at": "2026-03-19T10:09:13-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Tagel Alemayehu Hambela Site | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-tagel-alemayehu-hambela-site-washe",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Tagel_Washed_2025_340g_BAG.jpg?v=1759351164",
-    "price": "¥180",
-    "description": "Tagel Alemayehu, the owner of Olkai coffee—a former race circuit driver, whose e...",
-    "published_at": "2026-03-19T10:09:13-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Geisha Lot 8 | Washed - 100g -Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-lot-8-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Carmen_Washed_Geisha_Lot_8_100g_BAG_a4d1ae10-ea5a-47a5-a889-eec45bac7b07.jpg?v=1759963050",
-    "price": "¥291",
-    "description": "Archived - Dec 2025   \n  More about Carmen Estate Panama   \n \n   Carmen Estate h...",
-    "published_at": "2026-03-19T10:09:12-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Caturra Peach Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-caturra-peach-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadCaturraPeachWashed250gBAG.jpg?v=1759875820",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:12-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Kayon Mountain Shakiso | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-kayon-mountain-shakiso-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaKayonMountainNatural2025340gBAG.jpg?v=1760979550",
-    "price": "¥180",
-    "description": "风味: that comes from variety, soil, proper harvest, and clean pro",
-    "published_at": "2026-03-19T10:09:11-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Nicaragua - Finca Un Regalo De Dios Yellow Catuai | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/nicaragua-finca-un-regalo-de-dios-yellow-catuai-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaUnRegaloDeDiosCatuaiNatural340gBAG.jpg?v=1760551131",
-    "price": "¥172",
-    "description": "Finca Un Regalo de Dios is located in the Dipilto-Jalapa mountain range in Nueva...",
-    "published_at": "2026-03-19T10:09:11-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Orange Bourbon Fermented Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-orange-bourbon-fermented-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Orange_Bourbon_Washed_250g_BAG_51413aa4-4e53-4e44-8e86-c22a271b33de.jpg?v=1762368661",
-    "price": "¥201",
-    "description": "Last few bags!  \n  The owner of La Soledad, Mario Fernando Gomez, is a 2nd gener...",
-    "published_at": "2026-03-19T10:09:10-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Margaritas Sudan Rume | Natural 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-margaritas-sudan-rume-natural-100g-1",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-lasMargaritasSudanRumeNatural100gBAG_bae45ea9-4997-4057-a411-32f4c3916b9a.jpg?v=1762367246",
-    "price": "¥216",
-    "description": "Archived Dec 2025   \n   Las Margaritas is owned by siblings, Rigoberto and Luis ...",
-    "published_at": "2026-03-19T10:09:10-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Finca Bernardina Geisha Lot 1555  | Natural Extended Fermentation- 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-finca-bernardina-geisha-lot-1555-natural-extended-fermentation-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Finca_Bernadina_Geisha_Natural_1555_100g_2025_BAG.jpg?v=1761584042",
-    "price": "¥259",
-    "description": "Archived Dec 2025  The cherries for this lot were harvested at their optimal rip...",
-    "published_at": "2026-03-19T10:09:10-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Qabballe Raro Nensebo | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-qabballe-raro-nensebo-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Qabballe_Natural_2025_340g_BAG.jpg?v=1763841199",
-    "price": "¥194",
-    "description": "风味: development",
-    "published_at": "2026-03-19T10:09:09-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - La Serrania Maragogype | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-la-serrania-maragogype-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_Serrania_Maragogype_Natural_200g_BAG_5624e687-27b7-4478-a01e-82e2aefa466f.jpg?v=1762371005",
-    "price": "¥194",
-    "description": "Having been born among coffee plantations, and following his ancestor’s legacy o...",
-    "published_at": "2026-03-19T10:09:09-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Santamaria Estate Geisha | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-santamaria-estate-geisha-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaSantamariaEstateGeishaNatural100gBAG.jpg?v=1764009323",
-    "price": "¥309",
-    "description": "Last ROAST - Dec 12.   \n  The Santamaría Estate Coffee farm is located in Paso A...",
-    "published_at": "2026-03-19T10:09:08-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Finca El Uberrimo Pink Bourbon / Geisha | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-finca-el-uberrimo-pink-bourbon-geisha-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-ElUberrimoPinkBourbonGeishaNatural200gBAG_f42ec0df-5c9f-4f96-8406-6bf82b8a3df5.jpg?v=1763755343",
-    "price": "¥252",
-    "description": "Archived Dec 2025 \n  Francy and her four sisters grew up assisting their parents...",
-    "published_at": "2026-03-19T10:09:08-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Granja Paraiso 92 | Sudan Rume Anaerobic Washed 2025 - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-sudan-rume-anaerobic-washed-2025-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/GranjaParaisoSudanRumeAnaerobicWashed2025100g2025BAG.jpg?v=1764201969",
-    "price": "¥194",
-    "description": "Sudan Rume is a variety of coffee discovered in the South Sudan mountains of Mar...",
-    "published_at": "2026-03-19T10:09:07-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Abu Geisha GW-3400 | Double Phase + Mosto Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-abu-geisha-gw-3400-double-phase-mosto-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ABU_Geisha_GW-3400_Washed_100g_2025_BAG_db374d85-2145-4e49-ae50-89cf7da1bcb1.jpg?v=1764099353",
-    "price": "¥360",
-    "description": "风味: integrity",
-    "published_at": "2026-03-19T10:09:07-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Silvia Marina Lot 3121-T2 | Geisha Washed - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-silvia-marina-lot-3121-t2-geisha-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Kotowa_Silvia_Marina_3121-T2_Washed_100g_BAG.jpg?v=1764648714",
-    "price": "¥331",
-    "description": "Last Roast - Dec 23 2025  \n  Kotowa Coffee was established in 1918 by Canadian i...",
-    "published_at": "2026-03-19T10:09:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Peru - Estrellas de Cajamarca | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/peru-estrellas-de-cajamarca-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PeruEstrellasdeCajamarca340gBAG.jpg?v=1764647437",
-    "price": "¥158",
-    "description": "风味: at a fair price it's a versatile coffee that has the hallmar",
-    "published_at": "2026-03-19T10:09:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Caturra Cardamom Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-caturra-cardamom-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadCardamomWashed250gBAG.jpg?v=1764203717",
-    "price": "¥201",
-    "description": "Last few bags!  \n  The owner of La Soledad, Mario Fernando Gomez, is a 2nd gener...",
-    "published_at": "2026-03-19T10:09:06-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Costa Rica - Ivan Solis - Cuatro Vientos | Black Honey - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-cuatro-vientos-black-honey",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Costa_Rica_Ivan_Cuarto_Vientos_Black_Honey_340g_BAG.jpg?v=1765565820",
-    "price": "¥172",
-    "description": "Iván Gerardo Solís Rivera has been dedicated to everything coffee for over 20 ye...",
-    "published_at": "2026-03-19T10:09:05-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Basha Bekele | White Honey Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-basha-bekele-white-honey-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaBashaBekeleWhiteHoney250gBAG.jpg?v=1764781846",
-    "price": "¥187",
-    "description": "Basha Bekele has been involved with coffee since childhood, growing up with his ...",
-    "published_at": "2026-03-19T10:09:05-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Udesa Fora Station | Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-udesa-fora-station-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaUdesaForaWashed340gBAG.jpg?v=1766080653",
-    "price": "¥180",
-    "description": "Udesa Fora Station is located in the Sukke Chiga Kebele of Kercha, in Ethiopia’s...",
-    "published_at": "2026-03-19T10:09:04-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad | Caturra Strawberry Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-caturra-strawberry-washed-1",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia_La_Soledad_Caturra_Strawberry_Washed_250g_BAG_84994a6d-739a-4fc3-8fb8-b1457ed399e5.jpg?v=1765907274",
-    "price": "¥201",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:09:04-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Mchana Estate | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-mchana-estate-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Kenya_Mchana_Estate_Natural_250g_BAG.jpg?v=1766532877",
-    "price": "¥194",
-    "description": "Mchana estate is one of the biggest Coffee Estates of Kofinaf Company limited. I...",
-    "published_at": "2026-03-19T10:09:03-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Bekele Yutute | Lactic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-bekele-yutute-lactic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Bekele_Yutute_Lactic_Natural_250g_BAG.jpg?v=1766530853",
-    "price": "¥201",
-    "description": "Added - Dec 23 2025 Archived - Jan 21 2026  \n  Bekele Yutute produced this lot a...",
-    "published_at": "2026-03-19T10:09:03-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Guatemala - La Serrania Kimono | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/guatemala-la-serrania-kimono-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Guatemala_Serrania_Kimono_Natural_200g_BAG_84cb94f2-c88c-489d-b3a0-8ebc9d1074dd.jpg?v=1766599531",
-    "price": "¥194",
-    "description": "Archived March 9th 2026  \n  Having been born among coffee plantations, and follo...",
-    "published_at": "2026-03-19T10:09:02-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Lomita Eulises Guzman | Pink Bourbon Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-lomita-eulises-guzman-pink-bourbon-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaLomitaPinkBourbon340gBAG.jpg?v=1766536106",
-    "price": "¥194",
-    "description": "Eulises Guzman is a third generation coffee grower, and it was his father who ta...",
-    "published_at": "2026-03-19T10:09:02-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Kenya - Ruera Estate | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/kenya-ruera-estate-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/KenyaRueraEstateNatural250gBAG.jpg?v=1767818746",
-    "price": "¥201",
-    "description": "9Ruera estate is a coffee planta on located in Kiambu County, Juja Sub County. I...",
-    "published_at": "2026-03-19T10:09:01-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Bambito Estate Red Bourbon | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-bambito-estate-red-bourbon-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Bambito_Esgtate_Red_Bourbon_Natural_200g_BAG.jpg?v=1767396847",
-    "price": "¥201",
-    "description": "Alberto Sitton Rios acquired his family farm in the mountains of Bambito, Chiriq...",
-    "published_at": "2026-03-19T10:09:01-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Palomar Geisha Lot 3 | Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-palomar-geisha-lot-3-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaCarmenPalomarGeishaLot3NaturalBAG.jpg?v=1767214492",
-    "price": "¥302",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:09:01-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Melese Wolde Shantawane | Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-melese-wolde-shantawane-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaMeleseWoldeAnaerobicNatural250gBAG.jpg?v=1768079704",
-    "price": "¥194",
-    "description": "Melese Wolde’s farm in Shantawane developed a reputation for quality after winni...",
-    "published_at": "2026-03-19T10:09:00-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Santamaria Estate Centroamericano | Hydro Natural - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-santamaria-estate-centroamericano-hydro-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Santamaria_Estate_Centroamericano_Hydro_Natural_100g_BAG.jpg?v=1767906308",
-    "price": "¥180",
-    "description": "Santamaría Estate Coffee developed the hydronatural process from a trial and err...",
-    "published_at": "2026-03-19T10:09:00-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Indonesia - Ijen Lestari Dandy Dharmawan | CM Natural Lot 98 -  Nano Lot  - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/indonesia-ijen-lestari-dandy-darmawan-cm-natural-lot-23-nano-lot-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/IndonesiaIjenLestariDandyDhamawanCMNaturalLot98100gBAG.jpg?v=1768422387",
-    "price": "¥122",
-    "description": "This coffee is a tribute to Dandy who passed in April of 2025, to showcase his b...",
-    "published_at": "2026-03-19T10:08:59-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Thailand - Ma Family | Pichia Anaerobic Natural - 23 bag Nano Lot  - 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/thailand-ma-family-pichia-anaerobic-natural-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Thailand_-_Ma_Family_Pichia_Anaerobic_Natural_100g_BAG.jpg?v=1768416107",
-    "price": "¥122",
-    "description": "This is a Nano lot of just 23 bags.  \n We first experienced Ma Family coffee fro...",
-    "published_at": "2026-03-19T10:08:59-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Bette Buna Taferi Kela Pineapple Co-Ferment | Anaerobic Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-bette-buna-taferi-kela-pineapple-co-ferment-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/EthiopiaBetteBunaPineappleCo-fermentAnaerobicNatural200gBAG.jpg?v=1769714004",
-    "price": "¥216",
-    "description": "Archived - March 2026 \n This coffee is a special surprise: a pineapple co-fermen...",
-    "published_at": "2026-03-19T10:08:58-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Finca Bernardina Maragogype Lot 870 | Extended Fermentation Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-finca-bernadina-maragogype-lot-870-extended-fermentation-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Panama_Finca_Bernardina_Maragogype_Ext._Natural_200g_BAG.jpg?v=1769102392",
-    "price": "¥259",
-    "description": "Lot 870 Maragogype is a nanolot with a total amount of 19.1kg.  The cherries for...",
-    "published_at": "2026-03-19T10:08:58-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Carmen Estate Caturra Lot 4 | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-carmen-estate-caturra-lot-4-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaCarmenEstateLot4natural2026340gBAG.jpg?v=1770234507",
-    "price": "¥180",
-    "description": "More about Carmen Estate Panama   \n \n   Carmen Estate has been producing and exp...",
-    "published_at": "2026-03-19T10:08:57-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Panama - Altieri Rola Catuai | Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/panama-altieri-rola-catuai-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/PanamaAltieriRolaNatural2026250gBAG.jpg?v=1769801411",
-    "price": "¥187",
-    "description": "This is a nano lot of 40kg.    \n   ROLA is a plot located on a hill at 1750 mete...",
-    "published_at": "2026-03-19T10:08:57-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - La Soledad 2025 | Ombligon Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-soledad-2025-ombligon-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaSoledadOmbligonNatural200gBAG_eb93a836-bff5-47d6-8d25-a83eb2aeab9f.jpg?v=1772039898",
-    "price": "¥216",
-    "description": "The owner of La Soledad, Mario Fernando Gomez, is a 2nd generation farmer who in...",
-    "published_at": "2026-03-19T10:08:56-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Las Marias Entre Montanas Geisha | Washed 100g - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-las-marias-entre-montanas-geisha-washed-100g",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Colombia-LasMariasEntreMontanasGeishaWashed100gBAG.jpg?v=1771620907",
-    "price": "¥252",
-    "description": "Roasted On:  Feb. 13, 2026  \n Las Marias Estate is the newest farm of the Girald...",
-    "published_at": "2026-03-19T10:08:56-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia - Finca Bella Alejandria Wilder Lazo | Geisha Natural 300 hour - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-finca-bella-alejandria-wilder-lazo-geisha-natural-300-hour",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaFincaBellaAlejandriaWilderLazoGeisha300hour200gBAG.jpg?v=1773246641",
-    "price": "¥259",
-    "description": "Wilder Lasso was born in a traditional coffee farming family in San Adolfo, Huil...",
-    "published_at": "2026-03-19T10:08:55-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Sey Coffee",
-    "roaster_country": "USA",
-    "name": "2026 Ruarai; AA Separation - Kenya",
-    "url": "https://www.seycoffee.com/products/2026-ruarai-aa-separation-kenya",
-    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026Ruarai_AaSeparation-Kenya.png?v=1773925668",
-    "price": "¥180",
-    "description": "This is our first release from Kenya this season. This coffee comes from Nyeri o...",
-    "published_at": "2026-03-19T09:18:05-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Sey Coffee",
-    "roaster_country": "USA",
-    "name": "2026 Perlitas - Colombia",
-    "url": "https://www.seycoffee.com/products/2026-perlitas-colombia",
-    "image": "https://cdn.shopify.com/s/files/1/0002/6352/0281/files/2026Perlitas-Colombia.png?v=1773925470",
-    "price": "¥183",
-    "description": "This is the first lot of the main Chiroso harvest from Urrao this season. In the...",
-    "published_at": "2026-03-19T09:12:51-04:00",
     "source_type": "api"
   }
 ]
