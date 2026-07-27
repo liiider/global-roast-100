@@ -1,5 +1,16 @@
 [
   {
+    "roaster_name": "Flight Coffee",
+    "roaster_country": "New Zealand",
+    "name": "FC cable beanie black",
+    "url": "https://flightcoffee.co.nz/products/fc-cable-beanie-black",
+    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/FC-cable-beanie-black.jpg?v=1723184847",
+    "price": "¥252",
+    "description": "Cuff beanie crafted from midweight 100% acrylic. Black with yellow Flight Coffee...",
+    "published_at": "2026-07-27T10:48:47+12:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "Friedhats",
     "roaster_country": "Netherlands",
     "name": "Friedhats Blend",
@@ -7,7 +18,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥323",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.440671",
+    "published_at": "2026-07-27T02:21:33.884375",
     "source_type": "browser"
   },
   {
@@ -18,7 +29,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥323",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.440366",
+    "published_at": "2026-07-27T02:21:33.884093",
     "source_type": "browser"
   },
   {
@@ -29,7 +40,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Sigilo-exp-label-bottle.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.439387",
+    "published_at": "2026-07-27T02:21:33.883003",
     "source_type": "browser"
   },
   {
@@ -40,7 +51,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Seb-Gomez-label-1-bottle-V3.png",
     "price": "¥300",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.438856",
+    "published_at": "2026-07-27T02:21:33.882462",
     "source_type": "browser"
   },
   {
@@ -51,7 +62,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/No-Caf-label-2-bottle-v2.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.438348",
+    "published_at": "2026-07-27T02:21:33.881962",
     "source_type": "browser"
   },
   {
@@ -62,7 +73,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-CGLE17-Washed-Label-Bottle.png",
     "price": "¥284",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.437850",
+    "published_at": "2026-07-27T02:21:33.881439",
     "source_type": "browser"
   },
   {
@@ -73,7 +84,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.437333",
+    "published_at": "2026-07-27T02:21:33.880932",
     "source_type": "browser"
   },
   {
@@ -84,7 +95,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-Gesha-green-label-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.436836",
+    "published_at": "2026-07-27T02:21:33.880401",
     "source_type": "browser"
   },
   {
@@ -95,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Margaritas-gesha-ana-bottle.png",
     "price": "¥423",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.436088",
+    "published_at": "2026-07-27T02:21:33.879594",
     "source_type": "browser"
   },
   {
@@ -106,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Eth-Gesha-Village-label-1-V2-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.435598",
+    "published_at": "2026-07-27T02:21:33.879072",
     "source_type": "browser"
   },
   {
@@ -117,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria_Gesha-Natural-label-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.435081",
+    "published_at": "2026-07-27T02:21:33.878513",
     "source_type": "browser"
   },
   {
@@ -128,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-4-V3-bottle.png",
     "price": "¥154",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.434581",
+    "published_at": "2026-07-27T02:21:33.877956",
     "source_type": "browser"
   },
   {
@@ -139,7 +150,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-DH-Infused-Label-Bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.434070",
+    "published_at": "2026-07-27T02:21:33.877080",
     "source_type": "browser"
   },
   {
@@ -150,7 +161,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Tanzania-Gesha-label-V2-bottle_90a0f1ae-5e30-4097-b025-2af6edcba59e.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.433570",
+    "published_at": "2026-07-27T02:21:33.876552",
     "source_type": "browser"
   },
   {
@@ -161,7 +172,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Uganda-Label-1-Bottle.png",
     "price": "¥115",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.433064",
+    "published_at": "2026-07-27T02:21:33.876051",
     "source_type": "browser"
   },
   {
@@ -172,7 +183,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-1-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.432564",
+    "published_at": "2026-07-27T02:21:33.875529",
     "source_type": "browser"
   },
   {
@@ -183,7 +194,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria-gesha-ana-bottle.png",
     "price": "¥215",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.432042",
+    "published_at": "2026-07-27T02:21:33.875024",
     "source_type": "browser"
   },
   {
@@ -194,7 +205,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/ElSalvador-label-1-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.431532",
+    "published_at": "2026-07-27T02:21:33.874497",
     "source_type": "browser"
   },
   {
@@ -205,7 +216,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Guatemala-label-1-V2-bottle.png",
     "price": "¥115",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.431011",
+    "published_at": "2026-07-27T02:21:33.873989",
     "source_type": "browser"
   },
   {
@@ -216,7 +227,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-1-V2-bottle.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.430493",
+    "published_at": "2026-07-27T02:21:33.873463",
     "source_type": "browser"
   },
   {
@@ -227,7 +238,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.429996",
+    "published_at": "2026-07-27T02:21:33.872949",
     "source_type": "browser"
   },
   {
@@ -238,7 +249,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png",
     "price": "¥169",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.429472",
+    "published_at": "2026-07-27T02:21:33.872428",
     "source_type": "browser"
   },
   {
@@ -249,7 +260,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.428966",
+    "published_at": "2026-07-27T02:21:33.871917",
     "source_type": "browser"
   },
   {
@@ -260,7 +271,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-Gesha-label-1-bottle.png",
     "price": "¥238",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.428433",
+    "published_at": "2026-07-27T02:21:33.871390",
     "source_type": "browser"
   },
   {
@@ -271,7 +282,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-1-bottle.png",
     "price": "¥223",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.427931",
+    "published_at": "2026-07-27T02:21:33.870853",
     "source_type": "browser"
   },
   {
@@ -282,7 +293,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.427401",
+    "published_at": "2026-07-27T02:21:33.870338",
     "source_type": "browser"
   },
   {
@@ -293,7 +304,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-label-2-bottle.png",
     "price": "¥269",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.427114",
+    "published_at": "2026-07-27T02:21:33.870056",
     "source_type": "browser"
   },
   {
@@ -304,7 +315,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.426151",
+    "published_at": "2026-07-27T02:21:33.869100",
     "source_type": "browser"
   },
   {
@@ -315,7 +326,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.425861",
+    "published_at": "2026-07-27T02:21:33.868786",
     "source_type": "browser"
   },
   {
@@ -326,7 +337,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Peru-label-V2_bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.424890",
+    "published_at": "2026-07-27T02:21:33.867825",
     "source_type": "browser"
   },
   {
@@ -337,7 +348,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/CostaRica-Label-Bottle-2.png",
     "price": "¥161",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.424341",
+    "published_at": "2026-07-27T02:21:33.867311",
     "source_type": "browser"
   },
   {
@@ -348,7 +359,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Margaritas-gesha-washed-bottle.png",
     "price": "¥423",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.423817",
+    "published_at": "2026-07-27T02:21:33.866764",
     "source_type": "browser"
   },
   {
@@ -359,7 +370,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Margaritas-gesha-washed-bottle.png",
     "price": "¥423",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.423503",
+    "published_at": "2026-07-27T02:21:33.866486",
     "source_type": "browser"
   },
   {
@@ -370,7 +381,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.422478",
+    "published_at": "2026-07-27T02:21:33.865517",
     "source_type": "browser"
   },
   {
@@ -381,7 +392,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-CGLE-Sudan-Rume-Washed-Label-Bottle.png",
     "price": "¥207",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-07-26T02:07:53.422156",
+    "published_at": "2026-07-27T02:21:33.865188",
     "source_type": "browser"
   },
   {
@@ -547,17 +558,6 @@
     "price": "¥54",
     "description": "Yoan Arley Toledo is a young producer from the municipality of Suaza in Huila, h...",
     "published_at": "2026-07-24T10:18:24-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Flight Coffee",
-    "roaster_country": "New Zealand",
-    "name": "Rwanda - Gisheke - Natural",
-    "url": "https://flightcoffee.co.nz/products/rwanda-gisheke-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/FC_Bag_Template_2026-06.png?v=1775005500",
-    "price": "¥187",
-    "description": "",
-    "published_at": "2026-07-24T08:30:01+12:00",
     "source_type": "api"
   },
   {
@@ -1119,17 +1119,6 @@
     "price": "¥0",
     "description": "风味: of dried apple, bergamot and milk chocolate",
     "published_at": "2026-07-17T06:35:44+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Glitch Coffee",
-    "roaster_country": "Japan",
-    "name": "【NEW】Colombia Tolima La Negrita “Wine Yeast Fermentation”",
-    "url": "https://shop.glitchcoffee.com/products/new-colombia-tolima-la-negrita-wine-yeast-fermentation",
-    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/66A99EF0-2B3B-4AA6-88BB-A8064F4DCCE0.jpg?v=1784183264",
-    "price": "¥282",
-    "description": "风味: Cherry, Black berry, Sherry, Round, Smooth",
-    "published_at": "2026-07-16T19:50:49+09:00",
     "source_type": "api"
   },
   {
@@ -5134,149 +5123,6 @@
     "price": "¥190",
     "description": "风味: with apple blossom and lychee",
     "published_at": "2026-05-28T00:21:04-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Verve Coffee",
-    "roaster_country": "USA",
-    "name": "Archive: Ethiopia Bekele Yutute",
-    "url": "https://www.vervecoffee.com/products/bekele-yutute",
-    "image": "https://cdn.shopify.com/s/files/1/0035/9372/files/Bekele-Yutute-12oz-Silo.png?v=1777323778",
-    "price": "¥203",
-    "description": "Produced by Bekele Yutute in Dembe at 2,350 meters, this natural process coffee ...",
-    "published_at": "2026-05-27T14:38:43-07:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Colombia Juan Jimenez Pink Bourbon - Cafe Only",
-    "url": "https://onyxcoffeelab.com/products/colombia-juan-jimenez-pink-bourbon-cafe-only",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/unmarked-2lb_cf49cec6-72c5-4d85-9172-42db0bc10103.webp?v=1779907599",
-    "price": "¥504",
-    "description": "风味: of sweet lemon and grapefruit",
-    "published_at": "2026-05-27T13:48:37-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Ecuador La Papaya Oak Barrel Anaerobic - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/ecuador-la-papaya-oak-barrel-anaerobic-cafes-only",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/unmarked-5lb.webp?v=1779906716",
-    "price": "¥1440",
-    "description": "This Typica variety from Juan Peña undergoes a distinctive limited-oxygen fermen...",
-    "published_at": "2026-05-27T13:33:20-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Colombia Nestor Lasso Ombligon - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/colombia-nestor-lasso-ombligon-cafes-only",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/colombia_7e065043-c862-4e91-a5a6-695a59e3cb4b.webp?v=1779906321",
-    "price": "¥648",
-    "description": "This natural processed, thermal shock Ombligon is one of the most intense coffee...",
-    "published_at": "2026-05-27T13:25:38-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Decaf Colombia Inzá San Antonio  - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/decaf-colombia-inza-san-antonio-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/decaf-5lb.webp?v=1779905601",
-    "price": "¥1051",
-    "description": "Rest easy with this washed decaffeinated coffee from Cauca, Inzá. We’ve intentio...",
-    "published_at": "2026-05-27T13:15:33-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "George Howell",
-    "roaster_country": "USA",
-    "name": "Tenejapa Medium, Mexico",
-    "url": "https://georgehowellcoffee.com/products/tenejapa-medium-mexico",
-    "image": "https://cdn.shopify.com/s/files/1/0550/4119/6267/files/GHC_TenejapaMedium.png?v=1776171297",
-    "price": "¥230",
-    "description": "风味: of dark chocolate, light caramel, and white honey",
-    "published_at": "2026-05-27T12:01:05-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Colombia -  La Macarena Oscar Riascos | Geisha Washed - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/colombia-la-macarena-oscar-riascos-geisha-washed",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/ColombiaLaMacarenaOscarRiascosGeishaWashed200gBAG.jpg?v=1779901486",
-    "price": "¥115",
-    "description": "Oscar Riascos and his family planted their first trees at La Macarena (Pacamara,...",
-    "published_at": "2026-05-27T11:43:13-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Southern Weather - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/southern-weather-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/sw-5lb.webp?v=1779901264",
-    "price": "¥864",
-    "description": "Southern Weather embodies everything we love about specialty coffee and has evol...",
-    "published_at": "2026-05-27T11:40:38-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Geometry - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/geometry-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/geo-5lb_cf56a20b-4443-441c-b17c-86b29b926334.webp?v=1779901572",
-    "price": "¥892",
-    "description": "Geometry has been defined as \"describing spaces that lie beyond the normal range...",
-    "published_at": "2026-05-27T11:38:08-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Monarch - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/monarch-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/mon-5lb.webp?v=1779901354",
-    "price": "¥878",
-    "description": "风味: profile that we intentionally designed to work well with mil",
-    "published_at": "2026-05-27T11:37:56-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onyx Coffee Lab",
-    "roaster_country": "USA",
-    "name": "Tropical Weather - Cafes Only",
-    "url": "https://onyxcoffeelab.com/products/tropical-weather-cafe",
-    "image": "https://cdn.shopify.com/s/files/1/1707/3261/files/trop-5lb.webp?v=1779901315",
-    "price": "¥1051",
-    "description": "风味: of berries and plum, along with the tannins and sweetness of",
-    "published_at": "2026-05-27T11:37:45-05:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Nicaragua - Finca Aurora | Geisha CM Natural - Archived",
-    "url": "https://www.roguewavecoffee.ca/products/nicaragua-finca-aurora-geisha-cm-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/NicaraguaFincaAuroraGeishaCMNatural2026-250gbagfirstphoto_baf11dcb-44ef-4429-8565-4b777228c574.png?v=1776361406",
-    "price": "¥122",
-    "description": "Sabio Coffee is a fully integrated, family-run operation in Nicaragua led by Enr...",
-    "published_at": "2026-05-27T11:25:20-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Rogue Wave",
-    "roaster_country": "Canada",
-    "name": "Ethiopia - Tariku Kare Bombe | Natural",
-    "url": "https://www.roguewavecoffee.ca/products/ethiopia-tariku-kare-bombe-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0042/0773/8992/files/Ethiopia_Tariku_Bombe_Natural_2026_340g_BAG.jpg?v=1779898901",
-    "price": "¥108",
-    "description": "Please note: This is the Bombe natural process. If you're looking for the Bombe ...",
-    "published_at": "2026-05-27T10:55:29-06:00",
     "source_type": "api"
   }
 ]
