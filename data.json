@@ -1,5 +1,16 @@
 [
   {
+    "roaster_name": "Market Lane",
+    "roaster_country": "Australia",
+    "name": "La Merced",
+    "url": "https://marketlane.com.au/products/la-merced",
+    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/2026-La-Merced-Guatemala_FTR_1080x1280_6221600d-50f6-4163-88ad-c71a6ce73e24.png?v=1788154651",
+    "price": "¥150",
+    "description": "Origin: Chimaltenango, Guatemala    Variety: Bourbon   Processing Method: Natura...",
+    "published_at": "2026-09-28T08:19:11+10:00",
+    "source_type": "api"
+  },
+  {
     "roaster_name": "Three Marks Coffee",
     "roaster_country": "Spain",
     "name": "Descubre más",
@@ -7,7 +18,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/image_20_2.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305663",
+    "published_at": "2026-09-28T03:02:04.347105",
     "source_type": "browser"
   },
   {
@@ -18,7 +29,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/image_20_2.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305573",
+    "published_at": "2026-09-28T03:02:04.346950",
     "source_type": "browser"
   },
   {
@@ -29,7 +40,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/FrontalView_92fd7e3c-062a-44d1-ab77-b01effb68041.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305439",
+    "published_at": "2026-09-28T03:02:04.346643",
     "source_type": "browser"
   },
   {
@@ -40,7 +51,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/FrontalView_f48a9e67-ccce-4846-8786-853b910ca5c4.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305288",
+    "published_at": "2026-09-28T03:02:04.346434",
     "source_type": "browser"
   },
   {
@@ -51,7 +62,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/FrontalView_401f5351-7f3b-4235-94e1-96de9828039b.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305149",
+    "published_at": "2026-09-28T03:02:04.346245",
     "source_type": "browser"
   },
   {
@@ -62,7 +73,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/FrontalView_d63d69c9-70c8-48a4-a5a0-99ec3b5ca347.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.305008",
+    "published_at": "2026-09-28T03:02:04.346017",
     "source_type": "browser"
   },
   {
@@ -73,7 +84,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/MMM_SantaClara250_B.webp",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.304863",
+    "published_at": "2026-09-28T03:02:04.345686",
     "source_type": "browser"
   },
   {
@@ -84,7 +95,7 @@
     "image": "https://www.threemarkscoffee.com/cdn/shop/files/Alisal-web.png",
     "price": "查看官网",
     "description": "Fresh from Three Marks Coffee",
-    "published_at": "2026-09-27T03:03:46.304700",
+    "published_at": "2026-09-28T03:02:04.345485",
     "source_type": "browser"
   },
   {
@@ -95,7 +106,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Random-Tasting-Box-Label.png",
     "price": "¥277",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.259477",
+    "published_at": "2026-09-28T03:00:48.476666",
     "source_type": "browser"
   },
   {
@@ -106,7 +117,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Random-Tasting-Box-Label.png",
     "price": "¥277",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.259179",
+    "published_at": "2026-09-28T03:00:48.476344",
     "source_type": "browser"
   },
   {
@@ -117,7 +128,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥338",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.258346",
+    "published_at": "2026-09-28T03:00:48.475382",
     "source_type": "browser"
   },
   {
@@ -128,7 +139,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Friedhats-Belend-label-1-bag.png",
     "price": "¥338",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.258109",
+    "published_at": "2026-09-28T03:00:48.475120",
     "source_type": "browser"
   },
   {
@@ -139,7 +150,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-2-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.257521",
+    "published_at": "2026-09-28T03:00:48.474408",
     "source_type": "browser"
   },
   {
@@ -150,7 +161,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-1-bottle.png",
     "price": "¥123",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.257078",
+    "published_at": "2026-09-28T03:00:48.473932",
     "source_type": "browser"
   },
   {
@@ -161,7 +172,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-2-V2-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.256653",
+    "published_at": "2026-09-28T03:00:48.473435",
     "source_type": "browser"
   },
   {
@@ -172,7 +183,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Eth-Gesha-Village-label-1-V2-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.256211",
+    "published_at": "2026-09-28T03:00:48.472955",
     "source_type": "browser"
   },
   {
@@ -183,7 +194,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-4-V3-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.255781",
+    "published_at": "2026-09-28T03:00:48.472458",
     "source_type": "browser"
   },
   {
@@ -194,7 +205,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/CostaRica-Label-Bottle-2.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.255339",
+    "published_at": "2026-09-28T03:00:48.471957",
     "source_type": "browser"
   },
   {
@@ -205,7 +216,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/CostaRica-Label-Bottle-2.png",
     "price": "¥130",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.255109",
+    "published_at": "2026-09-28T03:00:48.471674",
     "source_type": "browser"
   },
   {
@@ -216,7 +227,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Guatemala-label-1-V2-bottle.png",
     "price": "¥115",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.254508",
+    "published_at": "2026-09-28T03:00:48.470957",
     "source_type": "browser"
   },
   {
@@ -227,7 +238,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Panama-RedV2-label-100gr_f4c7203c-04bb-4e8c-8522-3bca2a6d1900.png",
     "price": "¥546",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.254050",
+    "published_at": "2026-09-28T03:00:48.470398",
     "source_type": "browser"
   },
   {
@@ -238,7 +249,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-label-3-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.253626",
+    "published_at": "2026-09-28T03:00:48.469912",
     "source_type": "browser"
   },
   {
@@ -249,7 +260,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.252941",
+    "published_at": "2026-09-28T03:00:48.469167",
     "source_type": "browser"
   },
   {
@@ -260,7 +271,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-3-V2-bottle.png",
     "price": "¥146",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.252680",
+    "published_at": "2026-09-28T03:00:48.468905",
     "source_type": "browser"
   },
   {
@@ -271,7 +282,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Fermentation-Box-2026.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.251803",
+    "published_at": "2026-09-28T03:00:48.468180",
     "source_type": "browser"
   },
   {
@@ -282,7 +293,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Fermentation-Box-2026.png",
     "price": "¥292",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.251494",
+    "published_at": "2026-09-28T03:00:48.467848",
     "source_type": "browser"
   },
   {
@@ -293,7 +304,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria_Gesha-Natural-label-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.250647",
+    "published_at": "2026-09-28T03:00:48.466872",
     "source_type": "browser"
   },
   {
@@ -304,7 +315,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Kenya-label-1-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.250177",
+    "published_at": "2026-09-28T03:00:48.466370",
     "source_type": "browser"
   },
   {
@@ -315,7 +326,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria-gesha-ana-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.249727",
+    "published_at": "2026-09-28T03:00:48.465813",
     "source_type": "browser"
   },
   {
@@ -326,7 +337,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Col-La-Maria-gesha-ana-bottle.png",
     "price": "¥177",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.249491",
+    "published_at": "2026-09-28T03:00:48.465521",
     "source_type": "browser"
   },
   {
@@ -337,7 +348,7 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-1-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.248814",
+    "published_at": "2026-09-28T03:00:48.464789",
     "source_type": "browser"
   },
   {
@@ -348,8 +359,19 @@
     "image": "https://cdn.shopify.com/s/files/1/0015/3265/7724/files/Ethiopia-label-1-V2-bottle.png",
     "price": "¥138",
     "description": "Fresh from Friedhats",
-    "published_at": "2026-09-27T03:02:33.248538",
+    "published_at": "2026-09-28T03:00:48.464456",
     "source_type": "browser"
+  },
+  {
+    "roaster_name": "Glitch Coffee",
+    "roaster_country": "Japan",
+    "name": "【NEW】Guatemala Huehuetenango La Reforma",
+    "url": "https://shop.glitchcoffee.com/products/new-guatemala-huehuetenango-la-reforma",
+    "image": "https://cdn.shopify.com/s/files/1/0268/2880/0195/files/C8AAD5E4-E950-457C-97B0-8C18BE3B2B03.jpg?v=1790248700",
+    "price": "¥150",
+    "description": "风味: Mayer Lemon, Lemongrass, Sugar Cane, Smooth, Floral",
+    "published_at": "2026-09-27T14:13:58+09:00",
+    "source_type": "api"
   },
   {
     "roaster_name": "Glitch Coffee",
@@ -503,17 +525,6 @@
     "price": "¥205",
     "description": "风味: Mango, Peach, Iced Tea",
     "published_at": "2026-09-24T15:14:49-06:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Code Black",
-    "roaster_country": "Australia",
-    "name": "Kenya Gathaithi AA Washed Espresso - Single Origin",
-    "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-espresso-single-origin-1",
-    "image": "https://cdn.shopify.com/s/files/1/0486/6870/4920/files/Kenya-Gathaithi-AA-Espresso-coffee-single-origin.png?v=1780462409",
-    "price": "¥138",
-    "description": "Kenya Gathaithi AA Washed Espresso - Single Origin. \n \n Gathaithi Coffee Factory...",
-    "published_at": "2026-09-24T13:36:18+10:00",
     "source_type": "api"
   },
   {
@@ -1232,17 +1243,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "ONA Coffee",
-    "roaster_country": "Australia",
-    "name": "Maguta Estate Lot 432, Kenya, Nitrogen Natural Indigo",
-    "url": "https://onacoffee.com.au/products/filter-maguta-estate-lot-432-kenya-nitrogen-natural-indigo",
-    "image": "https://cdn.shopify.com/s/files/1/0464/4824/6934/files/coffee_hero_sof_rare_d62ea37a-853e-4dc8-95fe-dc4878c3a332.png?v=1789011730",
-    "price": "¥141",
-    "description": "Pink grapefruit, cherry and blackcurrant...",
-    "published_at": "2026-09-15T10:00:04+10:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Verve Coffee",
     "roaster_country": "USA",
     "name": "Chispa Blend",
@@ -1757,17 +1757,6 @@
     "price": "¥79",
     "description": "Our House Coffee is an approachable line, created to provide everyone with a rel...",
     "published_at": "2026-09-07T13:19:24+02:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Market Lane",
-    "roaster_country": "Australia",
-    "name": "La Merced",
-    "url": "https://marketlane.com.au/products/la-merced",
-    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/2026-La-Merced-Guatemala_FTR_1080x1280_6221600d-50f6-4163-88ad-c71a6ce73e24.png?v=1788154651",
-    "price": "¥150",
-    "description": "Origin: Chimaltenango, Guatemala    Variety: Bourbon   Processing Method: Natura...",
-    "published_at": "2026-09-07T12:19:19+10:00",
     "source_type": "api"
   },
   {
@@ -2840,17 +2829,6 @@
   {
     "roaster_name": "Market Lane",
     "roaster_country": "Australia",
-    "name": "Filter Coffee Bundle",
-    "url": "https://marketlane.com.au/products/filter-coffee-bundle",
-    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/Coffee_Label_2026_New_Filter_BUNDLE_d9c2053d-0cce-4f85-8e23-b304d83233bb.jpg?v=1787544072",
-    "price": "¥263",
-    "description": "This bundle includes:  \n \n 1 x 250g bag of  Ndocha \n \n 1 x 250g bag of  Adorsi...",
-    "published_at": "2026-08-24T14:07:03+10:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Market Lane",
-    "roaster_country": "Australia",
     "name": "Espresso Coffee Bundle",
     "url": "https://marketlane.com.au/products/espresso-coffee-bundle",
     "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/Coffee_Label_2023_New_Espresso_BUNDLE_0af0fc54-86de-4d2c-b293-0d5492159036.jpg?v=1787542876",
@@ -3198,17 +3176,6 @@
     "price": "¥612",
     "description": "风味: that come together in a smooth, mouthcoating cup",
     "published_at": "2026-08-19T17:34:42-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Market Lane",
-    "roaster_country": "Australia",
-    "name": "Adorsi",
-    "url": "https://marketlane.com.au/products/adorsi-filter-beans",
-    "image": "https://cdn.shopify.com/s/files/1/0439/7645/8397/files/2026-Adorsi_ethiopia_FTR_1080x1280_a4898de7-3af9-488e-b8d7-831b96c6ef3a.png?v=1785129437",
-    "price": "¥131",
-    "description": "Origin: Yirgacheffe, Gedeo,   Ethiopia  Varieties: Kurume, Wolisho &amp; Landrac...",
-    "published_at": "2026-08-19T15:23:21+10:00",
     "source_type": "api"
   },
   {
@@ -4004,17 +3971,6 @@
     "source_type": "api"
   },
   {
-    "roaster_name": "Flight Coffee",
-    "roaster_country": "New Zealand",
-    "name": "Timor Leste - Ermera - Anaerobic Natural",
-    "url": "https://flightcoffee.co.nz/products/timor-leste-ermera-anaerobic-natural",
-    "image": "https://cdn.shopify.com/s/files/1/0104/2682/files/WhatsApp_Image_2026-07-22_at_10.56.15.jpg?v=1784684356",
-    "price": "¥187",
-    "description": "",
-    "published_at": "2026-07-30T00:00:05+12:00",
-    "source_type": "api"
-  },
-  {
     "roaster_name": "Sey Coffee",
     "roaster_country": "USA",
     "name": "2026 Felix Morocho; 2nd Harvest - Ecuador",
@@ -4045,28 +4001,6 @@
     "price": "¥180",
     "description": "风味: of blackcurrant, rhubarb, and hibiscus",
     "published_at": "2026-07-29T23:46:00-04:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Onibus Coffee",
-    "roaster_country": "Japan",
-    "name": "グアテマラ / プエンテ テラザス",
-    "url": "https://onibuscoffee.com/products/guatemala-el-puente-terrazas",
-    "image": "https://cdn.shopify.com/s/files/1/0099/0075/2932/files/guatemala.png?v=1741568700",
-    "price": "¥79",
-    "description": "1958年からヴィデス家が受け継ぐテラザス農園。 この土地のテロワールを活かし、 丁寧な栽培と徹底した品質管理によって高品質なコーヒーを生み出しています。 スト...",
-    "published_at": "2026-07-29T18:34:17+09:00",
-    "source_type": "api"
-  },
-  {
-    "roaster_name": "Seven Seeds",
-    "roaster_country": "Australia",
-    "name": "Irmas Pereira, Brazil",
-    "url": "https://sevenseeds.com.au/products/irmas-pereira-brazil-2026",
-    "image": "https://cdn.shopify.com/s/files/1/0168/5442/files/irmas-pereira-brazil-7272923.png?v=1785384495",
-    "price": "¥103",
-    "description": "风味: Bold &amp; Balanced  WITH NOTES OF  Apple, Plum, Toasted Haz",
-    "published_at": "2026-07-29T14:56:40+10:00",
     "source_type": "api"
   }
 ]
